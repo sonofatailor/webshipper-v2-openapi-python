@@ -15,7 +15,7 @@
 import unittest
 import datetime
 
-from openapi_client.models.has_documents_id_get200_response import HasDocumentsIdGet200Response
+from webshipperv2.models.has_documents_id_get200_response import HasDocumentsIdGet200Response
 
 class TestHasDocumentsIdGet200Response(unittest.TestCase):
     """HasDocumentsIdGet200Response unit test stubs"""
@@ -36,13 +36,13 @@ class TestHasDocumentsIdGet200Response(unittest.TestCase):
         model = HasDocumentsIdGet200Response()
         if include_optional:
             return HasDocumentsIdGet200Response(
-                data = openapi_client.models._has_documents__id__get_200_response_data._has_documents__id__get_200_response_data(
+                data = webshipperv2.models._has_documents__id__get_200_response_data._has_documents__id__get_200_response_data(
                     id = 56, 
                     type = 'has_documents', 
-                    attributes = openapi_client.models.attributes.attributes(), ),
+                    attributes = webshipperv2.models.attributes.attributes(), ),
                 relationships = None,
                 included = [
-                    openapi_client.models._brands__id__get_200_response_included_inner._brands__id__get_200_response_included_inner(
+                    webshipperv2.models._brands__id__get_200_response_included_inner._brands__id__get_200_response_included_inner(
                         type = 'orders', 
                         id = 56, 
                         data = null, )

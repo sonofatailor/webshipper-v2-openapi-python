@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.api.return_portal_api import ReturnPortalApi
+from webshipperv2.api.return_portal_api import ReturnPortalApi
 
 
 class TestReturnPortalApi(unittest.TestCase):

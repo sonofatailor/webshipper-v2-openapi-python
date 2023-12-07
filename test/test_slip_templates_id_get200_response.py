@@ -15,7 +15,7 @@
 import unittest
 import datetime
 
-from openapi_client.models.slip_templates_id_get200_response import SlipTemplatesIdGet200Response
+from webshipperv2.models.slip_templates_id_get200_response import SlipTemplatesIdGet200Response
 
 class TestSlipTemplatesIdGet200Response(unittest.TestCase):
     """SlipTemplatesIdGet200Response unit test stubs"""
@@ -36,10 +36,10 @@ class TestSlipTemplatesIdGet200Response(unittest.TestCase):
         model = SlipTemplatesIdGet200Response()
         if include_optional:
             return SlipTemplatesIdGet200Response(
-                data = openapi_client.models._slip_templates__id__get_200_response_data._slip_templates__id__get_200_response_data(
+                data = webshipperv2.models._slip_templates__id__get_200_response_data._slip_templates__id__get_200_response_data(
                     id = 56, 
                     type = 'slip_templates', 
-                    attributes = openapi_client.models.slip_templates.slip_templates(
+                    attributes = webshipperv2.models.slip_templates.slip_templates(
                         name = '', 
                         slip_size = 56, 
                         additional_content = '', 
@@ -61,7 +61,7 @@ class TestSlipTemplatesIdGet200Response(unittest.TestCase):
                         disable_inline_formatting = True, ), ),
                 relationships = None,
                 included = [
-                    openapi_client.models._brands__id__get_200_response_included_inner._brands__id__get_200_response_included_inner(
+                    webshipperv2.models._brands__id__get_200_response_included_inner._brands__id__get_200_response_included_inner(
                         type = 'orders', 
                         id = 56, 
                         data = null, )

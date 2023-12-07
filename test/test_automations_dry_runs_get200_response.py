@@ -15,7 +15,7 @@
 import unittest
 import datetime
 
-from openapi_client.models.automations_dry_runs_get200_response import AutomationsDryRunsGet200Response
+from webshipperv2.models.automations_dry_runs_get200_response import AutomationsDryRunsGet200Response
 
 class TestAutomationsDryRunsGet200Response(unittest.TestCase):
     """AutomationsDryRunsGet200Response unit test stubs"""
@@ -37,8 +37,8 @@ class TestAutomationsDryRunsGet200Response(unittest.TestCase):
         if include_optional:
             return AutomationsDryRunsGet200Response(
                 data = [
-                    openapi_client.models._automations_dry_runs_get_200_response_data_inner._automations_dry_runs_get_200_response_data_inner(
-                        attributes = openapi_client.models.automations_dry_runs.automations_dry_runs(
+                    webshipperv2.models._automations_dry_runs_get_200_response_data_inner._automations_dry_runs_get_200_response_data_inner(
+                        attributes = webshipperv2.models.automations_dry_runs.automations_dry_runs(
                             dry_run = '', 
                             automation = '', 
                             shipment_id = '', 

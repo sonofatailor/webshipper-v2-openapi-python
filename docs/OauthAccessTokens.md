@@ -18,7 +18,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```python
-from openapi_client.models.oauth_access_tokens import OauthAccessTokens
+from webshipperv2.models.oauth_access_tokens import OauthAccessTokens
 
 # TODO update the JSON string below
 json = "{}"

@@ -15,7 +15,7 @@
 import unittest
 import datetime
 
-from openapi_client.models.return_portals_get200_response import ReturnPortalsGet200Response
+from webshipperv2.models.return_portals_get200_response import ReturnPortalsGet200Response
 
 class TestReturnPortalsGet200Response(unittest.TestCase):
     """ReturnPortalsGet200Response unit test stubs"""
@@ -37,8 +37,8 @@ class TestReturnPortalsGet200Response(unittest.TestCase):
         if include_optional:
             return ReturnPortalsGet200Response(
                 data = [
-                    openapi_client.models._return_portals_get_200_response_data_inner._return_portals_get_200_response_data_inner(
-                        attributes = openapi_client.models.return_portals.return_portals(
+                    webshipperv2.models._return_portals_get_200_response_data_inner._return_portals_get_200_response_data_inner(
+                        attributes = webshipperv2.models.return_portals.return_portals(
                             name = '', 
                             custom_style = '', 
                             shipping_methods = '', 

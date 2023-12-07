@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.api.additional_attribute_api import AdditionalAttributeApi
+from webshipperv2.api.additional_attribute_api import AdditionalAttributeApi
 
 
 class TestAdditionalAttributeApi(unittest.TestCase):

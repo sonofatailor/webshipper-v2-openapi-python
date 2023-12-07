@@ -15,7 +15,7 @@
 import unittest
 import datetime
 
-from openapi_client.models.packages_post_request_data import PackagesPostRequestData
+from webshipperv2.models.packages_post_request_data import PackagesPostRequestData
 
 class TestPackagesPostRequestData(unittest.TestCase):
     """PackagesPostRequestData unit test stubs"""
@@ -37,7 +37,7 @@ class TestPackagesPostRequestData(unittest.TestCase):
         if include_optional:
             return PackagesPostRequestData(
                 type = 'packages',
-                attributes = openapi_client.models.packages.packages(
+                attributes = webshipperv2.models.packages.packages(
                     weight = 1.337, 
                     weight_unit = 'g', 
                     dimensions = '', 

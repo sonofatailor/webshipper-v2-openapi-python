@@ -15,7 +15,7 @@
 import unittest
 import datetime
 
-from openapi_client.models.slip_template_previews_get200_response import SlipTemplatePreviewsGet200Response
+from webshipperv2.models.slip_template_previews_get200_response import SlipTemplatePreviewsGet200Response
 
 class TestSlipTemplatePreviewsGet200Response(unittest.TestCase):
     """SlipTemplatePreviewsGet200Response unit test stubs"""
@@ -37,8 +37,8 @@ class TestSlipTemplatePreviewsGet200Response(unittest.TestCase):
         if include_optional:
             return SlipTemplatePreviewsGet200Response(
                 data = [
-                    openapi_client.models._slip_template_previews_get_200_response_data_inner._slip_template_previews_get_200_response_data_inner(
-                        attributes = openapi_client.models.slip_template_previews.slip_template_previews(
+                    webshipperv2.models._slip_template_previews_get_200_response_data_inner._slip_template_previews_get_200_response_data_inner(
+                        attributes = webshipperv2.models.slip_template_previews.slip_template_previews(
                             slip_template = '', 
                             order_visible_ref = '', 
                             base64 = '', 

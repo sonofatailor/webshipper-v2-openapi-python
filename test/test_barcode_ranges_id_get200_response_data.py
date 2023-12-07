@@ -15,7 +15,7 @@
 import unittest
 import datetime
 
-from openapi_client.models.barcode_ranges_id_get200_response_data import BarcodeRangesIdGet200ResponseData
+from webshipperv2.models.barcode_ranges_id_get200_response_data import BarcodeRangesIdGet200ResponseData
 
 class TestBarcodeRangesIdGet200ResponseData(unittest.TestCase):
     """BarcodeRangesIdGet200ResponseData unit test stubs"""
@@ -38,7 +38,7 @@ class TestBarcodeRangesIdGet200ResponseData(unittest.TestCase):
             return BarcodeRangesIdGet200ResponseData(
                 id = 56,
                 type = 'barcode_ranges',
-                attributes = openapi_client.models.barcode_ranges.barcode_ranges(
+                attributes = webshipperv2.models.barcode_ranges.barcode_ranges(
                     barcode_type = '', 
                     serial_from = 56, 
                     serial_to = 56, 

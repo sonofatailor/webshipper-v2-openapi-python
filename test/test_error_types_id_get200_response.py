@@ -15,7 +15,7 @@
 import unittest
 import datetime
 
-from openapi_client.models.error_types_id_get200_response import ErrorTypesIdGet200Response
+from webshipperv2.models.error_types_id_get200_response import ErrorTypesIdGet200Response
 
 class TestErrorTypesIdGet200Response(unittest.TestCase):
     """ErrorTypesIdGet200Response unit test stubs"""
@@ -36,10 +36,10 @@ class TestErrorTypesIdGet200Response(unittest.TestCase):
         model = ErrorTypesIdGet200Response()
         if include_optional:
             return ErrorTypesIdGet200Response(
-                data = openapi_client.models._error_types__id__get_200_response_data._error_types__id__get_200_response_data(
+                data = webshipperv2.models._error_types__id__get_200_response_data._error_types__id__get_200_response_data(
                     id = 56, 
                     type = 'error_types', 
-                    attributes = openapi_client.models.error_types.error_types(
+                    attributes = webshipperv2.models.error_types.error_types(
                         translations = '', 
                         matcher = '', 
                         error_class = '', 
@@ -48,7 +48,7 @@ class TestErrorTypesIdGet200Response(unittest.TestCase):
                         updated_at = '', ), ),
                 relationships = None,
                 included = [
-                    openapi_client.models._brands__id__get_200_response_included_inner._brands__id__get_200_response_included_inner(
+                    webshipperv2.models._brands__id__get_200_response_included_inner._brands__id__get_200_response_included_inner(
                         type = 'orders', 
                         id = 56, 
                         data = null, )

@@ -15,7 +15,7 @@
 import unittest
 import datetime
 
-from openapi_client.models.carrier_accesses_id_get200_response_relationships import CarrierAccessesIdGet200ResponseRelationships
+from webshipperv2.models.carrier_accesses_id_get200_response_relationships import CarrierAccessesIdGet200ResponseRelationships
 
 class TestCarrierAccessesIdGet200ResponseRelationships(unittest.TestCase):
     """CarrierAccessesIdGet200ResponseRelationships unit test stubs"""
@@ -36,12 +36,12 @@ class TestCarrierAccessesIdGet200ResponseRelationships(unittest.TestCase):
         model = CarrierAccessesIdGet200ResponseRelationships()
         if include_optional:
             return CarrierAccessesIdGet200ResponseRelationships(
-                carrier = openapi_client.models._barcode_ranges__id__get_200_response_relationships_carrier._barcode_ranges__id__get_200_response_relationships_carrier(
-                    data = openapi_client.models._barcode_ranges__id__get_200_response_relationships_carrier_data._barcode_ranges__id__get_200_response_relationships_carrier_data(
+                carrier = webshipperv2.models._barcode_ranges__id__get_200_response_relationships_carrier._barcode_ranges__id__get_200_response_relationships_carrier(
+                    data = webshipperv2.models._barcode_ranges__id__get_200_response_relationships_carrier_data._barcode_ranges__id__get_200_response_relationships_carrier_data(
                         id = '', 
                         type = 'carriers', ), ),
-                user = openapi_client.models._carrier_accesses__id__get_200_response_relationships_user._carrier_accesses__id__get_200_response_relationships_user(
-                    data = openapi_client.models._carrier_accesses__id__get_200_response_relationships_user_data._carrier_accesses__id__get_200_response_relationships_user_data(
+                user = webshipperv2.models._carrier_accesses__id__get_200_response_relationships_user._carrier_accesses__id__get_200_response_relationships_user(
+                    data = webshipperv2.models._carrier_accesses__id__get_200_response_relationships_user_data._carrier_accesses__id__get_200_response_relationships_user_data(
                         id = '', 
                         type = 'users', ), )
             )

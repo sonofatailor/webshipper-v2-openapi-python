@@ -15,7 +15,7 @@
 import unittest
 import datetime
 
-from openapi_client.models.return_refund_methods_post_request_data import ReturnRefundMethodsPostRequestData
+from webshipperv2.models.return_refund_methods_post_request_data import ReturnRefundMethodsPostRequestData
 
 class TestReturnRefundMethodsPostRequestData(unittest.TestCase):
     """ReturnRefundMethodsPostRequestData unit test stubs"""
@@ -37,7 +37,7 @@ class TestReturnRefundMethodsPostRequestData(unittest.TestCase):
         if include_optional:
             return ReturnRefundMethodsPostRequestData(
                 type = 'return_refund_methods',
-                attributes = openapi_client.models.return_refund_methods.return_refund_methods(
+                attributes = webshipperv2.models.return_refund_methods.return_refund_methods(
                     name = '', 
                     description = '', 
                     allowed_days = 56, )

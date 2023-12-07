@@ -15,7 +15,7 @@
 import unittest
 import datetime
 
-from openapi_client.models.hot_keys_post_request import HotKeysPostRequest
+from webshipperv2.models.hot_keys_post_request import HotKeysPostRequest
 
 class TestHotKeysPostRequest(unittest.TestCase):
     """HotKeysPostRequest unit test stubs"""
@@ -36,19 +36,19 @@ class TestHotKeysPostRequest(unittest.TestCase):
         model = HotKeysPostRequest()
         if include_optional:
             return HotKeysPostRequest(
-                data = openapi_client.models._hot_keys_post_request_data._hot_keys_post_request_data(
+                data = webshipperv2.models._hot_keys_post_request_data._hot_keys_post_request_data(
                     type = 'hot_keys', 
-                    attributes = openapi_client.models.hot_keys.hot_keys(
+                    attributes = webshipperv2.models.hot_keys.hot_keys(
                         hot_key = '', 
                         path = '', 
                         favourite_page_id = 56, 
                         user_id = 56, ), ),
-                relationships = openapi_client.models._hot_keys__id__get_200_response_relationships._hot_keys__id__get_200_response_relationships(
-                    favourite_page = openapi_client.models._hot_keys__id__get_200_response_relationships_favourite_page._hot_keys__id__get_200_response_relationships_favourite_page(
-                        data = openapi_client.models._hot_keys__id__get_200_response_relationships_favourite_page_data._hot_keys__id__get_200_response_relationships_favourite_page_data(
+                relationships = webshipperv2.models._hot_keys__id__get_200_response_relationships._hot_keys__id__get_200_response_relationships(
+                    favourite_page = webshipperv2.models._hot_keys__id__get_200_response_relationships_favourite_page._hot_keys__id__get_200_response_relationships_favourite_page(
+                        data = webshipperv2.models._hot_keys__id__get_200_response_relationships_favourite_page_data._hot_keys__id__get_200_response_relationships_favourite_page_data(
                             id = '', 
                             type = 'favourite_pages', ), ), 
-                    user = openapi_client.models._carrier_accesses__id__get_200_response_relationships_user._carrier_accesses__id__get_200_response_relationships_user(), )
+                    user = webshipperv2.models._carrier_accesses__id__get_200_response_relationships_user._carrier_accesses__id__get_200_response_relationships_user(), )
             )
         else:
             return HotKeysPostRequest(

@@ -15,7 +15,7 @@
 import unittest
 import datetime
 
-from openapi_client.models.attachments_id_get200_response_relationships import AttachmentsIdGet200ResponseRelationships
+from webshipperv2.models.attachments_id_get200_response_relationships import AttachmentsIdGet200ResponseRelationships
 
 class TestAttachmentsIdGet200ResponseRelationships(unittest.TestCase):
     """AttachmentsIdGet200ResponseRelationships unit test stubs"""
@@ -36,12 +36,12 @@ class TestAttachmentsIdGet200ResponseRelationships(unittest.TestCase):
         model = AttachmentsIdGet200ResponseRelationships()
         if include_optional:
             return AttachmentsIdGet200ResponseRelationships(
-                document = openapi_client.models._attachments__id__get_200_response_relationships_document._attachments__id__get_200_response_relationships_document(
-                    data = openapi_client.models._attachments__id__get_200_response_relationships_document_data._attachments__id__get_200_response_relationships_document_data(
+                document = webshipperv2.models._attachments__id__get_200_response_relationships_document._attachments__id__get_200_response_relationships_document(
+                    data = webshipperv2.models._attachments__id__get_200_response_relationships_document_data._attachments__id__get_200_response_relationships_document_data(
                         id = '', 
                         type = 'documents', ), ),
-                has_documents = openapi_client.models._attachments__id__get_200_response_relationships_has_documents._attachments__id__get_200_response_relationships_has_documents(
-                    data = openapi_client.models._attachments__id__get_200_response_relationships_has_documents_data._attachments__id__get_200_response_relationships_has_documents_data(
+                has_documents = webshipperv2.models._attachments__id__get_200_response_relationships_has_documents._attachments__id__get_200_response_relationships_has_documents(
+                    data = webshipperv2.models._attachments__id__get_200_response_relationships_has_documents_data._attachments__id__get_200_response_relationships_has_documents_data(
                         id = '', 
                         type = 'has_documents', ), )
             )

@@ -15,7 +15,7 @@
 import unittest
 import datetime
 
-from openapi_client.models.printables_post_request_data import PrintablesPostRequestData
+from webshipperv2.models.printables_post_request_data import PrintablesPostRequestData
 
 class TestPrintablesPostRequestData(unittest.TestCase):
     """PrintablesPostRequestData unit test stubs"""
@@ -37,7 +37,7 @@ class TestPrintablesPostRequestData(unittest.TestCase):
         if include_optional:
             return PrintablesPostRequestData(
                 type = 'printables',
-                attributes = openapi_client.models.attributes.attributes()
+                attributes = webshipperv2.models.attributes.attributes()
             )
         else:
             return PrintablesPostRequestData(

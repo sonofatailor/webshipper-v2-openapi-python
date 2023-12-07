@@ -1,4 +1,4 @@
-# openapi_client.ServiceQuoteApi
+# webshipperv2.ServiceQuoteApi
 
 All URIs are relative to *https://.api.webshipper.io/v2*
 
@@ -18,15 +18,15 @@ Create a Service Quote
 ```python
 import time
 import os
-import openapi_client
-from openapi_client.models.service_quotes_post204_response import ServiceQuotesPost204Response
-from openapi_client.models.service_quotes_post_request import ServiceQuotesPostRequest
-from openapi_client.rest import ApiException
+import webshipperv2
+from webshipperv2.models.service_quotes_post204_response import ServiceQuotesPost204Response
+from webshipperv2.models.service_quotes_post_request import ServiceQuotesPostRequest
+from webshipperv2.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to https://.api.webshipper.io/v2
 # See configuration.py for a list of all supported configuration parameters.
-configuration = openapi_client.Configuration(
+configuration = webshipperv2.Configuration(
     host = "https://.api.webshipper.io/v2"
 )
 
@@ -36,14 +36,14 @@ configuration = openapi_client.Configuration(
 # satisfies your auth use case.
 
 # Configure Bearer authorization: BearerAuth
-configuration = openapi_client.Configuration(
+configuration = webshipperv2.Configuration(
     access_token = os.environ["BEARER_TOKEN"]
 )
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient(configuration) as api_client:
+with webshipperv2.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.ServiceQuoteApi(api_client)
+    api_instance = webshipperv2.ServiceQuoteApi(api_client)
     service_quotes_post_request = {"data":{"type":"service_quotes","attributes":{"carrier_id":1,"is_return":false,"send_time":"2023-02-13T11:58:52+01:00","delivery_address":{"address_1":"Søndergade 2B","zip":"8600","city":"Silkeborg","country_code":"DK"},"sender_address":{"address_1":"Lyngbygade 8","zip":"8600","city":"Silkeborg","country_code":"DK"},"packages":[{"weight":500,"weight_unit":"g","dimensions":{"width":15,"length":15,"height":15,"unit":"cm"}}]}}} # ServiceQuotesPostRequest | 
 
     try:

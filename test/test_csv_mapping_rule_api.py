@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.api.csv_mapping_rule_api import CSVMappingRuleApi
+from webshipperv2.api.csv_mapping_rule_api import CSVMappingRuleApi
 
 
 class TestCSVMappingRuleApi(unittest.TestCase):

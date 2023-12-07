@@ -15,7 +15,7 @@
 import unittest
 import datetime
 
-from openapi_client.models.orders_id_get200_response_relationships_error_type_data import OrdersIdGet200ResponseRelationshipsErrorTypeData
+from webshipperv2.models.orders_id_get200_response_relationships_error_type_data import OrdersIdGet200ResponseRelationshipsErrorTypeData
 
 class TestOrdersIdGet200ResponseRelationshipsErrorTypeData(unittest.TestCase):
     """OrdersIdGet200ResponseRelationshipsErrorTypeData unit test stubs"""

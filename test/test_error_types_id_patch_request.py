@@ -15,7 +15,7 @@
 import unittest
 import datetime
 
-from openapi_client.models.error_types_id_patch_request import ErrorTypesIdPatchRequest
+from webshipperv2.models.error_types_id_patch_request import ErrorTypesIdPatchRequest
 
 class TestErrorTypesIdPatchRequest(unittest.TestCase):
     """ErrorTypesIdPatchRequest unit test stubs"""
@@ -36,10 +36,10 @@ class TestErrorTypesIdPatchRequest(unittest.TestCase):
         model = ErrorTypesIdPatchRequest()
         if include_optional:
             return ErrorTypesIdPatchRequest(
-                data = openapi_client.models._error_types__id__get_200_response_data._error_types__id__get_200_response_data(
+                data = webshipperv2.models._error_types__id__get_200_response_data._error_types__id__get_200_response_data(
                     id = 56, 
                     type = 'error_types', 
-                    attributes = openapi_client.models.error_types.error_types(
+                    attributes = webshipperv2.models.error_types.error_types(
                         translations = '', 
                         matcher = '', 
                         error_class = '', 

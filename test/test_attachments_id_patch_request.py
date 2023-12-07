@@ -15,7 +15,7 @@
 import unittest
 import datetime
 
-from openapi_client.models.attachments_id_patch_request import AttachmentsIdPatchRequest
+from webshipperv2.models.attachments_id_patch_request import AttachmentsIdPatchRequest
 
 class TestAttachmentsIdPatchRequest(unittest.TestCase):
     """AttachmentsIdPatchRequest unit test stubs"""
@@ -36,18 +36,18 @@ class TestAttachmentsIdPatchRequest(unittest.TestCase):
         model = AttachmentsIdPatchRequest()
         if include_optional:
             return AttachmentsIdPatchRequest(
-                data = openapi_client.models._attachments__id__get_200_response_data._attachments__id__get_200_response_data(
+                data = webshipperv2.models._attachments__id__get_200_response_data._attachments__id__get_200_response_data(
                     id = 56, 
                     type = 'attachments', 
-                    attributes = openapi_client.models.attachments.attachments(
+                    attributes = webshipperv2.models.attachments.attachments(
                         updated_at = '', 
                         created_at = '', ), ),
-                relationships = openapi_client.models._attachments__id__get_200_response_relationships._attachments__id__get_200_response_relationships(
-                    document = openapi_client.models._attachments__id__get_200_response_relationships_document._attachments__id__get_200_response_relationships_document(
-                        data = openapi_client.models._attachments__id__get_200_response_relationships_document_data._attachments__id__get_200_response_relationships_document_data(
+                relationships = webshipperv2.models._attachments__id__get_200_response_relationships._attachments__id__get_200_response_relationships(
+                    document = webshipperv2.models._attachments__id__get_200_response_relationships_document._attachments__id__get_200_response_relationships_document(
+                        data = webshipperv2.models._attachments__id__get_200_response_relationships_document_data._attachments__id__get_200_response_relationships_document_data(
                             id = '', 
                             type = 'documents', ), ), 
-                    has_documents = openapi_client.models._attachments__id__get_200_response_relationships_has_documents._attachments__id__get_200_response_relationships_has_documents(), )
+                    has_documents = webshipperv2.models._attachments__id__get_200_response_relationships_has_documents._attachments__id__get_200_response_relationships_has_documents(), )
             )
         else:
             return AttachmentsIdPatchRequest(

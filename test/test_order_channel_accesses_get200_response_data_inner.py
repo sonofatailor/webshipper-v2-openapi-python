@@ -15,7 +15,7 @@
 import unittest
 import datetime
 
-from openapi_client.models.order_channel_accesses_get200_response_data_inner import OrderChannelAccessesGet200ResponseDataInner
+from webshipperv2.models.order_channel_accesses_get200_response_data_inner import OrderChannelAccessesGet200ResponseDataInner
 
 class TestOrderChannelAccessesGet200ResponseDataInner(unittest.TestCase):
     """OrderChannelAccessesGet200ResponseDataInner unit test stubs"""
@@ -36,7 +36,7 @@ class TestOrderChannelAccessesGet200ResponseDataInner(unittest.TestCase):
         model = OrderChannelAccessesGet200ResponseDataInner()
         if include_optional:
             return OrderChannelAccessesGet200ResponseDataInner(
-                attributes = openapi_client.models.order_channel_accesses.order_channel_accesses(
+                attributes = webshipperv2.models.order_channel_accesses.order_channel_accesses(
                     created_at = '', 
                     updated_at = '', )
             )

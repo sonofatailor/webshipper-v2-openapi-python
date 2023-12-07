@@ -15,7 +15,7 @@
 import unittest
 import datetime
 
-from openapi_client.models.end_of_day_reports_get200_response_data_inner import EndOfDayReportsGet200ResponseDataInner
+from webshipperv2.models.end_of_day_reports_get200_response_data_inner import EndOfDayReportsGet200ResponseDataInner
 
 class TestEndOfDayReportsGet200ResponseDataInner(unittest.TestCase):
     """EndOfDayReportsGet200ResponseDataInner unit test stubs"""
@@ -36,7 +36,7 @@ class TestEndOfDayReportsGet200ResponseDataInner(unittest.TestCase):
         model = EndOfDayReportsGet200ResponseDataInner()
         if include_optional:
             return EndOfDayReportsGet200ResponseDataInner(
-                attributes = openapi_client.models.end_of_day_reports.end_of_day_reports(
+                attributes = webshipperv2.models.end_of_day_reports.end_of_day_reports(
                     base64 = '', 
                     updated_at = '', 
                     created_at = '', 

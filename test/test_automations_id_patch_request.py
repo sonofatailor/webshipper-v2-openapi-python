@@ -15,7 +15,7 @@
 import unittest
 import datetime
 
-from openapi_client.models.automations_id_patch_request import AutomationsIdPatchRequest
+from webshipperv2.models.automations_id_patch_request import AutomationsIdPatchRequest
 
 class TestAutomationsIdPatchRequest(unittest.TestCase):
     """AutomationsIdPatchRequest unit test stubs"""
@@ -36,11 +36,11 @@ class TestAutomationsIdPatchRequest(unittest.TestCase):
         model = AutomationsIdPatchRequest()
         if include_optional:
             return AutomationsIdPatchRequest(
-                data = openapi_client.models._automations__id__get_200_response_data._automations__id__get_200_response_data(
+                data = webshipperv2.models._automations__id__get_200_response_data._automations__id__get_200_response_data(
                     id = 56, 
                     type = 'automations', 
-                    attributes = openapi_client.models.automations.automations(
-                        trigger = openapi_client.models.trigger.trigger(), 
+                    attributes = webshipperv2.models.automations.automations(
+                        trigger = webshipperv2.models.trigger.trigger(), 
                         actions = [
                             ''
                             ], 
@@ -48,9 +48,9 @@ class TestAutomationsIdPatchRequest(unittest.TestCase):
                         enabled = True, 
                         priority = 56, 
                         automation_type = 56, ), ),
-                relationships = openapi_client.models._automations__id__get_200_response_relationships._automations__id__get_200_response_relationships(
-                    activity_type = openapi_client.models._automations__id__get_200_response_relationships_activity_type._automations__id__get_200_response_relationships_activity_type(
-                        data = openapi_client.models._automations__id__get_200_response_relationships_activity_type_data._automations__id__get_200_response_relationships_activity_type_data(
+                relationships = webshipperv2.models._automations__id__get_200_response_relationships._automations__id__get_200_response_relationships(
+                    activity_type = webshipperv2.models._automations__id__get_200_response_relationships_activity_type._automations__id__get_200_response_relationships_activity_type(
+                        data = webshipperv2.models._automations__id__get_200_response_relationships_activity_type_data._automations__id__get_200_response_relationships_activity_type_data(
                             id = '', 
                             type = 'activity_types', ), ), )
             )

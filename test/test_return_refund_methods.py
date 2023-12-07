@@ -15,7 +15,7 @@
 import unittest
 import datetime
 
-from openapi_client.models.return_refund_methods import ReturnRefundMethods
+from webshipperv2.models.return_refund_methods import ReturnRefundMethods
 
 class TestReturnRefundMethods(unittest.TestCase):
     """ReturnRefundMethods unit test stubs"""

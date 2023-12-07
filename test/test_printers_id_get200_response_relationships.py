@@ -15,7 +15,7 @@
 import unittest
 import datetime
 
-from openapi_client.models.printers_id_get200_response_relationships import PrintersIdGet200ResponseRelationships
+from webshipperv2.models.printers_id_get200_response_relationships import PrintersIdGet200ResponseRelationships
 
 class TestPrintersIdGet200ResponseRelationships(unittest.TestCase):
     """PrintersIdGet200ResponseRelationships unit test stubs"""
@@ -36,8 +36,8 @@ class TestPrintersIdGet200ResponseRelationships(unittest.TestCase):
         model = PrintersIdGet200ResponseRelationships()
         if include_optional:
             return PrintersIdGet200ResponseRelationships(
-                client = openapi_client.models._orders__id__get_200_response_relationships_printer_client._orders__id__get_200_response_relationships_printer_client(
-                    data = openapi_client.models._orders__id__get_200_response_relationships_printer_client_data._orders__id__get_200_response_relationships_printer_client_data(
+                client = webshipperv2.models._orders__id__get_200_response_relationships_printer_client._orders__id__get_200_response_relationships_printer_client(
+                    data = webshipperv2.models._orders__id__get_200_response_relationships_printer_client_data._orders__id__get_200_response_relationships_printer_client_data(
                         id = '', 
                         type = 'printer_clients', ), )
             )

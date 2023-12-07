@@ -15,7 +15,7 @@
 import unittest
 import datetime
 
-from openapi_client.models.stores_post_request_data import StoresPostRequestData
+from webshipperv2.models.stores_post_request_data import StoresPostRequestData
 
 class TestStoresPostRequestData(unittest.TestCase):
     """StoresPostRequestData unit test stubs"""
@@ -37,7 +37,7 @@ class TestStoresPostRequestData(unittest.TestCase):
         if include_optional:
             return StoresPostRequestData(
                 type = 'stores',
-                attributes = openapi_client.models.stores.stores(
+                attributes = webshipperv2.models.stores.stores(
                     name = '', 
                     address_1 = '', 
                     address_2 = '', 

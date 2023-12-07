@@ -15,7 +15,7 @@
 import unittest
 import datetime
 
-from openapi_client.models.automations_id_get200_response_relationships_activity_type import AutomationsIdGet200ResponseRelationshipsActivityType
+from webshipperv2.models.automations_id_get200_response_relationships_activity_type import AutomationsIdGet200ResponseRelationshipsActivityType
 
 class TestAutomationsIdGet200ResponseRelationshipsActivityType(unittest.TestCase):
     """AutomationsIdGet200ResponseRelationshipsActivityType unit test stubs"""
@@ -36,7 +36,7 @@ class TestAutomationsIdGet200ResponseRelationshipsActivityType(unittest.TestCase
         model = AutomationsIdGet200ResponseRelationshipsActivityType()
         if include_optional:
             return AutomationsIdGet200ResponseRelationshipsActivityType(
-                data = openapi_client.models._automations__id__get_200_response_relationships_activity_type_data._automations__id__get_200_response_relationships_activity_type_data(
+                data = webshipperv2.models._automations__id__get_200_response_relationships_activity_type_data._automations__id__get_200_response_relationships_activity_type_data(
                     id = '', 
                     type = 'activity_types', )
             )

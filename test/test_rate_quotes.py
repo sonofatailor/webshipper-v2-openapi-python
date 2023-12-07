@@ -15,7 +15,7 @@
 import unittest
 import datetime
 
-from openapi_client.models.rate_quotes import RateQuotes
+from webshipperv2.models.rate_quotes import RateQuotes
 
 class TestRateQuotes(unittest.TestCase):
     """RateQuotes unit test stubs"""
@@ -37,7 +37,7 @@ class TestRateQuotes(unittest.TestCase):
         if include_optional:
             return RateQuotes(
                 quotes = [
-                    openapi_client.models.rate_quotes_items.rate_quotes_items(
+                    webshipperv2.models.rate_quotes_items.rate_quotes_items(
                         price = '', )
                     ],
                 success = '',
@@ -51,7 +51,7 @@ class TestRateQuotes(unittest.TestCase):
                 dimensions_unit = '',
                 sender_address = None,
                 items = [
-                    openapi_client.models.rate_quotes_items_1_inner.rate_quotes_items_1_inner(
+                    webshipperv2.models.rate_quotes_items_1_inner.rate_quotes_items_1_inner(
                         quantity = '', 
                         sku = '', 
                         description = '', )

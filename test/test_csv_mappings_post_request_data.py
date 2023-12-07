@@ -15,7 +15,7 @@
 import unittest
 import datetime
 
-from openapi_client.models.csv_mappings_post_request_data import CsvMappingsPostRequestData
+from webshipperv2.models.csv_mappings_post_request_data import CsvMappingsPostRequestData
 
 class TestCsvMappingsPostRequestData(unittest.TestCase):
     """CsvMappingsPostRequestData unit test stubs"""
@@ -37,7 +37,7 @@ class TestCsvMappingsPostRequestData(unittest.TestCase):
         if include_optional:
             return CsvMappingsPostRequestData(
                 type = 'csv_mappings',
-                attributes = openapi_client.models.csv_mappings.csv_mappings(
+                attributes = webshipperv2.models.csv_mappings.csv_mappings(
                     separator = '', 
                     target_class = '', 
                     grouped_by = 56, 

@@ -15,7 +15,7 @@
 import unittest
 import datetime
 
-from openapi_client.models.waybills_post_request_data import WaybillsPostRequestData
+from webshipperv2.models.waybills_post_request_data import WaybillsPostRequestData
 
 class TestWaybillsPostRequestData(unittest.TestCase):
     """WaybillsPostRequestData unit test stubs"""
@@ -37,7 +37,7 @@ class TestWaybillsPostRequestData(unittest.TestCase):
         if include_optional:
             return WaybillsPostRequestData(
                 type = 'waybills',
-                attributes = openapi_client.models.waybills.waybills(
+                attributes = webshipperv2.models.waybills.waybills(
                     waybill_name = '', 
                     waybill_code = '', 
                     reference = '', 

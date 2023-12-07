@@ -15,7 +15,7 @@
 import unittest
 import datetime
 
-from openapi_client.models.order_channels_id_get200_response_relationships_slip_template import OrderChannelsIdGet200ResponseRelationshipsSlipTemplate
+from webshipperv2.models.order_channels_id_get200_response_relationships_slip_template import OrderChannelsIdGet200ResponseRelationshipsSlipTemplate
 
 class TestOrderChannelsIdGet200ResponseRelationshipsSlipTemplate(unittest.TestCase):
     """OrderChannelsIdGet200ResponseRelationshipsSlipTemplate unit test stubs"""
@@ -36,7 +36,7 @@ class TestOrderChannelsIdGet200ResponseRelationshipsSlipTemplate(unittest.TestCa
         model = OrderChannelsIdGet200ResponseRelationshipsSlipTemplate()
         if include_optional:
             return OrderChannelsIdGet200ResponseRelationshipsSlipTemplate(
-                data = openapi_client.models._order_channels__id__get_200_response_relationships_slip_template_data._order_channels__id__get_200_response_relationships_slip_template_data(
+                data = webshipperv2.models._order_channels__id__get_200_response_relationships_slip_template_data._order_channels__id__get_200_response_relationships_slip_template_data(
                     id = '', 
                     type = 'slip_templates', )
             )

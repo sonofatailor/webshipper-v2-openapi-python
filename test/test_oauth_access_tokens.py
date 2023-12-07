@@ -15,7 +15,7 @@
 import unittest
 import datetime
 
-from openapi_client.models.oauth_access_tokens import OauthAccessTokens
+from webshipperv2.models.oauth_access_tokens import OauthAccessTokens
 
 class TestOauthAccessTokens(unittest.TestCase):
     """OauthAccessTokens unit test stubs"""

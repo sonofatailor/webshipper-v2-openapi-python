@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.api.merged_pdf_api import MergedPDFApi
+from webshipperv2.api.merged_pdf_api import MergedPDFApi
 
 
 class TestMergedPDFApi(unittest.TestCase):

@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.api.slip_template_preview_api import SlipTemplatePreviewApi
+from webshipperv2.api.slip_template_preview_api import SlipTemplatePreviewApi
 
 
 class TestSlipTemplatePreviewApi(unittest.TestCase):

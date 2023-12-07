@@ -15,7 +15,7 @@
 import unittest
 import datetime
 
-from openapi_client.models.local_attrs_id_get200_response import LocalAttrsIdGet200Response
+from webshipperv2.models.local_attrs_id_get200_response import LocalAttrsIdGet200Response
 
 class TestLocalAttrsIdGet200Response(unittest.TestCase):
     """LocalAttrsIdGet200Response unit test stubs"""
@@ -36,10 +36,10 @@ class TestLocalAttrsIdGet200Response(unittest.TestCase):
         model = LocalAttrsIdGet200Response()
         if include_optional:
             return LocalAttrsIdGet200Response(
-                data = openapi_client.models._local_attrs__id__get_200_response_data._local_attrs__id__get_200_response_data(
+                data = webshipperv2.models._local_attrs__id__get_200_response_data._local_attrs__id__get_200_response_data(
                     id = 56, 
                     type = 'local_attrs', 
-                    attributes = openapi_client.models.local_attrs.local_attrs(
+                    attributes = webshipperv2.models.local_attrs.local_attrs(
                         attr_name = '', 
                         attr_key = '', 
                         attr_type = '', 
@@ -49,13 +49,13 @@ class TestLocalAttrsIdGet200Response(unittest.TestCase):
                         category = '', 
                         priority = 56, 
                         only_visible_on_creation = True, ), ),
-                relationships = openapi_client.models._local_attrs__id__get_200_response_relationships._local_attrs__id__get_200_response_relationships(
-                    order_channel_type = openapi_client.models._local_attrs__id__get_200_response_relationships_order_channel_type._local_attrs__id__get_200_response_relationships_order_channel_type(
-                        data = openapi_client.models._local_attrs__id__get_200_response_relationships_order_channel_type_data._local_attrs__id__get_200_response_relationships_order_channel_type_data(
+                relationships = webshipperv2.models._local_attrs__id__get_200_response_relationships._local_attrs__id__get_200_response_relationships(
+                    order_channel_type = webshipperv2.models._local_attrs__id__get_200_response_relationships_order_channel_type._local_attrs__id__get_200_response_relationships_order_channel_type(
+                        data = webshipperv2.models._local_attrs__id__get_200_response_relationships_order_channel_type_data._local_attrs__id__get_200_response_relationships_order_channel_type_data(
                             id = '', 
                             type = 'order_channel_types', ), ), ),
                 included = [
-                    openapi_client.models._local_attrs__id__get_200_response_included_inner._local_attrs__id__get_200_response_included_inner(
+                    webshipperv2.models._local_attrs__id__get_200_response_included_inner._local_attrs__id__get_200_response_included_inner(
                         type = 'orders', 
                         id = 56, 
                         data = null, )

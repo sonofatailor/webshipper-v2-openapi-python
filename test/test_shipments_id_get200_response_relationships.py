@@ -15,7 +15,7 @@
 import unittest
 import datetime
 
-from openapi_client.models.shipments_id_get200_response_relationships import ShipmentsIdGet200ResponseRelationships
+from webshipperv2.models.shipments_id_get200_response_relationships import ShipmentsIdGet200ResponseRelationships
 
 class TestShipmentsIdGet200ResponseRelationships(unittest.TestCase):
     """ShipmentsIdGet200ResponseRelationships unit test stubs"""
@@ -36,48 +36,48 @@ class TestShipmentsIdGet200ResponseRelationships(unittest.TestCase):
         model = ShipmentsIdGet200ResponseRelationships()
         if include_optional:
             return ShipmentsIdGet200ResponseRelationships(
-                carrier = openapi_client.models._barcode_ranges__id__get_200_response_relationships_carrier._barcode_ranges__id__get_200_response_relationships_carrier(
-                    data = openapi_client.models._barcode_ranges__id__get_200_response_relationships_carrier_data._barcode_ranges__id__get_200_response_relationships_carrier_data(
+                carrier = webshipperv2.models._barcode_ranges__id__get_200_response_relationships_carrier._barcode_ranges__id__get_200_response_relationships_carrier(
+                    data = webshipperv2.models._barcode_ranges__id__get_200_response_relationships_carrier_data._barcode_ranges__id__get_200_response_relationships_carrier_data(
                         id = '', 
                         type = 'carriers', ), ),
-                order = openapi_client.models._additional_attributes__id__get_200_response_relationships_order._additional_attributes__id__get_200_response_relationships_order(
-                    data = openapi_client.models._additional_attributes__id__get_200_response_relationships_order_data._additional_attributes__id__get_200_response_relationships_order_data(
+                order = webshipperv2.models._additional_attributes__id__get_200_response_relationships_order._additional_attributes__id__get_200_response_relationships_order(
+                    data = webshipperv2.models._additional_attributes__id__get_200_response_relationships_order_data._additional_attributes__id__get_200_response_relationships_order_data(
                         id = '', 
                         type = 'orders', ), ),
-                shipping_rate = openapi_client.models._orders__id__get_200_response_relationships_shipping_rate._orders__id__get_200_response_relationships_shipping_rate(
-                    data = openapi_client.models._orders__id__get_200_response_relationships_shipping_rate_data._orders__id__get_200_response_relationships_shipping_rate_data(
+                shipping_rate = webshipperv2.models._orders__id__get_200_response_relationships_shipping_rate._orders__id__get_200_response_relationships_shipping_rate(
+                    data = webshipperv2.models._orders__id__get_200_response_relationships_shipping_rate_data._orders__id__get_200_response_relationships_shipping_rate_data(
                         id = '', 
                         type = 'shipping_rates', ), ),
-                printer_client = openapi_client.models._orders__id__get_200_response_relationships_printer_client._orders__id__get_200_response_relationships_printer_client(
-                    data = openapi_client.models._orders__id__get_200_response_relationships_printer_client_data._orders__id__get_200_response_relationships_printer_client_data(
+                printer_client = webshipperv2.models._orders__id__get_200_response_relationships_printer_client._orders__id__get_200_response_relationships_printer_client(
+                    data = webshipperv2.models._orders__id__get_200_response_relationships_printer_client_data._orders__id__get_200_response_relationships_printer_client_data(
                         id = '', 
                         type = 'printer_clients', ), ),
-                original_shipment = openapi_client.models._edis__id__get_200_response_relationships_shipment._edis__id__get_200_response_relationships_shipment(
-                    data = openapi_client.models._edis__id__get_200_response_relationships_shipment_data._edis__id__get_200_response_relationships_shipment_data(
+                original_shipment = webshipperv2.models._edis__id__get_200_response_relationships_shipment._edis__id__get_200_response_relationships_shipment(
+                    data = webshipperv2.models._edis__id__get_200_response_relationships_shipment_data._edis__id__get_200_response_relationships_shipment_data(
                         id = '', 
                         type = 'shipments', ), ),
-                pickup = openapi_client.models._shipments__id__get_200_response_relationships_pickup._shipments__id__get_200_response_relationships_pickup(
-                    data = openapi_client.models._shipments__id__get_200_response_relationships_pickup_data._shipments__id__get_200_response_relationships_pickup_data(
+                pickup = webshipperv2.models._shipments__id__get_200_response_relationships_pickup._shipments__id__get_200_response_relationships_pickup(
+                    data = webshipperv2.models._shipments__id__get_200_response_relationships_pickup_data._shipments__id__get_200_response_relationships_pickup_data(
                         id = '', 
                         type = 'pickups', ), ),
-                shadow_shipment = openapi_client.models._edis__id__get_200_response_relationships_shipment._edis__id__get_200_response_relationships_shipment(
-                    data = openapi_client.models._edis__id__get_200_response_relationships_shipment_data._edis__id__get_200_response_relationships_shipment_data(
+                shadow_shipment = webshipperv2.models._edis__id__get_200_response_relationships_shipment._edis__id__get_200_response_relationships_shipment(
+                    data = webshipperv2.models._edis__id__get_200_response_relationships_shipment_data._edis__id__get_200_response_relationships_shipment_data(
                         id = '', 
                         type = 'shipments', ), ),
-                var_return = openapi_client.models._shipments__id__get_200_response_relationships_return._shipments__id__get_200_response_relationships_return(
-                    data = openapi_client.models._shipments__id__get_200_response_relationships_return_data._shipments__id__get_200_response_relationships_return_data(
+                var_return = webshipperv2.models._shipments__id__get_200_response_relationships_return._shipments__id__get_200_response_relationships_return(
+                    data = webshipperv2.models._shipments__id__get_200_response_relationships_return_data._shipments__id__get_200_response_relationships_return_data(
                         id = '', 
                         type = 'returns', ), ),
-                document_template = openapi_client.models._shipments__id__get_200_response_relationships_document_template._shipments__id__get_200_response_relationships_document_template(
-                    data = openapi_client.models._shipments__id__get_200_response_relationships_document_template_data._shipments__id__get_200_response_relationships_document_template_data(
+                document_template = webshipperv2.models._shipments__id__get_200_response_relationships_document_template._shipments__id__get_200_response_relationships_document_template(
+                    data = webshipperv2.models._shipments__id__get_200_response_relationships_document_template_data._shipments__id__get_200_response_relationships_document_template_data(
                         id = '', 
                         type = 'document_templates', ), ),
-                mail_template = openapi_client.models._return_portals__id__get_200_response_relationships_mail_template._return_portals__id__get_200_response_relationships_mail_template(
-                    data = openapi_client.models._return_portals__id__get_200_response_relationships_mail_template_data._return_portals__id__get_200_response_relationships_mail_template_data(
+                mail_template = webshipperv2.models._return_portals__id__get_200_response_relationships_mail_template._return_portals__id__get_200_response_relationships_mail_template(
+                    data = webshipperv2.models._return_portals__id__get_200_response_relationships_mail_template_data._return_portals__id__get_200_response_relationships_mail_template_data(
                         id = '', 
                         type = 'mail_templates', ), ),
-                return_label_mail_template = openapi_client.models._return_portals__id__get_200_response_relationships_mail_template._return_portals__id__get_200_response_relationships_mail_template(
-                    data = openapi_client.models._return_portals__id__get_200_response_relationships_mail_template_data._return_portals__id__get_200_response_relationships_mail_template_data(
+                return_label_mail_template = webshipperv2.models._return_portals__id__get_200_response_relationships_mail_template._return_portals__id__get_200_response_relationships_mail_template(
+                    data = webshipperv2.models._return_portals__id__get_200_response_relationships_mail_template_data._return_portals__id__get_200_response_relationships_mail_template_data(
                         id = '', 
                         type = 'mail_templates', ), )
             )

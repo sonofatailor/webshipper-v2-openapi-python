@@ -1,4 +1,4 @@
-# openapi_client.ShippingRateApi
+# webshipperv2.ShippingRateApi
 
 All URIs are relative to *https://.api.webshipper.io/v2*
 
@@ -22,14 +22,14 @@ List all Shipping Rates
 ```python
 import time
 import os
-import openapi_client
-from openapi_client.models.shipping_rates_get200_response import ShippingRatesGet200Response
-from openapi_client.rest import ApiException
+import webshipperv2
+from webshipperv2.models.shipping_rates_get200_response import ShippingRatesGet200Response
+from webshipperv2.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to https://.api.webshipper.io/v2
 # See configuration.py for a list of all supported configuration parameters.
-configuration = openapi_client.Configuration(
+configuration = webshipperv2.Configuration(
     host = "https://.api.webshipper.io/v2"
 )
 
@@ -39,14 +39,14 @@ configuration = openapi_client.Configuration(
 # satisfies your auth use case.
 
 # Configure Bearer authorization: BearerAuth
-configuration = openapi_client.Configuration(
+configuration = webshipperv2.Configuration(
     access_token = os.environ["BEARER_TOKEN"]
 )
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient(configuration) as api_client:
+with webshipperv2.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.ShippingRateApi(api_client)
+    api_instance = webshipperv2.ShippingRateApi(api_client)
     filter_id = 'filter_id_example' # str | Filter by id (optional)
     filter_order_channel_id = 'filter_order_channel_id_example' # str | Filter by order_channel_id (optional)
     filter_is_return = 'filter_is_return_example' # str | Filter by is_return (optional)
@@ -107,14 +107,14 @@ Delete a Shipping Rate
 ```python
 import time
 import os
-import openapi_client
-from openapi_client.models.shipping_rates_id_get200_response import ShippingRatesIdGet200Response
-from openapi_client.rest import ApiException
+import webshipperv2
+from webshipperv2.models.shipping_rates_id_get200_response import ShippingRatesIdGet200Response
+from webshipperv2.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to https://.api.webshipper.io/v2
 # See configuration.py for a list of all supported configuration parameters.
-configuration = openapi_client.Configuration(
+configuration = webshipperv2.Configuration(
     host = "https://.api.webshipper.io/v2"
 )
 
@@ -124,14 +124,14 @@ configuration = openapi_client.Configuration(
 # satisfies your auth use case.
 
 # Configure Bearer authorization: BearerAuth
-configuration = openapi_client.Configuration(
+configuration = webshipperv2.Configuration(
     access_token = os.environ["BEARER_TOKEN"]
 )
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient(configuration) as api_client:
+with webshipperv2.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.ShippingRateApi(api_client)
+    api_instance = webshipperv2.ShippingRateApi(api_client)
     id = 56 # int | 
 
     try:
@@ -182,14 +182,14 @@ Show a single Shipping Rate
 ```python
 import time
 import os
-import openapi_client
-from openapi_client.models.shipping_rates_id_get200_response import ShippingRatesIdGet200Response
-from openapi_client.rest import ApiException
+import webshipperv2
+from webshipperv2.models.shipping_rates_id_get200_response import ShippingRatesIdGet200Response
+from webshipperv2.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to https://.api.webshipper.io/v2
 # See configuration.py for a list of all supported configuration parameters.
-configuration = openapi_client.Configuration(
+configuration = webshipperv2.Configuration(
     host = "https://.api.webshipper.io/v2"
 )
 
@@ -199,14 +199,14 @@ configuration = openapi_client.Configuration(
 # satisfies your auth use case.
 
 # Configure Bearer authorization: BearerAuth
-configuration = openapi_client.Configuration(
+configuration = webshipperv2.Configuration(
     access_token = os.environ["BEARER_TOKEN"]
 )
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient(configuration) as api_client:
+with webshipperv2.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.ShippingRateApi(api_client)
+    api_instance = webshipperv2.ShippingRateApi(api_client)
     id = 56 # int | 
 
     try:
@@ -257,15 +257,15 @@ Update a Shipping Rate
 ```python
 import time
 import os
-import openapi_client
-from openapi_client.models.shipping_rates_id_get200_response import ShippingRatesIdGet200Response
-from openapi_client.models.shipping_rates_id_patch_request import ShippingRatesIdPatchRequest
-from openapi_client.rest import ApiException
+import webshipperv2
+from webshipperv2.models.shipping_rates_id_get200_response import ShippingRatesIdGet200Response
+from webshipperv2.models.shipping_rates_id_patch_request import ShippingRatesIdPatchRequest
+from webshipperv2.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to https://.api.webshipper.io/v2
 # See configuration.py for a list of all supported configuration parameters.
-configuration = openapi_client.Configuration(
+configuration = webshipperv2.Configuration(
     host = "https://.api.webshipper.io/v2"
 )
 
@@ -275,16 +275,16 @@ configuration = openapi_client.Configuration(
 # satisfies your auth use case.
 
 # Configure Bearer authorization: BearerAuth
-configuration = openapi_client.Configuration(
+configuration = webshipperv2.Configuration(
     access_token = os.environ["BEARER_TOKEN"]
 )
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient(configuration) as api_client:
+with webshipperv2.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.ShippingRateApi(api_client)
+    api_instance = webshipperv2.ShippingRateApi(api_client)
     id = 56 # int | 
-    shipping_rates_id_patch_request = openapi_client.ShippingRatesIdPatchRequest() # ShippingRatesIdPatchRequest | 
+    shipping_rates_id_patch_request = webshipperv2.ShippingRatesIdPatchRequest() # ShippingRatesIdPatchRequest | 
 
     try:
         # Update a Shipping Rate
@@ -335,15 +335,15 @@ Create a Shipping Rate
 ```python
 import time
 import os
-import openapi_client
-from openapi_client.models.shipping_rates_id_get200_response import ShippingRatesIdGet200Response
-from openapi_client.models.shipping_rates_post_request import ShippingRatesPostRequest
-from openapi_client.rest import ApiException
+import webshipperv2
+from webshipperv2.models.shipping_rates_id_get200_response import ShippingRatesIdGet200Response
+from webshipperv2.models.shipping_rates_post_request import ShippingRatesPostRequest
+from webshipperv2.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to https://.api.webshipper.io/v2
 # See configuration.py for a list of all supported configuration parameters.
-configuration = openapi_client.Configuration(
+configuration = webshipperv2.Configuration(
     host = "https://.api.webshipper.io/v2"
 )
 
@@ -353,15 +353,15 @@ configuration = openapi_client.Configuration(
 # satisfies your auth use case.
 
 # Configure Bearer authorization: BearerAuth
-configuration = openapi_client.Configuration(
+configuration = webshipperv2.Configuration(
     access_token = os.environ["BEARER_TOKEN"]
 )
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient(configuration) as api_client:
+with webshipperv2.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.ShippingRateApi(api_client)
-    shipping_rates_post_request = openapi_client.ShippingRatesPostRequest() # ShippingRatesPostRequest | 
+    api_instance = webshipperv2.ShippingRateApi(api_client)
+    shipping_rates_post_request = webshipperv2.ShippingRatesPostRequest() # ShippingRatesPostRequest | 
 
     try:
         # Create a Shipping Rate

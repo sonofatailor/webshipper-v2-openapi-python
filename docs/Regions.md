@@ -13,7 +13,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```python
-from openapi_client.models.regions import Regions
+from webshipperv2.models.regions import Regions
 
 # TODO update the JSON string below
 json = "{}"

@@ -15,7 +15,7 @@
 import unittest
 import datetime
 
-from openapi_client.models.returns_id_get200_response_relationships import ReturnsIdGet200ResponseRelationships
+from webshipperv2.models.returns_id_get200_response_relationships import ReturnsIdGet200ResponseRelationships
 
 class TestReturnsIdGet200ResponseRelationships(unittest.TestCase):
     """ReturnsIdGet200ResponseRelationships unit test stubs"""
@@ -36,24 +36,24 @@ class TestReturnsIdGet200ResponseRelationships(unittest.TestCase):
         model = ReturnsIdGet200ResponseRelationships()
         if include_optional:
             return ReturnsIdGet200ResponseRelationships(
-                order = openapi_client.models._additional_attributes__id__get_200_response_relationships_order._additional_attributes__id__get_200_response_relationships_order(
-                    data = openapi_client.models._additional_attributes__id__get_200_response_relationships_order_data._additional_attributes__id__get_200_response_relationships_order_data(
+                order = webshipperv2.models._additional_attributes__id__get_200_response_relationships_order._additional_attributes__id__get_200_response_relationships_order(
+                    data = webshipperv2.models._additional_attributes__id__get_200_response_relationships_order_data._additional_attributes__id__get_200_response_relationships_order_data(
                         id = '', 
                         type = 'orders', ), ),
-                portal = openapi_client.models._return_refund_methods__id__get_200_response_relationships_portal._return_refund_methods__id__get_200_response_relationships_portal(
-                    data = openapi_client.models._return_refund_methods__id__get_200_response_relationships_portal_data._return_refund_methods__id__get_200_response_relationships_portal_data(
+                portal = webshipperv2.models._return_refund_methods__id__get_200_response_relationships_portal._return_refund_methods__id__get_200_response_relationships_portal(
+                    data = webshipperv2.models._return_refund_methods__id__get_200_response_relationships_portal_data._return_refund_methods__id__get_200_response_relationships_portal_data(
                         id = '', 
                         type = 'return_portals', ), ),
-                shipping_method = openapi_client.models._returns__id__get_200_response_relationships_shipping_method._returns__id__get_200_response_relationships_shipping_method(
-                    data = openapi_client.models._returns__id__get_200_response_relationships_shipping_method_data._returns__id__get_200_response_relationships_shipping_method_data(
+                shipping_method = webshipperv2.models._returns__id__get_200_response_relationships_shipping_method._returns__id__get_200_response_relationships_shipping_method(
+                    data = webshipperv2.models._returns__id__get_200_response_relationships_shipping_method_data._returns__id__get_200_response_relationships_shipping_method_data(
                         id = '', 
                         type = 'return_shipping_methods', ), ),
-                refund_method = openapi_client.models._returns__id__get_200_response_relationships_refund_method._returns__id__get_200_response_relationships_refund_method(
-                    data = openapi_client.models._returns__id__get_200_response_relationships_refund_method_data._returns__id__get_200_response_relationships_refund_method_data(
+                refund_method = webshipperv2.models._returns__id__get_200_response_relationships_refund_method._returns__id__get_200_response_relationships_refund_method(
+                    data = webshipperv2.models._returns__id__get_200_response_relationships_refund_method_data._returns__id__get_200_response_relationships_refund_method_data(
                         id = '', 
                         type = 'return_refund_methods', ), ),
-                shipment = openapi_client.models._edis__id__get_200_response_relationships_shipment._edis__id__get_200_response_relationships_shipment(
-                    data = openapi_client.models._edis__id__get_200_response_relationships_shipment_data._edis__id__get_200_response_relationships_shipment_data(
+                shipment = webshipperv2.models._edis__id__get_200_response_relationships_shipment._edis__id__get_200_response_relationships_shipment(
+                    data = webshipperv2.models._edis__id__get_200_response_relationships_shipment_data._edis__id__get_200_response_relationships_shipment_data(
                         id = '', 
                         type = 'shipments', ), )
             )

@@ -15,7 +15,7 @@
 import unittest
 import datetime
 
-from openapi_client.models.hot_keys_post_request_data import HotKeysPostRequestData
+from webshipperv2.models.hot_keys_post_request_data import HotKeysPostRequestData
 
 class TestHotKeysPostRequestData(unittest.TestCase):
     """HotKeysPostRequestData unit test stubs"""
@@ -37,7 +37,7 @@ class TestHotKeysPostRequestData(unittest.TestCase):
         if include_optional:
             return HotKeysPostRequestData(
                 type = 'hot_keys',
-                attributes = openapi_client.models.hot_keys.hot_keys(
+                attributes = webshipperv2.models.hot_keys.hot_keys(
                     hot_key = '', 
                     path = '', 
                     favourite_page_id = 56, 

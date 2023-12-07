@@ -15,7 +15,7 @@
 import unittest
 import datetime
 
-from openapi_client.models.order_channel_accesses_id_get200_response_relationships import OrderChannelAccessesIdGet200ResponseRelationships
+from webshipperv2.models.order_channel_accesses_id_get200_response_relationships import OrderChannelAccessesIdGet200ResponseRelationships
 
 class TestOrderChannelAccessesIdGet200ResponseRelationships(unittest.TestCase):
     """OrderChannelAccessesIdGet200ResponseRelationships unit test stubs"""
@@ -36,12 +36,12 @@ class TestOrderChannelAccessesIdGet200ResponseRelationships(unittest.TestCase):
         model = OrderChannelAccessesIdGet200ResponseRelationships()
         if include_optional:
             return OrderChannelAccessesIdGet200ResponseRelationships(
-                order_channel = openapi_client.models._csv_mappings__id__get_200_response_relationships_order_channel._csv_mappings__id__get_200_response_relationships_order_channel(
-                    data = openapi_client.models._csv_mappings__id__get_200_response_relationships_order_channel_data._csv_mappings__id__get_200_response_relationships_order_channel_data(
+                order_channel = webshipperv2.models._csv_mappings__id__get_200_response_relationships_order_channel._csv_mappings__id__get_200_response_relationships_order_channel(
+                    data = webshipperv2.models._csv_mappings__id__get_200_response_relationships_order_channel_data._csv_mappings__id__get_200_response_relationships_order_channel_data(
                         id = '', 
                         type = 'order_channels', ), ),
-                user = openapi_client.models._carrier_accesses__id__get_200_response_relationships_user._carrier_accesses__id__get_200_response_relationships_user(
-                    data = openapi_client.models._carrier_accesses__id__get_200_response_relationships_user_data._carrier_accesses__id__get_200_response_relationships_user_data(
+                user = webshipperv2.models._carrier_accesses__id__get_200_response_relationships_user._carrier_accesses__id__get_200_response_relationships_user(
+                    data = webshipperv2.models._carrier_accesses__id__get_200_response_relationships_user_data._carrier_accesses__id__get_200_response_relationships_user_data(
                         id = '', 
                         type = 'users', ), )
             )

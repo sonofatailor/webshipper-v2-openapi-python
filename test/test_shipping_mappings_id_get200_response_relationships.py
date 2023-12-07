@@ -15,7 +15,7 @@
 import unittest
 import datetime
 
-from openapi_client.models.shipping_mappings_id_get200_response_relationships import ShippingMappingsIdGet200ResponseRelationships
+from webshipperv2.models.shipping_mappings_id_get200_response_relationships import ShippingMappingsIdGet200ResponseRelationships
 
 class TestShippingMappingsIdGet200ResponseRelationships(unittest.TestCase):
     """ShippingMappingsIdGet200ResponseRelationships unit test stubs"""
@@ -36,12 +36,12 @@ class TestShippingMappingsIdGet200ResponseRelationships(unittest.TestCase):
         model = ShippingMappingsIdGet200ResponseRelationships()
         if include_optional:
             return ShippingMappingsIdGet200ResponseRelationships(
-                shipping_rate = openapi_client.models._orders__id__get_200_response_relationships_shipping_rate._orders__id__get_200_response_relationships_shipping_rate(
-                    data = openapi_client.models._orders__id__get_200_response_relationships_shipping_rate_data._orders__id__get_200_response_relationships_shipping_rate_data(
+                shipping_rate = webshipperv2.models._orders__id__get_200_response_relationships_shipping_rate._orders__id__get_200_response_relationships_shipping_rate(
+                    data = webshipperv2.models._orders__id__get_200_response_relationships_shipping_rate_data._orders__id__get_200_response_relationships_shipping_rate_data(
                         id = '', 
                         type = 'shipping_rates', ), ),
-                order_channel = openapi_client.models._csv_mappings__id__get_200_response_relationships_order_channel._csv_mappings__id__get_200_response_relationships_order_channel(
-                    data = openapi_client.models._csv_mappings__id__get_200_response_relationships_order_channel_data._csv_mappings__id__get_200_response_relationships_order_channel_data(
+                order_channel = webshipperv2.models._csv_mappings__id__get_200_response_relationships_order_channel._csv_mappings__id__get_200_response_relationships_order_channel(
+                    data = webshipperv2.models._csv_mappings__id__get_200_response_relationships_order_channel_data._csv_mappings__id__get_200_response_relationships_order_channel_data(
                         id = '', 
                         type = 'order_channels', ), )
             )

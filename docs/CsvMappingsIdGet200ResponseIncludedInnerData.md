@@ -42,7 +42,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```python
-from openapi_client.models.csv_mappings_id_get200_response_included_inner_data import CsvMappingsIdGet200ResponseIncludedInnerData
+from webshipperv2.models.csv_mappings_id_get200_response_included_inner_data import CsvMappingsIdGet200ResponseIncludedInnerData
 
 # TODO update the JSON string below
 json = "{}"

@@ -15,7 +15,7 @@
 import unittest
 import datetime
 
-from openapi_client.models.triggers_post_request_data import TriggersPostRequestData
+from webshipperv2.models.triggers_post_request_data import TriggersPostRequestData
 
 class TestTriggersPostRequestData(unittest.TestCase):
     """TriggersPostRequestData unit test stubs"""
@@ -37,7 +37,7 @@ class TestTriggersPostRequestData(unittest.TestCase):
         if include_optional:
             return TriggersPostRequestData(
                 type = 'triggers',
-                attributes = openapi_client.models.triggers.triggers(
+                attributes = webshipperv2.models.triggers.triggers(
                     expression = '', 
                     expression_ast = '', 
                     model_type = '', 

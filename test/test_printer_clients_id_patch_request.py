@@ -15,7 +15,7 @@
 import unittest
 import datetime
 
-from openapi_client.models.printer_clients_id_patch_request import PrinterClientsIdPatchRequest
+from webshipperv2.models.printer_clients_id_patch_request import PrinterClientsIdPatchRequest
 
 class TestPrinterClientsIdPatchRequest(unittest.TestCase):
     """PrinterClientsIdPatchRequest unit test stubs"""
@@ -36,24 +36,24 @@ class TestPrinterClientsIdPatchRequest(unittest.TestCase):
         model = PrinterClientsIdPatchRequest()
         if include_optional:
             return PrinterClientsIdPatchRequest(
-                data = openapi_client.models._printer_clients__id__get_200_response_data._printer_clients__id__get_200_response_data(
+                data = webshipperv2.models._printer_clients__id__get_200_response_data._printer_clients__id__get_200_response_data(
                     id = 56, 
                     type = 'printer_clients', 
-                    attributes = openapi_client.models.printer_clients.printer_clients(
+                    attributes = webshipperv2.models.printer_clients.printer_clients(
                         uuid = '', 
                         approved = True, 
                         alias = '', 
                         is_online = True, 
                         last_connected = '', 
                         prevent_multiple_shipments = True, ), ),
-                relationships = openapi_client.models._printer_clients__id__get_200_response_relationships._printer_clients__id__get_200_response_relationships(
-                    label_printer = openapi_client.models._printer_clients__id__get_200_response_relationships_label_printer._printer_clients__id__get_200_response_relationships_label_printer(
-                        data = openapi_client.models._printer_clients__id__get_200_response_relationships_label_printer_data._printer_clients__id__get_200_response_relationships_label_printer_data(
+                relationships = webshipperv2.models._printer_clients__id__get_200_response_relationships._printer_clients__id__get_200_response_relationships(
+                    label_printer = webshipperv2.models._printer_clients__id__get_200_response_relationships_label_printer._printer_clients__id__get_200_response_relationships_label_printer(
+                        data = webshipperv2.models._printer_clients__id__get_200_response_relationships_label_printer_data._printer_clients__id__get_200_response_relationships_label_printer_data(
                             id = '', 
                             type = 'printers', ), ), 
-                    zpl_printer = openapi_client.models._printer_clients__id__get_200_response_relationships_label_printer._printer_clients__id__get_200_response_relationships_label_printer(), 
+                    zpl_printer = webshipperv2.models._printer_clients__id__get_200_response_relationships_label_printer._printer_clients__id__get_200_response_relationships_label_printer(), 
                     document_printer = , 
-                    location = openapi_client.models._carriers__id__get_200_response_relationships_sender_address._carriers__id__get_200_response_relationships_sender_address(), )
+                    location = webshipperv2.models._carriers__id__get_200_response_relationships_sender_address._carriers__id__get_200_response_relationships_sender_address(), )
             )
         else:
             return PrinterClientsIdPatchRequest(

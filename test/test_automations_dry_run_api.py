@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.api.automations_dry_run_api import AutomationsDryRunApi
+from webshipperv2.api.automations_dry_run_api import AutomationsDryRunApi
 
 
 class TestAutomationsDryRunApi(unittest.TestCase):

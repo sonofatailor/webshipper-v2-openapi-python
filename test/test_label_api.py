@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.api.label_api import LabelApi
+from webshipperv2.api.label_api import LabelApi
 
 
 class TestLabelApi(unittest.TestCase):

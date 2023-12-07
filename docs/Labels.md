@@ -14,7 +14,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```python
-from openapi_client.models.labels import Labels
+from webshipperv2.models.labels import Labels
 
 # TODO update the JSON string below
 json = "{}"

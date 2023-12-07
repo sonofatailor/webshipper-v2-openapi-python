@@ -1,4 +1,4 @@
-# openapi_client.UserGroupApi
+# webshipperv2.UserGroupApi
 
 All URIs are relative to *https://.api.webshipper.io/v2*
 
@@ -22,14 +22,14 @@ List all User Groups
 ```python
 import time
 import os
-import openapi_client
-from openapi_client.models.user_groups_get200_response import UserGroupsGet200Response
-from openapi_client.rest import ApiException
+import webshipperv2
+from webshipperv2.models.user_groups_get200_response import UserGroupsGet200Response
+from webshipperv2.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to https://.api.webshipper.io/v2
 # See configuration.py for a list of all supported configuration parameters.
-configuration = openapi_client.Configuration(
+configuration = webshipperv2.Configuration(
     host = "https://.api.webshipper.io/v2"
 )
 
@@ -39,14 +39,14 @@ configuration = openapi_client.Configuration(
 # satisfies your auth use case.
 
 # Configure Bearer authorization: BearerAuth
-configuration = openapi_client.Configuration(
+configuration = webshipperv2.Configuration(
     access_token = os.environ["BEARER_TOKEN"]
 )
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient(configuration) as api_client:
+with webshipperv2.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.UserGroupApi(api_client)
+    api_instance = webshipperv2.UserGroupApi(api_client)
     filter_id = 'filter_id_example' # str | Filter by id (optional)
 
     try:
@@ -97,14 +97,14 @@ Delete a User Group
 ```python
 import time
 import os
-import openapi_client
-from openapi_client.models.user_groups_id_get200_response import UserGroupsIdGet200Response
-from openapi_client.rest import ApiException
+import webshipperv2
+from webshipperv2.models.user_groups_id_get200_response import UserGroupsIdGet200Response
+from webshipperv2.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to https://.api.webshipper.io/v2
 # See configuration.py for a list of all supported configuration parameters.
-configuration = openapi_client.Configuration(
+configuration = webshipperv2.Configuration(
     host = "https://.api.webshipper.io/v2"
 )
 
@@ -114,14 +114,14 @@ configuration = openapi_client.Configuration(
 # satisfies your auth use case.
 
 # Configure Bearer authorization: BearerAuth
-configuration = openapi_client.Configuration(
+configuration = webshipperv2.Configuration(
     access_token = os.environ["BEARER_TOKEN"]
 )
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient(configuration) as api_client:
+with webshipperv2.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.UserGroupApi(api_client)
+    api_instance = webshipperv2.UserGroupApi(api_client)
     id = 56 # int | 
 
     try:
@@ -172,14 +172,14 @@ Show a single User Group
 ```python
 import time
 import os
-import openapi_client
-from openapi_client.models.user_groups_id_get200_response import UserGroupsIdGet200Response
-from openapi_client.rest import ApiException
+import webshipperv2
+from webshipperv2.models.user_groups_id_get200_response import UserGroupsIdGet200Response
+from webshipperv2.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to https://.api.webshipper.io/v2
 # See configuration.py for a list of all supported configuration parameters.
-configuration = openapi_client.Configuration(
+configuration = webshipperv2.Configuration(
     host = "https://.api.webshipper.io/v2"
 )
 
@@ -189,14 +189,14 @@ configuration = openapi_client.Configuration(
 # satisfies your auth use case.
 
 # Configure Bearer authorization: BearerAuth
-configuration = openapi_client.Configuration(
+configuration = webshipperv2.Configuration(
     access_token = os.environ["BEARER_TOKEN"]
 )
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient(configuration) as api_client:
+with webshipperv2.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.UserGroupApi(api_client)
+    api_instance = webshipperv2.UserGroupApi(api_client)
     id = 56 # int | 
 
     try:
@@ -247,15 +247,15 @@ Update a User Group
 ```python
 import time
 import os
-import openapi_client
-from openapi_client.models.user_groups_id_get200_response import UserGroupsIdGet200Response
-from openapi_client.models.user_groups_id_patch_request import UserGroupsIdPatchRequest
-from openapi_client.rest import ApiException
+import webshipperv2
+from webshipperv2.models.user_groups_id_get200_response import UserGroupsIdGet200Response
+from webshipperv2.models.user_groups_id_patch_request import UserGroupsIdPatchRequest
+from webshipperv2.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to https://.api.webshipper.io/v2
 # See configuration.py for a list of all supported configuration parameters.
-configuration = openapi_client.Configuration(
+configuration = webshipperv2.Configuration(
     host = "https://.api.webshipper.io/v2"
 )
 
@@ -265,16 +265,16 @@ configuration = openapi_client.Configuration(
 # satisfies your auth use case.
 
 # Configure Bearer authorization: BearerAuth
-configuration = openapi_client.Configuration(
+configuration = webshipperv2.Configuration(
     access_token = os.environ["BEARER_TOKEN"]
 )
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient(configuration) as api_client:
+with webshipperv2.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.UserGroupApi(api_client)
+    api_instance = webshipperv2.UserGroupApi(api_client)
     id = 56 # int | 
-    user_groups_id_patch_request = openapi_client.UserGroupsIdPatchRequest() # UserGroupsIdPatchRequest | 
+    user_groups_id_patch_request = webshipperv2.UserGroupsIdPatchRequest() # UserGroupsIdPatchRequest | 
 
     try:
         # Update a User Group
@@ -325,15 +325,15 @@ Create a User Group
 ```python
 import time
 import os
-import openapi_client
-from openapi_client.models.user_groups_id_get200_response import UserGroupsIdGet200Response
-from openapi_client.models.user_groups_post_request import UserGroupsPostRequest
-from openapi_client.rest import ApiException
+import webshipperv2
+from webshipperv2.models.user_groups_id_get200_response import UserGroupsIdGet200Response
+from webshipperv2.models.user_groups_post_request import UserGroupsPostRequest
+from webshipperv2.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to https://.api.webshipper.io/v2
 # See configuration.py for a list of all supported configuration parameters.
-configuration = openapi_client.Configuration(
+configuration = webshipperv2.Configuration(
     host = "https://.api.webshipper.io/v2"
 )
 
@@ -343,15 +343,15 @@ configuration = openapi_client.Configuration(
 # satisfies your auth use case.
 
 # Configure Bearer authorization: BearerAuth
-configuration = openapi_client.Configuration(
+configuration = webshipperv2.Configuration(
     access_token = os.environ["BEARER_TOKEN"]
 )
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient(configuration) as api_client:
+with webshipperv2.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.UserGroupApi(api_client)
-    user_groups_post_request = openapi_client.UserGroupsPostRequest() # UserGroupsPostRequest | 
+    api_instance = webshipperv2.UserGroupApi(api_client)
+    user_groups_post_request = webshipperv2.UserGroupsPostRequest() # UserGroupsPostRequest | 
 
     try:
         # Create a User Group

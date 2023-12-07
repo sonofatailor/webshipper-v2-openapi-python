@@ -15,7 +15,7 @@
 import unittest
 import datetime
 
-from openapi_client.models.edis_get200_response_data_inner import EdisGet200ResponseDataInner
+from webshipperv2.models.edis_get200_response_data_inner import EdisGet200ResponseDataInner
 
 class TestEdisGet200ResponseDataInner(unittest.TestCase):
     """EdisGet200ResponseDataInner unit test stubs"""
@@ -36,7 +36,7 @@ class TestEdisGet200ResponseDataInner(unittest.TestCase):
         model = EdisGet200ResponseDataInner()
         if include_optional:
             return EdisGet200ResponseDataInner(
-                attributes = openapi_client.models.edis.edis(
+                attributes = webshipperv2.models.edis.edis(
                     status = 56, 
                     data = '', 
                     encoding = 56, 

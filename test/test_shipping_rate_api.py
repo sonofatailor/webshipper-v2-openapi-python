@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.api.shipping_rate_api import ShippingRateApi
+from webshipperv2.api.shipping_rate_api import ShippingRateApi
 
 
 class TestShippingRateApi(unittest.TestCase):

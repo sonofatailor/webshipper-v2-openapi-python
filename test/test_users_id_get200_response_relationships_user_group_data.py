@@ -15,7 +15,7 @@
 import unittest
 import datetime
 
-from openapi_client.models.users_id_get200_response_relationships_user_group_data import UsersIdGet200ResponseRelationshipsUserGroupData
+from webshipperv2.models.users_id_get200_response_relationships_user_group_data import UsersIdGet200ResponseRelationshipsUserGroupData
 
 class TestUsersIdGet200ResponseRelationshipsUserGroupData(unittest.TestCase):
     """UsersIdGet200ResponseRelationshipsUserGroupData unit test stubs"""

@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.api.end_of_day_report_api import EndOfDayReportApi
+from webshipperv2.api.end_of_day_report_api import EndOfDayReportApi
 
 
 class TestEndOfDayReportApi(unittest.TestCase):

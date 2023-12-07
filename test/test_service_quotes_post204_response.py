@@ -15,7 +15,7 @@
 import unittest
 import datetime
 
-from openapi_client.models.service_quotes_post204_response import ServiceQuotesPost204Response
+from webshipperv2.models.service_quotes_post204_response import ServiceQuotesPost204Response
 
 class TestServiceQuotesPost204Response(unittest.TestCase):
     """ServiceQuotesPost204Response unit test stubs"""
@@ -36,10 +36,10 @@ class TestServiceQuotesPost204Response(unittest.TestCase):
         model = ServiceQuotesPost204Response()
         if include_optional:
             return ServiceQuotesPost204Response(
-                data = openapi_client.models._service_quotes_post_204_response_data._service_quotes_post_204_response_data(
+                data = webshipperv2.models._service_quotes_post_204_response_data._service_quotes_post_204_response_data(
                     id = 56, 
                     type = 'service_quotes', 
-                    attributes = openapi_client.models.service_quotes.service_quotes(
+                    attributes = webshipperv2.models.service_quotes.service_quotes(
                         success = True, 
                         carrier_id = 56, 
                         service_code = '', 
@@ -48,8 +48,8 @@ class TestServiceQuotesPost204Response(unittest.TestCase):
                         packages = [
                             ''
                             ], 
-                        delivery_address = openapi_client.models.delivery_address.delivery_address(), 
-                        sender_address = openapi_client.models.sender_address.sender_address(), 
+                        delivery_address = webshipperv2.models.delivery_address.delivery_address(), 
+                        sender_address = webshipperv2.models.sender_address.sender_address(), 
                         services = [
                             ''
                             ], 
@@ -61,7 +61,7 @@ class TestServiceQuotesPost204Response(unittest.TestCase):
                         timeout = '', ), ),
                 relationships = None,
                 included = [
-                    openapi_client.models._brands__id__get_200_response_included_inner._brands__id__get_200_response_included_inner(
+                    webshipperv2.models._brands__id__get_200_response_included_inner._brands__id__get_200_response_included_inner(
                         type = 'orders', 
                         id = 56, 
                         data = null, )

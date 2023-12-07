@@ -15,7 +15,7 @@
 import unittest
 import datetime
 
-from openapi_client.models.local_attrs_id_get200_response_relationships_order_channel_type import LocalAttrsIdGet200ResponseRelationshipsOrderChannelType
+from webshipperv2.models.local_attrs_id_get200_response_relationships_order_channel_type import LocalAttrsIdGet200ResponseRelationshipsOrderChannelType
 
 class TestLocalAttrsIdGet200ResponseRelationshipsOrderChannelType(unittest.TestCase):
     """LocalAttrsIdGet200ResponseRelationshipsOrderChannelType unit test stubs"""
@@ -36,7 +36,7 @@ class TestLocalAttrsIdGet200ResponseRelationshipsOrderChannelType(unittest.TestC
         model = LocalAttrsIdGet200ResponseRelationshipsOrderChannelType()
         if include_optional:
             return LocalAttrsIdGet200ResponseRelationshipsOrderChannelType(
-                data = openapi_client.models._local_attrs__id__get_200_response_relationships_order_channel_type_data._local_attrs__id__get_200_response_relationships_order_channel_type_data(
+                data = webshipperv2.models._local_attrs__id__get_200_response_relationships_order_channel_type_data._local_attrs__id__get_200_response_relationships_order_channel_type_data(
                     id = '', 
                     type = 'order_channel_types', )
             )

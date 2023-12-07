@@ -15,7 +15,7 @@
 import unittest
 import datetime
 
-from openapi_client.models.return_refund_methods_id_get200_response_included_inner import ReturnRefundMethodsIdGet200ResponseIncludedInner
+from webshipperv2.models.return_refund_methods_id_get200_response_included_inner import ReturnRefundMethodsIdGet200ResponseIncludedInner
 
 class TestReturnRefundMethodsIdGet200ResponseIncludedInner(unittest.TestCase):
     """ReturnRefundMethodsIdGet200ResponseIncludedInner unit test stubs"""

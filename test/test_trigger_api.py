@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.api.trigger_api import TriggerApi
+from webshipperv2.api.trigger_api import TriggerApi
 
 
 class TestTriggerApi(unittest.TestCase):

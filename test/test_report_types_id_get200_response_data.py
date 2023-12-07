@@ -15,7 +15,7 @@
 import unittest
 import datetime
 
-from openapi_client.models.report_types_id_get200_response_data import ReportTypesIdGet200ResponseData
+from webshipperv2.models.report_types_id_get200_response_data import ReportTypesIdGet200ResponseData
 
 class TestReportTypesIdGet200ResponseData(unittest.TestCase):
     """ReportTypesIdGet200ResponseData unit test stubs"""
@@ -38,7 +38,7 @@ class TestReportTypesIdGet200ResponseData(unittest.TestCase):
             return ReportTypesIdGet200ResponseData(
                 id = 56,
                 type = 'report_types',
-                attributes = openapi_client.models.report_types.report_types(
+                attributes = webshipperv2.models.report_types.report_types(
                     name = '', 
                     columns = [
                         ''

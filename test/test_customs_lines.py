@@ -15,7 +15,7 @@
 import unittest
 import datetime
 
-from openapi_client.models.customs_lines import CustomsLines
+from webshipperv2.models.customs_lines import CustomsLines
 
 class TestCustomsLines(unittest.TestCase):
     """CustomsLines unit test stubs"""

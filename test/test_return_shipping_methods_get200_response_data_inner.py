@@ -15,7 +15,7 @@
 import unittest
 import datetime
 
-from openapi_client.models.return_shipping_methods_get200_response_data_inner import ReturnShippingMethodsGet200ResponseDataInner
+from webshipperv2.models.return_shipping_methods_get200_response_data_inner import ReturnShippingMethodsGet200ResponseDataInner
 
 class TestReturnShippingMethodsGet200ResponseDataInner(unittest.TestCase):
     """ReturnShippingMethodsGet200ResponseDataInner unit test stubs"""
@@ -36,7 +36,7 @@ class TestReturnShippingMethodsGet200ResponseDataInner(unittest.TestCase):
         model = ReturnShippingMethodsGet200ResponseDataInner()
         if include_optional:
             return ReturnShippingMethodsGet200ResponseDataInner(
-                attributes = openapi_client.models.return_shipping_methods.return_shipping_methods(
+                attributes = webshipperv2.models.return_shipping_methods.return_shipping_methods(
                     name = '', )
             )
         else:

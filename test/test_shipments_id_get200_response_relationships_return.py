@@ -15,7 +15,7 @@
 import unittest
 import datetime
 
-from openapi_client.models.shipments_id_get200_response_relationships_return import ShipmentsIdGet200ResponseRelationshipsReturn
+from webshipperv2.models.shipments_id_get200_response_relationships_return import ShipmentsIdGet200ResponseRelationshipsReturn
 
 class TestShipmentsIdGet200ResponseRelationshipsReturn(unittest.TestCase):
     """ShipmentsIdGet200ResponseRelationshipsReturn unit test stubs"""
@@ -36,7 +36,7 @@ class TestShipmentsIdGet200ResponseRelationshipsReturn(unittest.TestCase):
         model = ShipmentsIdGet200ResponseRelationshipsReturn()
         if include_optional:
             return ShipmentsIdGet200ResponseRelationshipsReturn(
-                data = openapi_client.models._shipments__id__get_200_response_relationships_return_data._shipments__id__get_200_response_relationships_return_data(
+                data = webshipperv2.models._shipments__id__get_200_response_relationships_return_data._shipments__id__get_200_response_relationships_return_data(
                     id = '', 
                     type = 'returns', )
             )

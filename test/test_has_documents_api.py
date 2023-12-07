@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.api.has_documents_api import HasDocumentsApi
+from webshipperv2.api.has_documents_api import HasDocumentsApi
 
 
 class TestHasDocumentsApi(unittest.TestCase):

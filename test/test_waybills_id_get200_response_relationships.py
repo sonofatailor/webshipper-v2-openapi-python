@@ -15,7 +15,7 @@
 import unittest
 import datetime
 
-from openapi_client.models.waybills_id_get200_response_relationships import WaybillsIdGet200ResponseRelationships
+from webshipperv2.models.waybills_id_get200_response_relationships import WaybillsIdGet200ResponseRelationships
 
 class TestWaybillsIdGet200ResponseRelationships(unittest.TestCase):
     """WaybillsIdGet200ResponseRelationships unit test stubs"""
@@ -36,24 +36,24 @@ class TestWaybillsIdGet200ResponseRelationships(unittest.TestCase):
         model = WaybillsIdGet200ResponseRelationships()
         if include_optional:
             return WaybillsIdGet200ResponseRelationships(
-                carrier = openapi_client.models._barcode_ranges__id__get_200_response_relationships_carrier._barcode_ranges__id__get_200_response_relationships_carrier(
-                    data = openapi_client.models._barcode_ranges__id__get_200_response_relationships_carrier_data._barcode_ranges__id__get_200_response_relationships_carrier_data(
+                carrier = webshipperv2.models._barcode_ranges__id__get_200_response_relationships_carrier._barcode_ranges__id__get_200_response_relationships_carrier(
+                    data = webshipperv2.models._barcode_ranges__id__get_200_response_relationships_carrier_data._barcode_ranges__id__get_200_response_relationships_carrier_data(
                         id = '', 
                         type = 'carriers', ), ),
-                sold_to_address = openapi_client.models._carriers__id__get_200_response_relationships_sender_address._carriers__id__get_200_response_relationships_sender_address(
-                    data = openapi_client.models._carriers__id__get_200_response_relationships_sender_address_data._carriers__id__get_200_response_relationships_sender_address_data(
+                sold_to_address = webshipperv2.models._carriers__id__get_200_response_relationships_sender_address._carriers__id__get_200_response_relationships_sender_address(
+                    data = webshipperv2.models._carriers__id__get_200_response_relationships_sender_address_data._carriers__id__get_200_response_relationships_sender_address_data(
                         id = '', 
                         type = 'shipping_addresses', ), ),
-                sender_address = openapi_client.models._carriers__id__get_200_response_relationships_sender_address._carriers__id__get_200_response_relationships_sender_address(
-                    data = openapi_client.models._carriers__id__get_200_response_relationships_sender_address_data._carriers__id__get_200_response_relationships_sender_address_data(
+                sender_address = webshipperv2.models._carriers__id__get_200_response_relationships_sender_address._carriers__id__get_200_response_relationships_sender_address(
+                    data = webshipperv2.models._carriers__id__get_200_response_relationships_sender_address_data._carriers__id__get_200_response_relationships_sender_address_data(
                         id = '', 
                         type = 'shipping_addresses', ), ),
-                document_template = openapi_client.models._shipments__id__get_200_response_relationships_document_template._shipments__id__get_200_response_relationships_document_template(
-                    data = openapi_client.models._shipments__id__get_200_response_relationships_document_template_data._shipments__id__get_200_response_relationships_document_template_data(
+                document_template = webshipperv2.models._shipments__id__get_200_response_relationships_document_template._shipments__id__get_200_response_relationships_document_template(
+                    data = webshipperv2.models._shipments__id__get_200_response_relationships_document_template_data._shipments__id__get_200_response_relationships_document_template_data(
                         id = '', 
                         type = 'document_templates', ), ),
-                printer_client = openapi_client.models._orders__id__get_200_response_relationships_printer_client._orders__id__get_200_response_relationships_printer_client(
-                    data = openapi_client.models._orders__id__get_200_response_relationships_printer_client_data._orders__id__get_200_response_relationships_printer_client_data(
+                printer_client = webshipperv2.models._orders__id__get_200_response_relationships_printer_client._orders__id__get_200_response_relationships_printer_client(
+                    data = webshipperv2.models._orders__id__get_200_response_relationships_printer_client_data._orders__id__get_200_response_relationships_printer_client_data(
                         id = '', 
                         type = 'printer_clients', ), )
             )

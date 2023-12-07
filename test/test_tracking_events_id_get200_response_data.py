@@ -15,7 +15,7 @@
 import unittest
 import datetime
 
-from openapi_client.models.tracking_events_id_get200_response_data import TrackingEventsIdGet200ResponseData
+from webshipperv2.models.tracking_events_id_get200_response_data import TrackingEventsIdGet200ResponseData
 
 class TestTrackingEventsIdGet200ResponseData(unittest.TestCase):
     """TrackingEventsIdGet200ResponseData unit test stubs"""
@@ -38,7 +38,7 @@ class TestTrackingEventsIdGet200ResponseData(unittest.TestCase):
             return TrackingEventsIdGet200ResponseData(
                 id = 56,
                 type = 'tracking_events',
-                attributes = openapi_client.models.tracking_events.tracking_events(
+                attributes = webshipperv2.models.tracking_events.tracking_events(
                     status = '', 
                     time = '', 
                     description = '', 

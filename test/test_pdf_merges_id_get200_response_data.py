@@ -15,7 +15,7 @@
 import unittest
 import datetime
 
-from openapi_client.models.pdf_merges_id_get200_response_data import PdfMergesIdGet200ResponseData
+from webshipperv2.models.pdf_merges_id_get200_response_data import PdfMergesIdGet200ResponseData
 
 class TestPdfMergesIdGet200ResponseData(unittest.TestCase):
     """PdfMergesIdGet200ResponseData unit test stubs"""
@@ -38,7 +38,7 @@ class TestPdfMergesIdGet200ResponseData(unittest.TestCase):
             return PdfMergesIdGet200ResponseData(
                 id = 56,
                 type = 'pdf_merges',
-                attributes = openapi_client.models.pdf_merges.pdf_merges(
+                attributes = webshipperv2.models.pdf_merges.pdf_merges(
                     include_labels = True, 
                     include_docs = True, 
                     include_slips = True, 

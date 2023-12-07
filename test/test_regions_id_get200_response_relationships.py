@@ -15,7 +15,7 @@
 import unittest
 import datetime
 
-from openapi_client.models.regions_id_get200_response_relationships import RegionsIdGet200ResponseRelationships
+from webshipperv2.models.regions_id_get200_response_relationships import RegionsIdGet200ResponseRelationships
 
 class TestRegionsIdGet200ResponseRelationships(unittest.TestCase):
     """RegionsIdGet200ResponseRelationships unit test stubs"""
@@ -36,8 +36,8 @@ class TestRegionsIdGet200ResponseRelationships(unittest.TestCase):
         model = RegionsIdGet200ResponseRelationships()
         if include_optional:
             return RegionsIdGet200ResponseRelationships(
-                shipping_rate = openapi_client.models._orders__id__get_200_response_relationships_shipping_rate._orders__id__get_200_response_relationships_shipping_rate(
-                    data = openapi_client.models._orders__id__get_200_response_relationships_shipping_rate_data._orders__id__get_200_response_relationships_shipping_rate_data(
+                shipping_rate = webshipperv2.models._orders__id__get_200_response_relationships_shipping_rate._orders__id__get_200_response_relationships_shipping_rate(
+                    data = webshipperv2.models._orders__id__get_200_response_relationships_shipping_rate_data._orders__id__get_200_response_relationships_shipping_rate_data(
                         id = '', 
                         type = 'shipping_rates', ), )
             )

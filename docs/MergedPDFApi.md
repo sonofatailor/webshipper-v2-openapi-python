@@ -1,4 +1,4 @@
-# openapi_client.MergedPDFApi
+# webshipperv2.MergedPDFApi
 
 All URIs are relative to *https://.api.webshipper.io/v2*
 
@@ -19,14 +19,14 @@ Show a single Merged PDF
 ```python
 import time
 import os
-import openapi_client
-from openapi_client.models.pdf_merges_id_get200_response import PdfMergesIdGet200Response
-from openapi_client.rest import ApiException
+import webshipperv2
+from webshipperv2.models.pdf_merges_id_get200_response import PdfMergesIdGet200Response
+from webshipperv2.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to https://.api.webshipper.io/v2
 # See configuration.py for a list of all supported configuration parameters.
-configuration = openapi_client.Configuration(
+configuration = webshipperv2.Configuration(
     host = "https://.api.webshipper.io/v2"
 )
 
@@ -36,14 +36,14 @@ configuration = openapi_client.Configuration(
 # satisfies your auth use case.
 
 # Configure Bearer authorization: BearerAuth
-configuration = openapi_client.Configuration(
+configuration = webshipperv2.Configuration(
     access_token = os.environ["BEARER_TOKEN"]
 )
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient(configuration) as api_client:
+with webshipperv2.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.MergedPDFApi(api_client)
+    api_instance = webshipperv2.MergedPDFApi(api_client)
     id = 56 # int | 
 
     try:
@@ -94,15 +94,15 @@ Create a Merged PDF
 ```python
 import time
 import os
-import openapi_client
-from openapi_client.models.pdf_merges_id_get200_response import PdfMergesIdGet200Response
-from openapi_client.models.pdf_merges_post_request import PdfMergesPostRequest
-from openapi_client.rest import ApiException
+import webshipperv2
+from webshipperv2.models.pdf_merges_id_get200_response import PdfMergesIdGet200Response
+from webshipperv2.models.pdf_merges_post_request import PdfMergesPostRequest
+from webshipperv2.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to https://.api.webshipper.io/v2
 # See configuration.py for a list of all supported configuration parameters.
-configuration = openapi_client.Configuration(
+configuration = webshipperv2.Configuration(
     host = "https://.api.webshipper.io/v2"
 )
 
@@ -112,15 +112,15 @@ configuration = openapi_client.Configuration(
 # satisfies your auth use case.
 
 # Configure Bearer authorization: BearerAuth
-configuration = openapi_client.Configuration(
+configuration = webshipperv2.Configuration(
     access_token = os.environ["BEARER_TOKEN"]
 )
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient(configuration) as api_client:
+with webshipperv2.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.MergedPDFApi(api_client)
-    pdf_merges_post_request = openapi_client.PdfMergesPostRequest() # PdfMergesPostRequest | 
+    api_instance = webshipperv2.MergedPDFApi(api_client)
+    pdf_merges_post_request = webshipperv2.PdfMergesPostRequest() # PdfMergesPostRequest | 
 
     try:
         # Create a Merged PDF

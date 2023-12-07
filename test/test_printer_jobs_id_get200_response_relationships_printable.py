@@ -15,7 +15,7 @@
 import unittest
 import datetime
 
-from openapi_client.models.printer_jobs_id_get200_response_relationships_printable import PrinterJobsIdGet200ResponseRelationshipsPrintable
+from webshipperv2.models.printer_jobs_id_get200_response_relationships_printable import PrinterJobsIdGet200ResponseRelationshipsPrintable
 
 class TestPrinterJobsIdGet200ResponseRelationshipsPrintable(unittest.TestCase):
     """PrinterJobsIdGet200ResponseRelationshipsPrintable unit test stubs"""
@@ -36,7 +36,7 @@ class TestPrinterJobsIdGet200ResponseRelationshipsPrintable(unittest.TestCase):
         model = PrinterJobsIdGet200ResponseRelationshipsPrintable()
         if include_optional:
             return PrinterJobsIdGet200ResponseRelationshipsPrintable(
-                data = openapi_client.models._printer_jobs__id__get_200_response_relationships_printable_data._printer_jobs__id__get_200_response_relationships_printable_data(
+                data = webshipperv2.models._printer_jobs__id__get_200_response_relationships_printable_data._printer_jobs__id__get_200_response_relationships_printable_data(
                     id = '', 
                     type = 'printables', )
             )

@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.api.drop_point_locator_api import DropPointLocatorApi
+from webshipperv2.api.drop_point_locator_api import DropPointLocatorApi
 
 
 class TestDropPointLocatorApi(unittest.TestCase):

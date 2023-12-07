@@ -15,7 +15,7 @@
 import unittest
 import datetime
 
-from openapi_client.models.oauth_applications import OauthApplications
+from webshipperv2.models.oauth_applications import OauthApplications
 
 class TestOauthApplications(unittest.TestCase):
     """OauthApplications unit test stubs"""

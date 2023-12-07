@@ -15,7 +15,7 @@
 import unittest
 import datetime
 
-from openapi_client.models.return_portals_id_patch_request import ReturnPortalsIdPatchRequest
+from webshipperv2.models.return_portals_id_patch_request import ReturnPortalsIdPatchRequest
 
 class TestReturnPortalsIdPatchRequest(unittest.TestCase):
     """ReturnPortalsIdPatchRequest unit test stubs"""
@@ -36,10 +36,10 @@ class TestReturnPortalsIdPatchRequest(unittest.TestCase):
         model = ReturnPortalsIdPatchRequest()
         if include_optional:
             return ReturnPortalsIdPatchRequest(
-                data = openapi_client.models._return_portals__id__get_200_response_data._return_portals__id__get_200_response_data(
+                data = webshipperv2.models._return_portals__id__get_200_response_data._return_portals__id__get_200_response_data(
                     id = 56, 
                     type = 'return_portals', 
-                    attributes = openapi_client.models.return_portals.return_portals(
+                    attributes = webshipperv2.models.return_portals.return_portals(
                         name = '', 
                         custom_style = '', 
                         shipping_methods = '', 
@@ -55,15 +55,15 @@ class TestReturnPortalsIdPatchRequest(unittest.TestCase):
                         optional_return_cause = True, 
                         new_mail_template = '', 
                         new_confirmation_mail_template = '', ), ),
-                relationships = openapi_client.models._return_portals__id__get_200_response_relationships._return_portals__id__get_200_response_relationships(
-                    order_channel = openapi_client.models._csv_mappings__id__get_200_response_relationships_order_channel._csv_mappings__id__get_200_response_relationships_order_channel(
-                        data = openapi_client.models._csv_mappings__id__get_200_response_relationships_order_channel_data._csv_mappings__id__get_200_response_relationships_order_channel_data(
+                relationships = webshipperv2.models._return_portals__id__get_200_response_relationships._return_portals__id__get_200_response_relationships(
+                    order_channel = webshipperv2.models._csv_mappings__id__get_200_response_relationships_order_channel._csv_mappings__id__get_200_response_relationships_order_channel(
+                        data = webshipperv2.models._csv_mappings__id__get_200_response_relationships_order_channel_data._csv_mappings__id__get_200_response_relationships_order_channel_data(
                             id = '', 
                             type = 'order_channels', ), ), 
-                    slip_template = openapi_client.models._order_channels__id__get_200_response_relationships_slip_template._order_channels__id__get_200_response_relationships_slip_template(), 
-                    mail_template = openapi_client.models._return_portals__id__get_200_response_relationships_mail_template._return_portals__id__get_200_response_relationships_mail_template(), 
-                    confirmation_mail_template = openapi_client.models._return_portals__id__get_200_response_relationships_mail_template._return_portals__id__get_200_response_relationships_mail_template(), 
-                    return_address = openapi_client.models._carriers__id__get_200_response_relationships_sender_address._carriers__id__get_200_response_relationships_sender_address(), )
+                    slip_template = webshipperv2.models._order_channels__id__get_200_response_relationships_slip_template._order_channels__id__get_200_response_relationships_slip_template(), 
+                    mail_template = webshipperv2.models._return_portals__id__get_200_response_relationships_mail_template._return_portals__id__get_200_response_relationships_mail_template(), 
+                    confirmation_mail_template = webshipperv2.models._return_portals__id__get_200_response_relationships_mail_template._return_portals__id__get_200_response_relationships_mail_template(), 
+                    return_address = webshipperv2.models._carriers__id__get_200_response_relationships_sender_address._carriers__id__get_200_response_relationships_sender_address(), )
             )
         else:
             return ReturnPortalsIdPatchRequest(

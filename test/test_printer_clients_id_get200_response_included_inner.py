@@ -15,7 +15,7 @@
 import unittest
 import datetime
 
-from openapi_client.models.printer_clients_id_get200_response_included_inner import PrinterClientsIdGet200ResponseIncludedInner
+from webshipperv2.models.printer_clients_id_get200_response_included_inner import PrinterClientsIdGet200ResponseIncludedInner
 
 class TestPrinterClientsIdGet200ResponseIncludedInner(unittest.TestCase):
     """PrinterClientsIdGet200ResponseIncludedInner unit test stubs"""

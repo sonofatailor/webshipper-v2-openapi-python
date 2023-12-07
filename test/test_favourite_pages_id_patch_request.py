@@ -15,7 +15,7 @@
 import unittest
 import datetime
 
-from openapi_client.models.favourite_pages_id_patch_request import FavouritePagesIdPatchRequest
+from webshipperv2.models.favourite_pages_id_patch_request import FavouritePagesIdPatchRequest
 
 class TestFavouritePagesIdPatchRequest(unittest.TestCase):
     """FavouritePagesIdPatchRequest unit test stubs"""
@@ -36,19 +36,19 @@ class TestFavouritePagesIdPatchRequest(unittest.TestCase):
         model = FavouritePagesIdPatchRequest()
         if include_optional:
             return FavouritePagesIdPatchRequest(
-                data = openapi_client.models._favourite_pages__id__get_200_response_data._favourite_pages__id__get_200_response_data(
+                data = webshipperv2.models._favourite_pages__id__get_200_response_data._favourite_pages__id__get_200_response_data(
                     id = 56, 
                     type = 'favourite_pages', 
-                    attributes = openapi_client.models.favourite_pages.favourite_pages(
+                    attributes = webshipperv2.models.favourite_pages.favourite_pages(
                         path = '', 
                         name = '', 
                         user_id = 56, ), ),
-                relationships = openapi_client.models._favourite_pages__id__get_200_response_relationships._favourite_pages__id__get_200_response_relationships(
-                    user = openapi_client.models._carrier_accesses__id__get_200_response_relationships_user._carrier_accesses__id__get_200_response_relationships_user(
-                        data = openapi_client.models._carrier_accesses__id__get_200_response_relationships_user_data._carrier_accesses__id__get_200_response_relationships_user_data(
+                relationships = webshipperv2.models._favourite_pages__id__get_200_response_relationships._favourite_pages__id__get_200_response_relationships(
+                    user = webshipperv2.models._carrier_accesses__id__get_200_response_relationships_user._carrier_accesses__id__get_200_response_relationships_user(
+                        data = webshipperv2.models._carrier_accesses__id__get_200_response_relationships_user_data._carrier_accesses__id__get_200_response_relationships_user_data(
                             id = '', 
                             type = 'users', ), ), 
-                    hot_key = openapi_client.models._favourite_pages__id__get_200_response_relationships_hot_key._favourite_pages__id__get_200_response_relationships_hot_key(), )
+                    hot_key = webshipperv2.models._favourite_pages__id__get_200_response_relationships_hot_key._favourite_pages__id__get_200_response_relationships_hot_key(), )
             )
         else:
             return FavouritePagesIdPatchRequest(

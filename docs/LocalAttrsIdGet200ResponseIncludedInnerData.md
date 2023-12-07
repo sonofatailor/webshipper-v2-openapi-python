@@ -22,7 +22,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```python
-from openapi_client.models.local_attrs_id_get200_response_included_inner_data import LocalAttrsIdGet200ResponseIncludedInnerData
+from webshipperv2.models.local_attrs_id_get200_response_included_inner_data import LocalAttrsIdGet200ResponseIncludedInnerData
 
 # TODO update the JSON string below
 json = "{}"

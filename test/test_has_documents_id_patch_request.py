@@ -15,7 +15,7 @@
 import unittest
 import datetime
 
-from openapi_client.models.has_documents_id_patch_request import HasDocumentsIdPatchRequest
+from webshipperv2.models.has_documents_id_patch_request import HasDocumentsIdPatchRequest
 
 class TestHasDocumentsIdPatchRequest(unittest.TestCase):
     """HasDocumentsIdPatchRequest unit test stubs"""
@@ -36,10 +36,10 @@ class TestHasDocumentsIdPatchRequest(unittest.TestCase):
         model = HasDocumentsIdPatchRequest()
         if include_optional:
             return HasDocumentsIdPatchRequest(
-                data = openapi_client.models._has_documents__id__get_200_response_data._has_documents__id__get_200_response_data(
+                data = webshipperv2.models._has_documents__id__get_200_response_data._has_documents__id__get_200_response_data(
                     id = 56, 
                     type = 'has_documents', 
-                    attributes = openapi_client.models.attributes.attributes(), ),
+                    attributes = webshipperv2.models.attributes.attributes(), ),
                 relationships = None
             )
         else:

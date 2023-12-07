@@ -15,7 +15,7 @@
 import unittest
 import datetime
 
-from openapi_client.models.additional_attributes_id_get200_response_included_inner_data import AdditionalAttributesIdGet200ResponseIncludedInnerData
+from webshipperv2.models.additional_attributes_id_get200_response_included_inner_data import AdditionalAttributesIdGet200ResponseIncludedInnerData
 
 class TestAdditionalAttributesIdGet200ResponseIncludedInnerData(unittest.TestCase):
     """AdditionalAttributesIdGet200ResponseIncludedInnerData unit test stubs"""
@@ -40,7 +40,7 @@ class TestAdditionalAttributesIdGet200ResponseIncludedInnerData(unittest.TestCas
                 status = 56,
                 ext_ref = '',
                 visible_ref = '',
-                drop_point = openapi_client.models.drop_points.drop_points(
+                drop_point = webshipperv2.models.drop_points.drop_points(
                     drop_point_id = '', 
                     name = '', 
                     address_1 = '', 
@@ -57,9 +57,9 @@ class TestAdditionalAttributesIdGet200ResponseIncludedInnerData(unittest.TestCas
                     created_at = '', 
                     updated_at = '', 
                     opening_hours = '', ),
-                original_shipping = openapi_client.models.original_shipping.original_shipping(),
+                original_shipping = webshipperv2.models.original_shipping.original_shipping(),
                 order_lines = [
-                    openapi_client.models.order_lines.order_lines(
+                    webshipperv2.models.order_lines.order_lines(
                         sku = '', 
                         description = '', 
                         quantity = 56, 
@@ -80,9 +80,9 @@ class TestAdditionalAttributesIdGet200ResponseIncludedInnerData(unittest.TestCas
                         created_at = '', 
                         updated_at = '', 
                         is_virtual = True, 
-                        dangerous_goods_details = openapi_client.models.dangerous_goods_details.dangerous_goods_details(), )
+                        dangerous_goods_details = webshipperv2.models.dangerous_goods_details.dangerous_goods_details(), )
                     ],
-                delivery_address = openapi_client.models.shipping_addresses.shipping_addresses(
+                delivery_address = webshipperv2.models.shipping_addresses.shipping_addresses(
                     att_contact = '', 
                     company_name = '', 
                     address_1 = '', 
@@ -104,7 +104,7 @@ class TestAdditionalAttributesIdGet200ResponseIncludedInnerData(unittest.TestCas
                     duns = '', 
                     personal_customs_no = '', 
                     company_customs_numbers = '', ),
-                sender_address = openapi_client.models.shipping_addresses.shipping_addresses(
+                sender_address = webshipperv2.models.shipping_addresses.shipping_addresses(
                     att_contact = '', 
                     company_name = '', 
                     address_1 = '', 
@@ -126,7 +126,7 @@ class TestAdditionalAttributesIdGet200ResponseIncludedInnerData(unittest.TestCas
                     duns = '', 
                     personal_customs_no = '', 
                     company_customs_numbers = '', ),
-                billing_address = openapi_client.models.shipping_addresses.shipping_addresses(
+                billing_address = webshipperv2.models.shipping_addresses.shipping_addresses(
                     att_contact = '', 
                     company_name = '', 
                     address_1 = '', 
@@ -148,7 +148,7 @@ class TestAdditionalAttributesIdGet200ResponseIncludedInnerData(unittest.TestCas
                     duns = '', 
                     personal_customs_no = '', 
                     company_customs_numbers = '', ),
-                sold_from_address = openapi_client.models.shipping_addresses.shipping_addresses(
+                sold_from_address = webshipperv2.models.shipping_addresses.shipping_addresses(
                     att_contact = '', 
                     company_name = '', 
                     address_1 = '', 
@@ -173,7 +173,7 @@ class TestAdditionalAttributesIdGet200ResponseIncludedInnerData(unittest.TestCas
                 currency = '',
                 internal_comment = '',
                 external_comment = '',
-                error_message = openapi_client.models.error_message.error_message(),
+                error_message = webshipperv2.models.error_message.error_message(),
                 slip = '',
                 var_base64 = '',
                 updated_at = '',
@@ -207,7 +207,7 @@ class TestAdditionalAttributesIdGet200ResponseIncludedInnerData(unittest.TestCas
                 weight = 1.337,
                 weight_unit = '',
                 is_virtual = True,
-                dangerous_goods_details = openapi_client.models.dangerous_goods_details.dangerous_goods_details()
+                dangerous_goods_details = webshipperv2.models.dangerous_goods_details.dangerous_goods_details()
             )
         else:
             return AdditionalAttributesIdGet200ResponseIncludedInnerData(

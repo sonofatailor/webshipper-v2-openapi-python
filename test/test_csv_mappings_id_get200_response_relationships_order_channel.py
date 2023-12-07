@@ -15,7 +15,7 @@
 import unittest
 import datetime
 
-from openapi_client.models.csv_mappings_id_get200_response_relationships_order_channel import CsvMappingsIdGet200ResponseRelationshipsOrderChannel
+from webshipperv2.models.csv_mappings_id_get200_response_relationships_order_channel import CsvMappingsIdGet200ResponseRelationshipsOrderChannel
 
 class TestCsvMappingsIdGet200ResponseRelationshipsOrderChannel(unittest.TestCase):
     """CsvMappingsIdGet200ResponseRelationshipsOrderChannel unit test stubs"""
@@ -36,7 +36,7 @@ class TestCsvMappingsIdGet200ResponseRelationshipsOrderChannel(unittest.TestCase
         model = CsvMappingsIdGet200ResponseRelationshipsOrderChannel()
         if include_optional:
             return CsvMappingsIdGet200ResponseRelationshipsOrderChannel(
-                data = openapi_client.models._csv_mappings__id__get_200_response_relationships_order_channel_data._csv_mappings__id__get_200_response_relationships_order_channel_data(
+                data = webshipperv2.models._csv_mappings__id__get_200_response_relationships_order_channel_data._csv_mappings__id__get_200_response_relationships_order_channel_data(
                     id = '', 
                     type = 'order_channels', )
             )

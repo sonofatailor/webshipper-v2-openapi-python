@@ -15,7 +15,7 @@
 import unittest
 import datetime
 
-from openapi_client.models.automations_dry_runs_id_get200_response import AutomationsDryRunsIdGet200Response
+from webshipperv2.models.automations_dry_runs_id_get200_response import AutomationsDryRunsIdGet200Response
 
 class TestAutomationsDryRunsIdGet200Response(unittest.TestCase):
     """AutomationsDryRunsIdGet200Response unit test stubs"""
@@ -36,10 +36,10 @@ class TestAutomationsDryRunsIdGet200Response(unittest.TestCase):
         model = AutomationsDryRunsIdGet200Response()
         if include_optional:
             return AutomationsDryRunsIdGet200Response(
-                data = openapi_client.models._automations_dry_runs__id__get_200_response_data._automations_dry_runs__id__get_200_response_data(
+                data = webshipperv2.models._automations_dry_runs__id__get_200_response_data._automations_dry_runs__id__get_200_response_data(
                     id = 56, 
                     type = 'automations_dry_runs', 
-                    attributes = openapi_client.models.automations_dry_runs.automations_dry_runs(
+                    attributes = webshipperv2.models.automations_dry_runs.automations_dry_runs(
                         dry_run = '', 
                         automation = '', 
                         shipment_id = '', 
@@ -49,7 +49,7 @@ class TestAutomationsDryRunsIdGet200Response(unittest.TestCase):
                         element_name = '', ), ),
                 relationships = None,
                 included = [
-                    openapi_client.models._brands__id__get_200_response_included_inner._brands__id__get_200_response_included_inner(
+                    webshipperv2.models._brands__id__get_200_response_included_inner._brands__id__get_200_response_included_inner(
                         type = 'orders', 
                         id = 56, 
                         data = null, )

@@ -50,7 +50,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```python
-from openapi_client.models.return_shipping_methods_id_get200_response_included_inner_data import ReturnShippingMethodsIdGet200ResponseIncludedInnerData
+from webshipperv2.models.return_shipping_methods_id_get200_response_included_inner_data import ReturnShippingMethodsIdGet200ResponseIncludedInnerData
 
 # TODO update the JSON string below
 json = "{}"

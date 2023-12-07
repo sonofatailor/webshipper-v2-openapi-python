@@ -15,7 +15,7 @@
 import unittest
 import datetime
 
-from openapi_client.models.return_refund_methods_id_get200_response_relationships import ReturnRefundMethodsIdGet200ResponseRelationships
+from webshipperv2.models.return_refund_methods_id_get200_response_relationships import ReturnRefundMethodsIdGet200ResponseRelationships
 
 class TestReturnRefundMethodsIdGet200ResponseRelationships(unittest.TestCase):
     """ReturnRefundMethodsIdGet200ResponseRelationships unit test stubs"""
@@ -36,8 +36,8 @@ class TestReturnRefundMethodsIdGet200ResponseRelationships(unittest.TestCase):
         model = ReturnRefundMethodsIdGet200ResponseRelationships()
         if include_optional:
             return ReturnRefundMethodsIdGet200ResponseRelationships(
-                portal = openapi_client.models._return_refund_methods__id__get_200_response_relationships_portal._return_refund_methods__id__get_200_response_relationships_portal(
-                    data = openapi_client.models._return_refund_methods__id__get_200_response_relationships_portal_data._return_refund_methods__id__get_200_response_relationships_portal_data(
+                portal = webshipperv2.models._return_refund_methods__id__get_200_response_relationships_portal._return_refund_methods__id__get_200_response_relationships_portal(
+                    data = webshipperv2.models._return_refund_methods__id__get_200_response_relationships_portal_data._return_refund_methods__id__get_200_response_relationships_portal_data(
                         id = '', 
                         type = 'return_portals', ), )
             )

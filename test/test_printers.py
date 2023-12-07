@@ -15,7 +15,7 @@
 import unittest
 import datetime
 
-from openapi_client.models.printers import Printers
+from webshipperv2.models.printers import Printers
 
 class TestPrinters(unittest.TestCase):
     """Printers unit test stubs"""

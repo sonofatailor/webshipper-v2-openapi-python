@@ -12,7 +12,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```python
-from openapi_client.models.actions import Actions
+from webshipperv2.models.actions import Actions
 
 # TODO update the JSON string below
 json = "{}"

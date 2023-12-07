@@ -15,7 +15,7 @@
 import unittest
 import datetime
 
-from openapi_client.models.bulk_import_orders_id_get200_response import BulkImportOrdersIdGet200Response
+from webshipperv2.models.bulk_import_orders_id_get200_response import BulkImportOrdersIdGet200Response
 
 class TestBulkImportOrdersIdGet200Response(unittest.TestCase):
     """BulkImportOrdersIdGet200Response unit test stubs"""
@@ -36,10 +36,10 @@ class TestBulkImportOrdersIdGet200Response(unittest.TestCase):
         model = BulkImportOrdersIdGet200Response()
         if include_optional:
             return BulkImportOrdersIdGet200Response(
-                data = openapi_client.models._bulk_import_orders__id__get_200_response_data._bulk_import_orders__id__get_200_response_data(
+                data = webshipperv2.models._bulk_import_orders__id__get_200_response_data._bulk_import_orders__id__get_200_response_data(
                     id = 56, 
                     type = 'bulk_import_orders', 
-                    attributes = openapi_client.models.bulk_import_orders.bulk_import_orders(
+                    attributes = webshipperv2.models.bulk_import_orders.bulk_import_orders(
                         ids = '', 
                         order_channel_id = '', 
                         async = '', 
@@ -51,7 +51,7 @@ class TestBulkImportOrdersIdGet200Response(unittest.TestCase):
                         source = '', ), ),
                 relationships = None,
                 included = [
-                    openapi_client.models._brands__id__get_200_response_included_inner._brands__id__get_200_response_included_inner(
+                    webshipperv2.models._brands__id__get_200_response_included_inner._brands__id__get_200_response_included_inner(
                         type = 'orders', 
                         id = 56, 
                         data = null, )

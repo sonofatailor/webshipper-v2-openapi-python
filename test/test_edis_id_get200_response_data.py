@@ -15,7 +15,7 @@
 import unittest
 import datetime
 
-from openapi_client.models.edis_id_get200_response_data import EdisIdGet200ResponseData
+from webshipperv2.models.edis_id_get200_response_data import EdisIdGet200ResponseData
 
 class TestEdisIdGet200ResponseData(unittest.TestCase):
     """EdisIdGet200ResponseData unit test stubs"""
@@ -38,7 +38,7 @@ class TestEdisIdGet200ResponseData(unittest.TestCase):
             return EdisIdGet200ResponseData(
                 id = 56,
                 type = 'edis',
-                attributes = openapi_client.models.edis.edis(
+                attributes = webshipperv2.models.edis.edis(
                     status = 56, 
                     data = '', 
                     encoding = 56, 

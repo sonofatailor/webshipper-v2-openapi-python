@@ -15,7 +15,7 @@
 import unittest
 import datetime
 
-from openapi_client.models.hot_keys_get200_response import HotKeysGet200Response
+from webshipperv2.models.hot_keys_get200_response import HotKeysGet200Response
 
 class TestHotKeysGet200Response(unittest.TestCase):
     """HotKeysGet200Response unit test stubs"""
@@ -37,8 +37,8 @@ class TestHotKeysGet200Response(unittest.TestCase):
         if include_optional:
             return HotKeysGet200Response(
                 data = [
-                    openapi_client.models._hot_keys_get_200_response_data_inner._hot_keys_get_200_response_data_inner(
-                        attributes = openapi_client.models.hot_keys.hot_keys(
+                    webshipperv2.models._hot_keys_get_200_response_data_inner._hot_keys_get_200_response_data_inner(
+                        attributes = webshipperv2.models.hot_keys.hot_keys(
                             hot_key = '', 
                             path = '', 
                             favourite_page_id = 56, 

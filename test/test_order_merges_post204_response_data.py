@@ -15,7 +15,7 @@
 import unittest
 import datetime
 
-from openapi_client.models.order_merges_post204_response_data import OrderMergesPost204ResponseData
+from webshipperv2.models.order_merges_post204_response_data import OrderMergesPost204ResponseData
 
 class TestOrderMergesPost204ResponseData(unittest.TestCase):
     """OrderMergesPost204ResponseData unit test stubs"""
@@ -38,7 +38,7 @@ class TestOrderMergesPost204ResponseData(unittest.TestCase):
             return OrderMergesPost204ResponseData(
                 id = 56,
                 type = 'order_merges',
-                attributes = openapi_client.models.order_merges.order_merges(
+                attributes = webshipperv2.models.order_merges.order_merges(
                     order_id = True, 
                     orders = [
                         ''

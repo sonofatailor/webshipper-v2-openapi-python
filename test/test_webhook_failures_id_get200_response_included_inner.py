@@ -15,7 +15,7 @@
 import unittest
 import datetime
 
-from openapi_client.models.webhook_failures_id_get200_response_included_inner import WebhookFailuresIdGet200ResponseIncludedInner
+from webshipperv2.models.webhook_failures_id_get200_response_included_inner import WebhookFailuresIdGet200ResponseIncludedInner
 
 class TestWebhookFailuresIdGet200ResponseIncludedInner(unittest.TestCase):
     """WebhookFailuresIdGet200ResponseIncludedInner unit test stubs"""

@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.api.attachment_api import AttachmentApi
+from webshipperv2.api.attachment_api import AttachmentApi
 
 
 class TestAttachmentApi(unittest.TestCase):

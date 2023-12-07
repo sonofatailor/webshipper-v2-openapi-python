@@ -15,7 +15,7 @@
 import unittest
 import datetime
 
-from openapi_client.models.printer_requeue_jobs_id_patch_request import PrinterRequeueJobsIdPatchRequest
+from webshipperv2.models.printer_requeue_jobs_id_patch_request import PrinterRequeueJobsIdPatchRequest
 
 class TestPrinterRequeueJobsIdPatchRequest(unittest.TestCase):
     """PrinterRequeueJobsIdPatchRequest unit test stubs"""
@@ -36,10 +36,10 @@ class TestPrinterRequeueJobsIdPatchRequest(unittest.TestCase):
         model = PrinterRequeueJobsIdPatchRequest()
         if include_optional:
             return PrinterRequeueJobsIdPatchRequest(
-                data = openapi_client.models._printer_requeue_jobs__id__get_200_response_data._printer_requeue_jobs__id__get_200_response_data(
+                data = webshipperv2.models._printer_requeue_jobs__id__get_200_response_data._printer_requeue_jobs__id__get_200_response_data(
                     id = 56, 
                     type = 'printer_requeue_jobs', 
-                    attributes = openapi_client.models.printer_requeue_jobs.printer_requeue_jobs(
+                    attributes = webshipperv2.models.printer_requeue_jobs.printer_requeue_jobs(
                         start_time = '', 
                         end_time = '', 
                         job_id = '', 

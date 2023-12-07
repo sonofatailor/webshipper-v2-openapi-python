@@ -15,7 +15,7 @@
 import unittest
 import datetime
 
-from openapi_client.models.printer_jobs_post_request_data import PrinterJobsPostRequestData
+from webshipperv2.models.printer_jobs_post_request_data import PrinterJobsPostRequestData
 
 class TestPrinterJobsPostRequestData(unittest.TestCase):
     """PrinterJobsPostRequestData unit test stubs"""
@@ -37,7 +37,7 @@ class TestPrinterJobsPostRequestData(unittest.TestCase):
         if include_optional:
             return PrinterJobsPostRequestData(
                 type = 'printer_jobs',
-                attributes = openapi_client.models.printer_jobs.printer_jobs(
+                attributes = webshipperv2.models.printer_jobs.printer_jobs(
                     created_at = '', 
                     updated_at = '', 
                     completed = True, 

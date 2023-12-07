@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.api.local_attribute_api import LocalAttributeApi
+from webshipperv2.api.local_attribute_api import LocalAttributeApi
 
 
 class TestLocalAttributeApi(unittest.TestCase):

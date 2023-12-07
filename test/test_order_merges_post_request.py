@@ -15,7 +15,7 @@
 import unittest
 import datetime
 
-from openapi_client.models.order_merges_post_request import OrderMergesPostRequest
+from webshipperv2.models.order_merges_post_request import OrderMergesPostRequest
 
 class TestOrderMergesPostRequest(unittest.TestCase):
     """OrderMergesPostRequest unit test stubs"""
@@ -36,9 +36,9 @@ class TestOrderMergesPostRequest(unittest.TestCase):
         model = OrderMergesPostRequest()
         if include_optional:
             return OrderMergesPostRequest(
-                data = openapi_client.models._order_merges_post_request_data._order_merges_post_request_data(
+                data = webshipperv2.models._order_merges_post_request_data._order_merges_post_request_data(
                     type = 'order_merges', 
-                    attributes = openapi_client.models.order_merges.order_merges(
+                    attributes = webshipperv2.models.order_merges.order_merges(
                         order_id = True, 
                         orders = [
                             ''

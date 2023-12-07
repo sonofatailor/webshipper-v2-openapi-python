@@ -15,7 +15,7 @@
 import unittest
 import datetime
 
-from openapi_client.models.bulk_import_orders_id_get200_response_data import BulkImportOrdersIdGet200ResponseData
+from webshipperv2.models.bulk_import_orders_id_get200_response_data import BulkImportOrdersIdGet200ResponseData
 
 class TestBulkImportOrdersIdGet200ResponseData(unittest.TestCase):
     """BulkImportOrdersIdGet200ResponseData unit test stubs"""
@@ -38,7 +38,7 @@ class TestBulkImportOrdersIdGet200ResponseData(unittest.TestCase):
             return BulkImportOrdersIdGet200ResponseData(
                 id = 56,
                 type = 'bulk_import_orders',
-                attributes = openapi_client.models.bulk_import_orders.bulk_import_orders(
+                attributes = webshipperv2.models.bulk_import_orders.bulk_import_orders(
                     ids = '', 
                     order_channel_id = '', 
                     async = '', 

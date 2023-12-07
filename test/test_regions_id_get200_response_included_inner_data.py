@@ -15,7 +15,7 @@
 import unittest
 import datetime
 
-from openapi_client.models.regions_id_get200_response_included_inner_data import RegionsIdGet200ResponseIncludedInnerData
+from webshipperv2.models.regions_id_get200_response_included_inner_data import RegionsIdGet200ResponseIncludedInnerData
 
 class TestRegionsIdGet200ResponseIncludedInnerData(unittest.TestCase):
     """RegionsIdGet200ResponseIncludedInnerData unit test stubs"""

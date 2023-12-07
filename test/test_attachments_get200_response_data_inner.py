@@ -15,7 +15,7 @@
 import unittest
 import datetime
 
-from openapi_client.models.attachments_get200_response_data_inner import AttachmentsGet200ResponseDataInner
+from webshipperv2.models.attachments_get200_response_data_inner import AttachmentsGet200ResponseDataInner
 
 class TestAttachmentsGet200ResponseDataInner(unittest.TestCase):
     """AttachmentsGet200ResponseDataInner unit test stubs"""
@@ -36,7 +36,7 @@ class TestAttachmentsGet200ResponseDataInner(unittest.TestCase):
         model = AttachmentsGet200ResponseDataInner()
         if include_optional:
             return AttachmentsGet200ResponseDataInner(
-                attributes = openapi_client.models.attachments.attachments(
+                attributes = webshipperv2.models.attachments.attachments(
                     updated_at = '', 
                     created_at = '', )
             )

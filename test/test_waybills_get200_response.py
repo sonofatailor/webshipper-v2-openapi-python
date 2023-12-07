@@ -15,7 +15,7 @@
 import unittest
 import datetime
 
-from openapi_client.models.waybills_get200_response import WaybillsGet200Response
+from webshipperv2.models.waybills_get200_response import WaybillsGet200Response
 
 class TestWaybillsGet200Response(unittest.TestCase):
     """WaybillsGet200Response unit test stubs"""
@@ -37,8 +37,8 @@ class TestWaybillsGet200Response(unittest.TestCase):
         if include_optional:
             return WaybillsGet200Response(
                 data = [
-                    openapi_client.models._waybills_get_200_response_data_inner._waybills_get_200_response_data_inner(
-                        attributes = openapi_client.models.waybills.waybills(
+                    webshipperv2.models._waybills_get_200_response_data_inner._waybills_get_200_response_data_inner(
+                        attributes = webshipperv2.models.waybills.waybills(
                             waybill_name = '', 
                             waybill_code = '', 
                             reference = '', 

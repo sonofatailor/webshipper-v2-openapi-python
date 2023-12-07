@@ -1,4 +1,4 @@
-# openapi_client.PrinterJobApi
+# webshipperv2.PrinterJobApi
 
 All URIs are relative to *https://.api.webshipper.io/v2*
 
@@ -22,14 +22,14 @@ List all Printer Jobs
 ```python
 import time
 import os
-import openapi_client
-from openapi_client.models.printer_jobs_get200_response import PrinterJobsGet200Response
-from openapi_client.rest import ApiException
+import webshipperv2
+from webshipperv2.models.printer_jobs_get200_response import PrinterJobsGet200Response
+from webshipperv2.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to https://.api.webshipper.io/v2
 # See configuration.py for a list of all supported configuration parameters.
-configuration = openapi_client.Configuration(
+configuration = webshipperv2.Configuration(
     host = "https://.api.webshipper.io/v2"
 )
 
@@ -39,14 +39,14 @@ configuration = openapi_client.Configuration(
 # satisfies your auth use case.
 
 # Configure Bearer authorization: BearerAuth
-configuration = openapi_client.Configuration(
+configuration = webshipperv2.Configuration(
     access_token = os.environ["BEARER_TOKEN"]
 )
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient(configuration) as api_client:
+with webshipperv2.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.PrinterJobApi(api_client)
+    api_instance = webshipperv2.PrinterJobApi(api_client)
     filter_id = 'filter_id_example' # str | Filter by id (optional)
     filter_printer_client_id = 'filter_printer_client_id_example' # str | Filter by printer_client_id (optional)
     filter_created_at = 'filter_created_at_example' # str | Filter by created_at (optional)
@@ -109,14 +109,14 @@ Delete a Printer Job
 ```python
 import time
 import os
-import openapi_client
-from openapi_client.models.printer_jobs_id_get200_response import PrinterJobsIdGet200Response
-from openapi_client.rest import ApiException
+import webshipperv2
+from webshipperv2.models.printer_jobs_id_get200_response import PrinterJobsIdGet200Response
+from webshipperv2.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to https://.api.webshipper.io/v2
 # See configuration.py for a list of all supported configuration parameters.
-configuration = openapi_client.Configuration(
+configuration = webshipperv2.Configuration(
     host = "https://.api.webshipper.io/v2"
 )
 
@@ -126,14 +126,14 @@ configuration = openapi_client.Configuration(
 # satisfies your auth use case.
 
 # Configure Bearer authorization: BearerAuth
-configuration = openapi_client.Configuration(
+configuration = webshipperv2.Configuration(
     access_token = os.environ["BEARER_TOKEN"]
 )
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient(configuration) as api_client:
+with webshipperv2.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.PrinterJobApi(api_client)
+    api_instance = webshipperv2.PrinterJobApi(api_client)
     id = 56 # int | 
 
     try:
@@ -184,14 +184,14 @@ Show a single Printer Job
 ```python
 import time
 import os
-import openapi_client
-from openapi_client.models.printer_jobs_id_get200_response import PrinterJobsIdGet200Response
-from openapi_client.rest import ApiException
+import webshipperv2
+from webshipperv2.models.printer_jobs_id_get200_response import PrinterJobsIdGet200Response
+from webshipperv2.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to https://.api.webshipper.io/v2
 # See configuration.py for a list of all supported configuration parameters.
-configuration = openapi_client.Configuration(
+configuration = webshipperv2.Configuration(
     host = "https://.api.webshipper.io/v2"
 )
 
@@ -201,14 +201,14 @@ configuration = openapi_client.Configuration(
 # satisfies your auth use case.
 
 # Configure Bearer authorization: BearerAuth
-configuration = openapi_client.Configuration(
+configuration = webshipperv2.Configuration(
     access_token = os.environ["BEARER_TOKEN"]
 )
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient(configuration) as api_client:
+with webshipperv2.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.PrinterJobApi(api_client)
+    api_instance = webshipperv2.PrinterJobApi(api_client)
     id = 56 # int | 
 
     try:
@@ -259,15 +259,15 @@ Update a Printer Job
 ```python
 import time
 import os
-import openapi_client
-from openapi_client.models.printer_jobs_id_get200_response import PrinterJobsIdGet200Response
-from openapi_client.models.printer_jobs_id_patch_request import PrinterJobsIdPatchRequest
-from openapi_client.rest import ApiException
+import webshipperv2
+from webshipperv2.models.printer_jobs_id_get200_response import PrinterJobsIdGet200Response
+from webshipperv2.models.printer_jobs_id_patch_request import PrinterJobsIdPatchRequest
+from webshipperv2.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to https://.api.webshipper.io/v2
 # See configuration.py for a list of all supported configuration parameters.
-configuration = openapi_client.Configuration(
+configuration = webshipperv2.Configuration(
     host = "https://.api.webshipper.io/v2"
 )
 
@@ -277,16 +277,16 @@ configuration = openapi_client.Configuration(
 # satisfies your auth use case.
 
 # Configure Bearer authorization: BearerAuth
-configuration = openapi_client.Configuration(
+configuration = webshipperv2.Configuration(
     access_token = os.environ["BEARER_TOKEN"]
 )
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient(configuration) as api_client:
+with webshipperv2.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.PrinterJobApi(api_client)
+    api_instance = webshipperv2.PrinterJobApi(api_client)
     id = 56 # int | 
-    printer_jobs_id_patch_request = openapi_client.PrinterJobsIdPatchRequest() # PrinterJobsIdPatchRequest | 
+    printer_jobs_id_patch_request = webshipperv2.PrinterJobsIdPatchRequest() # PrinterJobsIdPatchRequest | 
 
     try:
         # Update a Printer Job
@@ -337,15 +337,15 @@ Create a Printer Job
 ```python
 import time
 import os
-import openapi_client
-from openapi_client.models.printer_jobs_id_get200_response import PrinterJobsIdGet200Response
-from openapi_client.models.printer_jobs_post_request import PrinterJobsPostRequest
-from openapi_client.rest import ApiException
+import webshipperv2
+from webshipperv2.models.printer_jobs_id_get200_response import PrinterJobsIdGet200Response
+from webshipperv2.models.printer_jobs_post_request import PrinterJobsPostRequest
+from webshipperv2.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to https://.api.webshipper.io/v2
 # See configuration.py for a list of all supported configuration parameters.
-configuration = openapi_client.Configuration(
+configuration = webshipperv2.Configuration(
     host = "https://.api.webshipper.io/v2"
 )
 
@@ -355,15 +355,15 @@ configuration = openapi_client.Configuration(
 # satisfies your auth use case.
 
 # Configure Bearer authorization: BearerAuth
-configuration = openapi_client.Configuration(
+configuration = webshipperv2.Configuration(
     access_token = os.environ["BEARER_TOKEN"]
 )
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient(configuration) as api_client:
+with webshipperv2.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.PrinterJobApi(api_client)
-    printer_jobs_post_request = openapi_client.PrinterJobsPostRequest() # PrinterJobsPostRequest | 
+    api_instance = webshipperv2.PrinterJobApi(api_client)
+    printer_jobs_post_request = webshipperv2.PrinterJobsPostRequest() # PrinterJobsPostRequest | 
 
     try:
         # Create a Printer Job

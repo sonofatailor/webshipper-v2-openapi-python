@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.api.edi_api import EDIApi
+from webshipperv2.api.edi_api import EDIApi
 
 
 class TestEDIApi(unittest.TestCase):

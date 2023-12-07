@@ -15,7 +15,7 @@
 import unittest
 import datetime
 
-from openapi_client.models.end_of_day_reports_post_request_data import EndOfDayReportsPostRequestData
+from webshipperv2.models.end_of_day_reports_post_request_data import EndOfDayReportsPostRequestData
 
 class TestEndOfDayReportsPostRequestData(unittest.TestCase):
     """EndOfDayReportsPostRequestData unit test stubs"""
@@ -37,7 +37,7 @@ class TestEndOfDayReportsPostRequestData(unittest.TestCase):
         if include_optional:
             return EndOfDayReportsPostRequestData(
                 type = 'end_of_day_reports',
-                attributes = openapi_client.models.end_of_day_reports.end_of_day_reports(
+                attributes = webshipperv2.models.end_of_day_reports.end_of_day_reports(
                     base64 = '', 
                     updated_at = '', 
                     created_at = '', 

@@ -15,7 +15,7 @@
 import unittest
 import datetime
 
-from openapi_client.models.csv_uploads_post_request_data import CsvUploadsPostRequestData
+from webshipperv2.models.csv_uploads_post_request_data import CsvUploadsPostRequestData
 
 class TestCsvUploadsPostRequestData(unittest.TestCase):
     """CsvUploadsPostRequestData unit test stubs"""
@@ -37,7 +37,7 @@ class TestCsvUploadsPostRequestData(unittest.TestCase):
         if include_optional:
             return CsvUploadsPostRequestData(
                 type = 'csv_uploads',
-                attributes = openapi_client.models.csv_uploads.csv_uploads(
+                attributes = webshipperv2.models.csv_uploads.csv_uploads(
                     imported = [
                         ''
                         ], 

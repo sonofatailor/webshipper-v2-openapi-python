@@ -15,7 +15,7 @@
 import unittest
 import datetime
 
-from openapi_client.models.mail_template_previews_id_get200_response import MailTemplatePreviewsIdGet200Response
+from webshipperv2.models.mail_template_previews_id_get200_response import MailTemplatePreviewsIdGet200Response
 
 class TestMailTemplatePreviewsIdGet200Response(unittest.TestCase):
     """MailTemplatePreviewsIdGet200Response unit test stubs"""
@@ -36,10 +36,10 @@ class TestMailTemplatePreviewsIdGet200Response(unittest.TestCase):
         model = MailTemplatePreviewsIdGet200Response()
         if include_optional:
             return MailTemplatePreviewsIdGet200Response(
-                data = openapi_client.models._mail_template_previews__id__get_200_response_data._mail_template_previews__id__get_200_response_data(
+                data = webshipperv2.models._mail_template_previews__id__get_200_response_data._mail_template_previews__id__get_200_response_data(
                     id = 56, 
                     type = 'mail_template_previews', 
-                    attributes = openapi_client.models.mail_template_previews.mail_template_previews(
+                    attributes = webshipperv2.models.mail_template_previews.mail_template_previews(
                         mail = '', 
                         mail_template = '', 
                         mail_locale = '', 
@@ -56,7 +56,7 @@ class TestMailTemplatePreviewsIdGet200Response(unittest.TestCase):
                         whitelisted_languages = '', ), ),
                 relationships = None,
                 included = [
-                    openapi_client.models._brands__id__get_200_response_included_inner._brands__id__get_200_response_included_inner(
+                    webshipperv2.models._brands__id__get_200_response_included_inner._brands__id__get_200_response_included_inner(
                         type = 'orders', 
                         id = 56, 
                         data = null, )

@@ -15,7 +15,7 @@
 import unittest
 import datetime
 
-from openapi_client.models.mail_template_previews_id_get200_response_data import MailTemplatePreviewsIdGet200ResponseData
+from webshipperv2.models.mail_template_previews_id_get200_response_data import MailTemplatePreviewsIdGet200ResponseData
 
 class TestMailTemplatePreviewsIdGet200ResponseData(unittest.TestCase):
     """MailTemplatePreviewsIdGet200ResponseData unit test stubs"""
@@ -38,7 +38,7 @@ class TestMailTemplatePreviewsIdGet200ResponseData(unittest.TestCase):
             return MailTemplatePreviewsIdGet200ResponseData(
                 id = 56,
                 type = 'mail_template_previews',
-                attributes = openapi_client.models.mail_template_previews.mail_template_previews(
+                attributes = webshipperv2.models.mail_template_previews.mail_template_previews(
                     mail = '', 
                     mail_template = '', 
                     mail_locale = '', 

@@ -20,7 +20,7 @@ from setuptools import setup, find_packages  # noqa: H301
 #
 # prerequisite: setuptools
 # http://pypi.python.org/pypi/setuptools
-NAME = "openapi-client"
+NAME = "webshipperv2"
 VERSION = "1.0.0"
 PYTHON_REQUIRES = ">=3.7"
 REQUIRES = [
@@ -45,5 +45,5 @@ setup(
     long_description="""\
        &lt;p&gt;     The Webshipper API is a RESTful JSON API that gives full control over your Webshipper account. The API is scoped to your &lt;em&gt;account name&lt;/em&gt;,     and is accessed via the endpoint &lt;em&gt;https://&amp;lt;account name&amp;gt;.api.webshipper.io/v2/&lt;/em&gt;. Your &lt;em&gt;account name&lt;/em&gt; is the same as you see when you access the Webshipper web UI     at &lt;em&gt;https://&amp;lt;account name&amp;gt;.webshipper.io&lt;/em&gt;.   &lt;/p&gt;    &lt;p&gt;     This API conforms to the &lt;a href&#x3D;\&quot;http://jsonapi.org/\&quot;&gt;JSON API standard&lt;/a&gt; with the following conventions:     &lt;ul&gt;       &lt;li&gt;Resources are identified with the attribute &lt;code&gt;id&lt;/code&gt;, which is a server-side generated sequential integer&lt;/li&gt;       &lt;li&gt;Resource types are pluralised and underscored, like &lt;code&gt;order_lines&lt;/code&gt;&lt;/li&gt;       &lt;li&gt;The API has a fixed page limit of 30 records. To fetch more records use the query parameter &lt;code&gt;page[number]&lt;/code&gt;&lt;/li&gt;       &lt;li&gt;All resources have the attributes &lt;code&gt;created_at&lt;/code&gt; and &lt;code&gt;updated_at&lt;/code&gt; which are ISO 8601 timestamps like &lt;code&gt;2018-03-07T14:01:18.000Z&lt;/code&gt; &lt;/li&gt;       &lt;li&gt;All country codes are &lt;a href&#x3D;\&quot;https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2\&quot;&gt;ISO 3166-1 alpha-2&lt;/a&gt; codes&lt;/li&gt;     &lt;/ul&gt;   &lt;/p&gt;     &lt;p&gt; It is also possible to download the documentation in the OpenAPI 3.0 &lt;a href&#x3D;\&quot;?download_openapi&#x3D;1\&quot;&gt;here&lt;/a&gt; &lt;/p&gt;    &lt;div class&#x3D;\&quot;alert alert-info\&quot;&gt;     &lt;i class&#x3D;\&quot;fa fa-info mr-2\&quot;&gt;&lt;/i&gt;     Webshipper &lt;em&gt;strongly&lt;/em&gt; recommends using a client library for utilising this API. Refer to jsonapi.org&#39;s list of     &lt;a href&#x3D;\&quot;http://jsonapi.org/implementations/#client-libraries\&quot;&gt;jsonapi.org&#39;s list of client libraries&lt;/a&gt; to find one for your language.   &lt;/div&gt; 
     """,  # noqa: E501
-    package_data={"openapi_client": ["py.typed"]},
+    package_data={"webshipperv2": ["py.typed"]},
 )

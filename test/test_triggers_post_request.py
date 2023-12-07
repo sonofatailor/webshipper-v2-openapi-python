@@ -15,7 +15,7 @@
 import unittest
 import datetime
 
-from openapi_client.models.triggers_post_request import TriggersPostRequest
+from webshipperv2.models.triggers_post_request import TriggersPostRequest
 
 class TestTriggersPostRequest(unittest.TestCase):
     """TriggersPostRequest unit test stubs"""
@@ -36,17 +36,17 @@ class TestTriggersPostRequest(unittest.TestCase):
         model = TriggersPostRequest()
         if include_optional:
             return TriggersPostRequest(
-                data = openapi_client.models._triggers_post_request_data._triggers_post_request_data(
+                data = webshipperv2.models._triggers_post_request_data._triggers_post_request_data(
                     type = 'triggers', 
-                    attributes = openapi_client.models.triggers.triggers(
+                    attributes = webshipperv2.models.triggers.triggers(
                         expression = '', 
                         expression_ast = '', 
                         model_type = '', 
                         event = '', 
                         timing = 56, ), ),
-                relationships = openapi_client.models._actions__id__get_200_response_relationships._actions__id__get_200_response_relationships(
-                    automation = openapi_client.models._actions__id__get_200_response_relationships_automation._actions__id__get_200_response_relationships_automation(
-                        data = openapi_client.models._actions__id__get_200_response_relationships_automation_data._actions__id__get_200_response_relationships_automation_data(
+                relationships = webshipperv2.models._actions__id__get_200_response_relationships._actions__id__get_200_response_relationships(
+                    automation = webshipperv2.models._actions__id__get_200_response_relationships_automation._actions__id__get_200_response_relationships_automation(
+                        data = webshipperv2.models._actions__id__get_200_response_relationships_automation_data._actions__id__get_200_response_relationships_automation_data(
                             id = '', 
                             type = 'automations', ), ), )
             )

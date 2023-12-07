@@ -15,7 +15,7 @@
 import unittest
 import datetime
 
-from openapi_client.models.error_types_post_request_data import ErrorTypesPostRequestData
+from webshipperv2.models.error_types_post_request_data import ErrorTypesPostRequestData
 
 class TestErrorTypesPostRequestData(unittest.TestCase):
     """ErrorTypesPostRequestData unit test stubs"""
@@ -37,7 +37,7 @@ class TestErrorTypesPostRequestData(unittest.TestCase):
         if include_optional:
             return ErrorTypesPostRequestData(
                 type = 'error_types',
-                attributes = openapi_client.models.error_types.error_types(
+                attributes = webshipperv2.models.error_types.error_types(
                     translations = '', 
                     matcher = '', 
                     error_class = '', 

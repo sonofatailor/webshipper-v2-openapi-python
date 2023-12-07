@@ -15,7 +15,7 @@
 import unittest
 import datetime
 
-from openapi_client.models.events_id_get200_response_relationships_model import EventsIdGet200ResponseRelationshipsModel
+from webshipperv2.models.events_id_get200_response_relationships_model import EventsIdGet200ResponseRelationshipsModel
 
 class TestEventsIdGet200ResponseRelationshipsModel(unittest.TestCase):
     """EventsIdGet200ResponseRelationshipsModel unit test stubs"""
@@ -36,7 +36,7 @@ class TestEventsIdGet200ResponseRelationshipsModel(unittest.TestCase):
         model = EventsIdGet200ResponseRelationshipsModel()
         if include_optional:
             return EventsIdGet200ResponseRelationshipsModel(
-                data = openapi_client.models._events__id__get_200_response_relationships_model_data._events__id__get_200_response_relationships_model_data(
+                data = webshipperv2.models._events__id__get_200_response_relationships_model_data._events__id__get_200_response_relationships_model_data(
                     id = '', 
                     type = 'event_models', )
             )

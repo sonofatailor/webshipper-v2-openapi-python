@@ -15,7 +15,7 @@
 import unittest
 import datetime
 
-from openapi_client.models.csv_mappings import CsvMappings
+from webshipperv2.models.csv_mappings import CsvMappings
 
 class TestCsvMappings(unittest.TestCase):
     """CsvMappings unit test stubs"""

@@ -15,7 +15,7 @@
 import unittest
 import datetime
 
-from openapi_client.models.brands_id_patch_request import BrandsIdPatchRequest
+from webshipperv2.models.brands_id_patch_request import BrandsIdPatchRequest
 
 class TestBrandsIdPatchRequest(unittest.TestCase):
     """BrandsIdPatchRequest unit test stubs"""
@@ -36,10 +36,10 @@ class TestBrandsIdPatchRequest(unittest.TestCase):
         model = BrandsIdPatchRequest()
         if include_optional:
             return BrandsIdPatchRequest(
-                data = openapi_client.models._brands__id__get_200_response_data._brands__id__get_200_response_data(
+                data = webshipperv2.models._brands__id__get_200_response_data._brands__id__get_200_response_data(
                     id = 56, 
                     type = 'brands', 
-                    attributes = openapi_client.models.brands.brands(
+                    attributes = webshipperv2.models.brands.brands(
                         documents = '', ), ),
                 relationships = None
             )

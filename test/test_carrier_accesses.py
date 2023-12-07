@@ -15,7 +15,7 @@
 import unittest
 import datetime
 
-from openapi_client.models.carrier_accesses import CarrierAccesses
+from webshipperv2.models.carrier_accesses import CarrierAccesses
 
 class TestCarrierAccesses(unittest.TestCase):
     """CarrierAccesses unit test stubs"""

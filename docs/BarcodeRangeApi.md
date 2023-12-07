@@ -1,4 +1,4 @@
-# openapi_client.BarcodeRangeApi
+# webshipperv2.BarcodeRangeApi
 
 All URIs are relative to *https://.api.webshipper.io/v2*
 
@@ -22,14 +22,14 @@ List all Barcode Ranges
 ```python
 import time
 import os
-import openapi_client
-from openapi_client.models.barcode_ranges_get200_response import BarcodeRangesGet200Response
-from openapi_client.rest import ApiException
+import webshipperv2
+from webshipperv2.models.barcode_ranges_get200_response import BarcodeRangesGet200Response
+from webshipperv2.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to https://.api.webshipper.io/v2
 # See configuration.py for a list of all supported configuration parameters.
-configuration = openapi_client.Configuration(
+configuration = webshipperv2.Configuration(
     host = "https://.api.webshipper.io/v2"
 )
 
@@ -39,14 +39,14 @@ configuration = openapi_client.Configuration(
 # satisfies your auth use case.
 
 # Configure Bearer authorization: BearerAuth
-configuration = openapi_client.Configuration(
+configuration = webshipperv2.Configuration(
     access_token = os.environ["BEARER_TOKEN"]
 )
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient(configuration) as api_client:
+with webshipperv2.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.BarcodeRangeApi(api_client)
+    api_instance = webshipperv2.BarcodeRangeApi(api_client)
     filter_id = 'filter_id_example' # str | Filter by id (optional)
 
     try:
@@ -97,14 +97,14 @@ Delete a Barcode Range
 ```python
 import time
 import os
-import openapi_client
-from openapi_client.models.barcode_ranges_id_get200_response import BarcodeRangesIdGet200Response
-from openapi_client.rest import ApiException
+import webshipperv2
+from webshipperv2.models.barcode_ranges_id_get200_response import BarcodeRangesIdGet200Response
+from webshipperv2.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to https://.api.webshipper.io/v2
 # See configuration.py for a list of all supported configuration parameters.
-configuration = openapi_client.Configuration(
+configuration = webshipperv2.Configuration(
     host = "https://.api.webshipper.io/v2"
 )
 
@@ -114,14 +114,14 @@ configuration = openapi_client.Configuration(
 # satisfies your auth use case.
 
 # Configure Bearer authorization: BearerAuth
-configuration = openapi_client.Configuration(
+configuration = webshipperv2.Configuration(
     access_token = os.environ["BEARER_TOKEN"]
 )
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient(configuration) as api_client:
+with webshipperv2.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.BarcodeRangeApi(api_client)
+    api_instance = webshipperv2.BarcodeRangeApi(api_client)
     id = 56 # int | 
 
     try:
@@ -172,14 +172,14 @@ Show a single Barcode Range
 ```python
 import time
 import os
-import openapi_client
-from openapi_client.models.barcode_ranges_id_get200_response import BarcodeRangesIdGet200Response
-from openapi_client.rest import ApiException
+import webshipperv2
+from webshipperv2.models.barcode_ranges_id_get200_response import BarcodeRangesIdGet200Response
+from webshipperv2.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to https://.api.webshipper.io/v2
 # See configuration.py for a list of all supported configuration parameters.
-configuration = openapi_client.Configuration(
+configuration = webshipperv2.Configuration(
     host = "https://.api.webshipper.io/v2"
 )
 
@@ -189,14 +189,14 @@ configuration = openapi_client.Configuration(
 # satisfies your auth use case.
 
 # Configure Bearer authorization: BearerAuth
-configuration = openapi_client.Configuration(
+configuration = webshipperv2.Configuration(
     access_token = os.environ["BEARER_TOKEN"]
 )
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient(configuration) as api_client:
+with webshipperv2.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.BarcodeRangeApi(api_client)
+    api_instance = webshipperv2.BarcodeRangeApi(api_client)
     id = 56 # int | 
 
     try:
@@ -247,15 +247,15 @@ Update a Barcode Range
 ```python
 import time
 import os
-import openapi_client
-from openapi_client.models.barcode_ranges_id_get200_response import BarcodeRangesIdGet200Response
-from openapi_client.models.barcode_ranges_id_patch_request import BarcodeRangesIdPatchRequest
-from openapi_client.rest import ApiException
+import webshipperv2
+from webshipperv2.models.barcode_ranges_id_get200_response import BarcodeRangesIdGet200Response
+from webshipperv2.models.barcode_ranges_id_patch_request import BarcodeRangesIdPatchRequest
+from webshipperv2.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to https://.api.webshipper.io/v2
 # See configuration.py for a list of all supported configuration parameters.
-configuration = openapi_client.Configuration(
+configuration = webshipperv2.Configuration(
     host = "https://.api.webshipper.io/v2"
 )
 
@@ -265,16 +265,16 @@ configuration = openapi_client.Configuration(
 # satisfies your auth use case.
 
 # Configure Bearer authorization: BearerAuth
-configuration = openapi_client.Configuration(
+configuration = webshipperv2.Configuration(
     access_token = os.environ["BEARER_TOKEN"]
 )
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient(configuration) as api_client:
+with webshipperv2.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.BarcodeRangeApi(api_client)
+    api_instance = webshipperv2.BarcodeRangeApi(api_client)
     id = 56 # int | 
-    barcode_ranges_id_patch_request = openapi_client.BarcodeRangesIdPatchRequest() # BarcodeRangesIdPatchRequest | 
+    barcode_ranges_id_patch_request = webshipperv2.BarcodeRangesIdPatchRequest() # BarcodeRangesIdPatchRequest | 
 
     try:
         # Update a Barcode Range
@@ -325,15 +325,15 @@ Create a Barcode Range
 ```python
 import time
 import os
-import openapi_client
-from openapi_client.models.barcode_ranges_id_get200_response import BarcodeRangesIdGet200Response
-from openapi_client.models.barcode_ranges_post_request import BarcodeRangesPostRequest
-from openapi_client.rest import ApiException
+import webshipperv2
+from webshipperv2.models.barcode_ranges_id_get200_response import BarcodeRangesIdGet200Response
+from webshipperv2.models.barcode_ranges_post_request import BarcodeRangesPostRequest
+from webshipperv2.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to https://.api.webshipper.io/v2
 # See configuration.py for a list of all supported configuration parameters.
-configuration = openapi_client.Configuration(
+configuration = webshipperv2.Configuration(
     host = "https://.api.webshipper.io/v2"
 )
 
@@ -343,15 +343,15 @@ configuration = openapi_client.Configuration(
 # satisfies your auth use case.
 
 # Configure Bearer authorization: BearerAuth
-configuration = openapi_client.Configuration(
+configuration = webshipperv2.Configuration(
     access_token = os.environ["BEARER_TOKEN"]
 )
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient(configuration) as api_client:
+with webshipperv2.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.BarcodeRangeApi(api_client)
-    barcode_ranges_post_request = openapi_client.BarcodeRangesPostRequest() # BarcodeRangesPostRequest | 
+    api_instance = webshipperv2.BarcodeRangeApi(api_client)
+    barcode_ranges_post_request = webshipperv2.BarcodeRangesPostRequest() # BarcodeRangesPostRequest | 
 
     try:
         # Create a Barcode Range

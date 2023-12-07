@@ -11,7 +11,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```python
-from openapi_client.models.carrier_types_id_get200_response import CarrierTypesIdGet200Response
+from webshipperv2.models.carrier_types_id_get200_response import CarrierTypesIdGet200Response
 
 # TODO update the JSON string below
 json = "{}"

@@ -15,7 +15,7 @@
 import unittest
 import datetime
 
-from openapi_client.models.csv_mappings_id_get200_response_relationships import CsvMappingsIdGet200ResponseRelationships
+from webshipperv2.models.csv_mappings_id_get200_response_relationships import CsvMappingsIdGet200ResponseRelationships
 
 class TestCsvMappingsIdGet200ResponseRelationships(unittest.TestCase):
     """CsvMappingsIdGet200ResponseRelationships unit test stubs"""
@@ -36,12 +36,12 @@ class TestCsvMappingsIdGet200ResponseRelationships(unittest.TestCase):
         model = CsvMappingsIdGet200ResponseRelationships()
         if include_optional:
             return CsvMappingsIdGet200ResponseRelationships(
-                carrier = openapi_client.models._barcode_ranges__id__get_200_response_relationships_carrier._barcode_ranges__id__get_200_response_relationships_carrier(
-                    data = openapi_client.models._barcode_ranges__id__get_200_response_relationships_carrier_data._barcode_ranges__id__get_200_response_relationships_carrier_data(
+                carrier = webshipperv2.models._barcode_ranges__id__get_200_response_relationships_carrier._barcode_ranges__id__get_200_response_relationships_carrier(
+                    data = webshipperv2.models._barcode_ranges__id__get_200_response_relationships_carrier_data._barcode_ranges__id__get_200_response_relationships_carrier_data(
                         id = '', 
                         type = 'carriers', ), ),
-                order_channel = openapi_client.models._csv_mappings__id__get_200_response_relationships_order_channel._csv_mappings__id__get_200_response_relationships_order_channel(
-                    data = openapi_client.models._csv_mappings__id__get_200_response_relationships_order_channel_data._csv_mappings__id__get_200_response_relationships_order_channel_data(
+                order_channel = webshipperv2.models._csv_mappings__id__get_200_response_relationships_order_channel._csv_mappings__id__get_200_response_relationships_order_channel(
+                    data = webshipperv2.models._csv_mappings__id__get_200_response_relationships_order_channel_data._csv_mappings__id__get_200_response_relationships_order_channel_data(
                         id = '', 
                         type = 'order_channels', ), )
             )

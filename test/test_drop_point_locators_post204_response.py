@@ -15,7 +15,7 @@
 import unittest
 import datetime
 
-from openapi_client.models.drop_point_locators_post204_response import DropPointLocatorsPost204Response
+from webshipperv2.models.drop_point_locators_post204_response import DropPointLocatorsPost204Response
 
 class TestDropPointLocatorsPost204Response(unittest.TestCase):
     """DropPointLocatorsPost204Response unit test stubs"""
@@ -36,17 +36,17 @@ class TestDropPointLocatorsPost204Response(unittest.TestCase):
         model = DropPointLocatorsPost204Response()
         if include_optional:
             return DropPointLocatorsPost204Response(
-                data = openapi_client.models._drop_point_locators_post_204_response_data._drop_point_locators_post_204_response_data(
+                data = webshipperv2.models._drop_point_locators_post_204_response_data._drop_point_locators_post_204_response_data(
                     id = 56, 
                     type = 'drop_point_locators', 
-                    attributes = openapi_client.models.drop_point_locators.drop_point_locators(
+                    attributes = webshipperv2.models.drop_point_locators.drop_point_locators(
                         carrier_id = 56, 
                         service_code = '', 
                         shipping_rate_id = '', 
                         drop_point_id = '', 
                         delivery_address = '', 
                         drop_points = [
-                            openapi_client.models.drop_points.drop_points(
+                            webshipperv2.models.drop_points.drop_points(
                                 drop_point_id = '', 
                                 name = '', 
                                 address_1 = '', 
@@ -66,7 +66,7 @@ class TestDropPointLocatorsPost204Response(unittest.TestCase):
                             ], ), ),
                 relationships = None,
                 included = [
-                    openapi_client.models._brands__id__get_200_response_included_inner._brands__id__get_200_response_included_inner(
+                    webshipperv2.models._brands__id__get_200_response_included_inner._brands__id__get_200_response_included_inner(
                         type = 'orders', 
                         id = 56, 
                         data = null, )

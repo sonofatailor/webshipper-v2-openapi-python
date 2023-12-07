@@ -15,7 +15,7 @@
 import unittest
 import datetime
 
-from openapi_client.models.expressions_id_patch_request import ExpressionsIdPatchRequest
+from webshipperv2.models.expressions_id_patch_request import ExpressionsIdPatchRequest
 
 class TestExpressionsIdPatchRequest(unittest.TestCase):
     """ExpressionsIdPatchRequest unit test stubs"""
@@ -36,10 +36,10 @@ class TestExpressionsIdPatchRequest(unittest.TestCase):
         model = ExpressionsIdPatchRequest()
         if include_optional:
             return ExpressionsIdPatchRequest(
-                data = openapi_client.models._expressions__id__get_200_response_data._expressions__id__get_200_response_data(
+                data = webshipperv2.models._expressions__id__get_200_response_data._expressions__id__get_200_response_data(
                     id = 56, 
                     type = 'expressions', 
-                    attributes = openapi_client.models.expressions.expressions(
+                    attributes = webshipperv2.models.expressions.expressions(
                         expression = '', 
                         vat_percent = 1.337, 
                         currency = '', 

@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.api.order_api import OrderApi
+from webshipperv2.api.order_api import OrderApi
 
 
 class TestOrderApi(unittest.TestCase):

@@ -15,7 +15,7 @@
 import unittest
 import datetime
 
-from openapi_client.models.rate_quotes_post204_response_data import RateQuotesPost204ResponseData
+from webshipperv2.models.rate_quotes_post204_response_data import RateQuotesPost204ResponseData
 
 class TestRateQuotesPost204ResponseData(unittest.TestCase):
     """RateQuotesPost204ResponseData unit test stubs"""
@@ -38,13 +38,13 @@ class TestRateQuotesPost204ResponseData(unittest.TestCase):
             return RateQuotesPost204ResponseData(
                 id = 56,
                 type = 'rate_quotes',
-                attributes = openapi_client.models.rate_quotes.rate_quotes(
+                attributes = webshipperv2.models.rate_quotes.rate_quotes(
                     quotes = [
-                        openapi_client.models.rate_quotes_items.rate_quotes_items(
+                        webshipperv2.models.rate_quotes_items.rate_quotes_items(
                             price = '', )
                         ], 
                     success = '', 
-                    delivery_address = openapi_client.models.delivery_address.delivery_address(), 
+                    delivery_address = webshipperv2.models.delivery_address.delivery_address(), 
                     price = 56, 
                     weight = 1.337, 
                     weight_unit = 'g', 
@@ -52,9 +52,9 @@ class TestRateQuotesPost204ResponseData(unittest.TestCase):
                     length = 1.337, 
                     width = 1.337, 
                     dimensions_unit = '', 
-                    sender_address = openapi_client.models.sender_address.sender_address(), 
+                    sender_address = webshipperv2.models.sender_address.sender_address(), 
                     items = [
-                        openapi_client.models.rate_quotes_items_1_inner.rate_quotes_items_1_inner(
+                        webshipperv2.models.rate_quotes_items_1_inner.rate_quotes_items_1_inner(
                             quantity = '', 
                             sku = '', 
                             description = '', )

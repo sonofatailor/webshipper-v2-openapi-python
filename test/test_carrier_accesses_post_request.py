@@ -15,7 +15,7 @@
 import unittest
 import datetime
 
-from openapi_client.models.carrier_accesses_post_request import CarrierAccessesPostRequest
+from webshipperv2.models.carrier_accesses_post_request import CarrierAccessesPostRequest
 
 class TestCarrierAccessesPostRequest(unittest.TestCase):
     """CarrierAccessesPostRequest unit test stubs"""
@@ -36,17 +36,17 @@ class TestCarrierAccessesPostRequest(unittest.TestCase):
         model = CarrierAccessesPostRequest()
         if include_optional:
             return CarrierAccessesPostRequest(
-                data = openapi_client.models._carrier_accesses_post_request_data._carrier_accesses_post_request_data(
+                data = webshipperv2.models._carrier_accesses_post_request_data._carrier_accesses_post_request_data(
                     type = 'carrier_accesses', 
-                    attributes = openapi_client.models.carrier_accesses.carrier_accesses(
+                    attributes = webshipperv2.models.carrier_accesses.carrier_accesses(
                         created_at = '', 
                         updated_at = '', ), ),
-                relationships = openapi_client.models._carrier_accesses__id__get_200_response_relationships._carrier_accesses__id__get_200_response_relationships(
-                    carrier = openapi_client.models._barcode_ranges__id__get_200_response_relationships_carrier._barcode_ranges__id__get_200_response_relationships_carrier(
-                        data = openapi_client.models._barcode_ranges__id__get_200_response_relationships_carrier_data._barcode_ranges__id__get_200_response_relationships_carrier_data(
+                relationships = webshipperv2.models._carrier_accesses__id__get_200_response_relationships._carrier_accesses__id__get_200_response_relationships(
+                    carrier = webshipperv2.models._barcode_ranges__id__get_200_response_relationships_carrier._barcode_ranges__id__get_200_response_relationships_carrier(
+                        data = webshipperv2.models._barcode_ranges__id__get_200_response_relationships_carrier_data._barcode_ranges__id__get_200_response_relationships_carrier_data(
                             id = '', 
                             type = 'carriers', ), ), 
-                    user = openapi_client.models._carrier_accesses__id__get_200_response_relationships_user._carrier_accesses__id__get_200_response_relationships_user(), )
+                    user = webshipperv2.models._carrier_accesses__id__get_200_response_relationships_user._carrier_accesses__id__get_200_response_relationships_user(), )
             )
         else:
             return CarrierAccessesPostRequest(

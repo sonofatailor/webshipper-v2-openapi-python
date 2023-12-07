@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.api.local_attribute_enums_api import LocalAttributeEnumsApi
+from webshipperv2.api.local_attribute_enums_api import LocalAttributeEnumsApi
 
 
 class TestLocalAttributeEnumsApi(unittest.TestCase):

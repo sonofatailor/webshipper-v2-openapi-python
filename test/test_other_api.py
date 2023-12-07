@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.api.other_api import OtherApi
+from webshipperv2.api.other_api import OtherApi
 
 
 class TestOtherApi(unittest.TestCase):

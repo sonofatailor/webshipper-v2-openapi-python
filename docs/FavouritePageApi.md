@@ -1,4 +1,4 @@
-# openapi_client.FavouritePageApi
+# webshipperv2.FavouritePageApi
 
 All URIs are relative to *https://.api.webshipper.io/v2*
 
@@ -22,14 +22,14 @@ List all Favourite Pages
 ```python
 import time
 import os
-import openapi_client
-from openapi_client.models.favourite_pages_get200_response import FavouritePagesGet200Response
-from openapi_client.rest import ApiException
+import webshipperv2
+from webshipperv2.models.favourite_pages_get200_response import FavouritePagesGet200Response
+from webshipperv2.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to https://.api.webshipper.io/v2
 # See configuration.py for a list of all supported configuration parameters.
-configuration = openapi_client.Configuration(
+configuration = webshipperv2.Configuration(
     host = "https://.api.webshipper.io/v2"
 )
 
@@ -39,14 +39,14 @@ configuration = openapi_client.Configuration(
 # satisfies your auth use case.
 
 # Configure Bearer authorization: BearerAuth
-configuration = openapi_client.Configuration(
+configuration = webshipperv2.Configuration(
     access_token = os.environ["BEARER_TOKEN"]
 )
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient(configuration) as api_client:
+with webshipperv2.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.FavouritePageApi(api_client)
+    api_instance = webshipperv2.FavouritePageApi(api_client)
     filter_id = 'filter_id_example' # str | Filter by id (optional)
     filter_user_id = 'filter_user_id_example' # str | Filter by user_id (optional)
 
@@ -99,14 +99,14 @@ Delete a Favourite Page
 ```python
 import time
 import os
-import openapi_client
-from openapi_client.models.favourite_pages_id_get200_response import FavouritePagesIdGet200Response
-from openapi_client.rest import ApiException
+import webshipperv2
+from webshipperv2.models.favourite_pages_id_get200_response import FavouritePagesIdGet200Response
+from webshipperv2.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to https://.api.webshipper.io/v2
 # See configuration.py for a list of all supported configuration parameters.
-configuration = openapi_client.Configuration(
+configuration = webshipperv2.Configuration(
     host = "https://.api.webshipper.io/v2"
 )
 
@@ -116,14 +116,14 @@ configuration = openapi_client.Configuration(
 # satisfies your auth use case.
 
 # Configure Bearer authorization: BearerAuth
-configuration = openapi_client.Configuration(
+configuration = webshipperv2.Configuration(
     access_token = os.environ["BEARER_TOKEN"]
 )
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient(configuration) as api_client:
+with webshipperv2.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.FavouritePageApi(api_client)
+    api_instance = webshipperv2.FavouritePageApi(api_client)
     id = 56 # int | 
 
     try:
@@ -174,14 +174,14 @@ Show a single Favourite Page
 ```python
 import time
 import os
-import openapi_client
-from openapi_client.models.favourite_pages_id_get200_response import FavouritePagesIdGet200Response
-from openapi_client.rest import ApiException
+import webshipperv2
+from webshipperv2.models.favourite_pages_id_get200_response import FavouritePagesIdGet200Response
+from webshipperv2.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to https://.api.webshipper.io/v2
 # See configuration.py for a list of all supported configuration parameters.
-configuration = openapi_client.Configuration(
+configuration = webshipperv2.Configuration(
     host = "https://.api.webshipper.io/v2"
 )
 
@@ -191,14 +191,14 @@ configuration = openapi_client.Configuration(
 # satisfies your auth use case.
 
 # Configure Bearer authorization: BearerAuth
-configuration = openapi_client.Configuration(
+configuration = webshipperv2.Configuration(
     access_token = os.environ["BEARER_TOKEN"]
 )
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient(configuration) as api_client:
+with webshipperv2.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.FavouritePageApi(api_client)
+    api_instance = webshipperv2.FavouritePageApi(api_client)
     id = 56 # int | 
 
     try:
@@ -249,15 +249,15 @@ Update a Favourite Page
 ```python
 import time
 import os
-import openapi_client
-from openapi_client.models.favourite_pages_id_get200_response import FavouritePagesIdGet200Response
-from openapi_client.models.favourite_pages_id_patch_request import FavouritePagesIdPatchRequest
-from openapi_client.rest import ApiException
+import webshipperv2
+from webshipperv2.models.favourite_pages_id_get200_response import FavouritePagesIdGet200Response
+from webshipperv2.models.favourite_pages_id_patch_request import FavouritePagesIdPatchRequest
+from webshipperv2.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to https://.api.webshipper.io/v2
 # See configuration.py for a list of all supported configuration parameters.
-configuration = openapi_client.Configuration(
+configuration = webshipperv2.Configuration(
     host = "https://.api.webshipper.io/v2"
 )
 
@@ -267,16 +267,16 @@ configuration = openapi_client.Configuration(
 # satisfies your auth use case.
 
 # Configure Bearer authorization: BearerAuth
-configuration = openapi_client.Configuration(
+configuration = webshipperv2.Configuration(
     access_token = os.environ["BEARER_TOKEN"]
 )
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient(configuration) as api_client:
+with webshipperv2.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.FavouritePageApi(api_client)
+    api_instance = webshipperv2.FavouritePageApi(api_client)
     id = 56 # int | 
-    favourite_pages_id_patch_request = openapi_client.FavouritePagesIdPatchRequest() # FavouritePagesIdPatchRequest | 
+    favourite_pages_id_patch_request = webshipperv2.FavouritePagesIdPatchRequest() # FavouritePagesIdPatchRequest | 
 
     try:
         # Update a Favourite Page
@@ -327,15 +327,15 @@ Create a Favourite Page
 ```python
 import time
 import os
-import openapi_client
-from openapi_client.models.favourite_pages_id_get200_response import FavouritePagesIdGet200Response
-from openapi_client.models.favourite_pages_post_request import FavouritePagesPostRequest
-from openapi_client.rest import ApiException
+import webshipperv2
+from webshipperv2.models.favourite_pages_id_get200_response import FavouritePagesIdGet200Response
+from webshipperv2.models.favourite_pages_post_request import FavouritePagesPostRequest
+from webshipperv2.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to https://.api.webshipper.io/v2
 # See configuration.py for a list of all supported configuration parameters.
-configuration = openapi_client.Configuration(
+configuration = webshipperv2.Configuration(
     host = "https://.api.webshipper.io/v2"
 )
 
@@ -345,15 +345,15 @@ configuration = openapi_client.Configuration(
 # satisfies your auth use case.
 
 # Configure Bearer authorization: BearerAuth
-configuration = openapi_client.Configuration(
+configuration = webshipperv2.Configuration(
     access_token = os.environ["BEARER_TOKEN"]
 )
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient(configuration) as api_client:
+with webshipperv2.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.FavouritePageApi(api_client)
-    favourite_pages_post_request = openapi_client.FavouritePagesPostRequest() # FavouritePagesPostRequest | 
+    api_instance = webshipperv2.FavouritePageApi(api_client)
+    favourite_pages_post_request = webshipperv2.FavouritePagesPostRequest() # FavouritePagesPostRequest | 
 
     try:
         # Create a Favourite Page

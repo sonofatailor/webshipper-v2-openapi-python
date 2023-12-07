@@ -1,4 +1,4 @@
-# openapi_client.AutomationApi
+# webshipperv2.AutomationApi
 
 All URIs are relative to *https://.api.webshipper.io/v2*
 
@@ -22,14 +22,14 @@ List all Automations
 ```python
 import time
 import os
-import openapi_client
-from openapi_client.models.automations_get200_response import AutomationsGet200Response
-from openapi_client.rest import ApiException
+import webshipperv2
+from webshipperv2.models.automations_get200_response import AutomationsGet200Response
+from webshipperv2.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to https://.api.webshipper.io/v2
 # See configuration.py for a list of all supported configuration parameters.
-configuration = openapi_client.Configuration(
+configuration = webshipperv2.Configuration(
     host = "https://.api.webshipper.io/v2"
 )
 
@@ -39,14 +39,14 @@ configuration = openapi_client.Configuration(
 # satisfies your auth use case.
 
 # Configure Bearer authorization: BearerAuth
-configuration = openapi_client.Configuration(
+configuration = webshipperv2.Configuration(
     access_token = os.environ["BEARER_TOKEN"]
 )
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient(configuration) as api_client:
+with webshipperv2.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.AutomationApi(api_client)
+    api_instance = webshipperv2.AutomationApi(api_client)
     filter_id = 'filter_id_example' # str | Filter by id (optional)
 
     try:
@@ -97,14 +97,14 @@ Delete a Automation
 ```python
 import time
 import os
-import openapi_client
-from openapi_client.models.automations_id_get200_response import AutomationsIdGet200Response
-from openapi_client.rest import ApiException
+import webshipperv2
+from webshipperv2.models.automations_id_get200_response import AutomationsIdGet200Response
+from webshipperv2.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to https://.api.webshipper.io/v2
 # See configuration.py for a list of all supported configuration parameters.
-configuration = openapi_client.Configuration(
+configuration = webshipperv2.Configuration(
     host = "https://.api.webshipper.io/v2"
 )
 
@@ -114,14 +114,14 @@ configuration = openapi_client.Configuration(
 # satisfies your auth use case.
 
 # Configure Bearer authorization: BearerAuth
-configuration = openapi_client.Configuration(
+configuration = webshipperv2.Configuration(
     access_token = os.environ["BEARER_TOKEN"]
 )
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient(configuration) as api_client:
+with webshipperv2.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.AutomationApi(api_client)
+    api_instance = webshipperv2.AutomationApi(api_client)
     id = 56 # int | 
 
     try:
@@ -172,14 +172,14 @@ Show a single Automation
 ```python
 import time
 import os
-import openapi_client
-from openapi_client.models.automations_id_get200_response import AutomationsIdGet200Response
-from openapi_client.rest import ApiException
+import webshipperv2
+from webshipperv2.models.automations_id_get200_response import AutomationsIdGet200Response
+from webshipperv2.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to https://.api.webshipper.io/v2
 # See configuration.py for a list of all supported configuration parameters.
-configuration = openapi_client.Configuration(
+configuration = webshipperv2.Configuration(
     host = "https://.api.webshipper.io/v2"
 )
 
@@ -189,14 +189,14 @@ configuration = openapi_client.Configuration(
 # satisfies your auth use case.
 
 # Configure Bearer authorization: BearerAuth
-configuration = openapi_client.Configuration(
+configuration = webshipperv2.Configuration(
     access_token = os.environ["BEARER_TOKEN"]
 )
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient(configuration) as api_client:
+with webshipperv2.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.AutomationApi(api_client)
+    api_instance = webshipperv2.AutomationApi(api_client)
     id = 56 # int | 
 
     try:
@@ -247,15 +247,15 @@ Update a Automation
 ```python
 import time
 import os
-import openapi_client
-from openapi_client.models.automations_id_get200_response import AutomationsIdGet200Response
-from openapi_client.models.automations_id_patch_request import AutomationsIdPatchRequest
-from openapi_client.rest import ApiException
+import webshipperv2
+from webshipperv2.models.automations_id_get200_response import AutomationsIdGet200Response
+from webshipperv2.models.automations_id_patch_request import AutomationsIdPatchRequest
+from webshipperv2.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to https://.api.webshipper.io/v2
 # See configuration.py for a list of all supported configuration parameters.
-configuration = openapi_client.Configuration(
+configuration = webshipperv2.Configuration(
     host = "https://.api.webshipper.io/v2"
 )
 
@@ -265,16 +265,16 @@ configuration = openapi_client.Configuration(
 # satisfies your auth use case.
 
 # Configure Bearer authorization: BearerAuth
-configuration = openapi_client.Configuration(
+configuration = webshipperv2.Configuration(
     access_token = os.environ["BEARER_TOKEN"]
 )
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient(configuration) as api_client:
+with webshipperv2.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.AutomationApi(api_client)
+    api_instance = webshipperv2.AutomationApi(api_client)
     id = 56 # int | 
-    automations_id_patch_request = openapi_client.AutomationsIdPatchRequest() # AutomationsIdPatchRequest | 
+    automations_id_patch_request = webshipperv2.AutomationsIdPatchRequest() # AutomationsIdPatchRequest | 
 
     try:
         # Update a Automation
@@ -325,15 +325,15 @@ Create a Automation
 ```python
 import time
 import os
-import openapi_client
-from openapi_client.models.automations_id_get200_response import AutomationsIdGet200Response
-from openapi_client.models.automations_post_request import AutomationsPostRequest
-from openapi_client.rest import ApiException
+import webshipperv2
+from webshipperv2.models.automations_id_get200_response import AutomationsIdGet200Response
+from webshipperv2.models.automations_post_request import AutomationsPostRequest
+from webshipperv2.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to https://.api.webshipper.io/v2
 # See configuration.py for a list of all supported configuration parameters.
-configuration = openapi_client.Configuration(
+configuration = webshipperv2.Configuration(
     host = "https://.api.webshipper.io/v2"
 )
 
@@ -343,15 +343,15 @@ configuration = openapi_client.Configuration(
 # satisfies your auth use case.
 
 # Configure Bearer authorization: BearerAuth
-configuration = openapi_client.Configuration(
+configuration = webshipperv2.Configuration(
     access_token = os.environ["BEARER_TOKEN"]
 )
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient(configuration) as api_client:
+with webshipperv2.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.AutomationApi(api_client)
-    automations_post_request = openapi_client.AutomationsPostRequest() # AutomationsPostRequest | 
+    api_instance = webshipperv2.AutomationApi(api_client)
+    automations_post_request = webshipperv2.AutomationsPostRequest() # AutomationsPostRequest | 
 
     try:
         # Create a Automation

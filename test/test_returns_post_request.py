@@ -15,7 +15,7 @@
 import unittest
 import datetime
 
-from openapi_client.models.returns_post_request import ReturnsPostRequest
+from webshipperv2.models.returns_post_request import ReturnsPostRequest
 
 class TestReturnsPostRequest(unittest.TestCase):
     """ReturnsPostRequest unit test stubs"""
@@ -36,9 +36,9 @@ class TestReturnsPostRequest(unittest.TestCase):
         model = ReturnsPostRequest()
         if include_optional:
             return ReturnsPostRequest(
-                data = openapi_client.models._returns_post_request_data._returns_post_request_data(
+                data = webshipperv2.models._returns_post_request_data._returns_post_request_data(
                     type = 'returns', 
-                    attributes = openapi_client.models.returns.returns(
+                    attributes = webshipperv2.models.returns.returns(
                         status = '', 
                         error_message = '', 
                         return_lines = [
@@ -50,15 +50,15 @@ class TestReturnsPostRequest(unittest.TestCase):
                         latest_activity = '', 
                         updated_at = '', 
                         created_at = '', ), ),
-                relationships = openapi_client.models._returns__id__get_200_response_relationships._returns__id__get_200_response_relationships(
-                    order = openapi_client.models._additional_attributes__id__get_200_response_relationships_order._additional_attributes__id__get_200_response_relationships_order(
-                        data = openapi_client.models._additional_attributes__id__get_200_response_relationships_order_data._additional_attributes__id__get_200_response_relationships_order_data(
+                relationships = webshipperv2.models._returns__id__get_200_response_relationships._returns__id__get_200_response_relationships(
+                    order = webshipperv2.models._additional_attributes__id__get_200_response_relationships_order._additional_attributes__id__get_200_response_relationships_order(
+                        data = webshipperv2.models._additional_attributes__id__get_200_response_relationships_order_data._additional_attributes__id__get_200_response_relationships_order_data(
                             id = '', 
                             type = 'orders', ), ), 
-                    portal = openapi_client.models._return_refund_methods__id__get_200_response_relationships_portal._return_refund_methods__id__get_200_response_relationships_portal(), 
-                    shipping_method = openapi_client.models._returns__id__get_200_response_relationships_shipping_method._returns__id__get_200_response_relationships_shipping_method(), 
-                    refund_method = openapi_client.models._returns__id__get_200_response_relationships_refund_method._returns__id__get_200_response_relationships_refund_method(), 
-                    shipment = openapi_client.models._edis__id__get_200_response_relationships_shipment._edis__id__get_200_response_relationships_shipment(), )
+                    portal = webshipperv2.models._return_refund_methods__id__get_200_response_relationships_portal._return_refund_methods__id__get_200_response_relationships_portal(), 
+                    shipping_method = webshipperv2.models._returns__id__get_200_response_relationships_shipping_method._returns__id__get_200_response_relationships_shipping_method(), 
+                    refund_method = webshipperv2.models._returns__id__get_200_response_relationships_refund_method._returns__id__get_200_response_relationships_refund_method(), 
+                    shipment = webshipperv2.models._edis__id__get_200_response_relationships_shipment._edis__id__get_200_response_relationships_shipment(), )
             )
         else:
             return ReturnsPostRequest(

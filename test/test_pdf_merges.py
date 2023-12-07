@@ -15,7 +15,7 @@
 import unittest
 import datetime
 
-from openapi_client.models.pdf_merges import PdfMerges
+from webshipperv2.models.pdf_merges import PdfMerges
 
 class TestPdfMerges(unittest.TestCase):
     """PdfMerges unit test stubs"""

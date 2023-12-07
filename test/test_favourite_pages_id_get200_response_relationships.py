@@ -15,7 +15,7 @@
 import unittest
 import datetime
 
-from openapi_client.models.favourite_pages_id_get200_response_relationships import FavouritePagesIdGet200ResponseRelationships
+from webshipperv2.models.favourite_pages_id_get200_response_relationships import FavouritePagesIdGet200ResponseRelationships
 
 class TestFavouritePagesIdGet200ResponseRelationships(unittest.TestCase):
     """FavouritePagesIdGet200ResponseRelationships unit test stubs"""
@@ -36,12 +36,12 @@ class TestFavouritePagesIdGet200ResponseRelationships(unittest.TestCase):
         model = FavouritePagesIdGet200ResponseRelationships()
         if include_optional:
             return FavouritePagesIdGet200ResponseRelationships(
-                user = openapi_client.models._carrier_accesses__id__get_200_response_relationships_user._carrier_accesses__id__get_200_response_relationships_user(
-                    data = openapi_client.models._carrier_accesses__id__get_200_response_relationships_user_data._carrier_accesses__id__get_200_response_relationships_user_data(
+                user = webshipperv2.models._carrier_accesses__id__get_200_response_relationships_user._carrier_accesses__id__get_200_response_relationships_user(
+                    data = webshipperv2.models._carrier_accesses__id__get_200_response_relationships_user_data._carrier_accesses__id__get_200_response_relationships_user_data(
                         id = '', 
                         type = 'users', ), ),
-                hot_key = openapi_client.models._favourite_pages__id__get_200_response_relationships_hot_key._favourite_pages__id__get_200_response_relationships_hot_key(
-                    data = openapi_client.models._favourite_pages__id__get_200_response_relationships_hot_key_data._favourite_pages__id__get_200_response_relationships_hot_key_data(
+                hot_key = webshipperv2.models._favourite_pages__id__get_200_response_relationships_hot_key._favourite_pages__id__get_200_response_relationships_hot_key(
+                    data = webshipperv2.models._favourite_pages__id__get_200_response_relationships_hot_key_data._favourite_pages__id__get_200_response_relationships_hot_key_data(
                         id = '', 
                         type = 'hot_keys', ), )
             )

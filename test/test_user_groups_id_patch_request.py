@@ -15,7 +15,7 @@
 import unittest
 import datetime
 
-from openapi_client.models.user_groups_id_patch_request import UserGroupsIdPatchRequest
+from webshipperv2.models.user_groups_id_patch_request import UserGroupsIdPatchRequest
 
 class TestUserGroupsIdPatchRequest(unittest.TestCase):
     """UserGroupsIdPatchRequest unit test stubs"""
@@ -36,10 +36,10 @@ class TestUserGroupsIdPatchRequest(unittest.TestCase):
         model = UserGroupsIdPatchRequest()
         if include_optional:
             return UserGroupsIdPatchRequest(
-                data = openapi_client.models._user_groups__id__get_200_response_data._user_groups__id__get_200_response_data(
+                data = webshipperv2.models._user_groups__id__get_200_response_data._user_groups__id__get_200_response_data(
                     id = 56, 
                     type = 'user_groups', 
-                    attributes = openapi_client.models.user_groups.user_groups(
+                    attributes = webshipperv2.models.user_groups.user_groups(
                         name = '', 
                         scopes = [
                             ''

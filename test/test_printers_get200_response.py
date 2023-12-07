@@ -15,7 +15,7 @@
 import unittest
 import datetime
 
-from openapi_client.models.printers_get200_response import PrintersGet200Response
+from webshipperv2.models.printers_get200_response import PrintersGet200Response
 
 class TestPrintersGet200Response(unittest.TestCase):
     """PrintersGet200Response unit test stubs"""
@@ -37,8 +37,8 @@ class TestPrintersGet200Response(unittest.TestCase):
         if include_optional:
             return PrintersGet200Response(
                 data = [
-                    openapi_client.models._printers_get_200_response_data_inner._printers_get_200_response_data_inner(
-                        attributes = openapi_client.models.printers.printers(
+                    webshipperv2.models._printers_get_200_response_data_inner._printers_get_200_response_data_inner(
+                        attributes = webshipperv2.models.printers.printers(
                             name = '', 
                             active = True, 
                             last_connected = '', 

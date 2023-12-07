@@ -15,7 +15,7 @@
 import unittest
 import datetime
 
-from openapi_client.models.report_types_id_patch_request import ReportTypesIdPatchRequest
+from webshipperv2.models.report_types_id_patch_request import ReportTypesIdPatchRequest
 
 class TestReportTypesIdPatchRequest(unittest.TestCase):
     """ReportTypesIdPatchRequest unit test stubs"""
@@ -36,10 +36,10 @@ class TestReportTypesIdPatchRequest(unittest.TestCase):
         model = ReportTypesIdPatchRequest()
         if include_optional:
             return ReportTypesIdPatchRequest(
-                data = openapi_client.models._report_types__id__get_200_response_data._report_types__id__get_200_response_data(
+                data = webshipperv2.models._report_types__id__get_200_response_data._report_types__id__get_200_response_data(
                     id = 56, 
                     type = 'report_types', 
-                    attributes = openapi_client.models.report_types.report_types(
+                    attributes = webshipperv2.models.report_types.report_types(
                         name = '', 
                         columns = [
                             ''

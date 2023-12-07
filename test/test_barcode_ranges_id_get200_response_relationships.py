@@ -15,7 +15,7 @@
 import unittest
 import datetime
 
-from openapi_client.models.barcode_ranges_id_get200_response_relationships import BarcodeRangesIdGet200ResponseRelationships
+from webshipperv2.models.barcode_ranges_id_get200_response_relationships import BarcodeRangesIdGet200ResponseRelationships
 
 class TestBarcodeRangesIdGet200ResponseRelationships(unittest.TestCase):
     """BarcodeRangesIdGet200ResponseRelationships unit test stubs"""
@@ -36,8 +36,8 @@ class TestBarcodeRangesIdGet200ResponseRelationships(unittest.TestCase):
         model = BarcodeRangesIdGet200ResponseRelationships()
         if include_optional:
             return BarcodeRangesIdGet200ResponseRelationships(
-                carrier = openapi_client.models._barcode_ranges__id__get_200_response_relationships_carrier._barcode_ranges__id__get_200_response_relationships_carrier(
-                    data = openapi_client.models._barcode_ranges__id__get_200_response_relationships_carrier_data._barcode_ranges__id__get_200_response_relationships_carrier_data(
+                carrier = webshipperv2.models._barcode_ranges__id__get_200_response_relationships_carrier._barcode_ranges__id__get_200_response_relationships_carrier(
+                    data = webshipperv2.models._barcode_ranges__id__get_200_response_relationships_carrier_data._barcode_ranges__id__get_200_response_relationships_carrier_data(
                         id = '', 
                         type = 'carriers', ), )
             )

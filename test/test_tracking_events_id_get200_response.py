@@ -15,7 +15,7 @@
 import unittest
 import datetime
 
-from openapi_client.models.tracking_events_id_get200_response import TrackingEventsIdGet200Response
+from webshipperv2.models.tracking_events_id_get200_response import TrackingEventsIdGet200Response
 
 class TestTrackingEventsIdGet200Response(unittest.TestCase):
     """TrackingEventsIdGet200Response unit test stubs"""
@@ -36,10 +36,10 @@ class TestTrackingEventsIdGet200Response(unittest.TestCase):
         model = TrackingEventsIdGet200Response()
         if include_optional:
             return TrackingEventsIdGet200Response(
-                data = openapi_client.models._tracking_events__id__get_200_response_data._tracking_events__id__get_200_response_data(
+                data = webshipperv2.models._tracking_events__id__get_200_response_data._tracking_events__id__get_200_response_data(
                     id = 56, 
                     type = 'tracking_events', 
-                    attributes = openapi_client.models.tracking_events.tracking_events(
+                    attributes = webshipperv2.models.tracking_events.tracking_events(
                         status = '', 
                         time = '', 
                         description = '', 
@@ -52,14 +52,14 @@ class TestTrackingEventsIdGet200Response(unittest.TestCase):
                         tracking_link_id = 56, 
                         tracking_link_url = '', 
                         created_at = '', ), ),
-                relationships = openapi_client.models._tracking_events__id__get_200_response_relationships._tracking_events__id__get_200_response_relationships(
-                    package = openapi_client.models._tracking_events__id__get_200_response_relationships_package._tracking_events__id__get_200_response_relationships_package(
-                        data = openapi_client.models._tracking_events__id__get_200_response_relationships_package_data._tracking_events__id__get_200_response_relationships_package_data(
+                relationships = webshipperv2.models._tracking_events__id__get_200_response_relationships._tracking_events__id__get_200_response_relationships(
+                    package = webshipperv2.models._tracking_events__id__get_200_response_relationships_package._tracking_events__id__get_200_response_relationships_package(
+                        data = webshipperv2.models._tracking_events__id__get_200_response_relationships_package_data._tracking_events__id__get_200_response_relationships_package_data(
                             id = '', 
                             type = 'packages', ), ), 
-                    shipment = openapi_client.models._edis__id__get_200_response_relationships_shipment._edis__id__get_200_response_relationships_shipment(), ),
+                    shipment = webshipperv2.models._edis__id__get_200_response_relationships_shipment._edis__id__get_200_response_relationships_shipment(), ),
                 included = [
-                    openapi_client.models._tracking_events__id__get_200_response_included_inner._tracking_events__id__get_200_response_included_inner(
+                    webshipperv2.models._tracking_events__id__get_200_response_included_inner._tracking_events__id__get_200_response_included_inner(
                         type = 'orders', 
                         id = 56, 
                         data = null, )

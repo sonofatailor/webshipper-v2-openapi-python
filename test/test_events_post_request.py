@@ -15,7 +15,7 @@
 import unittest
 import datetime
 
-from openapi_client.models.events_post_request import EventsPostRequest
+from webshipperv2.models.events_post_request import EventsPostRequest
 
 class TestEventsPostRequest(unittest.TestCase):
     """EventsPostRequest unit test stubs"""
@@ -36,18 +36,18 @@ class TestEventsPostRequest(unittest.TestCase):
         model = EventsPostRequest()
         if include_optional:
             return EventsPostRequest(
-                data = openapi_client.models._events_post_request_data._events_post_request_data(
+                data = webshipperv2.models._events_post_request_data._events_post_request_data(
                     type = 'events', 
-                    attributes = openapi_client.models.events.events(
+                    attributes = webshipperv2.models.events.events(
                         title = '', 
                         details = '', 
                         icon = '', 
                         initiator = '', 
                         source = '', 
                         created_at = '', ), ),
-                relationships = openapi_client.models._events__id__get_200_response_relationships._events__id__get_200_response_relationships(
-                    model = openapi_client.models._events__id__get_200_response_relationships_model._events__id__get_200_response_relationships_model(
-                        data = openapi_client.models._events__id__get_200_response_relationships_model_data._events__id__get_200_response_relationships_model_data(
+                relationships = webshipperv2.models._events__id__get_200_response_relationships._events__id__get_200_response_relationships(
+                    model = webshipperv2.models._events__id__get_200_response_relationships_model._events__id__get_200_response_relationships_model(
+                        data = webshipperv2.models._events__id__get_200_response_relationships_model_data._events__id__get_200_response_relationships_model_data(
                             id = '', 
                             type = 'event_models', ), ), )
             )

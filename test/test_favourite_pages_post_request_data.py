@@ -15,7 +15,7 @@
 import unittest
 import datetime
 
-from openapi_client.models.favourite_pages_post_request_data import FavouritePagesPostRequestData
+from webshipperv2.models.favourite_pages_post_request_data import FavouritePagesPostRequestData
 
 class TestFavouritePagesPostRequestData(unittest.TestCase):
     """FavouritePagesPostRequestData unit test stubs"""
@@ -37,7 +37,7 @@ class TestFavouritePagesPostRequestData(unittest.TestCase):
         if include_optional:
             return FavouritePagesPostRequestData(
                 type = 'favourite_pages',
-                attributes = openapi_client.models.favourite_pages.favourite_pages(
+                attributes = webshipperv2.models.favourite_pages.favourite_pages(
                     path = '', 
                     name = '', 
                     user_id = 56, )

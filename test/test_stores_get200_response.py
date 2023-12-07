@@ -15,7 +15,7 @@
 import unittest
 import datetime
 
-from openapi_client.models.stores_get200_response import StoresGet200Response
+from webshipperv2.models.stores_get200_response import StoresGet200Response
 
 class TestStoresGet200Response(unittest.TestCase):
     """StoresGet200Response unit test stubs"""
@@ -37,8 +37,8 @@ class TestStoresGet200Response(unittest.TestCase):
         if include_optional:
             return StoresGet200Response(
                 data = [
-                    openapi_client.models._stores_get_200_response_data_inner._stores_get_200_response_data_inner(
-                        attributes = openapi_client.models.stores.stores(
+                    webshipperv2.models._stores_get_200_response_data_inner._stores_get_200_response_data_inner(
+                        attributes = webshipperv2.models.stores.stores(
                             name = '', 
                             address_1 = '', 
                             address_2 = '', 

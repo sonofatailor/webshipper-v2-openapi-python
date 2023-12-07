@@ -15,7 +15,7 @@
 import unittest
 import datetime
 
-from openapi_client.models.local_attr_enums_id_get200_response_included_inner import LocalAttrEnumsIdGet200ResponseIncludedInner
+from webshipperv2.models.local_attr_enums_id_get200_response_included_inner import LocalAttrEnumsIdGet200ResponseIncludedInner
 
 class TestLocalAttrEnumsIdGet200ResponseIncludedInner(unittest.TestCase):
     """LocalAttrEnumsIdGet200ResponseIncludedInner unit test stubs"""

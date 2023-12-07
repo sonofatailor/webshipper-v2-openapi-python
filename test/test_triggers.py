@@ -15,7 +15,7 @@
 import unittest
 import datetime
 
-from openapi_client.models.triggers import Triggers
+from webshipperv2.models.triggers import Triggers
 
 class TestTriggers(unittest.TestCase):
     """Triggers unit test stubs"""

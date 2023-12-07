@@ -15,7 +15,7 @@
 import unittest
 import datetime
 
-from openapi_client.models.hot_keys import HotKeys
+from webshipperv2.models.hot_keys import HotKeys
 
 class TestHotKeys(unittest.TestCase):
     """HotKeys unit test stubs"""

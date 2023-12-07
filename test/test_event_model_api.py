@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.api.event_model_api import EventModelApi
+from webshipperv2.api.event_model_api import EventModelApi
 
 
 class TestEventModelApi(unittest.TestCase):

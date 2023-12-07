@@ -15,7 +15,7 @@
 import unittest
 import datetime
 
-from openapi_client.models.regions_id_get200_response import RegionsIdGet200Response
+from webshipperv2.models.regions_id_get200_response import RegionsIdGet200Response
 
 class TestRegionsIdGet200Response(unittest.TestCase):
     """RegionsIdGet200Response unit test stubs"""
@@ -36,22 +36,22 @@ class TestRegionsIdGet200Response(unittest.TestCase):
         model = RegionsIdGet200Response()
         if include_optional:
             return RegionsIdGet200Response(
-                data = openapi_client.models._regions__id__get_200_response_data._regions__id__get_200_response_data(
+                data = webshipperv2.models._regions__id__get_200_response_data._regions__id__get_200_response_data(
                     id = 56, 
                     type = 'regions', 
-                    attributes = openapi_client.models.regions.regions(
+                    attributes = webshipperv2.models.regions.regions(
                         name = '', 
                         expressions = '', 
                         created_at = '', 
                         updated_at = '', 
                         countries = '', ), ),
-                relationships = openapi_client.models._regions__id__get_200_response_relationships._regions__id__get_200_response_relationships(
-                    shipping_rate = openapi_client.models._orders__id__get_200_response_relationships_shipping_rate._orders__id__get_200_response_relationships_shipping_rate(
-                        data = openapi_client.models._orders__id__get_200_response_relationships_shipping_rate_data._orders__id__get_200_response_relationships_shipping_rate_data(
+                relationships = webshipperv2.models._regions__id__get_200_response_relationships._regions__id__get_200_response_relationships(
+                    shipping_rate = webshipperv2.models._orders__id__get_200_response_relationships_shipping_rate._orders__id__get_200_response_relationships_shipping_rate(
+                        data = webshipperv2.models._orders__id__get_200_response_relationships_shipping_rate_data._orders__id__get_200_response_relationships_shipping_rate_data(
                             id = '', 
                             type = 'shipping_rates', ), ), ),
                 included = [
-                    openapi_client.models._regions__id__get_200_response_included_inner._regions__id__get_200_response_included_inner(
+                    webshipperv2.models._regions__id__get_200_response_included_inner._regions__id__get_200_response_included_inner(
                         type = 'orders', 
                         id = 56, 
                         data = null, )

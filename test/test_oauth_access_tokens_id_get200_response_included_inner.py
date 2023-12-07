@@ -15,7 +15,7 @@
 import unittest
 import datetime
 
-from openapi_client.models.oauth_access_tokens_id_get200_response_included_inner import OauthAccessTokensIdGet200ResponseIncludedInner
+from webshipperv2.models.oauth_access_tokens_id_get200_response_included_inner import OauthAccessTokensIdGet200ResponseIncludedInner
 
 class TestOauthAccessTokensIdGet200ResponseIncludedInner(unittest.TestCase):
     """OauthAccessTokensIdGet200ResponseIncludedInner unit test stubs"""

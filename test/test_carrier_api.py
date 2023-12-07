@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.api.carrier_api import CarrierApi
+from webshipperv2.api.carrier_api import CarrierApi
 
 
 class TestCarrierApi(unittest.TestCase):

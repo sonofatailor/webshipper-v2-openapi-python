@@ -15,7 +15,7 @@
 import unittest
 import datetime
 
-from openapi_client.models.pdf_merges_post_request import PdfMergesPostRequest
+from webshipperv2.models.pdf_merges_post_request import PdfMergesPostRequest
 
 class TestPdfMergesPostRequest(unittest.TestCase):
     """PdfMergesPostRequest unit test stubs"""
@@ -36,9 +36,9 @@ class TestPdfMergesPostRequest(unittest.TestCase):
         model = PdfMergesPostRequest()
         if include_optional:
             return PdfMergesPostRequest(
-                data = openapi_client.models._pdf_merges_post_request_data._pdf_merges_post_request_data(
+                data = webshipperv2.models._pdf_merges_post_request_data._pdf_merges_post_request_data(
                     type = 'pdf_merges', 
-                    attributes = openapi_client.models.pdf_merges.pdf_merges(
+                    attributes = webshipperv2.models.pdf_merges.pdf_merges(
                         include_labels = True, 
                         include_docs = True, 
                         include_slips = True, 

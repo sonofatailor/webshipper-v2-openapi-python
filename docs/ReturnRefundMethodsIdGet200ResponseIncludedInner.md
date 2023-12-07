@@ -11,7 +11,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```python
-from openapi_client.models.return_refund_methods_id_get200_response_included_inner import ReturnRefundMethodsIdGet200ResponseIncludedInner
+from webshipperv2.models.return_refund_methods_id_get200_response_included_inner import ReturnRefundMethodsIdGet200ResponseIncludedInner
 
 # TODO update the JSON string below
 json = "{}"

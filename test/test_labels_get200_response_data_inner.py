@@ -15,7 +15,7 @@
 import unittest
 import datetime
 
-from openapi_client.models.labels_get200_response_data_inner import LabelsGet200ResponseDataInner
+from webshipperv2.models.labels_get200_response_data_inner import LabelsGet200ResponseDataInner
 
 class TestLabelsGet200ResponseDataInner(unittest.TestCase):
     """LabelsGet200ResponseDataInner unit test stubs"""
@@ -36,7 +36,7 @@ class TestLabelsGet200ResponseDataInner(unittest.TestCase):
         model = LabelsGet200ResponseDataInner()
         if include_optional:
             return LabelsGet200ResponseDataInner(
-                attributes = openapi_client.models.labels.labels(
+                attributes = webshipperv2.models.labels.labels(
                     shipment_id = 56, 
                     label_size = 56, 
                     label_format = 56, 

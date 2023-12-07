@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.api.hot_key_api import HotKeyApi
+from webshipperv2.api.hot_key_api import HotKeyApi
 
 
 class TestHotKeyApi(unittest.TestCase):

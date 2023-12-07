@@ -15,7 +15,7 @@
 import unittest
 import datetime
 
-from openapi_client.models.tags_get200_response_data_inner import TagsGet200ResponseDataInner
+from webshipperv2.models.tags_get200_response_data_inner import TagsGet200ResponseDataInner
 
 class TestTagsGet200ResponseDataInner(unittest.TestCase):
     """TagsGet200ResponseDataInner unit test stubs"""
@@ -36,7 +36,7 @@ class TestTagsGet200ResponseDataInner(unittest.TestCase):
         model = TagsGet200ResponseDataInner()
         if include_optional:
             return TagsGet200ResponseDataInner(
-                attributes = openapi_client.models.tags.tags(
+                attributes = webshipperv2.models.tags.tags(
                     tag = '', )
             )
         else:

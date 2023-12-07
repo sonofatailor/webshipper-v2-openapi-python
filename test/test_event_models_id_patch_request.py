@@ -15,7 +15,7 @@
 import unittest
 import datetime
 
-from openapi_client.models.event_models_id_patch_request import EventModelsIdPatchRequest
+from webshipperv2.models.event_models_id_patch_request import EventModelsIdPatchRequest
 
 class TestEventModelsIdPatchRequest(unittest.TestCase):
     """EventModelsIdPatchRequest unit test stubs"""
@@ -36,10 +36,10 @@ class TestEventModelsIdPatchRequest(unittest.TestCase):
         model = EventModelsIdPatchRequest()
         if include_optional:
             return EventModelsIdPatchRequest(
-                data = openapi_client.models._event_models__id__get_200_response_data._event_models__id__get_200_response_data(
+                data = webshipperv2.models._event_models__id__get_200_response_data._event_models__id__get_200_response_data(
                     id = 56, 
                     type = 'event_models', 
-                    attributes = openapi_client.models.attributes.attributes(), ),
+                    attributes = webshipperv2.models.attributes.attributes(), ),
                 relationships = None
             )
         else:

@@ -15,7 +15,7 @@
 import unittest
 import datetime
 
-from openapi_client.models.order_channels_id_patch_request import OrderChannelsIdPatchRequest
+from webshipperv2.models.order_channels_id_patch_request import OrderChannelsIdPatchRequest
 
 class TestOrderChannelsIdPatchRequest(unittest.TestCase):
     """OrderChannelsIdPatchRequest unit test stubs"""
@@ -36,15 +36,15 @@ class TestOrderChannelsIdPatchRequest(unittest.TestCase):
         model = OrderChannelsIdPatchRequest()
         if include_optional:
             return OrderChannelsIdPatchRequest(
-                data = openapi_client.models._order_channels__id__get_200_response_data._order_channels__id__get_200_response_data(
+                data = webshipperv2.models._order_channels__id__get_200_response_data._order_channels__id__get_200_response_data(
                     id = 56, 
                     type = 'order_channels', 
-                    attributes = openapi_client.models.order_channels.order_channels(
+                    attributes = webshipperv2.models.order_channels.order_channels(
                         channel_label = '', 
                         attrs = [
                             ''
                             ], 
-                        additional_parameters = openapi_client.models.additional_parameters.additional_parameters(), 
+                        additional_parameters = webshipperv2.models.additional_parameters.additional_parameters(), 
                         slip_print_mode = '', 
                         return_label_print_mode = '', 
                         shipping_label_print_mode = '', 
@@ -60,17 +60,17 @@ class TestOrderChannelsIdPatchRequest(unittest.TestCase):
                         convert_currency_on_rate_quotes = True, 
                         sync_additional_attributes_to_shipments = True, 
                         auto_order_import = True, ), ),
-                relationships = openapi_client.models._order_channels__id__get_200_response_relationships._order_channels__id__get_200_response_relationships(
-                    order_channel_type = openapi_client.models._local_attrs__id__get_200_response_relationships_order_channel_type._local_attrs__id__get_200_response_relationships_order_channel_type(
-                        data = openapi_client.models._local_attrs__id__get_200_response_relationships_order_channel_type_data._local_attrs__id__get_200_response_relationships_order_channel_type_data(
+                relationships = webshipperv2.models._order_channels__id__get_200_response_relationships._order_channels__id__get_200_response_relationships(
+                    order_channel_type = webshipperv2.models._local_attrs__id__get_200_response_relationships_order_channel_type._local_attrs__id__get_200_response_relationships_order_channel_type(
+                        data = webshipperv2.models._local_attrs__id__get_200_response_relationships_order_channel_type_data._local_attrs__id__get_200_response_relationships_order_channel_type_data(
                             id = '', 
                             type = 'order_channel_types', ), ), 
-                    slip_template = openapi_client.models._order_channels__id__get_200_response_relationships_slip_template._order_channels__id__get_200_response_relationships_slip_template(), 
-                    sender_address = openapi_client.models._carriers__id__get_200_response_relationships_sender_address._carriers__id__get_200_response_relationships_sender_address(), 
-                    return_address = openapi_client.models._carriers__id__get_200_response_relationships_sender_address._carriers__id__get_200_response_relationships_sender_address(), 
+                    slip_template = webshipperv2.models._order_channels__id__get_200_response_relationships_slip_template._order_channels__id__get_200_response_relationships_slip_template(), 
+                    sender_address = webshipperv2.models._carriers__id__get_200_response_relationships_sender_address._carriers__id__get_200_response_relationships_sender_address(), 
+                    return_address = webshipperv2.models._carriers__id__get_200_response_relationships_sender_address._carriers__id__get_200_response_relationships_sender_address(), 
                     pickup_address = , 
                     sold_from_address = , 
-                    default_printer_client = openapi_client.models._orders__id__get_200_response_relationships_printer_client._orders__id__get_200_response_relationships_printer_client(), )
+                    default_printer_client = webshipperv2.models._orders__id__get_200_response_relationships_printer_client._orders__id__get_200_response_relationships_printer_client(), )
             )
         else:
             return OrderChannelsIdPatchRequest(

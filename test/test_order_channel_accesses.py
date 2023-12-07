@@ -15,7 +15,7 @@
 import unittest
 import datetime
 
-from openapi_client.models.order_channel_accesses import OrderChannelAccesses
+from webshipperv2.models.order_channel_accesses import OrderChannelAccesses
 
 class TestOrderChannelAccesses(unittest.TestCase):
     """OrderChannelAccesses unit test stubs"""

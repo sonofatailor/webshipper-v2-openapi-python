@@ -15,7 +15,7 @@
 import unittest
 import datetime
 
-from openapi_client.models.favourite_pages import FavouritePages
+from webshipperv2.models.favourite_pages import FavouritePages
 
 class TestFavouritePages(unittest.TestCase):
     """FavouritePages unit test stubs"""

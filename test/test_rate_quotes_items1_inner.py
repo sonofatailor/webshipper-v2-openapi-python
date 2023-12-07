@@ -15,7 +15,7 @@
 import unittest
 import datetime
 
-from openapi_client.models.rate_quotes_items1_inner import RateQuotesItems1Inner
+from webshipperv2.models.rate_quotes_items1_inner import RateQuotesItems1Inner
 
 class TestRateQuotesItems1Inner(unittest.TestCase):
     """RateQuotesItems1Inner unit test stubs"""

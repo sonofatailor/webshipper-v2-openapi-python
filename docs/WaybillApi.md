@@ -1,4 +1,4 @@
-# openapi_client.WaybillApi
+# webshipperv2.WaybillApi
 
 All URIs are relative to *https://.api.webshipper.io/v2*
 
@@ -22,14 +22,14 @@ List all Waybills
 ```python
 import time
 import os
-import openapi_client
-from openapi_client.models.waybills_get200_response import WaybillsGet200Response
-from openapi_client.rest import ApiException
+import webshipperv2
+from webshipperv2.models.waybills_get200_response import WaybillsGet200Response
+from webshipperv2.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to https://.api.webshipper.io/v2
 # See configuration.py for a list of all supported configuration parameters.
-configuration = openapi_client.Configuration(
+configuration = webshipperv2.Configuration(
     host = "https://.api.webshipper.io/v2"
 )
 
@@ -39,14 +39,14 @@ configuration = openapi_client.Configuration(
 # satisfies your auth use case.
 
 # Configure Bearer authorization: BearerAuth
-configuration = openapi_client.Configuration(
+configuration = webshipperv2.Configuration(
     access_token = os.environ["BEARER_TOKEN"]
 )
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient(configuration) as api_client:
+with webshipperv2.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.WaybillApi(api_client)
+    api_instance = webshipperv2.WaybillApi(api_client)
     filter_id = 'filter_id_example' # str | Filter by id (optional)
     filter_status = 'filter_status_example' # str | Filter by status (optional)
     filter_carrier = 'filter_carrier_example' # str | Filter by carrier (optional)
@@ -101,14 +101,14 @@ Delete a Waybill
 ```python
 import time
 import os
-import openapi_client
-from openapi_client.models.waybills_id_get200_response import WaybillsIdGet200Response
-from openapi_client.rest import ApiException
+import webshipperv2
+from webshipperv2.models.waybills_id_get200_response import WaybillsIdGet200Response
+from webshipperv2.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to https://.api.webshipper.io/v2
 # See configuration.py for a list of all supported configuration parameters.
-configuration = openapi_client.Configuration(
+configuration = webshipperv2.Configuration(
     host = "https://.api.webshipper.io/v2"
 )
 
@@ -118,14 +118,14 @@ configuration = openapi_client.Configuration(
 # satisfies your auth use case.
 
 # Configure Bearer authorization: BearerAuth
-configuration = openapi_client.Configuration(
+configuration = webshipperv2.Configuration(
     access_token = os.environ["BEARER_TOKEN"]
 )
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient(configuration) as api_client:
+with webshipperv2.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.WaybillApi(api_client)
+    api_instance = webshipperv2.WaybillApi(api_client)
     id = 56 # int | 
 
     try:
@@ -176,14 +176,14 @@ Show a single Waybill
 ```python
 import time
 import os
-import openapi_client
-from openapi_client.models.waybills_id_get200_response import WaybillsIdGet200Response
-from openapi_client.rest import ApiException
+import webshipperv2
+from webshipperv2.models.waybills_id_get200_response import WaybillsIdGet200Response
+from webshipperv2.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to https://.api.webshipper.io/v2
 # See configuration.py for a list of all supported configuration parameters.
-configuration = openapi_client.Configuration(
+configuration = webshipperv2.Configuration(
     host = "https://.api.webshipper.io/v2"
 )
 
@@ -193,14 +193,14 @@ configuration = openapi_client.Configuration(
 # satisfies your auth use case.
 
 # Configure Bearer authorization: BearerAuth
-configuration = openapi_client.Configuration(
+configuration = webshipperv2.Configuration(
     access_token = os.environ["BEARER_TOKEN"]
 )
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient(configuration) as api_client:
+with webshipperv2.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.WaybillApi(api_client)
+    api_instance = webshipperv2.WaybillApi(api_client)
     id = 56 # int | 
 
     try:
@@ -251,15 +251,15 @@ Update a Waybill
 ```python
 import time
 import os
-import openapi_client
-from openapi_client.models.waybills_id_get200_response import WaybillsIdGet200Response
-from openapi_client.models.waybills_id_patch_request import WaybillsIdPatchRequest
-from openapi_client.rest import ApiException
+import webshipperv2
+from webshipperv2.models.waybills_id_get200_response import WaybillsIdGet200Response
+from webshipperv2.models.waybills_id_patch_request import WaybillsIdPatchRequest
+from webshipperv2.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to https://.api.webshipper.io/v2
 # See configuration.py for a list of all supported configuration parameters.
-configuration = openapi_client.Configuration(
+configuration = webshipperv2.Configuration(
     host = "https://.api.webshipper.io/v2"
 )
 
@@ -269,16 +269,16 @@ configuration = openapi_client.Configuration(
 # satisfies your auth use case.
 
 # Configure Bearer authorization: BearerAuth
-configuration = openapi_client.Configuration(
+configuration = webshipperv2.Configuration(
     access_token = os.environ["BEARER_TOKEN"]
 )
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient(configuration) as api_client:
+with webshipperv2.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.WaybillApi(api_client)
+    api_instance = webshipperv2.WaybillApi(api_client)
     id = 56 # int | 
-    waybills_id_patch_request = openapi_client.WaybillsIdPatchRequest() # WaybillsIdPatchRequest | 
+    waybills_id_patch_request = webshipperv2.WaybillsIdPatchRequest() # WaybillsIdPatchRequest | 
 
     try:
         # Update a Waybill
@@ -329,15 +329,15 @@ Create a Waybill
 ```python
 import time
 import os
-import openapi_client
-from openapi_client.models.waybills_id_get200_response import WaybillsIdGet200Response
-from openapi_client.models.waybills_post_request import WaybillsPostRequest
-from openapi_client.rest import ApiException
+import webshipperv2
+from webshipperv2.models.waybills_id_get200_response import WaybillsIdGet200Response
+from webshipperv2.models.waybills_post_request import WaybillsPostRequest
+from webshipperv2.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to https://.api.webshipper.io/v2
 # See configuration.py for a list of all supported configuration parameters.
-configuration = openapi_client.Configuration(
+configuration = webshipperv2.Configuration(
     host = "https://.api.webshipper.io/v2"
 )
 
@@ -347,15 +347,15 @@ configuration = openapi_client.Configuration(
 # satisfies your auth use case.
 
 # Configure Bearer authorization: BearerAuth
-configuration = openapi_client.Configuration(
+configuration = webshipperv2.Configuration(
     access_token = os.environ["BEARER_TOKEN"]
 )
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient(configuration) as api_client:
+with webshipperv2.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.WaybillApi(api_client)
-    waybills_post_request = openapi_client.WaybillsPostRequest() # WaybillsPostRequest | 
+    api_instance = webshipperv2.WaybillApi(api_client)
+    waybills_post_request = webshipperv2.WaybillsPostRequest() # WaybillsPostRequest | 
 
     try:
         # Create a Waybill

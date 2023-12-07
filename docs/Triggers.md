@@ -13,7 +13,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```python
-from openapi_client.models.triggers import Triggers
+from webshipperv2.models.triggers import Triggers
 
 # TODO update the JSON string below
 json = "{}"

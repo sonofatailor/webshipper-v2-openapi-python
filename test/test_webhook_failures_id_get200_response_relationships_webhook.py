@@ -15,7 +15,7 @@
 import unittest
 import datetime
 
-from openapi_client.models.webhook_failures_id_get200_response_relationships_webhook import WebhookFailuresIdGet200ResponseRelationshipsWebhook
+from webshipperv2.models.webhook_failures_id_get200_response_relationships_webhook import WebhookFailuresIdGet200ResponseRelationshipsWebhook
 
 class TestWebhookFailuresIdGet200ResponseRelationshipsWebhook(unittest.TestCase):
     """WebhookFailuresIdGet200ResponseRelationshipsWebhook unit test stubs"""
@@ -36,7 +36,7 @@ class TestWebhookFailuresIdGet200ResponseRelationshipsWebhook(unittest.TestCase)
         model = WebhookFailuresIdGet200ResponseRelationshipsWebhook()
         if include_optional:
             return WebhookFailuresIdGet200ResponseRelationshipsWebhook(
-                data = openapi_client.models._webhook_failures__id__get_200_response_relationships_webhook_data._webhook_failures__id__get_200_response_relationships_webhook_data(
+                data = webshipperv2.models._webhook_failures__id__get_200_response_relationships_webhook_data._webhook_failures__id__get_200_response_relationships_webhook_data(
                     id = '', 
                     type = 'webhooks', )
             )

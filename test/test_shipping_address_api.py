@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.api.shipping_address_api import ShippingAddressApi
+from webshipperv2.api.shipping_address_api import ShippingAddressApi
 
 
 class TestShippingAddressApi(unittest.TestCase):

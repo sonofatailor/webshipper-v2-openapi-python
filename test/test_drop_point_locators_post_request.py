@@ -15,7 +15,7 @@
 import unittest
 import datetime
 
-from openapi_client.models.drop_point_locators_post_request import DropPointLocatorsPostRequest
+from webshipperv2.models.drop_point_locators_post_request import DropPointLocatorsPostRequest
 
 class TestDropPointLocatorsPostRequest(unittest.TestCase):
     """DropPointLocatorsPostRequest unit test stubs"""
@@ -36,16 +36,16 @@ class TestDropPointLocatorsPostRequest(unittest.TestCase):
         model = DropPointLocatorsPostRequest()
         if include_optional:
             return DropPointLocatorsPostRequest(
-                data = openapi_client.models._drop_point_locators_post_request_data._drop_point_locators_post_request_data(
+                data = webshipperv2.models._drop_point_locators_post_request_data._drop_point_locators_post_request_data(
                     type = 'drop_point_locators', 
-                    attributes = openapi_client.models.drop_point_locators.drop_point_locators(
+                    attributes = webshipperv2.models.drop_point_locators.drop_point_locators(
                         carrier_id = 56, 
                         service_code = '', 
                         shipping_rate_id = '', 
                         drop_point_id = '', 
                         delivery_address = '', 
                         drop_points = [
-                            openapi_client.models.drop_points.drop_points(
+                            webshipperv2.models.drop_points.drop_points(
                                 drop_point_id = '', 
                                 name = '', 
                                 address_1 = '', 

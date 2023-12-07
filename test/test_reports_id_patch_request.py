@@ -15,7 +15,7 @@
 import unittest
 import datetime
 
-from openapi_client.models.reports_id_patch_request import ReportsIdPatchRequest
+from webshipperv2.models.reports_id_patch_request import ReportsIdPatchRequest
 
 class TestReportsIdPatchRequest(unittest.TestCase):
     """ReportsIdPatchRequest unit test stubs"""
@@ -36,10 +36,10 @@ class TestReportsIdPatchRequest(unittest.TestCase):
         model = ReportsIdPatchRequest()
         if include_optional:
             return ReportsIdPatchRequest(
-                data = openapi_client.models._reports__id__get_200_response_data._reports__id__get_200_response_data(
+                data = webshipperv2.models._reports__id__get_200_response_data._reports__id__get_200_response_data(
                     id = 56, 
                     type = 'reports', 
-                    attributes = openapi_client.models.reports.reports(
+                    attributes = webshipperv2.models.reports.reports(
                         updated_at = '', 
                         created_at = '', 
                         start_time = '', 
@@ -47,7 +47,7 @@ class TestReportsIdPatchRequest(unittest.TestCase):
                         output_formats = [
                             ''
                             ], 
-                        parameters = openapi_client.models.parameters.parameters(), 
+                        parameters = webshipperv2.models.parameters.parameters(), 
                         base64 = '', 
                         pdf_download_url = '', 
                         xml_download_url = '', 
@@ -57,12 +57,12 @@ class TestReportsIdPatchRequest(unittest.TestCase):
                         failed = True, 
                         order_ids = '', 
                         error_message = '', ), ),
-                relationships = openapi_client.models._reports__id__get_200_response_relationships._reports__id__get_200_response_relationships(
-                    report_type = openapi_client.models._reports__id__get_200_response_relationships_report_type._reports__id__get_200_response_relationships_report_type(
-                        data = openapi_client.models._reports__id__get_200_response_relationships_report_type_data._reports__id__get_200_response_relationships_report_type_data(
+                relationships = webshipperv2.models._reports__id__get_200_response_relationships._reports__id__get_200_response_relationships(
+                    report_type = webshipperv2.models._reports__id__get_200_response_relationships_report_type._reports__id__get_200_response_relationships_report_type(
+                        data = webshipperv2.models._reports__id__get_200_response_relationships_report_type_data._reports__id__get_200_response_relationships_report_type_data(
                             id = '', 
                             type = 'report_types', ), ), 
-                    carrier = openapi_client.models._barcode_ranges__id__get_200_response_relationships_carrier._barcode_ranges__id__get_200_response_relationships_carrier(), )
+                    carrier = webshipperv2.models._barcode_ranges__id__get_200_response_relationships_carrier._barcode_ranges__id__get_200_response_relationships_carrier(), )
             )
         else:
             return ReportsIdPatchRequest(

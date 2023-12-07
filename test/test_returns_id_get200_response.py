@@ -15,7 +15,7 @@
 import unittest
 import datetime
 
-from openapi_client.models.returns_id_get200_response import ReturnsIdGet200Response
+from webshipperv2.models.returns_id_get200_response import ReturnsIdGet200Response
 
 class TestReturnsIdGet200Response(unittest.TestCase):
     """ReturnsIdGet200Response unit test stubs"""
@@ -36,10 +36,10 @@ class TestReturnsIdGet200Response(unittest.TestCase):
         model = ReturnsIdGet200Response()
         if include_optional:
             return ReturnsIdGet200Response(
-                data = openapi_client.models._returns__id__get_200_response_data._returns__id__get_200_response_data(
+                data = webshipperv2.models._returns__id__get_200_response_data._returns__id__get_200_response_data(
                     id = 56, 
                     type = 'returns', 
-                    attributes = openapi_client.models.returns.returns(
+                    attributes = webshipperv2.models.returns.returns(
                         status = '', 
                         error_message = '', 
                         return_lines = [
@@ -51,17 +51,17 @@ class TestReturnsIdGet200Response(unittest.TestCase):
                         latest_activity = '', 
                         updated_at = '', 
                         created_at = '', ), ),
-                relationships = openapi_client.models._returns__id__get_200_response_relationships._returns__id__get_200_response_relationships(
-                    order = openapi_client.models._additional_attributes__id__get_200_response_relationships_order._additional_attributes__id__get_200_response_relationships_order(
-                        data = openapi_client.models._additional_attributes__id__get_200_response_relationships_order_data._additional_attributes__id__get_200_response_relationships_order_data(
+                relationships = webshipperv2.models._returns__id__get_200_response_relationships._returns__id__get_200_response_relationships(
+                    order = webshipperv2.models._additional_attributes__id__get_200_response_relationships_order._additional_attributes__id__get_200_response_relationships_order(
+                        data = webshipperv2.models._additional_attributes__id__get_200_response_relationships_order_data._additional_attributes__id__get_200_response_relationships_order_data(
                             id = '', 
                             type = 'orders', ), ), 
-                    portal = openapi_client.models._return_refund_methods__id__get_200_response_relationships_portal._return_refund_methods__id__get_200_response_relationships_portal(), 
-                    shipping_method = openapi_client.models._returns__id__get_200_response_relationships_shipping_method._returns__id__get_200_response_relationships_shipping_method(), 
-                    refund_method = openapi_client.models._returns__id__get_200_response_relationships_refund_method._returns__id__get_200_response_relationships_refund_method(), 
-                    shipment = openapi_client.models._edis__id__get_200_response_relationships_shipment._edis__id__get_200_response_relationships_shipment(), ),
+                    portal = webshipperv2.models._return_refund_methods__id__get_200_response_relationships_portal._return_refund_methods__id__get_200_response_relationships_portal(), 
+                    shipping_method = webshipperv2.models._returns__id__get_200_response_relationships_shipping_method._returns__id__get_200_response_relationships_shipping_method(), 
+                    refund_method = webshipperv2.models._returns__id__get_200_response_relationships_refund_method._returns__id__get_200_response_relationships_refund_method(), 
+                    shipment = webshipperv2.models._edis__id__get_200_response_relationships_shipment._edis__id__get_200_response_relationships_shipment(), ),
                 included = [
-                    openapi_client.models._returns__id__get_200_response_included_inner._returns__id__get_200_response_included_inner(
+                    webshipperv2.models._returns__id__get_200_response_included_inner._returns__id__get_200_response_included_inner(
                         type = 'orders', 
                         id = 56, 
                         data = null, )

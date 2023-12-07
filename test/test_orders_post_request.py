@@ -15,7 +15,7 @@
 import unittest
 import datetime
 
-from openapi_client.models.orders_post_request import OrdersPostRequest
+from webshipperv2.models.orders_post_request import OrdersPostRequest
 
 class TestOrdersPostRequest(unittest.TestCase):
     """OrdersPostRequest unit test stubs"""
@@ -36,14 +36,14 @@ class TestOrdersPostRequest(unittest.TestCase):
         model = OrdersPostRequest()
         if include_optional:
             return OrdersPostRequest(
-                data = openapi_client.models._orders_post_request_data._orders_post_request_data(
+                data = webshipperv2.models._orders_post_request_data._orders_post_request_data(
                     type = 'orders', 
-                    attributes = openapi_client.models.orders.orders(
+                    attributes = webshipperv2.models.orders.orders(
                         order_channel_id = 56, 
                         status = '', 
                         ext_ref = '', 
                         visible_ref = '', 
-                        drop_point = openapi_client.models.drop_points.drop_points(
+                        drop_point = webshipperv2.models.drop_points.drop_points(
                             drop_point_id = '', 
                             name = '', 
                             address_1 = '', 
@@ -60,9 +60,9 @@ class TestOrdersPostRequest(unittest.TestCase):
                             created_at = '', 
                             updated_at = '', 
                             opening_hours = '', ), 
-                        original_shipping = openapi_client.models.original_shipping.original_shipping(), 
+                        original_shipping = webshipperv2.models.original_shipping.original_shipping(), 
                         order_lines = [
-                            openapi_client.models.order_lines.order_lines(
+                            webshipperv2.models.order_lines.order_lines(
                                 sku = '', 
                                 description = '', 
                                 quantity = 56, 
@@ -83,9 +83,9 @@ class TestOrdersPostRequest(unittest.TestCase):
                                 created_at = '', 
                                 updated_at = '', 
                                 is_virtual = True, 
-                                dangerous_goods_details = openapi_client.models.dangerous_goods_details.dangerous_goods_details(), )
+                                dangerous_goods_details = webshipperv2.models.dangerous_goods_details.dangerous_goods_details(), )
                             ], 
-                        delivery_address = openapi_client.models.shipping_addresses.shipping_addresses(
+                        delivery_address = webshipperv2.models.shipping_addresses.shipping_addresses(
                             att_contact = '', 
                             company_name = '', 
                             address_1 = '', 
@@ -107,7 +107,7 @@ class TestOrdersPostRequest(unittest.TestCase):
                             duns = '', 
                             personal_customs_no = '', 
                             company_customs_numbers = '', ), 
-                        sender_address = openapi_client.models.shipping_addresses.shipping_addresses(
+                        sender_address = webshipperv2.models.shipping_addresses.shipping_addresses(
                             att_contact = '', 
                             company_name = '', 
                             address_1 = '', 
@@ -134,7 +134,7 @@ class TestOrdersPostRequest(unittest.TestCase):
                         currency = '', 
                         internal_comment = '', 
                         external_comment = '', 
-                        error_message = openapi_client.models.error_message.error_message(), 
+                        error_message = webshipperv2.models.error_message.error_message(), 
                         slip = '', 
                         base64 = '', 
                         updated_at = '', 
@@ -152,14 +152,14 @@ class TestOrdersPostRequest(unittest.TestCase):
                         latest_status_event = '', 
                         shipping_rate_id = 56, 
                         csv_upload_id = 56, ), ),
-                relationships = openapi_client.models._orders__id__get_200_response_relationships._orders__id__get_200_response_relationships(
-                    order_channel = openapi_client.models._csv_mappings__id__get_200_response_relationships_order_channel._csv_mappings__id__get_200_response_relationships_order_channel(
-                        data = openapi_client.models._csv_mappings__id__get_200_response_relationships_order_channel_data._csv_mappings__id__get_200_response_relationships_order_channel_data(
+                relationships = webshipperv2.models._orders__id__get_200_response_relationships._orders__id__get_200_response_relationships(
+                    order_channel = webshipperv2.models._csv_mappings__id__get_200_response_relationships_order_channel._csv_mappings__id__get_200_response_relationships_order_channel(
+                        data = webshipperv2.models._csv_mappings__id__get_200_response_relationships_order_channel_data._csv_mappings__id__get_200_response_relationships_order_channel_data(
                             id = '', 
                             type = 'order_channels', ), ), 
-                    shipping_rate = openapi_client.models._orders__id__get_200_response_relationships_shipping_rate._orders__id__get_200_response_relationships_shipping_rate(), 
-                    error_type = openapi_client.models._orders__id__get_200_response_relationships_error_type._orders__id__get_200_response_relationships_error_type(), 
-                    printer_client = openapi_client.models._orders__id__get_200_response_relationships_printer_client._orders__id__get_200_response_relationships_printer_client(), )
+                    shipping_rate = webshipperv2.models._orders__id__get_200_response_relationships_shipping_rate._orders__id__get_200_response_relationships_shipping_rate(), 
+                    error_type = webshipperv2.models._orders__id__get_200_response_relationships_error_type._orders__id__get_200_response_relationships_error_type(), 
+                    printer_client = webshipperv2.models._orders__id__get_200_response_relationships_printer_client._orders__id__get_200_response_relationships_printer_client(), )
             )
         else:
             return OrdersPostRequest(

@@ -1,4 +1,4 @@
-# openapi_client.MailTemplatesApi
+# webshipperv2.MailTemplatesApi
 
 All URIs are relative to *https://.api.webshipper.io/v2*
 
@@ -22,14 +22,14 @@ List all Mail Templatess
 ```python
 import time
 import os
-import openapi_client
-from openapi_client.models.mail_templates_get200_response import MailTemplatesGet200Response
-from openapi_client.rest import ApiException
+import webshipperv2
+from webshipperv2.models.mail_templates_get200_response import MailTemplatesGet200Response
+from webshipperv2.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to https://.api.webshipper.io/v2
 # See configuration.py for a list of all supported configuration parameters.
-configuration = openapi_client.Configuration(
+configuration = webshipperv2.Configuration(
     host = "https://.api.webshipper.io/v2"
 )
 
@@ -39,14 +39,14 @@ configuration = openapi_client.Configuration(
 # satisfies your auth use case.
 
 # Configure Bearer authorization: BearerAuth
-configuration = openapi_client.Configuration(
+configuration = webshipperv2.Configuration(
     access_token = os.environ["BEARER_TOKEN"]
 )
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient(configuration) as api_client:
+with webshipperv2.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.MailTemplatesApi(api_client)
+    api_instance = webshipperv2.MailTemplatesApi(api_client)
     filter_id = 'filter_id_example' # str | Filter by id (optional)
     filter_purpose = 'filter_purpose_example' # str | Filter by purpose (optional)
 
@@ -99,14 +99,14 @@ Delete a Mail Templates
 ```python
 import time
 import os
-import openapi_client
-from openapi_client.models.mail_templates_id_get200_response import MailTemplatesIdGet200Response
-from openapi_client.rest import ApiException
+import webshipperv2
+from webshipperv2.models.mail_templates_id_get200_response import MailTemplatesIdGet200Response
+from webshipperv2.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to https://.api.webshipper.io/v2
 # See configuration.py for a list of all supported configuration parameters.
-configuration = openapi_client.Configuration(
+configuration = webshipperv2.Configuration(
     host = "https://.api.webshipper.io/v2"
 )
 
@@ -116,14 +116,14 @@ configuration = openapi_client.Configuration(
 # satisfies your auth use case.
 
 # Configure Bearer authorization: BearerAuth
-configuration = openapi_client.Configuration(
+configuration = webshipperv2.Configuration(
     access_token = os.environ["BEARER_TOKEN"]
 )
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient(configuration) as api_client:
+with webshipperv2.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.MailTemplatesApi(api_client)
+    api_instance = webshipperv2.MailTemplatesApi(api_client)
     id = 56 # int | 
 
     try:
@@ -174,14 +174,14 @@ Show a single Mail Templates
 ```python
 import time
 import os
-import openapi_client
-from openapi_client.models.mail_templates_id_get200_response import MailTemplatesIdGet200Response
-from openapi_client.rest import ApiException
+import webshipperv2
+from webshipperv2.models.mail_templates_id_get200_response import MailTemplatesIdGet200Response
+from webshipperv2.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to https://.api.webshipper.io/v2
 # See configuration.py for a list of all supported configuration parameters.
-configuration = openapi_client.Configuration(
+configuration = webshipperv2.Configuration(
     host = "https://.api.webshipper.io/v2"
 )
 
@@ -191,14 +191,14 @@ configuration = openapi_client.Configuration(
 # satisfies your auth use case.
 
 # Configure Bearer authorization: BearerAuth
-configuration = openapi_client.Configuration(
+configuration = webshipperv2.Configuration(
     access_token = os.environ["BEARER_TOKEN"]
 )
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient(configuration) as api_client:
+with webshipperv2.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.MailTemplatesApi(api_client)
+    api_instance = webshipperv2.MailTemplatesApi(api_client)
     id = 56 # int | 
 
     try:
@@ -249,15 +249,15 @@ Update a Mail Templates
 ```python
 import time
 import os
-import openapi_client
-from openapi_client.models.mail_templates_id_get200_response import MailTemplatesIdGet200Response
-from openapi_client.models.mail_templates_id_patch_request import MailTemplatesIdPatchRequest
-from openapi_client.rest import ApiException
+import webshipperv2
+from webshipperv2.models.mail_templates_id_get200_response import MailTemplatesIdGet200Response
+from webshipperv2.models.mail_templates_id_patch_request import MailTemplatesIdPatchRequest
+from webshipperv2.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to https://.api.webshipper.io/v2
 # See configuration.py for a list of all supported configuration parameters.
-configuration = openapi_client.Configuration(
+configuration = webshipperv2.Configuration(
     host = "https://.api.webshipper.io/v2"
 )
 
@@ -267,16 +267,16 @@ configuration = openapi_client.Configuration(
 # satisfies your auth use case.
 
 # Configure Bearer authorization: BearerAuth
-configuration = openapi_client.Configuration(
+configuration = webshipperv2.Configuration(
     access_token = os.environ["BEARER_TOKEN"]
 )
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient(configuration) as api_client:
+with webshipperv2.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.MailTemplatesApi(api_client)
+    api_instance = webshipperv2.MailTemplatesApi(api_client)
     id = 56 # int | 
-    mail_templates_id_patch_request = openapi_client.MailTemplatesIdPatchRequest() # MailTemplatesIdPatchRequest | 
+    mail_templates_id_patch_request = webshipperv2.MailTemplatesIdPatchRequest() # MailTemplatesIdPatchRequest | 
 
     try:
         # Update a Mail Templates
@@ -327,15 +327,15 @@ Create a Mail Templates
 ```python
 import time
 import os
-import openapi_client
-from openapi_client.models.mail_templates_id_get200_response import MailTemplatesIdGet200Response
-from openapi_client.models.mail_templates_post_request import MailTemplatesPostRequest
-from openapi_client.rest import ApiException
+import webshipperv2
+from webshipperv2.models.mail_templates_id_get200_response import MailTemplatesIdGet200Response
+from webshipperv2.models.mail_templates_post_request import MailTemplatesPostRequest
+from webshipperv2.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to https://.api.webshipper.io/v2
 # See configuration.py for a list of all supported configuration parameters.
-configuration = openapi_client.Configuration(
+configuration = webshipperv2.Configuration(
     host = "https://.api.webshipper.io/v2"
 )
 
@@ -345,15 +345,15 @@ configuration = openapi_client.Configuration(
 # satisfies your auth use case.
 
 # Configure Bearer authorization: BearerAuth
-configuration = openapi_client.Configuration(
+configuration = webshipperv2.Configuration(
     access_token = os.environ["BEARER_TOKEN"]
 )
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient(configuration) as api_client:
+with webshipperv2.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.MailTemplatesApi(api_client)
-    mail_templates_post_request = openapi_client.MailTemplatesPostRequest() # MailTemplatesPostRequest | 
+    api_instance = webshipperv2.MailTemplatesApi(api_client)
+    mail_templates_post_request = webshipperv2.MailTemplatesPostRequest() # MailTemplatesPostRequest | 
 
     try:
         # Create a Mail Templates

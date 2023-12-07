@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.api.action_api import ActionApi
+from webshipperv2.api.action_api import ActionApi
 
 
 class TestActionApi(unittest.TestCase):

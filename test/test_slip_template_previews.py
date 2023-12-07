@@ -15,7 +15,7 @@
 import unittest
 import datetime
 
-from openapi_client.models.slip_template_previews import SlipTemplatePreviews
+from webshipperv2.models.slip_template_previews import SlipTemplatePreviews
 
 class TestSlipTemplatePreviews(unittest.TestCase):
     """SlipTemplatePreviews unit test stubs"""

@@ -15,7 +15,7 @@
 import unittest
 import datetime
 
-from openapi_client.models.webhooks_post_request import WebhooksPostRequest
+from webshipperv2.models.webhooks_post_request import WebhooksPostRequest
 
 class TestWebhooksPostRequest(unittest.TestCase):
     """WebhooksPostRequest unit test stubs"""
@@ -36,9 +36,9 @@ class TestWebhooksPostRequest(unittest.TestCase):
         model = WebhooksPostRequest()
         if include_optional:
             return WebhooksPostRequest(
-                data = openapi_client.models._webhooks_post_request_data._webhooks_post_request_data(
+                data = webshipperv2.models._webhooks_post_request_data._webhooks_post_request_data(
                     type = 'webhooks', 
-                    attributes = openapi_client.models.webhooks.webhooks(
+                    attributes = webshipperv2.models.webhooks.webhooks(
                         url = '', 
                         topic = '', 
                         enabled = True, 

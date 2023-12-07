@@ -15,7 +15,7 @@
 import unittest
 import datetime
 
-from openapi_client.models.order_channel_types_id_get200_response import OrderChannelTypesIdGet200Response
+from webshipperv2.models.order_channel_types_id_get200_response import OrderChannelTypesIdGet200Response
 
 class TestOrderChannelTypesIdGet200Response(unittest.TestCase):
     """OrderChannelTypesIdGet200Response unit test stubs"""
@@ -36,10 +36,10 @@ class TestOrderChannelTypesIdGet200Response(unittest.TestCase):
         model = OrderChannelTypesIdGet200Response()
         if include_optional:
             return OrderChannelTypesIdGet200Response(
-                data = openapi_client.models._order_channel_types__id__get_200_response_data._order_channel_types__id__get_200_response_data(
+                data = webshipperv2.models._order_channel_types__id__get_200_response_data._order_channel_types__id__get_200_response_data(
                     id = 56, 
                     type = 'order_channel_types', 
-                    attributes = openapi_client.models.order_channel_types.order_channel_types(
+                    attributes = webshipperv2.models.order_channel_types.order_channel_types(
                         name = '', 
                         support_url = '', 
                         public_global_attrs = '', 
@@ -56,7 +56,7 @@ class TestOrderChannelTypesIdGet200Response(unittest.TestCase):
                         supports_vat_in_checkout = True, ), ),
                 relationships = None,
                 included = [
-                    openapi_client.models._brands__id__get_200_response_included_inner._brands__id__get_200_response_included_inner(
+                    webshipperv2.models._brands__id__get_200_response_included_inner._brands__id__get_200_response_included_inner(
                         type = 'orders', 
                         id = 56, 
                         data = null, )

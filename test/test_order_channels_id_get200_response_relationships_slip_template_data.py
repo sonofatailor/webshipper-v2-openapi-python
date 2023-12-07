@@ -15,7 +15,7 @@
 import unittest
 import datetime
 
-from openapi_client.models.order_channels_id_get200_response_relationships_slip_template_data import OrderChannelsIdGet200ResponseRelationshipsSlipTemplateData
+from webshipperv2.models.order_channels_id_get200_response_relationships_slip_template_data import OrderChannelsIdGet200ResponseRelationshipsSlipTemplateData
 
 class TestOrderChannelsIdGet200ResponseRelationshipsSlipTemplateData(unittest.TestCase):
     """OrderChannelsIdGet200ResponseRelationshipsSlipTemplateData unit test stubs"""

@@ -15,7 +15,7 @@
 import unittest
 import datetime
 
-from openapi_client.models.return_shipping_methods_id_get200_response_relationships import ReturnShippingMethodsIdGet200ResponseRelationships
+from webshipperv2.models.return_shipping_methods_id_get200_response_relationships import ReturnShippingMethodsIdGet200ResponseRelationships
 
 class TestReturnShippingMethodsIdGet200ResponseRelationships(unittest.TestCase):
     """ReturnShippingMethodsIdGet200ResponseRelationships unit test stubs"""
@@ -36,12 +36,12 @@ class TestReturnShippingMethodsIdGet200ResponseRelationships(unittest.TestCase):
         model = ReturnShippingMethodsIdGet200ResponseRelationships()
         if include_optional:
             return ReturnShippingMethodsIdGet200ResponseRelationships(
-                portal = openapi_client.models._return_refund_methods__id__get_200_response_relationships_portal._return_refund_methods__id__get_200_response_relationships_portal(
-                    data = openapi_client.models._return_refund_methods__id__get_200_response_relationships_portal_data._return_refund_methods__id__get_200_response_relationships_portal_data(
+                portal = webshipperv2.models._return_refund_methods__id__get_200_response_relationships_portal._return_refund_methods__id__get_200_response_relationships_portal(
+                    data = webshipperv2.models._return_refund_methods__id__get_200_response_relationships_portal_data._return_refund_methods__id__get_200_response_relationships_portal_data(
                         id = '', 
                         type = 'return_portals', ), ),
-                shipping_rate = openapi_client.models._orders__id__get_200_response_relationships_shipping_rate._orders__id__get_200_response_relationships_shipping_rate(
-                    data = openapi_client.models._orders__id__get_200_response_relationships_shipping_rate_data._orders__id__get_200_response_relationships_shipping_rate_data(
+                shipping_rate = webshipperv2.models._orders__id__get_200_response_relationships_shipping_rate._orders__id__get_200_response_relationships_shipping_rate(
+                    data = webshipperv2.models._orders__id__get_200_response_relationships_shipping_rate_data._orders__id__get_200_response_relationships_shipping_rate_data(
                         id = '', 
                         type = 'shipping_rates', ), )
             )

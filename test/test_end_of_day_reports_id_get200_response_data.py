@@ -15,7 +15,7 @@
 import unittest
 import datetime
 
-from openapi_client.models.end_of_day_reports_id_get200_response_data import EndOfDayReportsIdGet200ResponseData
+from webshipperv2.models.end_of_day_reports_id_get200_response_data import EndOfDayReportsIdGet200ResponseData
 
 class TestEndOfDayReportsIdGet200ResponseData(unittest.TestCase):
     """EndOfDayReportsIdGet200ResponseData unit test stubs"""
@@ -38,7 +38,7 @@ class TestEndOfDayReportsIdGet200ResponseData(unittest.TestCase):
             return EndOfDayReportsIdGet200ResponseData(
                 id = 56,
                 type = 'end_of_day_reports',
-                attributes = openapi_client.models.end_of_day_reports.end_of_day_reports(
+                attributes = webshipperv2.models.end_of_day_reports.end_of_day_reports(
                     base64 = '', 
                     updated_at = '', 
                     created_at = '', 

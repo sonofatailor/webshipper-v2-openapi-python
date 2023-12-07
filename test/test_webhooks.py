@@ -15,7 +15,7 @@
 import unittest
 import datetime
 
-from openapi_client.models.webhooks import Webhooks
+from webshipperv2.models.webhooks import Webhooks
 
 class TestWebhooks(unittest.TestCase):
     """Webhooks unit test stubs"""

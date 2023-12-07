@@ -15,7 +15,7 @@
 import unittest
 import datetime
 
-from openapi_client.models.bulk_printer_jobs_id_get200_response import BulkPrinterJobsIdGet200Response
+from webshipperv2.models.bulk_printer_jobs_id_get200_response import BulkPrinterJobsIdGet200Response
 
 class TestBulkPrinterJobsIdGet200Response(unittest.TestCase):
     """BulkPrinterJobsIdGet200Response unit test stubs"""
@@ -36,16 +36,16 @@ class TestBulkPrinterJobsIdGet200Response(unittest.TestCase):
         model = BulkPrinterJobsIdGet200Response()
         if include_optional:
             return BulkPrinterJobsIdGet200Response(
-                data = openapi_client.models._bulk_printer_jobs__id__get_200_response_data._bulk_printer_jobs__id__get_200_response_data(
+                data = webshipperv2.models._bulk_printer_jobs__id__get_200_response_data._bulk_printer_jobs__id__get_200_response_data(
                     id = 56, 
                     type = 'bulk_printer_jobs', 
-                    attributes = openapi_client.models.bulk_printer_jobs.bulk_printer_jobs(
+                    attributes = webshipperv2.models.bulk_printer_jobs.bulk_printer_jobs(
                         ids = '', 
                         model_type = '', 
                         printer_client_id = '', ), ),
                 relationships = None,
                 included = [
-                    openapi_client.models._brands__id__get_200_response_included_inner._brands__id__get_200_response_included_inner(
+                    webshipperv2.models._brands__id__get_200_response_included_inner._brands__id__get_200_response_included_inner(
                         type = 'orders', 
                         id = 56, 
                         data = null, )

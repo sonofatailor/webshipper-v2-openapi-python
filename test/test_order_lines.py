@@ -15,7 +15,7 @@
 import unittest
 import datetime
 
-from openapi_client.models.order_lines import OrderLines
+from webshipperv2.models.order_lines import OrderLines
 
 class TestOrderLines(unittest.TestCase):
     """OrderLines unit test stubs"""
@@ -56,7 +56,7 @@ class TestOrderLines(unittest.TestCase):
                 created_at = '',
                 updated_at = '',
                 is_virtual = True,
-                dangerous_goods_details = openapi_client.models.dangerous_goods_details.dangerous_goods_details()
+                dangerous_goods_details = webshipperv2.models.dangerous_goods_details.dangerous_goods_details()
             )
         else:
             return OrderLines(

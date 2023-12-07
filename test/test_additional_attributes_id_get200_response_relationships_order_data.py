@@ -15,7 +15,7 @@
 import unittest
 import datetime
 
-from openapi_client.models.additional_attributes_id_get200_response_relationships_order_data import AdditionalAttributesIdGet200ResponseRelationshipsOrderData
+from webshipperv2.models.additional_attributes_id_get200_response_relationships_order_data import AdditionalAttributesIdGet200ResponseRelationshipsOrderData
 
 class TestAdditionalAttributesIdGet200ResponseRelationshipsOrderData(unittest.TestCase):
     """AdditionalAttributesIdGet200ResponseRelationshipsOrderData unit test stubs"""

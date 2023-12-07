@@ -15,7 +15,7 @@
 import unittest
 import datetime
 
-from openapi_client.models.has_documents_id_get200_response_data import HasDocumentsIdGet200ResponseData
+from webshipperv2.models.has_documents_id_get200_response_data import HasDocumentsIdGet200ResponseData
 
 class TestHasDocumentsIdGet200ResponseData(unittest.TestCase):
     """HasDocumentsIdGet200ResponseData unit test stubs"""

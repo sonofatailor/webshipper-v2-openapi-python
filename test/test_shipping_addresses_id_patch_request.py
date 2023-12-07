@@ -15,7 +15,7 @@
 import unittest
 import datetime
 
-from openapi_client.models.shipping_addresses_id_patch_request import ShippingAddressesIdPatchRequest
+from webshipperv2.models.shipping_addresses_id_patch_request import ShippingAddressesIdPatchRequest
 
 class TestShippingAddressesIdPatchRequest(unittest.TestCase):
     """ShippingAddressesIdPatchRequest unit test stubs"""
@@ -36,10 +36,10 @@ class TestShippingAddressesIdPatchRequest(unittest.TestCase):
         model = ShippingAddressesIdPatchRequest()
         if include_optional:
             return ShippingAddressesIdPatchRequest(
-                data = openapi_client.models._shipping_addresses__id__get_200_response_data._shipping_addresses__id__get_200_response_data(
+                data = webshipperv2.models._shipping_addresses__id__get_200_response_data._shipping_addresses__id__get_200_response_data(
                     id = 56, 
                     type = 'shipping_addresses', 
-                    attributes = openapi_client.models.shipping_addresses.shipping_addresses(
+                    attributes = webshipperv2.models.shipping_addresses.shipping_addresses(
                         att_contact = '', 
                         company_name = '', 
                         address_1 = '', 

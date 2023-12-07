@@ -1,4 +1,4 @@
-# openapi_client.SlipTemplatePreviewApi
+# webshipperv2.SlipTemplatePreviewApi
 
 All URIs are relative to *https://.api.webshipper.io/v2*
 
@@ -22,14 +22,14 @@ List all Slip Template Previews
 ```python
 import time
 import os
-import openapi_client
-from openapi_client.models.slip_template_previews_get200_response import SlipTemplatePreviewsGet200Response
-from openapi_client.rest import ApiException
+import webshipperv2
+from webshipperv2.models.slip_template_previews_get200_response import SlipTemplatePreviewsGet200Response
+from webshipperv2.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to https://.api.webshipper.io/v2
 # See configuration.py for a list of all supported configuration parameters.
-configuration = openapi_client.Configuration(
+configuration = webshipperv2.Configuration(
     host = "https://.api.webshipper.io/v2"
 )
 
@@ -39,14 +39,14 @@ configuration = openapi_client.Configuration(
 # satisfies your auth use case.
 
 # Configure Bearer authorization: BearerAuth
-configuration = openapi_client.Configuration(
+configuration = webshipperv2.Configuration(
     access_token = os.environ["BEARER_TOKEN"]
 )
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient(configuration) as api_client:
+with webshipperv2.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.SlipTemplatePreviewApi(api_client)
+    api_instance = webshipperv2.SlipTemplatePreviewApi(api_client)
     filter_id = 'filter_id_example' # str | Filter by id (optional)
 
     try:
@@ -97,14 +97,14 @@ Delete a Slip Template Preview
 ```python
 import time
 import os
-import openapi_client
-from openapi_client.models.slip_template_previews_id_get200_response import SlipTemplatePreviewsIdGet200Response
-from openapi_client.rest import ApiException
+import webshipperv2
+from webshipperv2.models.slip_template_previews_id_get200_response import SlipTemplatePreviewsIdGet200Response
+from webshipperv2.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to https://.api.webshipper.io/v2
 # See configuration.py for a list of all supported configuration parameters.
-configuration = openapi_client.Configuration(
+configuration = webshipperv2.Configuration(
     host = "https://.api.webshipper.io/v2"
 )
 
@@ -114,14 +114,14 @@ configuration = openapi_client.Configuration(
 # satisfies your auth use case.
 
 # Configure Bearer authorization: BearerAuth
-configuration = openapi_client.Configuration(
+configuration = webshipperv2.Configuration(
     access_token = os.environ["BEARER_TOKEN"]
 )
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient(configuration) as api_client:
+with webshipperv2.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.SlipTemplatePreviewApi(api_client)
+    api_instance = webshipperv2.SlipTemplatePreviewApi(api_client)
     id = 56 # int | 
 
     try:
@@ -172,14 +172,14 @@ Show a single Slip Template Preview
 ```python
 import time
 import os
-import openapi_client
-from openapi_client.models.slip_template_previews_id_get200_response import SlipTemplatePreviewsIdGet200Response
-from openapi_client.rest import ApiException
+import webshipperv2
+from webshipperv2.models.slip_template_previews_id_get200_response import SlipTemplatePreviewsIdGet200Response
+from webshipperv2.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to https://.api.webshipper.io/v2
 # See configuration.py for a list of all supported configuration parameters.
-configuration = openapi_client.Configuration(
+configuration = webshipperv2.Configuration(
     host = "https://.api.webshipper.io/v2"
 )
 
@@ -189,14 +189,14 @@ configuration = openapi_client.Configuration(
 # satisfies your auth use case.
 
 # Configure Bearer authorization: BearerAuth
-configuration = openapi_client.Configuration(
+configuration = webshipperv2.Configuration(
     access_token = os.environ["BEARER_TOKEN"]
 )
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient(configuration) as api_client:
+with webshipperv2.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.SlipTemplatePreviewApi(api_client)
+    api_instance = webshipperv2.SlipTemplatePreviewApi(api_client)
     id = 56 # int | 
 
     try:
@@ -247,15 +247,15 @@ Update a Slip Template Preview
 ```python
 import time
 import os
-import openapi_client
-from openapi_client.models.slip_template_previews_id_get200_response import SlipTemplatePreviewsIdGet200Response
-from openapi_client.models.slip_template_previews_id_patch_request import SlipTemplatePreviewsIdPatchRequest
-from openapi_client.rest import ApiException
+import webshipperv2
+from webshipperv2.models.slip_template_previews_id_get200_response import SlipTemplatePreviewsIdGet200Response
+from webshipperv2.models.slip_template_previews_id_patch_request import SlipTemplatePreviewsIdPatchRequest
+from webshipperv2.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to https://.api.webshipper.io/v2
 # See configuration.py for a list of all supported configuration parameters.
-configuration = openapi_client.Configuration(
+configuration = webshipperv2.Configuration(
     host = "https://.api.webshipper.io/v2"
 )
 
@@ -265,16 +265,16 @@ configuration = openapi_client.Configuration(
 # satisfies your auth use case.
 
 # Configure Bearer authorization: BearerAuth
-configuration = openapi_client.Configuration(
+configuration = webshipperv2.Configuration(
     access_token = os.environ["BEARER_TOKEN"]
 )
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient(configuration) as api_client:
+with webshipperv2.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.SlipTemplatePreviewApi(api_client)
+    api_instance = webshipperv2.SlipTemplatePreviewApi(api_client)
     id = 56 # int | 
-    slip_template_previews_id_patch_request = openapi_client.SlipTemplatePreviewsIdPatchRequest() # SlipTemplatePreviewsIdPatchRequest | 
+    slip_template_previews_id_patch_request = webshipperv2.SlipTemplatePreviewsIdPatchRequest() # SlipTemplatePreviewsIdPatchRequest | 
 
     try:
         # Update a Slip Template Preview
@@ -325,15 +325,15 @@ Create a Slip Template Preview
 ```python
 import time
 import os
-import openapi_client
-from openapi_client.models.slip_template_previews_id_get200_response import SlipTemplatePreviewsIdGet200Response
-from openapi_client.models.slip_template_previews_post_request import SlipTemplatePreviewsPostRequest
-from openapi_client.rest import ApiException
+import webshipperv2
+from webshipperv2.models.slip_template_previews_id_get200_response import SlipTemplatePreviewsIdGet200Response
+from webshipperv2.models.slip_template_previews_post_request import SlipTemplatePreviewsPostRequest
+from webshipperv2.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to https://.api.webshipper.io/v2
 # See configuration.py for a list of all supported configuration parameters.
-configuration = openapi_client.Configuration(
+configuration = webshipperv2.Configuration(
     host = "https://.api.webshipper.io/v2"
 )
 
@@ -343,15 +343,15 @@ configuration = openapi_client.Configuration(
 # satisfies your auth use case.
 
 # Configure Bearer authorization: BearerAuth
-configuration = openapi_client.Configuration(
+configuration = webshipperv2.Configuration(
     access_token = os.environ["BEARER_TOKEN"]
 )
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient(configuration) as api_client:
+with webshipperv2.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.SlipTemplatePreviewApi(api_client)
-    slip_template_previews_post_request = openapi_client.SlipTemplatePreviewsPostRequest() # SlipTemplatePreviewsPostRequest | 
+    api_instance = webshipperv2.SlipTemplatePreviewApi(api_client)
+    slip_template_previews_post_request = webshipperv2.SlipTemplatePreviewsPostRequest() # SlipTemplatePreviewsPostRequest | 
 
     try:
         # Create a Slip Template Preview

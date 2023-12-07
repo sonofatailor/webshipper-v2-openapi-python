@@ -15,7 +15,7 @@
 import unittest
 import datetime
 
-from openapi_client.models.csv_uploads_post204_response_data import CsvUploadsPost204ResponseData
+from webshipperv2.models.csv_uploads_post204_response_data import CsvUploadsPost204ResponseData
 
 class TestCsvUploadsPost204ResponseData(unittest.TestCase):
     """CsvUploadsPost204ResponseData unit test stubs"""
@@ -38,7 +38,7 @@ class TestCsvUploadsPost204ResponseData(unittest.TestCase):
             return CsvUploadsPost204ResponseData(
                 id = 56,
                 type = 'csv_uploads',
-                attributes = openapi_client.models.csv_uploads.csv_uploads(
+                attributes = webshipperv2.models.csv_uploads.csv_uploads(
                     imported = [
                         ''
                         ], 

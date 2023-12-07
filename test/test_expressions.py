@@ -15,7 +15,7 @@
 import unittest
 import datetime
 
-from openapi_client.models.expressions import Expressions
+from webshipperv2.models.expressions import Expressions
 
 class TestExpressions(unittest.TestCase):
     """Expressions unit test stubs"""

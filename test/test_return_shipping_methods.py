@@ -15,7 +15,7 @@
 import unittest
 import datetime
 
-from openapi_client.models.return_shipping_methods import ReturnShippingMethods
+from webshipperv2.models.return_shipping_methods import ReturnShippingMethods
 
 class TestReturnShippingMethods(unittest.TestCase):
     """ReturnShippingMethods unit test stubs"""

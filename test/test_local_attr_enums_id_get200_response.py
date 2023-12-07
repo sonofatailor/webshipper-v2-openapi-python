@@ -15,7 +15,7 @@
 import unittest
 import datetime
 
-from openapi_client.models.local_attr_enums_id_get200_response import LocalAttrEnumsIdGet200Response
+from webshipperv2.models.local_attr_enums_id_get200_response import LocalAttrEnumsIdGet200Response
 
 class TestLocalAttrEnumsIdGet200Response(unittest.TestCase):
     """LocalAttrEnumsIdGet200Response unit test stubs"""
@@ -36,19 +36,19 @@ class TestLocalAttrEnumsIdGet200Response(unittest.TestCase):
         model = LocalAttrEnumsIdGet200Response()
         if include_optional:
             return LocalAttrEnumsIdGet200Response(
-                data = openapi_client.models._local_attr_enums__id__get_200_response_data._local_attr_enums__id__get_200_response_data(
+                data = webshipperv2.models._local_attr_enums__id__get_200_response_data._local_attr_enums__id__get_200_response_data(
                     id = 56, 
                     type = 'local_attr_enums', 
-                    attributes = openapi_client.models.local_attr_enums.local_attr_enums(
+                    attributes = webshipperv2.models.local_attr_enums.local_attr_enums(
                         enum_name = '', 
                         enum_value = '', ), ),
-                relationships = openapi_client.models._local_attr_enums__id__get_200_response_relationships._local_attr_enums__id__get_200_response_relationships(
-                    local_attr = openapi_client.models._local_attr_enums__id__get_200_response_relationships_local_attr._local_attr_enums__id__get_200_response_relationships_local_attr(
-                        data = openapi_client.models._local_attr_enums__id__get_200_response_relationships_local_attr_data._local_attr_enums__id__get_200_response_relationships_local_attr_data(
+                relationships = webshipperv2.models._local_attr_enums__id__get_200_response_relationships._local_attr_enums__id__get_200_response_relationships(
+                    local_attr = webshipperv2.models._local_attr_enums__id__get_200_response_relationships_local_attr._local_attr_enums__id__get_200_response_relationships_local_attr(
+                        data = webshipperv2.models._local_attr_enums__id__get_200_response_relationships_local_attr_data._local_attr_enums__id__get_200_response_relationships_local_attr_data(
                             id = '', 
                             type = 'local_attrs', ), ), ),
                 included = [
-                    openapi_client.models._local_attr_enums__id__get_200_response_included_inner._local_attr_enums__id__get_200_response_included_inner(
+                    webshipperv2.models._local_attr_enums__id__get_200_response_included_inner._local_attr_enums__id__get_200_response_included_inner(
                         type = 'orders', 
                         id = 56, 
                         data = null, )

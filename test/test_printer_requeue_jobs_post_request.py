@@ -15,7 +15,7 @@
 import unittest
 import datetime
 
-from openapi_client.models.printer_requeue_jobs_post_request import PrinterRequeueJobsPostRequest
+from webshipperv2.models.printer_requeue_jobs_post_request import PrinterRequeueJobsPostRequest
 
 class TestPrinterRequeueJobsPostRequest(unittest.TestCase):
     """PrinterRequeueJobsPostRequest unit test stubs"""
@@ -36,9 +36,9 @@ class TestPrinterRequeueJobsPostRequest(unittest.TestCase):
         model = PrinterRequeueJobsPostRequest()
         if include_optional:
             return PrinterRequeueJobsPostRequest(
-                data = openapi_client.models._printer_requeue_jobs_post_request_data._printer_requeue_jobs_post_request_data(
+                data = webshipperv2.models._printer_requeue_jobs_post_request_data._printer_requeue_jobs_post_request_data(
                     type = 'printer_requeue_jobs', 
-                    attributes = openapi_client.models.printer_requeue_jobs.printer_requeue_jobs(
+                    attributes = webshipperv2.models.printer_requeue_jobs.printer_requeue_jobs(
                         start_time = '', 
                         end_time = '', 
                         job_id = '', 

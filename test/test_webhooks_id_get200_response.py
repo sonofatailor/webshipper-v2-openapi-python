@@ -15,7 +15,7 @@
 import unittest
 import datetime
 
-from openapi_client.models.webhooks_id_get200_response import WebhooksIdGet200Response
+from webshipperv2.models.webhooks_id_get200_response import WebhooksIdGet200Response
 
 class TestWebhooksIdGet200Response(unittest.TestCase):
     """WebhooksIdGet200Response unit test stubs"""
@@ -36,10 +36,10 @@ class TestWebhooksIdGet200Response(unittest.TestCase):
         model = WebhooksIdGet200Response()
         if include_optional:
             return WebhooksIdGet200Response(
-                data = openapi_client.models._webhooks__id__get_200_response_data._webhooks__id__get_200_response_data(
+                data = webshipperv2.models._webhooks__id__get_200_response_data._webhooks__id__get_200_response_data(
                     id = 56, 
                     type = 'webhooks', 
-                    attributes = openapi_client.models.webhooks.webhooks(
+                    attributes = webshipperv2.models.webhooks.webhooks(
                         url = '', 
                         topic = '', 
                         enabled = True, 
@@ -55,7 +55,7 @@ class TestWebhooksIdGet200Response(unittest.TestCase):
                             ], ), ),
                 relationships = None,
                 included = [
-                    openapi_client.models._brands__id__get_200_response_included_inner._brands__id__get_200_response_included_inner(
+                    webshipperv2.models._brands__id__get_200_response_included_inner._brands__id__get_200_response_included_inner(
                         type = 'orders', 
                         id = 56, 
                         data = null, )

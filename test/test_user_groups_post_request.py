@@ -15,7 +15,7 @@
 import unittest
 import datetime
 
-from openapi_client.models.user_groups_post_request import UserGroupsPostRequest
+from webshipperv2.models.user_groups_post_request import UserGroupsPostRequest
 
 class TestUserGroupsPostRequest(unittest.TestCase):
     """UserGroupsPostRequest unit test stubs"""
@@ -36,9 +36,9 @@ class TestUserGroupsPostRequest(unittest.TestCase):
         model = UserGroupsPostRequest()
         if include_optional:
             return UserGroupsPostRequest(
-                data = openapi_client.models._user_groups_post_request_data._user_groups_post_request_data(
+                data = webshipperv2.models._user_groups_post_request_data._user_groups_post_request_data(
                     type = 'user_groups', 
-                    attributes = openapi_client.models.user_groups.user_groups(
+                    attributes = webshipperv2.models.user_groups.user_groups(
                         name = '', 
                         scopes = [
                             ''

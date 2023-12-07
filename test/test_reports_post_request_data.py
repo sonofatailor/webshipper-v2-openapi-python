@@ -15,7 +15,7 @@
 import unittest
 import datetime
 
-from openapi_client.models.reports_post_request_data import ReportsPostRequestData
+from webshipperv2.models.reports_post_request_data import ReportsPostRequestData
 
 class TestReportsPostRequestData(unittest.TestCase):
     """ReportsPostRequestData unit test stubs"""
@@ -37,7 +37,7 @@ class TestReportsPostRequestData(unittest.TestCase):
         if include_optional:
             return ReportsPostRequestData(
                 type = 'reports',
-                attributes = openapi_client.models.reports.reports(
+                attributes = webshipperv2.models.reports.reports(
                     updated_at = '', 
                     created_at = '', 
                     start_time = '', 
@@ -45,7 +45,7 @@ class TestReportsPostRequestData(unittest.TestCase):
                     output_formats = [
                         ''
                         ], 
-                    parameters = openapi_client.models.parameters.parameters(), 
+                    parameters = webshipperv2.models.parameters.parameters(), 
                     base64 = '', 
                     pdf_download_url = '', 
                     xml_download_url = '', 

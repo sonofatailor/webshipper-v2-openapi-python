@@ -15,7 +15,7 @@
 import unittest
 import datetime
 
-from openapi_client.models.has_documents_post_request_data import HasDocumentsPostRequestData
+from webshipperv2.models.has_documents_post_request_data import HasDocumentsPostRequestData
 
 class TestHasDocumentsPostRequestData(unittest.TestCase):
     """HasDocumentsPostRequestData unit test stubs"""
@@ -37,7 +37,7 @@ class TestHasDocumentsPostRequestData(unittest.TestCase):
         if include_optional:
             return HasDocumentsPostRequestData(
                 type = 'has_documents',
-                attributes = openapi_client.models.attributes.attributes()
+                attributes = webshipperv2.models.attributes.attributes()
             )
         else:
             return HasDocumentsPostRequestData(

@@ -15,7 +15,7 @@
 import unittest
 import datetime
 
-from openapi_client.models.shipping_mappings_id_get200_response import ShippingMappingsIdGet200Response
+from webshipperv2.models.shipping_mappings_id_get200_response import ShippingMappingsIdGet200Response
 
 class TestShippingMappingsIdGet200Response(unittest.TestCase):
     """ShippingMappingsIdGet200Response unit test stubs"""
@@ -36,24 +36,24 @@ class TestShippingMappingsIdGet200Response(unittest.TestCase):
         model = ShippingMappingsIdGet200Response()
         if include_optional:
             return ShippingMappingsIdGet200Response(
-                data = openapi_client.models._shipping_mappings__id__get_200_response_data._shipping_mappings__id__get_200_response_data(
+                data = webshipperv2.models._shipping_mappings__id__get_200_response_data._shipping_mappings__id__get_200_response_data(
                     id = 56, 
                     type = 'shipping_mappings', 
-                    attributes = openapi_client.models.shipping_mappings.shipping_mappings(
+                    attributes = webshipperv2.models.shipping_mappings.shipping_mappings(
                         shipping_code = '', 
                         shipping_name = '', 
                         shipping_rate_id = 56, 
                         order_channel_id = 56, 
                         created_at = '', 
                         updated_at = '', ), ),
-                relationships = openapi_client.models._shipping_mappings__id__get_200_response_relationships._shipping_mappings__id__get_200_response_relationships(
-                    shipping_rate = openapi_client.models._orders__id__get_200_response_relationships_shipping_rate._orders__id__get_200_response_relationships_shipping_rate(
-                        data = openapi_client.models._orders__id__get_200_response_relationships_shipping_rate_data._orders__id__get_200_response_relationships_shipping_rate_data(
+                relationships = webshipperv2.models._shipping_mappings__id__get_200_response_relationships._shipping_mappings__id__get_200_response_relationships(
+                    shipping_rate = webshipperv2.models._orders__id__get_200_response_relationships_shipping_rate._orders__id__get_200_response_relationships_shipping_rate(
+                        data = webshipperv2.models._orders__id__get_200_response_relationships_shipping_rate_data._orders__id__get_200_response_relationships_shipping_rate_data(
                             id = '', 
                             type = 'shipping_rates', ), ), 
-                    order_channel = openapi_client.models._csv_mappings__id__get_200_response_relationships_order_channel._csv_mappings__id__get_200_response_relationships_order_channel(), ),
+                    order_channel = webshipperv2.models._csv_mappings__id__get_200_response_relationships_order_channel._csv_mappings__id__get_200_response_relationships_order_channel(), ),
                 included = [
-                    openapi_client.models._shipping_mappings__id__get_200_response_included_inner._shipping_mappings__id__get_200_response_included_inner(
+                    webshipperv2.models._shipping_mappings__id__get_200_response_included_inner._shipping_mappings__id__get_200_response_included_inner(
                         type = 'orders', 
                         id = 56, 
                         data = null, )

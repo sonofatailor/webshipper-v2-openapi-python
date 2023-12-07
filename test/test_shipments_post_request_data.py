@@ -15,7 +15,7 @@
 import unittest
 import datetime
 
-from openapi_client.models.shipments_post_request_data import ShipmentsPostRequestData
+from webshipperv2.models.shipments_post_request_data import ShipmentsPostRequestData
 
 class TestShipmentsPostRequestData(unittest.TestCase):
     """ShipmentsPostRequestData unit test stubs"""
@@ -37,13 +37,13 @@ class TestShipmentsPostRequestData(unittest.TestCase):
         if include_optional:
             return ShipmentsPostRequestData(
                 type = 'shipments',
-                attributes = openapi_client.models.shipments.shipments(
+                attributes = webshipperv2.models.shipments.shipments(
                     reference = '', 
                     comment = '', 
                     service_code = '', 
                     is_return = True, 
                     packages = [
-                        openapi_client.models.packages.packages(
+                        webshipperv2.models.packages.packages(
                             weight = 1.337, 
                             weight_unit = 'g', 
                             dimensions = '', 
@@ -52,11 +52,11 @@ class TestShipmentsPostRequestData(unittest.TestCase):
                             colli_type = '', 
                             predefined_barcode = '', )
                         ], 
-                    delivery_address = openapi_client.models.delivery_address.delivery_address(), 
-                    sender_address = openapi_client.models.sender_address.sender_address(), 
-                    billing_address = openapi_client.models.billing_address.billing_address(), 
-                    pickup_address = openapi_client.models.pickup_address.pickup_address(), 
-                    return_address = openapi_client.models.return_address.return_address(), 
+                    delivery_address = webshipperv2.models.delivery_address.delivery_address(), 
+                    sender_address = webshipperv2.models.sender_address.sender_address(), 
+                    billing_address = webshipperv2.models.billing_address.billing_address(), 
+                    pickup_address = webshipperv2.models.pickup_address.pickup_address(), 
+                    return_address = webshipperv2.models.return_address.return_address(), 
                     service_attributes = [
                         ''
                         ], 
@@ -68,7 +68,7 @@ class TestShipmentsPostRequestData(unittest.TestCase):
                     included_documents = '', 
                     drop_point = '', 
                     tracking_links = [
-                        openapi_client.models.shipments_tracking_links_inner.shipments_tracking_links_inner(
+                        webshipperv2.models.shipments_tracking_links_inner.shipments_tracking_links_inner(
                             url = '', 
                             number = '', 
                             latest_transit_event = '', 

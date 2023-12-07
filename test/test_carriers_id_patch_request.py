@@ -15,7 +15,7 @@
 import unittest
 import datetime
 
-from openapi_client.models.carriers_id_patch_request import CarriersIdPatchRequest
+from webshipperv2.models.carriers_id_patch_request import CarriersIdPatchRequest
 
 class TestCarriersIdPatchRequest(unittest.TestCase):
     """CarriersIdPatchRequest unit test stubs"""
@@ -36,10 +36,10 @@ class TestCarriersIdPatchRequest(unittest.TestCase):
         model = CarriersIdPatchRequest()
         if include_optional:
             return CarriersIdPatchRequest(
-                data = openapi_client.models._carriers__id__get_200_response_data._carriers__id__get_200_response_data(
+                data = webshipperv2.models._carriers__id__get_200_response_data._carriers__id__get_200_response_data(
                     id = 56, 
                     type = 'carriers', 
-                    attributes = openapi_client.models.carriers.carriers(
+                    attributes = webshipperv2.models.carriers.carriers(
                         alias = '', 
                         services = '', 
                         attrs = '', 
@@ -58,13 +58,13 @@ class TestCarriersIdPatchRequest(unittest.TestCase):
                         logo_url = '', 
                         print_error_label = True, 
                         ftp_configuration_id = 56, ), ),
-                relationships = openapi_client.models._carriers__id__get_200_response_relationships._carriers__id__get_200_response_relationships(
-                    carrier_type = openapi_client.models._carriers__id__get_200_response_relationships_carrier_type._carriers__id__get_200_response_relationships_carrier_type(
-                        data = openapi_client.models._carriers__id__get_200_response_relationships_carrier_type_data._carriers__id__get_200_response_relationships_carrier_type_data(
+                relationships = webshipperv2.models._carriers__id__get_200_response_relationships._carriers__id__get_200_response_relationships(
+                    carrier_type = webshipperv2.models._carriers__id__get_200_response_relationships_carrier_type._carriers__id__get_200_response_relationships_carrier_type(
+                        data = webshipperv2.models._carriers__id__get_200_response_relationships_carrier_type_data._carriers__id__get_200_response_relationships_carrier_type_data(
                             id = '', 
                             type = 'carrier_types', ), ), 
-                    sender_address = openapi_client.models._carriers__id__get_200_response_relationships_sender_address._carriers__id__get_200_response_relationships_sender_address(), 
-                    return_address = openapi_client.models._carriers__id__get_200_response_relationships_sender_address._carriers__id__get_200_response_relationships_sender_address(), )
+                    sender_address = webshipperv2.models._carriers__id__get_200_response_relationships_sender_address._carriers__id__get_200_response_relationships_sender_address(), 
+                    return_address = webshipperv2.models._carriers__id__get_200_response_relationships_sender_address._carriers__id__get_200_response_relationships_sender_address(), )
             )
         else:
             return CarriersIdPatchRequest(

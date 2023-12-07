@@ -15,7 +15,7 @@
 import unittest
 import datetime
 
-from openapi_client.models.favourite_pages_id_get200_response_included_inner import FavouritePagesIdGet200ResponseIncludedInner
+from webshipperv2.models.favourite_pages_id_get200_response_included_inner import FavouritePagesIdGet200ResponseIncludedInner
 
 class TestFavouritePagesIdGet200ResponseIncludedInner(unittest.TestCase):
     """FavouritePagesIdGet200ResponseIncludedInner unit test stubs"""

@@ -15,7 +15,7 @@
 import unittest
 import datetime
 
-from openapi_client.models.pickups_id_get200_response_included_inner_data import PickupsIdGet200ResponseIncludedInnerData
+from webshipperv2.models.pickups_id_get200_response_included_inner_data import PickupsIdGet200ResponseIncludedInnerData
 
 class TestPickupsIdGet200ResponseIncludedInnerData(unittest.TestCase):
     """PickupsIdGet200ResponseIncludedInnerData unit test stubs"""

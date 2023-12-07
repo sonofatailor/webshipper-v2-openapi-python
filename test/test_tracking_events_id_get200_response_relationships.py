@@ -15,7 +15,7 @@
 import unittest
 import datetime
 
-from openapi_client.models.tracking_events_id_get200_response_relationships import TrackingEventsIdGet200ResponseRelationships
+from webshipperv2.models.tracking_events_id_get200_response_relationships import TrackingEventsIdGet200ResponseRelationships
 
 class TestTrackingEventsIdGet200ResponseRelationships(unittest.TestCase):
     """TrackingEventsIdGet200ResponseRelationships unit test stubs"""
@@ -36,12 +36,12 @@ class TestTrackingEventsIdGet200ResponseRelationships(unittest.TestCase):
         model = TrackingEventsIdGet200ResponseRelationships()
         if include_optional:
             return TrackingEventsIdGet200ResponseRelationships(
-                package = openapi_client.models._tracking_events__id__get_200_response_relationships_package._tracking_events__id__get_200_response_relationships_package(
-                    data = openapi_client.models._tracking_events__id__get_200_response_relationships_package_data._tracking_events__id__get_200_response_relationships_package_data(
+                package = webshipperv2.models._tracking_events__id__get_200_response_relationships_package._tracking_events__id__get_200_response_relationships_package(
+                    data = webshipperv2.models._tracking_events__id__get_200_response_relationships_package_data._tracking_events__id__get_200_response_relationships_package_data(
                         id = '', 
                         type = 'packages', ), ),
-                shipment = openapi_client.models._edis__id__get_200_response_relationships_shipment._edis__id__get_200_response_relationships_shipment(
-                    data = openapi_client.models._edis__id__get_200_response_relationships_shipment_data._edis__id__get_200_response_relationships_shipment_data(
+                shipment = webshipperv2.models._edis__id__get_200_response_relationships_shipment._edis__id__get_200_response_relationships_shipment(
+                    data = webshipperv2.models._edis__id__get_200_response_relationships_shipment_data._edis__id__get_200_response_relationships_shipment_data(
                         id = '', 
                         type = 'shipments', ), )
             )

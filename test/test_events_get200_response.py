@@ -15,7 +15,7 @@
 import unittest
 import datetime
 
-from openapi_client.models.events_get200_response import EventsGet200Response
+from webshipperv2.models.events_get200_response import EventsGet200Response
 
 class TestEventsGet200Response(unittest.TestCase):
     """EventsGet200Response unit test stubs"""
@@ -37,8 +37,8 @@ class TestEventsGet200Response(unittest.TestCase):
         if include_optional:
             return EventsGet200Response(
                 data = [
-                    openapi_client.models._events_get_200_response_data_inner._events_get_200_response_data_inner(
-                        attributes = openapi_client.models.events.events(
+                    webshipperv2.models._events_get_200_response_data_inner._events_get_200_response_data_inner(
+                        attributes = webshipperv2.models.events.events(
                             title = '', 
                             details = '', 
                             icon = '', 

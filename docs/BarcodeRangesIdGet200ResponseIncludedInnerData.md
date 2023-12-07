@@ -26,7 +26,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```python
-from openapi_client.models.barcode_ranges_id_get200_response_included_inner_data import BarcodeRangesIdGet200ResponseIncludedInnerData
+from webshipperv2.models.barcode_ranges_id_get200_response_included_inner_data import BarcodeRangesIdGet200ResponseIncludedInnerData
 
 # TODO update the JSON string below
 json = "{}"

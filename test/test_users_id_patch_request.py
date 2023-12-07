@@ -15,7 +15,7 @@
 import unittest
 import datetime
 
-from openapi_client.models.users_id_patch_request import UsersIdPatchRequest
+from webshipperv2.models.users_id_patch_request import UsersIdPatchRequest
 
 class TestUsersIdPatchRequest(unittest.TestCase):
     """UsersIdPatchRequest unit test stubs"""
@@ -36,10 +36,10 @@ class TestUsersIdPatchRequest(unittest.TestCase):
         model = UsersIdPatchRequest()
         if include_optional:
             return UsersIdPatchRequest(
-                data = openapi_client.models._users__id__get_200_response_data._users__id__get_200_response_data(
+                data = webshipperv2.models._users__id__get_200_response_data._users__id__get_200_response_data(
                     id = 56, 
                     type = 'users', 
-                    attributes = openapi_client.models.users.users(
+                    attributes = webshipperv2.models.users.users(
                         first_name = '', 
                         last_name = '', 
                         email = '', 
@@ -59,12 +59,12 @@ class TestUsersIdPatchRequest(unittest.TestCase):
                         home_page = '', 
                         limit_order_search = '', 
                         view_ids = True, ), ),
-                relationships = openapi_client.models._users__id__get_200_response_relationships._users__id__get_200_response_relationships(
-                    user_group = openapi_client.models._users__id__get_200_response_relationships_user_group._users__id__get_200_response_relationships_user_group(
-                        data = openapi_client.models._users__id__get_200_response_relationships_user_group_data._users__id__get_200_response_relationships_user_group_data(
+                relationships = webshipperv2.models._users__id__get_200_response_relationships._users__id__get_200_response_relationships(
+                    user_group = webshipperv2.models._users__id__get_200_response_relationships_user_group._users__id__get_200_response_relationships_user_group(
+                        data = webshipperv2.models._users__id__get_200_response_relationships_user_group_data._users__id__get_200_response_relationships_user_group_data(
                             id = '', 
                             type = 'user_groups', ), ), 
-                    printer_client = openapi_client.models._orders__id__get_200_response_relationships_printer_client._orders__id__get_200_response_relationships_printer_client(), )
+                    printer_client = webshipperv2.models._orders__id__get_200_response_relationships_printer_client._orders__id__get_200_response_relationships_printer_client(), )
             )
         else:
             return UsersIdPatchRequest(

@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.api.service_quote_api import ServiceQuoteApi
+from webshipperv2.api.service_quote_api import ServiceQuoteApi
 
 
 class TestServiceQuoteApi(unittest.TestCase):

@@ -15,7 +15,7 @@
 import unittest
 import datetime
 
-from openapi_client.models.return_refund_methods_id_patch_request import ReturnRefundMethodsIdPatchRequest
+from webshipperv2.models.return_refund_methods_id_patch_request import ReturnRefundMethodsIdPatchRequest
 
 class TestReturnRefundMethodsIdPatchRequest(unittest.TestCase):
     """ReturnRefundMethodsIdPatchRequest unit test stubs"""
@@ -36,16 +36,16 @@ class TestReturnRefundMethodsIdPatchRequest(unittest.TestCase):
         model = ReturnRefundMethodsIdPatchRequest()
         if include_optional:
             return ReturnRefundMethodsIdPatchRequest(
-                data = openapi_client.models._return_refund_methods__id__get_200_response_data._return_refund_methods__id__get_200_response_data(
+                data = webshipperv2.models._return_refund_methods__id__get_200_response_data._return_refund_methods__id__get_200_response_data(
                     id = 56, 
                     type = 'return_refund_methods', 
-                    attributes = openapi_client.models.return_refund_methods.return_refund_methods(
+                    attributes = webshipperv2.models.return_refund_methods.return_refund_methods(
                         name = '', 
                         description = '', 
                         allowed_days = 56, ), ),
-                relationships = openapi_client.models._return_refund_methods__id__get_200_response_relationships._return_refund_methods__id__get_200_response_relationships(
-                    portal = openapi_client.models._return_refund_methods__id__get_200_response_relationships_portal._return_refund_methods__id__get_200_response_relationships_portal(
-                        data = openapi_client.models._return_refund_methods__id__get_200_response_relationships_portal_data._return_refund_methods__id__get_200_response_relationships_portal_data(
+                relationships = webshipperv2.models._return_refund_methods__id__get_200_response_relationships._return_refund_methods__id__get_200_response_relationships(
+                    portal = webshipperv2.models._return_refund_methods__id__get_200_response_relationships_portal._return_refund_methods__id__get_200_response_relationships_portal(
+                        data = webshipperv2.models._return_refund_methods__id__get_200_response_relationships_portal_data._return_refund_methods__id__get_200_response_relationships_portal_data(
                             id = '', 
                             type = 'return_portals', ), ), )
             )

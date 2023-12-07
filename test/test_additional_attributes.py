@@ -15,7 +15,7 @@
 import unittest
 import datetime
 
-from openapi_client.models.additional_attributes import AdditionalAttributes
+from webshipperv2.models.additional_attributes import AdditionalAttributes
 
 class TestAdditionalAttributes(unittest.TestCase):
     """AdditionalAttributes unit test stubs"""

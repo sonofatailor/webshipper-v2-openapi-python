@@ -15,7 +15,7 @@
 import unittest
 import datetime
 
-from openapi_client.models.event_models_post_request import EventModelsPostRequest
+from webshipperv2.models.event_models_post_request import EventModelsPostRequest
 
 class TestEventModelsPostRequest(unittest.TestCase):
     """EventModelsPostRequest unit test stubs"""
@@ -36,9 +36,9 @@ class TestEventModelsPostRequest(unittest.TestCase):
         model = EventModelsPostRequest()
         if include_optional:
             return EventModelsPostRequest(
-                data = openapi_client.models._event_models_post_request_data._event_models_post_request_data(
+                data = webshipperv2.models._event_models_post_request_data._event_models_post_request_data(
                     type = 'event_models', 
-                    attributes = openapi_client.models.attributes.attributes(), ),
+                    attributes = webshipperv2.models.attributes.attributes(), ),
                 relationships = None
             )
         else:

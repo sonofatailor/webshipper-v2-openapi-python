@@ -15,7 +15,7 @@
 import unittest
 import datetime
 
-from openapi_client.models.edis_id_get200_response_relationships_shipment_data import EdisIdGet200ResponseRelationshipsShipmentData
+from webshipperv2.models.edis_id_get200_response_relationships_shipment_data import EdisIdGet200ResponseRelationshipsShipmentData
 
 class TestEdisIdGet200ResponseRelationshipsShipmentData(unittest.TestCase):
     """EdisIdGet200ResponseRelationshipsShipmentData unit test stubs"""

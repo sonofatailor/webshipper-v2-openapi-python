@@ -15,7 +15,7 @@
 import unittest
 import datetime
 
-from openapi_client.models.tracking_events import TrackingEvents
+from webshipperv2.models.tracking_events import TrackingEvents
 
 class TestTrackingEvents(unittest.TestCase):
     """TrackingEvents unit test stubs"""

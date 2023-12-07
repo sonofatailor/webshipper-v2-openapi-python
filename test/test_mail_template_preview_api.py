@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.api.mail_template_preview_api import MailTemplatePreviewApi
+from webshipperv2.api.mail_template_preview_api import MailTemplatePreviewApi
 
 
 class TestMailTemplatePreviewApi(unittest.TestCase):

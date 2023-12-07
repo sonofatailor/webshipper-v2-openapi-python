@@ -15,7 +15,7 @@
 import unittest
 import datetime
 
-from openapi_client.models.carrier_accesses_id_get200_response_relationships_user import CarrierAccessesIdGet200ResponseRelationshipsUser
+from webshipperv2.models.carrier_accesses_id_get200_response_relationships_user import CarrierAccessesIdGet200ResponseRelationshipsUser
 
 class TestCarrierAccessesIdGet200ResponseRelationshipsUser(unittest.TestCase):
     """CarrierAccessesIdGet200ResponseRelationshipsUser unit test stubs"""
@@ -36,7 +36,7 @@ class TestCarrierAccessesIdGet200ResponseRelationshipsUser(unittest.TestCase):
         model = CarrierAccessesIdGet200ResponseRelationshipsUser()
         if include_optional:
             return CarrierAccessesIdGet200ResponseRelationshipsUser(
-                data = openapi_client.models._carrier_accesses__id__get_200_response_relationships_user_data._carrier_accesses__id__get_200_response_relationships_user_data(
+                data = webshipperv2.models._carrier_accesses__id__get_200_response_relationships_user_data._carrier_accesses__id__get_200_response_relationships_user_data(
                     id = '', 
                     type = 'users', )
             )

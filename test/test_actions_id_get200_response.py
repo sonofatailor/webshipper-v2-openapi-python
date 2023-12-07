@@ -15,7 +15,7 @@
 import unittest
 import datetime
 
-from openapi_client.models.actions_id_get200_response import ActionsIdGet200Response
+from webshipperv2.models.actions_id_get200_response import ActionsIdGet200Response
 
 class TestActionsIdGet200Response(unittest.TestCase):
     """ActionsIdGet200Response unit test stubs"""
@@ -36,23 +36,23 @@ class TestActionsIdGet200Response(unittest.TestCase):
         model = ActionsIdGet200Response()
         if include_optional:
             return ActionsIdGet200Response(
-                data = openapi_client.models._actions__id__get_200_response_data._actions__id__get_200_response_data(
+                data = webshipperv2.models._actions__id__get_200_response_data._actions__id__get_200_response_data(
                     id = 56, 
                     type = 'actions', 
-                    attributes = openapi_client.models.actions.actions(
+                    attributes = webshipperv2.models.actions.actions(
                         job_type = '', 
                         async = True, 
                         additional_attributes = [
                             ''
                             ], 
                         priority = 56, ), ),
-                relationships = openapi_client.models._actions__id__get_200_response_relationships._actions__id__get_200_response_relationships(
-                    automation = openapi_client.models._actions__id__get_200_response_relationships_automation._actions__id__get_200_response_relationships_automation(
-                        data = openapi_client.models._actions__id__get_200_response_relationships_automation_data._actions__id__get_200_response_relationships_automation_data(
+                relationships = webshipperv2.models._actions__id__get_200_response_relationships._actions__id__get_200_response_relationships(
+                    automation = webshipperv2.models._actions__id__get_200_response_relationships_automation._actions__id__get_200_response_relationships_automation(
+                        data = webshipperv2.models._actions__id__get_200_response_relationships_automation_data._actions__id__get_200_response_relationships_automation_data(
                             id = '', 
                             type = 'automations', ), ), ),
                 included = [
-                    openapi_client.models._actions__id__get_200_response_included_inner._actions__id__get_200_response_included_inner(
+                    webshipperv2.models._actions__id__get_200_response_included_inner._actions__id__get_200_response_included_inner(
                         type = 'orders', 
                         id = 56, 
                         data = null, )

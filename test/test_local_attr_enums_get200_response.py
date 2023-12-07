@@ -15,7 +15,7 @@
 import unittest
 import datetime
 
-from openapi_client.models.local_attr_enums_get200_response import LocalAttrEnumsGet200Response
+from webshipperv2.models.local_attr_enums_get200_response import LocalAttrEnumsGet200Response
 
 class TestLocalAttrEnumsGet200Response(unittest.TestCase):
     """LocalAttrEnumsGet200Response unit test stubs"""
@@ -37,8 +37,8 @@ class TestLocalAttrEnumsGet200Response(unittest.TestCase):
         if include_optional:
             return LocalAttrEnumsGet200Response(
                 data = [
-                    openapi_client.models._local_attr_enums_get_200_response_data_inner._local_attr_enums_get_200_response_data_inner(
-                        attributes = openapi_client.models.local_attr_enums.local_attr_enums(
+                    webshipperv2.models._local_attr_enums_get_200_response_data_inner._local_attr_enums_get_200_response_data_inner(
+                        attributes = webshipperv2.models.local_attr_enums.local_attr_enums(
                             enum_name = '', 
                             enum_value = '', ), )
                     ]

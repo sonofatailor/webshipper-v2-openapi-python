@@ -14,7 +14,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```python
-from openapi_client.models.edis import Edis
+from webshipperv2.models.edis import Edis
 
 # TODO update the JSON string below
 json = "{}"

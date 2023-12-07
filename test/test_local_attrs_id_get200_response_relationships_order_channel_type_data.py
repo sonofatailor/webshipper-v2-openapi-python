@@ -15,7 +15,7 @@
 import unittest
 import datetime
 
-from openapi_client.models.local_attrs_id_get200_response_relationships_order_channel_type_data import LocalAttrsIdGet200ResponseRelationshipsOrderChannelTypeData
+from webshipperv2.models.local_attrs_id_get200_response_relationships_order_channel_type_data import LocalAttrsIdGet200ResponseRelationshipsOrderChannelTypeData
 
 class TestLocalAttrsIdGet200ResponseRelationshipsOrderChannelTypeData(unittest.TestCase):
     """LocalAttrsIdGet200ResponseRelationshipsOrderChannelTypeData unit test stubs"""

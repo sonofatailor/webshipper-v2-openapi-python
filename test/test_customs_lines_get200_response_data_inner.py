@@ -15,7 +15,7 @@
 import unittest
 import datetime
 
-from openapi_client.models.customs_lines_get200_response_data_inner import CustomsLinesGet200ResponseDataInner
+from webshipperv2.models.customs_lines_get200_response_data_inner import CustomsLinesGet200ResponseDataInner
 
 class TestCustomsLinesGet200ResponseDataInner(unittest.TestCase):
     """CustomsLinesGet200ResponseDataInner unit test stubs"""
@@ -36,7 +36,7 @@ class TestCustomsLinesGet200ResponseDataInner(unittest.TestCase):
         model = CustomsLinesGet200ResponseDataInner()
         if include_optional:
             return CustomsLinesGet200ResponseDataInner(
-                attributes = openapi_client.models.customs_lines.customs_lines(
+                attributes = webshipperv2.models.customs_lines.customs_lines(
                     sku = '', 
                     description = '', 
                     quantity = 56, 
@@ -48,7 +48,7 @@ class TestCustomsLinesGet200ResponseDataInner(unittest.TestCase):
                     weight = 1.337, 
                     weight_unit = 56, 
                     discount = 1.337, 
-                    dangerous_goods_details = openapi_client.models.dangerous_goods_details.dangerous_goods_details(), )
+                    dangerous_goods_details = webshipperv2.models.dangerous_goods_details.dangerous_goods_details(), )
             )
         else:
             return CustomsLinesGet200ResponseDataInner(

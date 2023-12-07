@@ -15,7 +15,7 @@
 import unittest
 import datetime
 
-from openapi_client.models.printables_get200_response import PrintablesGet200Response
+from webshipperv2.models.printables_get200_response import PrintablesGet200Response
 
 class TestPrintablesGet200Response(unittest.TestCase):
     """PrintablesGet200Response unit test stubs"""
@@ -37,8 +37,8 @@ class TestPrintablesGet200Response(unittest.TestCase):
         if include_optional:
             return PrintablesGet200Response(
                 data = [
-                    openapi_client.models._printables_get_200_response_data_inner._printables_get_200_response_data_inner(
-                        attributes = openapi_client.models.attributes.attributes(), )
+                    webshipperv2.models._printables_get_200_response_data_inner._printables_get_200_response_data_inner(
+                        attributes = webshipperv2.models.attributes.attributes(), )
                     ]
             )
         else:

@@ -15,7 +15,7 @@
 import unittest
 import datetime
 
-from openapi_client.models.actions_post_request_data import ActionsPostRequestData
+from webshipperv2.models.actions_post_request_data import ActionsPostRequestData
 
 class TestActionsPostRequestData(unittest.TestCase):
     """ActionsPostRequestData unit test stubs"""
@@ -37,7 +37,7 @@ class TestActionsPostRequestData(unittest.TestCase):
         if include_optional:
             return ActionsPostRequestData(
                 type = 'actions',
-                attributes = openapi_client.models.actions.actions(
+                attributes = webshipperv2.models.actions.actions(
                     job_type = '', 
                     async = True, 
                     additional_attributes = [

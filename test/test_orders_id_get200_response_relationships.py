@@ -15,7 +15,7 @@
 import unittest
 import datetime
 
-from openapi_client.models.orders_id_get200_response_relationships import OrdersIdGet200ResponseRelationships
+from webshipperv2.models.orders_id_get200_response_relationships import OrdersIdGet200ResponseRelationships
 
 class TestOrdersIdGet200ResponseRelationships(unittest.TestCase):
     """OrdersIdGet200ResponseRelationships unit test stubs"""
@@ -36,20 +36,20 @@ class TestOrdersIdGet200ResponseRelationships(unittest.TestCase):
         model = OrdersIdGet200ResponseRelationships()
         if include_optional:
             return OrdersIdGet200ResponseRelationships(
-                order_channel = openapi_client.models._csv_mappings__id__get_200_response_relationships_order_channel._csv_mappings__id__get_200_response_relationships_order_channel(
-                    data = openapi_client.models._csv_mappings__id__get_200_response_relationships_order_channel_data._csv_mappings__id__get_200_response_relationships_order_channel_data(
+                order_channel = webshipperv2.models._csv_mappings__id__get_200_response_relationships_order_channel._csv_mappings__id__get_200_response_relationships_order_channel(
+                    data = webshipperv2.models._csv_mappings__id__get_200_response_relationships_order_channel_data._csv_mappings__id__get_200_response_relationships_order_channel_data(
                         id = '', 
                         type = 'order_channels', ), ),
-                shipping_rate = openapi_client.models._orders__id__get_200_response_relationships_shipping_rate._orders__id__get_200_response_relationships_shipping_rate(
-                    data = openapi_client.models._orders__id__get_200_response_relationships_shipping_rate_data._orders__id__get_200_response_relationships_shipping_rate_data(
+                shipping_rate = webshipperv2.models._orders__id__get_200_response_relationships_shipping_rate._orders__id__get_200_response_relationships_shipping_rate(
+                    data = webshipperv2.models._orders__id__get_200_response_relationships_shipping_rate_data._orders__id__get_200_response_relationships_shipping_rate_data(
                         id = '', 
                         type = 'shipping_rates', ), ),
-                error_type = openapi_client.models._orders__id__get_200_response_relationships_error_type._orders__id__get_200_response_relationships_error_type(
-                    data = openapi_client.models._orders__id__get_200_response_relationships_error_type_data._orders__id__get_200_response_relationships_error_type_data(
+                error_type = webshipperv2.models._orders__id__get_200_response_relationships_error_type._orders__id__get_200_response_relationships_error_type(
+                    data = webshipperv2.models._orders__id__get_200_response_relationships_error_type_data._orders__id__get_200_response_relationships_error_type_data(
                         id = '', 
                         type = 'error_types', ), ),
-                printer_client = openapi_client.models._orders__id__get_200_response_relationships_printer_client._orders__id__get_200_response_relationships_printer_client(
-                    data = openapi_client.models._orders__id__get_200_response_relationships_printer_client_data._orders__id__get_200_response_relationships_printer_client_data(
+                printer_client = webshipperv2.models._orders__id__get_200_response_relationships_printer_client._orders__id__get_200_response_relationships_printer_client(
+                    data = webshipperv2.models._orders__id__get_200_response_relationships_printer_client_data._orders__id__get_200_response_relationships_printer_client_data(
                         id = '', 
                         type = 'printer_clients', ), )
             )

@@ -15,7 +15,7 @@
 import unittest
 import datetime
 
-from openapi_client.models.users_id_get200_response_relationships import UsersIdGet200ResponseRelationships
+from webshipperv2.models.users_id_get200_response_relationships import UsersIdGet200ResponseRelationships
 
 class TestUsersIdGet200ResponseRelationships(unittest.TestCase):
     """UsersIdGet200ResponseRelationships unit test stubs"""
@@ -36,12 +36,12 @@ class TestUsersIdGet200ResponseRelationships(unittest.TestCase):
         model = UsersIdGet200ResponseRelationships()
         if include_optional:
             return UsersIdGet200ResponseRelationships(
-                user_group = openapi_client.models._users__id__get_200_response_relationships_user_group._users__id__get_200_response_relationships_user_group(
-                    data = openapi_client.models._users__id__get_200_response_relationships_user_group_data._users__id__get_200_response_relationships_user_group_data(
+                user_group = webshipperv2.models._users__id__get_200_response_relationships_user_group._users__id__get_200_response_relationships_user_group(
+                    data = webshipperv2.models._users__id__get_200_response_relationships_user_group_data._users__id__get_200_response_relationships_user_group_data(
                         id = '', 
                         type = 'user_groups', ), ),
-                printer_client = openapi_client.models._orders__id__get_200_response_relationships_printer_client._orders__id__get_200_response_relationships_printer_client(
-                    data = openapi_client.models._orders__id__get_200_response_relationships_printer_client_data._orders__id__get_200_response_relationships_printer_client_data(
+                printer_client = webshipperv2.models._orders__id__get_200_response_relationships_printer_client._orders__id__get_200_response_relationships_printer_client(
+                    data = webshipperv2.models._orders__id__get_200_response_relationships_printer_client_data._orders__id__get_200_response_relationships_printer_client_data(
                         id = '', 
                         type = 'printer_clients', ), )
             )

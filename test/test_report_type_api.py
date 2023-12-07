@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.api.report_type_api import ReportTypeApi
+from webshipperv2.api.report_type_api import ReportTypeApi
 
 
 class TestReportTypeApi(unittest.TestCase):

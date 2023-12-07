@@ -11,7 +11,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```python
-from openapi_client.models.favourite_pages import FavouritePages
+from webshipperv2.models.favourite_pages import FavouritePages
 
 # TODO update the JSON string below
 json = "{}"

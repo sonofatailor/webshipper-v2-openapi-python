@@ -15,7 +15,7 @@
 import unittest
 import datetime
 
-from openapi_client.models.report_types_post_request_data import ReportTypesPostRequestData
+from webshipperv2.models.report_types_post_request_data import ReportTypesPostRequestData
 
 class TestReportTypesPostRequestData(unittest.TestCase):
     """ReportTypesPostRequestData unit test stubs"""
@@ -37,7 +37,7 @@ class TestReportTypesPostRequestData(unittest.TestCase):
         if include_optional:
             return ReportTypesPostRequestData(
                 type = 'report_types',
-                attributes = openapi_client.models.report_types.report_types(
+                attributes = webshipperv2.models.report_types.report_types(
                     name = '', 
                     columns = [
                         ''

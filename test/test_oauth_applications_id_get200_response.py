@@ -15,7 +15,7 @@
 import unittest
 import datetime
 
-from openapi_client.models.oauth_applications_id_get200_response import OauthApplicationsIdGet200Response
+from webshipperv2.models.oauth_applications_id_get200_response import OauthApplicationsIdGet200Response
 
 class TestOauthApplicationsIdGet200Response(unittest.TestCase):
     """OauthApplicationsIdGet200Response unit test stubs"""
@@ -36,10 +36,10 @@ class TestOauthApplicationsIdGet200Response(unittest.TestCase):
         model = OauthApplicationsIdGet200Response()
         if include_optional:
             return OauthApplicationsIdGet200Response(
-                data = openapi_client.models._oauth_applications__id__get_200_response_data._oauth_applications__id__get_200_response_data(
+                data = webshipperv2.models._oauth_applications__id__get_200_response_data._oauth_applications__id__get_200_response_data(
                     id = 56, 
                     type = 'oauth_applications', 
-                    attributes = openapi_client.models.oauth_applications.oauth_applications(
+                    attributes = webshipperv2.models.oauth_applications.oauth_applications(
                         name = '', 
                         uid = '', 
                         scopes = '', 
@@ -48,7 +48,7 @@ class TestOauthApplicationsIdGet200Response(unittest.TestCase):
                         updated_at = '', ), ),
                 relationships = None,
                 included = [
-                    openapi_client.models._brands__id__get_200_response_included_inner._brands__id__get_200_response_included_inner(
+                    webshipperv2.models._brands__id__get_200_response_included_inner._brands__id__get_200_response_included_inner(
                         type = 'orders', 
                         id = 56, 
                         data = null, )

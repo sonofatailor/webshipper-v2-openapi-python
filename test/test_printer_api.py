@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.api.printer_api import PrinterApi
+from webshipperv2.api.printer_api import PrinterApi
 
 
 class TestPrinterApi(unittest.TestCase):

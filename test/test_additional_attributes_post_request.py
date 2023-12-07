@@ -15,7 +15,7 @@
 import unittest
 import datetime
 
-from openapi_client.models.additional_attributes_post_request import AdditionalAttributesPostRequest
+from webshipperv2.models.additional_attributes_post_request import AdditionalAttributesPostRequest
 
 class TestAdditionalAttributesPostRequest(unittest.TestCase):
     """AdditionalAttributesPostRequest unit test stubs"""
@@ -36,20 +36,20 @@ class TestAdditionalAttributesPostRequest(unittest.TestCase):
         model = AdditionalAttributesPostRequest()
         if include_optional:
             return AdditionalAttributesPostRequest(
-                data = openapi_client.models._additional_attributes_post_request_data._additional_attributes_post_request_data(
+                data = webshipperv2.models._additional_attributes_post_request_data._additional_attributes_post_request_data(
                     type = 'additional_attributes', 
-                    attributes = openapi_client.models.additional_attributes.additional_attributes(
+                    attributes = webshipperv2.models.additional_attributes.additional_attributes(
                         name = '', 
                         attr_key = '', 
                         attr_value = '', 
                         updated_at = '', 
                         created_at = '', ), ),
-                relationships = openapi_client.models._additional_attributes__id__get_200_response_relationships._additional_attributes__id__get_200_response_relationships(
-                    order = openapi_client.models._additional_attributes__id__get_200_response_relationships_order._additional_attributes__id__get_200_response_relationships_order(
-                        data = openapi_client.models._additional_attributes__id__get_200_response_relationships_order_data._additional_attributes__id__get_200_response_relationships_order_data(
+                relationships = webshipperv2.models._additional_attributes__id__get_200_response_relationships._additional_attributes__id__get_200_response_relationships(
+                    order = webshipperv2.models._additional_attributes__id__get_200_response_relationships_order._additional_attributes__id__get_200_response_relationships_order(
+                        data = webshipperv2.models._additional_attributes__id__get_200_response_relationships_order_data._additional_attributes__id__get_200_response_relationships_order_data(
                             id = '', 
                             type = 'orders', ), ), 
-                    order_line = openapi_client.models._additional_attributes__id__get_200_response_relationships_order_line._additional_attributes__id__get_200_response_relationships_order_line(), )
+                    order_line = webshipperv2.models._additional_attributes__id__get_200_response_relationships_order_line._additional_attributes__id__get_200_response_relationships_order_line(), )
             )
         else:
             return AdditionalAttributesPostRequest(

@@ -15,7 +15,7 @@
 import unittest
 import datetime
 
-from openapi_client.models.webhooks_id_patch_request import WebhooksIdPatchRequest
+from webshipperv2.models.webhooks_id_patch_request import WebhooksIdPatchRequest
 
 class TestWebhooksIdPatchRequest(unittest.TestCase):
     """WebhooksIdPatchRequest unit test stubs"""
@@ -36,10 +36,10 @@ class TestWebhooksIdPatchRequest(unittest.TestCase):
         model = WebhooksIdPatchRequest()
         if include_optional:
             return WebhooksIdPatchRequest(
-                data = openapi_client.models._webhooks__id__get_200_response_data._webhooks__id__get_200_response_data(
+                data = webshipperv2.models._webhooks__id__get_200_response_data._webhooks__id__get_200_response_data(
                     id = 56, 
                     type = 'webhooks', 
-                    attributes = openapi_client.models.webhooks.webhooks(
+                    attributes = webshipperv2.models.webhooks.webhooks(
                         url = '', 
                         topic = '', 
                         enabled = True, 

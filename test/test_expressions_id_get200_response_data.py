@@ -15,7 +15,7 @@
 import unittest
 import datetime
 
-from openapi_client.models.expressions_id_get200_response_data import ExpressionsIdGet200ResponseData
+from webshipperv2.models.expressions_id_get200_response_data import ExpressionsIdGet200ResponseData
 
 class TestExpressionsIdGet200ResponseData(unittest.TestCase):
     """ExpressionsIdGet200ResponseData unit test stubs"""
@@ -38,7 +38,7 @@ class TestExpressionsIdGet200ResponseData(unittest.TestCase):
             return ExpressionsIdGet200ResponseData(
                 id = 56,
                 type = 'expressions',
-                attributes = openapi_client.models.expressions.expressions(
+                attributes = webshipperv2.models.expressions.expressions(
                     expression = '', 
                     vat_percent = 1.337, 
                     currency = '', 

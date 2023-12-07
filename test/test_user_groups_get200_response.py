@@ -15,7 +15,7 @@
 import unittest
 import datetime
 
-from openapi_client.models.user_groups_get200_response import UserGroupsGet200Response
+from webshipperv2.models.user_groups_get200_response import UserGroupsGet200Response
 
 class TestUserGroupsGet200Response(unittest.TestCase):
     """UserGroupsGet200Response unit test stubs"""
@@ -37,8 +37,8 @@ class TestUserGroupsGet200Response(unittest.TestCase):
         if include_optional:
             return UserGroupsGet200Response(
                 data = [
-                    openapi_client.models._user_groups_get_200_response_data_inner._user_groups_get_200_response_data_inner(
-                        attributes = openapi_client.models.user_groups.user_groups(
+                    webshipperv2.models._user_groups_get_200_response_data_inner._user_groups_get_200_response_data_inner(
+                        attributes = webshipperv2.models.user_groups.user_groups(
                             name = '', 
                             scopes = [
                                 ''

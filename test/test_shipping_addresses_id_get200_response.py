@@ -15,7 +15,7 @@
 import unittest
 import datetime
 
-from openapi_client.models.shipping_addresses_id_get200_response import ShippingAddressesIdGet200Response
+from webshipperv2.models.shipping_addresses_id_get200_response import ShippingAddressesIdGet200Response
 
 class TestShippingAddressesIdGet200Response(unittest.TestCase):
     """ShippingAddressesIdGet200Response unit test stubs"""
@@ -36,10 +36,10 @@ class TestShippingAddressesIdGet200Response(unittest.TestCase):
         model = ShippingAddressesIdGet200Response()
         if include_optional:
             return ShippingAddressesIdGet200Response(
-                data = openapi_client.models._shipping_addresses__id__get_200_response_data._shipping_addresses__id__get_200_response_data(
+                data = webshipperv2.models._shipping_addresses__id__get_200_response_data._shipping_addresses__id__get_200_response_data(
                     id = 56, 
                     type = 'shipping_addresses', 
-                    attributes = openapi_client.models.shipping_addresses.shipping_addresses(
+                    attributes = webshipperv2.models.shipping_addresses.shipping_addresses(
                         att_contact = '', 
                         company_name = '', 
                         address_1 = '', 
@@ -63,7 +63,7 @@ class TestShippingAddressesIdGet200Response(unittest.TestCase):
                         company_customs_numbers = '', ), ),
                 relationships = None,
                 included = [
-                    openapi_client.models._brands__id__get_200_response_included_inner._brands__id__get_200_response_included_inner(
+                    webshipperv2.models._brands__id__get_200_response_included_inner._brands__id__get_200_response_included_inner(
                         type = 'orders', 
                         id = 56, 
                         data = null, )

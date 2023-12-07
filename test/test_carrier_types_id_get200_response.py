@@ -15,7 +15,7 @@
 import unittest
 import datetime
 
-from openapi_client.models.carrier_types_id_get200_response import CarrierTypesIdGet200Response
+from webshipperv2.models.carrier_types_id_get200_response import CarrierTypesIdGet200Response
 
 class TestCarrierTypesIdGet200Response(unittest.TestCase):
     """CarrierTypesIdGet200Response unit test stubs"""
@@ -36,10 +36,10 @@ class TestCarrierTypesIdGet200Response(unittest.TestCase):
         model = CarrierTypesIdGet200Response()
         if include_optional:
             return CarrierTypesIdGet200Response(
-                data = openapi_client.models._carrier_types__id__get_200_response_data._carrier_types__id__get_200_response_data(
+                data = webshipperv2.models._carrier_types__id__get_200_response_data._carrier_types__id__get_200_response_data(
                     id = 56, 
                     type = 'carrier_types', 
-                    attributes = openapi_client.models.carrier_types.carrier_types(
+                    attributes = webshipperv2.models.carrier_types.carrier_types(
                         fulfillment_logo = '', 
                         list_logo = '', 
                         name = '', 
@@ -69,7 +69,7 @@ class TestCarrierTypesIdGet200Response(unittest.TestCase):
                         require_ftp_configuration_id = True, ), ),
                 relationships = None,
                 included = [
-                    openapi_client.models._brands__id__get_200_response_included_inner._brands__id__get_200_response_included_inner(
+                    webshipperv2.models._brands__id__get_200_response_included_inner._brands__id__get_200_response_included_inner(
                         type = 'orders', 
                         id = 56, 
                         data = null, )

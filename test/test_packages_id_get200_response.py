@@ -15,7 +15,7 @@
 import unittest
 import datetime
 
-from openapi_client.models.packages_id_get200_response import PackagesIdGet200Response
+from webshipperv2.models.packages_id_get200_response import PackagesIdGet200Response
 
 class TestPackagesIdGet200Response(unittest.TestCase):
     """PackagesIdGet200Response unit test stubs"""
@@ -36,10 +36,10 @@ class TestPackagesIdGet200Response(unittest.TestCase):
         model = PackagesIdGet200Response()
         if include_optional:
             return PackagesIdGet200Response(
-                data = openapi_client.models._packages__id__get_200_response_data._packages__id__get_200_response_data(
+                data = webshipperv2.models._packages__id__get_200_response_data._packages__id__get_200_response_data(
                     id = 56, 
                     type = 'packages', 
-                    attributes = openapi_client.models.packages.packages(
+                    attributes = webshipperv2.models.packages.packages(
                         weight = 1.337, 
                         weight_unit = 'g', 
                         dimensions = '', 
@@ -47,13 +47,13 @@ class TestPackagesIdGet200Response(unittest.TestCase):
                         add_ons = '', 
                         colli_type = '', 
                         predefined_barcode = '', ), ),
-                relationships = openapi_client.models._edis__id__get_200_response_relationships._edis__id__get_200_response_relationships(
-                    shipment = openapi_client.models._edis__id__get_200_response_relationships_shipment._edis__id__get_200_response_relationships_shipment(
-                        data = openapi_client.models._edis__id__get_200_response_relationships_shipment_data._edis__id__get_200_response_relationships_shipment_data(
+                relationships = webshipperv2.models._edis__id__get_200_response_relationships._edis__id__get_200_response_relationships(
+                    shipment = webshipperv2.models._edis__id__get_200_response_relationships_shipment._edis__id__get_200_response_relationships_shipment(
+                        data = webshipperv2.models._edis__id__get_200_response_relationships_shipment_data._edis__id__get_200_response_relationships_shipment_data(
                             id = '', 
                             type = 'shipments', ), ), ),
                 included = [
-                    openapi_client.models._edis__id__get_200_response_included_inner._edis__id__get_200_response_included_inner(
+                    webshipperv2.models._edis__id__get_200_response_included_inner._edis__id__get_200_response_included_inner(
                         type = 'orders', 
                         id = 56, 
                         data = null, )

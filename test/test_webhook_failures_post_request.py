@@ -15,7 +15,7 @@
 import unittest
 import datetime
 
-from openapi_client.models.webhook_failures_post_request import WebhookFailuresPostRequest
+from webshipperv2.models.webhook_failures_post_request import WebhookFailuresPostRequest
 
 class TestWebhookFailuresPostRequest(unittest.TestCase):
     """WebhookFailuresPostRequest unit test stubs"""
@@ -36,16 +36,16 @@ class TestWebhookFailuresPostRequest(unittest.TestCase):
         model = WebhookFailuresPostRequest()
         if include_optional:
             return WebhookFailuresPostRequest(
-                data = openapi_client.models._webhook_failures_post_request_data._webhook_failures_post_request_data(
+                data = webshipperv2.models._webhook_failures_post_request_data._webhook_failures_post_request_data(
                     type = 'webhook_failures', 
-                    attributes = openapi_client.models.webhook_failures.webhook_failures(
+                    attributes = webshipperv2.models.webhook_failures.webhook_failures(
                         record_id = 56, 
                         message = '', 
                         created_at = '', 
                         updated_at = '', ), ),
-                relationships = openapi_client.models._webhook_failures__id__get_200_response_relationships._webhook_failures__id__get_200_response_relationships(
-                    webhook = openapi_client.models._webhook_failures__id__get_200_response_relationships_webhook._webhook_failures__id__get_200_response_relationships_webhook(
-                        data = openapi_client.models._webhook_failures__id__get_200_response_relationships_webhook_data._webhook_failures__id__get_200_response_relationships_webhook_data(
+                relationships = webshipperv2.models._webhook_failures__id__get_200_response_relationships._webhook_failures__id__get_200_response_relationships(
+                    webhook = webshipperv2.models._webhook_failures__id__get_200_response_relationships_webhook._webhook_failures__id__get_200_response_relationships_webhook(
+                        data = webshipperv2.models._webhook_failures__id__get_200_response_relationships_webhook_data._webhook_failures__id__get_200_response_relationships_webhook_data(
                             id = '', 
                             type = 'webhooks', ), ), )
             )

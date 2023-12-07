@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.api.o_auth_application_api import OAuthApplicationApi
+from webshipperv2.api.o_auth_application_api import OAuthApplicationApi
 
 
 class TestOAuthApplicationApi(unittest.TestCase):

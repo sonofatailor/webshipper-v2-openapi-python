@@ -15,7 +15,7 @@
 import unittest
 import datetime
 
-from openapi_client.models.shipping_mappings_post_request_data import ShippingMappingsPostRequestData
+from webshipperv2.models.shipping_mappings_post_request_data import ShippingMappingsPostRequestData
 
 class TestShippingMappingsPostRequestData(unittest.TestCase):
     """ShippingMappingsPostRequestData unit test stubs"""
@@ -37,7 +37,7 @@ class TestShippingMappingsPostRequestData(unittest.TestCase):
         if include_optional:
             return ShippingMappingsPostRequestData(
                 type = 'shipping_mappings',
-                attributes = openapi_client.models.shipping_mappings.shipping_mappings(
+                attributes = webshipperv2.models.shipping_mappings.shipping_mappings(
                     shipping_code = '', 
                     shipping_name = '', 
                     shipping_rate_id = 56, 

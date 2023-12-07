@@ -15,7 +15,7 @@
 import unittest
 import datetime
 
-from openapi_client.models.pickups_id_patch_request import PickupsIdPatchRequest
+from webshipperv2.models.pickups_id_patch_request import PickupsIdPatchRequest
 
 class TestPickupsIdPatchRequest(unittest.TestCase):
     """PickupsIdPatchRequest unit test stubs"""
@@ -36,10 +36,10 @@ class TestPickupsIdPatchRequest(unittest.TestCase):
         model = PickupsIdPatchRequest()
         if include_optional:
             return PickupsIdPatchRequest(
-                data = openapi_client.models._pickups__id__get_200_response_data._pickups__id__get_200_response_data(
+                data = webshipperv2.models._pickups__id__get_200_response_data._pickups__id__get_200_response_data(
                     id = 56, 
                     type = 'pickups', 
-                    attributes = openapi_client.models.pickups.pickups(
+                    attributes = webshipperv2.models.pickups.pickups(
                         pickup_instruction = '', 
                         pickup_location_close_time = '', 
                         pickup_time = '', 
@@ -49,12 +49,12 @@ class TestPickupsIdPatchRequest(unittest.TestCase):
                         updated_at = '', 
                         shipping_address = '', 
                         carrier = '', ), ),
-                relationships = openapi_client.models._pickups__id__get_200_response_relationships._pickups__id__get_200_response_relationships(
-                    carrier = openapi_client.models._barcode_ranges__id__get_200_response_relationships_carrier._barcode_ranges__id__get_200_response_relationships_carrier(
-                        data = openapi_client.models._barcode_ranges__id__get_200_response_relationships_carrier_data._barcode_ranges__id__get_200_response_relationships_carrier_data(
+                relationships = webshipperv2.models._pickups__id__get_200_response_relationships._pickups__id__get_200_response_relationships(
+                    carrier = webshipperv2.models._barcode_ranges__id__get_200_response_relationships_carrier._barcode_ranges__id__get_200_response_relationships_carrier(
+                        data = webshipperv2.models._barcode_ranges__id__get_200_response_relationships_carrier_data._barcode_ranges__id__get_200_response_relationships_carrier_data(
                             id = '', 
                             type = 'carriers', ), ), 
-                    shipping_address = openapi_client.models._carriers__id__get_200_response_relationships_sender_address._carriers__id__get_200_response_relationships_sender_address(), )
+                    shipping_address = webshipperv2.models._carriers__id__get_200_response_relationships_sender_address._carriers__id__get_200_response_relationships_sender_address(), )
             )
         else:
             return PickupsIdPatchRequest(

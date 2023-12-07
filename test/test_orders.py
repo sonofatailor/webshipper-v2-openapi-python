@@ -15,7 +15,7 @@
 import unittest
 import datetime
 
-from openapi_client.models.orders import Orders
+from webshipperv2.models.orders import Orders
 
 class TestOrders(unittest.TestCase):
     """Orders unit test stubs"""
@@ -40,7 +40,7 @@ class TestOrders(unittest.TestCase):
                 status = '',
                 ext_ref = '',
                 visible_ref = '',
-                drop_point = openapi_client.models.drop_points.drop_points(
+                drop_point = webshipperv2.models.drop_points.drop_points(
                     drop_point_id = '', 
                     name = '', 
                     address_1 = '', 
@@ -59,7 +59,7 @@ class TestOrders(unittest.TestCase):
                     opening_hours = '', ),
                 original_shipping = None,
                 order_lines = [
-                    openapi_client.models.order_lines.order_lines(
+                    webshipperv2.models.order_lines.order_lines(
                         sku = '', 
                         description = '', 
                         quantity = 56, 
@@ -80,9 +80,9 @@ class TestOrders(unittest.TestCase):
                         created_at = '', 
                         updated_at = '', 
                         is_virtual = True, 
-                        dangerous_goods_details = openapi_client.models.dangerous_goods_details.dangerous_goods_details(), )
+                        dangerous_goods_details = webshipperv2.models.dangerous_goods_details.dangerous_goods_details(), )
                     ],
-                delivery_address = openapi_client.models.shipping_addresses.shipping_addresses(
+                delivery_address = webshipperv2.models.shipping_addresses.shipping_addresses(
                     att_contact = '', 
                     company_name = '', 
                     address_1 = '', 
@@ -104,7 +104,7 @@ class TestOrders(unittest.TestCase):
                     duns = '', 
                     personal_customs_no = '', 
                     company_customs_numbers = '', ),
-                sender_address = openapi_client.models.shipping_addresses.shipping_addresses(
+                sender_address = webshipperv2.models.shipping_addresses.shipping_addresses(
                     att_contact = '', 
                     company_name = '', 
                     address_1 = '', 
@@ -126,7 +126,7 @@ class TestOrders(unittest.TestCase):
                     duns = '', 
                     personal_customs_no = '', 
                     company_customs_numbers = '', ),
-                billing_address = openapi_client.models.shipping_addresses.shipping_addresses(
+                billing_address = webshipperv2.models.shipping_addresses.shipping_addresses(
                     att_contact = '', 
                     company_name = '', 
                     address_1 = '', 
@@ -148,7 +148,7 @@ class TestOrders(unittest.TestCase):
                     duns = '', 
                     personal_customs_no = '', 
                     company_customs_numbers = '', ),
-                sold_from_address = openapi_client.models.shipping_addresses.shipping_addresses(
+                sold_from_address = webshipperv2.models.shipping_addresses.shipping_addresses(
                     att_contact = '', 
                     company_name = '', 
                     address_1 = '', 

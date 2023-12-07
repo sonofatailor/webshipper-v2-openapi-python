@@ -15,7 +15,7 @@
 import unittest
 import datetime
 
-from openapi_client.models.hot_keys_id_get200_response_included_inner import HotKeysIdGet200ResponseIncludedInner
+from webshipperv2.models.hot_keys_id_get200_response_included_inner import HotKeysIdGet200ResponseIncludedInner
 
 class TestHotKeysIdGet200ResponseIncludedInner(unittest.TestCase):
     """HotKeysIdGet200ResponseIncludedInner unit test stubs"""

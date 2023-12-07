@@ -15,7 +15,7 @@
 import unittest
 import datetime
 
-from openapi_client.models.printer_jobs_id_get200_response_relationships import PrinterJobsIdGet200ResponseRelationships
+from webshipperv2.models.printer_jobs_id_get200_response_relationships import PrinterJobsIdGet200ResponseRelationships
 
 class TestPrinterJobsIdGet200ResponseRelationships(unittest.TestCase):
     """PrinterJobsIdGet200ResponseRelationships unit test stubs"""
@@ -36,16 +36,16 @@ class TestPrinterJobsIdGet200ResponseRelationships(unittest.TestCase):
         model = PrinterJobsIdGet200ResponseRelationships()
         if include_optional:
             return PrinterJobsIdGet200ResponseRelationships(
-                printer_client = openapi_client.models._orders__id__get_200_response_relationships_printer_client._orders__id__get_200_response_relationships_printer_client(
-                    data = openapi_client.models._orders__id__get_200_response_relationships_printer_client_data._orders__id__get_200_response_relationships_printer_client_data(
+                printer_client = webshipperv2.models._orders__id__get_200_response_relationships_printer_client._orders__id__get_200_response_relationships_printer_client(
+                    data = webshipperv2.models._orders__id__get_200_response_relationships_printer_client_data._orders__id__get_200_response_relationships_printer_client_data(
                         id = '', 
                         type = 'printer_clients', ), ),
-                printer = openapi_client.models._printer_clients__id__get_200_response_relationships_label_printer._printer_clients__id__get_200_response_relationships_label_printer(
-                    data = openapi_client.models._printer_clients__id__get_200_response_relationships_label_printer_data._printer_clients__id__get_200_response_relationships_label_printer_data(
+                printer = webshipperv2.models._printer_clients__id__get_200_response_relationships_label_printer._printer_clients__id__get_200_response_relationships_label_printer(
+                    data = webshipperv2.models._printer_clients__id__get_200_response_relationships_label_printer_data._printer_clients__id__get_200_response_relationships_label_printer_data(
                         id = '', 
                         type = 'printers', ), ),
-                printable = openapi_client.models._printer_jobs__id__get_200_response_relationships_printable._printer_jobs__id__get_200_response_relationships_printable(
-                    data = openapi_client.models._printer_jobs__id__get_200_response_relationships_printable_data._printer_jobs__id__get_200_response_relationships_printable_data(
+                printable = webshipperv2.models._printer_jobs__id__get_200_response_relationships_printable._printer_jobs__id__get_200_response_relationships_printable(
+                    data = webshipperv2.models._printer_jobs__id__get_200_response_relationships_printable_data._printer_jobs__id__get_200_response_relationships_printable_data(
                         id = '', 
                         type = 'printables', ), )
             )

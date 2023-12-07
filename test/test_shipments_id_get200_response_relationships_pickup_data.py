@@ -15,7 +15,7 @@
 import unittest
 import datetime
 
-from openapi_client.models.shipments_id_get200_response_relationships_pickup_data import ShipmentsIdGet200ResponseRelationshipsPickupData
+from webshipperv2.models.shipments_id_get200_response_relationships_pickup_data import ShipmentsIdGet200ResponseRelationshipsPickupData
 
 class TestShipmentsIdGet200ResponseRelationshipsPickupData(unittest.TestCase):
     """ShipmentsIdGet200ResponseRelationshipsPickupData unit test stubs"""

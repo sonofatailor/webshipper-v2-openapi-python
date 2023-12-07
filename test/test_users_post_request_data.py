@@ -15,7 +15,7 @@
 import unittest
 import datetime
 
-from openapi_client.models.users_post_request_data import UsersPostRequestData
+from webshipperv2.models.users_post_request_data import UsersPostRequestData
 
 class TestUsersPostRequestData(unittest.TestCase):
     """UsersPostRequestData unit test stubs"""
@@ -37,7 +37,7 @@ class TestUsersPostRequestData(unittest.TestCase):
         if include_optional:
             return UsersPostRequestData(
                 type = 'users',
-                attributes = openapi_client.models.users.users(
+                attributes = webshipperv2.models.users.users(
                     first_name = '', 
                     last_name = '', 
                     email = '', 

@@ -15,7 +15,7 @@
 import unittest
 import datetime
 
-from openapi_client.models.carrier_accesses_id_get200_response import CarrierAccessesIdGet200Response
+from webshipperv2.models.carrier_accesses_id_get200_response import CarrierAccessesIdGet200Response
 
 class TestCarrierAccessesIdGet200Response(unittest.TestCase):
     """CarrierAccessesIdGet200Response unit test stubs"""
@@ -36,20 +36,20 @@ class TestCarrierAccessesIdGet200Response(unittest.TestCase):
         model = CarrierAccessesIdGet200Response()
         if include_optional:
             return CarrierAccessesIdGet200Response(
-                data = openapi_client.models._carrier_accesses__id__get_200_response_data._carrier_accesses__id__get_200_response_data(
+                data = webshipperv2.models._carrier_accesses__id__get_200_response_data._carrier_accesses__id__get_200_response_data(
                     id = 56, 
                     type = 'carrier_accesses', 
-                    attributes = openapi_client.models.carrier_accesses.carrier_accesses(
+                    attributes = webshipperv2.models.carrier_accesses.carrier_accesses(
                         created_at = '', 
                         updated_at = '', ), ),
-                relationships = openapi_client.models._carrier_accesses__id__get_200_response_relationships._carrier_accesses__id__get_200_response_relationships(
-                    carrier = openapi_client.models._barcode_ranges__id__get_200_response_relationships_carrier._barcode_ranges__id__get_200_response_relationships_carrier(
-                        data = openapi_client.models._barcode_ranges__id__get_200_response_relationships_carrier_data._barcode_ranges__id__get_200_response_relationships_carrier_data(
+                relationships = webshipperv2.models._carrier_accesses__id__get_200_response_relationships._carrier_accesses__id__get_200_response_relationships(
+                    carrier = webshipperv2.models._barcode_ranges__id__get_200_response_relationships_carrier._barcode_ranges__id__get_200_response_relationships_carrier(
+                        data = webshipperv2.models._barcode_ranges__id__get_200_response_relationships_carrier_data._barcode_ranges__id__get_200_response_relationships_carrier_data(
                             id = '', 
                             type = 'carriers', ), ), 
-                    user = openapi_client.models._carrier_accesses__id__get_200_response_relationships_user._carrier_accesses__id__get_200_response_relationships_user(), ),
+                    user = webshipperv2.models._carrier_accesses__id__get_200_response_relationships_user._carrier_accesses__id__get_200_response_relationships_user(), ),
                 included = [
-                    openapi_client.models._carrier_accesses__id__get_200_response_included_inner._carrier_accesses__id__get_200_response_included_inner(
+                    webshipperv2.models._carrier_accesses__id__get_200_response_included_inner._carrier_accesses__id__get_200_response_included_inner(
                         type = 'orders', 
                         id = 56, 
                         data = null, )

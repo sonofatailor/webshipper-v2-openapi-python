@@ -15,7 +15,7 @@
 import unittest
 import datetime
 
-from openapi_client.models.attachments_id_get200_response import AttachmentsIdGet200Response
+from webshipperv2.models.attachments_id_get200_response import AttachmentsIdGet200Response
 
 class TestAttachmentsIdGet200Response(unittest.TestCase):
     """AttachmentsIdGet200Response unit test stubs"""
@@ -36,20 +36,20 @@ class TestAttachmentsIdGet200Response(unittest.TestCase):
         model = AttachmentsIdGet200Response()
         if include_optional:
             return AttachmentsIdGet200Response(
-                data = openapi_client.models._attachments__id__get_200_response_data._attachments__id__get_200_response_data(
+                data = webshipperv2.models._attachments__id__get_200_response_data._attachments__id__get_200_response_data(
                     id = 56, 
                     type = 'attachments', 
-                    attributes = openapi_client.models.attachments.attachments(
+                    attributes = webshipperv2.models.attachments.attachments(
                         updated_at = '', 
                         created_at = '', ), ),
-                relationships = openapi_client.models._attachments__id__get_200_response_relationships._attachments__id__get_200_response_relationships(
-                    document = openapi_client.models._attachments__id__get_200_response_relationships_document._attachments__id__get_200_response_relationships_document(
-                        data = openapi_client.models._attachments__id__get_200_response_relationships_document_data._attachments__id__get_200_response_relationships_document_data(
+                relationships = webshipperv2.models._attachments__id__get_200_response_relationships._attachments__id__get_200_response_relationships(
+                    document = webshipperv2.models._attachments__id__get_200_response_relationships_document._attachments__id__get_200_response_relationships_document(
+                        data = webshipperv2.models._attachments__id__get_200_response_relationships_document_data._attachments__id__get_200_response_relationships_document_data(
                             id = '', 
                             type = 'documents', ), ), 
-                    has_documents = openapi_client.models._attachments__id__get_200_response_relationships_has_documents._attachments__id__get_200_response_relationships_has_documents(), ),
+                    has_documents = webshipperv2.models._attachments__id__get_200_response_relationships_has_documents._attachments__id__get_200_response_relationships_has_documents(), ),
                 included = [
-                    openapi_client.models._attachments__id__get_200_response_included_inner._attachments__id__get_200_response_included_inner(
+                    webshipperv2.models._attachments__id__get_200_response_included_inner._attachments__id__get_200_response_included_inner(
                         type = 'orders', 
                         id = 56, 
                         data = null, )

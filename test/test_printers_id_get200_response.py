@@ -15,7 +15,7 @@
 import unittest
 import datetime
 
-from openapi_client.models.printers_id_get200_response import PrintersIdGet200Response
+from webshipperv2.models.printers_id_get200_response import PrintersIdGet200Response
 
 class TestPrintersIdGet200Response(unittest.TestCase):
     """PrintersIdGet200Response unit test stubs"""
@@ -36,23 +36,23 @@ class TestPrintersIdGet200Response(unittest.TestCase):
         model = PrintersIdGet200Response()
         if include_optional:
             return PrintersIdGet200Response(
-                data = openapi_client.models._printers__id__get_200_response_data._printers__id__get_200_response_data(
+                data = webshipperv2.models._printers__id__get_200_response_data._printers__id__get_200_response_data(
                     id = 56, 
                     type = 'printers', 
-                    attributes = openapi_client.models.printers.printers(
+                    attributes = webshipperv2.models.printers.printers(
                         name = '', 
                         active = True, 
                         last_connected = '', 
                         paper_width = 1.337, 
                         paper_height = 1.337, 
                         rotate_print_180 = True, ), ),
-                relationships = openapi_client.models._printers__id__get_200_response_relationships._printers__id__get_200_response_relationships(
-                    client = openapi_client.models._orders__id__get_200_response_relationships_printer_client._orders__id__get_200_response_relationships_printer_client(
-                        data = openapi_client.models._orders__id__get_200_response_relationships_printer_client_data._orders__id__get_200_response_relationships_printer_client_data(
+                relationships = webshipperv2.models._printers__id__get_200_response_relationships._printers__id__get_200_response_relationships(
+                    client = webshipperv2.models._orders__id__get_200_response_relationships_printer_client._orders__id__get_200_response_relationships_printer_client(
+                        data = webshipperv2.models._orders__id__get_200_response_relationships_printer_client_data._orders__id__get_200_response_relationships_printer_client_data(
                             id = '', 
                             type = 'printer_clients', ), ), ),
                 included = [
-                    openapi_client.models._printers__id__get_200_response_included_inner._printers__id__get_200_response_included_inner(
+                    webshipperv2.models._printers__id__get_200_response_included_inner._printers__id__get_200_response_included_inner(
                         type = 'orders', 
                         id = 56, 
                         data = null, )

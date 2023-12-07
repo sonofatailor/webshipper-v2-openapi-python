@@ -15,7 +15,7 @@
 import unittest
 import datetime
 
-from openapi_client.models.edis_id_get200_response_included_inner import EdisIdGet200ResponseIncludedInner
+from webshipperv2.models.edis_id_get200_response_included_inner import EdisIdGet200ResponseIncludedInner
 
 class TestEdisIdGet200ResponseIncludedInner(unittest.TestCase):
     """EdisIdGet200ResponseIncludedInner unit test stubs"""

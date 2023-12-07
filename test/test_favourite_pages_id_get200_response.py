@@ -15,7 +15,7 @@
 import unittest
 import datetime
 
-from openapi_client.models.favourite_pages_id_get200_response import FavouritePagesIdGet200Response
+from webshipperv2.models.favourite_pages_id_get200_response import FavouritePagesIdGet200Response
 
 class TestFavouritePagesIdGet200Response(unittest.TestCase):
     """FavouritePagesIdGet200Response unit test stubs"""
@@ -36,21 +36,21 @@ class TestFavouritePagesIdGet200Response(unittest.TestCase):
         model = FavouritePagesIdGet200Response()
         if include_optional:
             return FavouritePagesIdGet200Response(
-                data = openapi_client.models._favourite_pages__id__get_200_response_data._favourite_pages__id__get_200_response_data(
+                data = webshipperv2.models._favourite_pages__id__get_200_response_data._favourite_pages__id__get_200_response_data(
                     id = 56, 
                     type = 'favourite_pages', 
-                    attributes = openapi_client.models.favourite_pages.favourite_pages(
+                    attributes = webshipperv2.models.favourite_pages.favourite_pages(
                         path = '', 
                         name = '', 
                         user_id = 56, ), ),
-                relationships = openapi_client.models._favourite_pages__id__get_200_response_relationships._favourite_pages__id__get_200_response_relationships(
-                    user = openapi_client.models._carrier_accesses__id__get_200_response_relationships_user._carrier_accesses__id__get_200_response_relationships_user(
-                        data = openapi_client.models._carrier_accesses__id__get_200_response_relationships_user_data._carrier_accesses__id__get_200_response_relationships_user_data(
+                relationships = webshipperv2.models._favourite_pages__id__get_200_response_relationships._favourite_pages__id__get_200_response_relationships(
+                    user = webshipperv2.models._carrier_accesses__id__get_200_response_relationships_user._carrier_accesses__id__get_200_response_relationships_user(
+                        data = webshipperv2.models._carrier_accesses__id__get_200_response_relationships_user_data._carrier_accesses__id__get_200_response_relationships_user_data(
                             id = '', 
                             type = 'users', ), ), 
-                    hot_key = openapi_client.models._favourite_pages__id__get_200_response_relationships_hot_key._favourite_pages__id__get_200_response_relationships_hot_key(), ),
+                    hot_key = webshipperv2.models._favourite_pages__id__get_200_response_relationships_hot_key._favourite_pages__id__get_200_response_relationships_hot_key(), ),
                 included = [
-                    openapi_client.models._favourite_pages__id__get_200_response_included_inner._favourite_pages__id__get_200_response_included_inner(
+                    webshipperv2.models._favourite_pages__id__get_200_response_included_inner._favourite_pages__id__get_200_response_included_inner(
                         type = 'orders', 
                         id = 56, 
                         data = null, )

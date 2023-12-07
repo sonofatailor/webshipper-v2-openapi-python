@@ -1,4 +1,4 @@
-# openapi_client.OtherApi
+# webshipperv2.OtherApi
 
 All URIs are relative to *https://.api.webshipper.io/v2*
 
@@ -27,14 +27,14 @@ List all Others
 ```python
 import time
 import os
-import openapi_client
-from openapi_client.models.brands_get200_response import BrandsGet200Response
-from openapi_client.rest import ApiException
+import webshipperv2
+from webshipperv2.models.brands_get200_response import BrandsGet200Response
+from webshipperv2.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to https://.api.webshipper.io/v2
 # See configuration.py for a list of all supported configuration parameters.
-configuration = openapi_client.Configuration(
+configuration = webshipperv2.Configuration(
     host = "https://.api.webshipper.io/v2"
 )
 
@@ -44,14 +44,14 @@ configuration = openapi_client.Configuration(
 # satisfies your auth use case.
 
 # Configure Bearer authorization: BearerAuth
-configuration = openapi_client.Configuration(
+configuration = webshipperv2.Configuration(
     access_token = os.environ["BEARER_TOKEN"]
 )
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient(configuration) as api_client:
+with webshipperv2.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.OtherApi(api_client)
+    api_instance = webshipperv2.OtherApi(api_client)
 
     try:
         # List all Others
@@ -98,14 +98,14 @@ Delete a Other
 ```python
 import time
 import os
-import openapi_client
-from openapi_client.models.brands_id_get200_response import BrandsIdGet200Response
-from openapi_client.rest import ApiException
+import webshipperv2
+from webshipperv2.models.brands_id_get200_response import BrandsIdGet200Response
+from webshipperv2.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to https://.api.webshipper.io/v2
 # See configuration.py for a list of all supported configuration parameters.
-configuration = openapi_client.Configuration(
+configuration = webshipperv2.Configuration(
     host = "https://.api.webshipper.io/v2"
 )
 
@@ -115,14 +115,14 @@ configuration = openapi_client.Configuration(
 # satisfies your auth use case.
 
 # Configure Bearer authorization: BearerAuth
-configuration = openapi_client.Configuration(
+configuration = webshipperv2.Configuration(
     access_token = os.environ["BEARER_TOKEN"]
 )
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient(configuration) as api_client:
+with webshipperv2.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.OtherApi(api_client)
+    api_instance = webshipperv2.OtherApi(api_client)
     id = 56 # int | 
 
     try:
@@ -173,14 +173,14 @@ Show a single Other
 ```python
 import time
 import os
-import openapi_client
-from openapi_client.models.brands_id_get200_response import BrandsIdGet200Response
-from openapi_client.rest import ApiException
+import webshipperv2
+from webshipperv2.models.brands_id_get200_response import BrandsIdGet200Response
+from webshipperv2.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to https://.api.webshipper.io/v2
 # See configuration.py for a list of all supported configuration parameters.
-configuration = openapi_client.Configuration(
+configuration = webshipperv2.Configuration(
     host = "https://.api.webshipper.io/v2"
 )
 
@@ -190,14 +190,14 @@ configuration = openapi_client.Configuration(
 # satisfies your auth use case.
 
 # Configure Bearer authorization: BearerAuth
-configuration = openapi_client.Configuration(
+configuration = webshipperv2.Configuration(
     access_token = os.environ["BEARER_TOKEN"]
 )
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient(configuration) as api_client:
+with webshipperv2.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.OtherApi(api_client)
+    api_instance = webshipperv2.OtherApi(api_client)
     id = 56 # int | 
 
     try:
@@ -248,15 +248,15 @@ Update a Other
 ```python
 import time
 import os
-import openapi_client
-from openapi_client.models.brands_id_get200_response import BrandsIdGet200Response
-from openapi_client.models.brands_id_patch_request import BrandsIdPatchRequest
-from openapi_client.rest import ApiException
+import webshipperv2
+from webshipperv2.models.brands_id_get200_response import BrandsIdGet200Response
+from webshipperv2.models.brands_id_patch_request import BrandsIdPatchRequest
+from webshipperv2.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to https://.api.webshipper.io/v2
 # See configuration.py for a list of all supported configuration parameters.
-configuration = openapi_client.Configuration(
+configuration = webshipperv2.Configuration(
     host = "https://.api.webshipper.io/v2"
 )
 
@@ -266,16 +266,16 @@ configuration = openapi_client.Configuration(
 # satisfies your auth use case.
 
 # Configure Bearer authorization: BearerAuth
-configuration = openapi_client.Configuration(
+configuration = webshipperv2.Configuration(
     access_token = os.environ["BEARER_TOKEN"]
 )
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient(configuration) as api_client:
+with webshipperv2.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.OtherApi(api_client)
+    api_instance = webshipperv2.OtherApi(api_client)
     id = 56 # int | 
-    brands_id_patch_request = openapi_client.BrandsIdPatchRequest() # BrandsIdPatchRequest | 
+    brands_id_patch_request = webshipperv2.BrandsIdPatchRequest() # BrandsIdPatchRequest | 
 
     try:
         # Update a Other
@@ -326,15 +326,15 @@ Create a Other
 ```python
 import time
 import os
-import openapi_client
-from openapi_client.models.brands_id_get200_response import BrandsIdGet200Response
-from openapi_client.models.brands_post_request import BrandsPostRequest
-from openapi_client.rest import ApiException
+import webshipperv2
+from webshipperv2.models.brands_id_get200_response import BrandsIdGet200Response
+from webshipperv2.models.brands_post_request import BrandsPostRequest
+from webshipperv2.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to https://.api.webshipper.io/v2
 # See configuration.py for a list of all supported configuration parameters.
-configuration = openapi_client.Configuration(
+configuration = webshipperv2.Configuration(
     host = "https://.api.webshipper.io/v2"
 )
 
@@ -344,15 +344,15 @@ configuration = openapi_client.Configuration(
 # satisfies your auth use case.
 
 # Configure Bearer authorization: BearerAuth
-configuration = openapi_client.Configuration(
+configuration = webshipperv2.Configuration(
     access_token = os.environ["BEARER_TOKEN"]
 )
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient(configuration) as api_client:
+with webshipperv2.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.OtherApi(api_client)
-    brands_post_request = openapi_client.BrandsPostRequest() # BrandsPostRequest | 
+    api_instance = webshipperv2.OtherApi(api_client)
+    brands_post_request = webshipperv2.BrandsPostRequest() # BrandsPostRequest | 
 
     try:
         # Create a Other
@@ -402,14 +402,14 @@ List all Others
 ```python
 import time
 import os
-import openapi_client
-from openapi_client.models.return_refund_methods_get200_response import ReturnRefundMethodsGet200Response
-from openapi_client.rest import ApiException
+import webshipperv2
+from webshipperv2.models.return_refund_methods_get200_response import ReturnRefundMethodsGet200Response
+from webshipperv2.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to https://.api.webshipper.io/v2
 # See configuration.py for a list of all supported configuration parameters.
-configuration = openapi_client.Configuration(
+configuration = webshipperv2.Configuration(
     host = "https://.api.webshipper.io/v2"
 )
 
@@ -419,14 +419,14 @@ configuration = openapi_client.Configuration(
 # satisfies your auth use case.
 
 # Configure Bearer authorization: BearerAuth
-configuration = openapi_client.Configuration(
+configuration = webshipperv2.Configuration(
     access_token = os.environ["BEARER_TOKEN"]
 )
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient(configuration) as api_client:
+with webshipperv2.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.OtherApi(api_client)
+    api_instance = webshipperv2.OtherApi(api_client)
     filter_id = 'filter_id_example' # str | Filter by id (optional)
 
     try:
@@ -477,14 +477,14 @@ Delete a Other
 ```python
 import time
 import os
-import openapi_client
-from openapi_client.models.return_refund_methods_id_get200_response import ReturnRefundMethodsIdGet200Response
-from openapi_client.rest import ApiException
+import webshipperv2
+from webshipperv2.models.return_refund_methods_id_get200_response import ReturnRefundMethodsIdGet200Response
+from webshipperv2.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to https://.api.webshipper.io/v2
 # See configuration.py for a list of all supported configuration parameters.
-configuration = openapi_client.Configuration(
+configuration = webshipperv2.Configuration(
     host = "https://.api.webshipper.io/v2"
 )
 
@@ -494,14 +494,14 @@ configuration = openapi_client.Configuration(
 # satisfies your auth use case.
 
 # Configure Bearer authorization: BearerAuth
-configuration = openapi_client.Configuration(
+configuration = webshipperv2.Configuration(
     access_token = os.environ["BEARER_TOKEN"]
 )
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient(configuration) as api_client:
+with webshipperv2.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.OtherApi(api_client)
+    api_instance = webshipperv2.OtherApi(api_client)
     id = 56 # int | 
 
     try:
@@ -552,14 +552,14 @@ Show a single Other
 ```python
 import time
 import os
-import openapi_client
-from openapi_client.models.return_refund_methods_id_get200_response import ReturnRefundMethodsIdGet200Response
-from openapi_client.rest import ApiException
+import webshipperv2
+from webshipperv2.models.return_refund_methods_id_get200_response import ReturnRefundMethodsIdGet200Response
+from webshipperv2.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to https://.api.webshipper.io/v2
 # See configuration.py for a list of all supported configuration parameters.
-configuration = openapi_client.Configuration(
+configuration = webshipperv2.Configuration(
     host = "https://.api.webshipper.io/v2"
 )
 
@@ -569,14 +569,14 @@ configuration = openapi_client.Configuration(
 # satisfies your auth use case.
 
 # Configure Bearer authorization: BearerAuth
-configuration = openapi_client.Configuration(
+configuration = webshipperv2.Configuration(
     access_token = os.environ["BEARER_TOKEN"]
 )
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient(configuration) as api_client:
+with webshipperv2.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.OtherApi(api_client)
+    api_instance = webshipperv2.OtherApi(api_client)
     id = 56 # int | 
 
     try:
@@ -627,15 +627,15 @@ Update a Other
 ```python
 import time
 import os
-import openapi_client
-from openapi_client.models.return_refund_methods_id_get200_response import ReturnRefundMethodsIdGet200Response
-from openapi_client.models.return_refund_methods_id_patch_request import ReturnRefundMethodsIdPatchRequest
-from openapi_client.rest import ApiException
+import webshipperv2
+from webshipperv2.models.return_refund_methods_id_get200_response import ReturnRefundMethodsIdGet200Response
+from webshipperv2.models.return_refund_methods_id_patch_request import ReturnRefundMethodsIdPatchRequest
+from webshipperv2.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to https://.api.webshipper.io/v2
 # See configuration.py for a list of all supported configuration parameters.
-configuration = openapi_client.Configuration(
+configuration = webshipperv2.Configuration(
     host = "https://.api.webshipper.io/v2"
 )
 
@@ -645,16 +645,16 @@ configuration = openapi_client.Configuration(
 # satisfies your auth use case.
 
 # Configure Bearer authorization: BearerAuth
-configuration = openapi_client.Configuration(
+configuration = webshipperv2.Configuration(
     access_token = os.environ["BEARER_TOKEN"]
 )
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient(configuration) as api_client:
+with webshipperv2.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.OtherApi(api_client)
+    api_instance = webshipperv2.OtherApi(api_client)
     id = 56 # int | 
-    return_refund_methods_id_patch_request = openapi_client.ReturnRefundMethodsIdPatchRequest() # ReturnRefundMethodsIdPatchRequest | 
+    return_refund_methods_id_patch_request = webshipperv2.ReturnRefundMethodsIdPatchRequest() # ReturnRefundMethodsIdPatchRequest | 
 
     try:
         # Update a Other
@@ -705,15 +705,15 @@ Create a Other
 ```python
 import time
 import os
-import openapi_client
-from openapi_client.models.return_refund_methods_id_get200_response import ReturnRefundMethodsIdGet200Response
-from openapi_client.models.return_refund_methods_post_request import ReturnRefundMethodsPostRequest
-from openapi_client.rest import ApiException
+import webshipperv2
+from webshipperv2.models.return_refund_methods_id_get200_response import ReturnRefundMethodsIdGet200Response
+from webshipperv2.models.return_refund_methods_post_request import ReturnRefundMethodsPostRequest
+from webshipperv2.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to https://.api.webshipper.io/v2
 # See configuration.py for a list of all supported configuration parameters.
-configuration = openapi_client.Configuration(
+configuration = webshipperv2.Configuration(
     host = "https://.api.webshipper.io/v2"
 )
 
@@ -723,15 +723,15 @@ configuration = openapi_client.Configuration(
 # satisfies your auth use case.
 
 # Configure Bearer authorization: BearerAuth
-configuration = openapi_client.Configuration(
+configuration = webshipperv2.Configuration(
     access_token = os.environ["BEARER_TOKEN"]
 )
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient(configuration) as api_client:
+with webshipperv2.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.OtherApi(api_client)
-    return_refund_methods_post_request = openapi_client.ReturnRefundMethodsPostRequest() # ReturnRefundMethodsPostRequest | 
+    api_instance = webshipperv2.OtherApi(api_client)
+    return_refund_methods_post_request = webshipperv2.ReturnRefundMethodsPostRequest() # ReturnRefundMethodsPostRequest | 
 
     try:
         # Create a Other

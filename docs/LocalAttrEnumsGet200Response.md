@@ -9,7 +9,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```python
-from openapi_client.models.local_attr_enums_get200_response import LocalAttrEnumsGet200Response
+from webshipperv2.models.local_attr_enums_get200_response import LocalAttrEnumsGet200Response
 
 # TODO update the JSON string below
 json = "{}"

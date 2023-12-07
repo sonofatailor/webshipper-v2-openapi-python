@@ -15,7 +15,7 @@
 import unittest
 import datetime
 
-from openapi_client.models.local_attr_enums import LocalAttrEnums
+from webshipperv2.models.local_attr_enums import LocalAttrEnums
 
 class TestLocalAttrEnums(unittest.TestCase):
     """LocalAttrEnums unit test stubs"""

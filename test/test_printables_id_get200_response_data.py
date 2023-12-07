@@ -15,7 +15,7 @@
 import unittest
 import datetime
 
-from openapi_client.models.printables_id_get200_response_data import PrintablesIdGet200ResponseData
+from webshipperv2.models.printables_id_get200_response_data import PrintablesIdGet200ResponseData
 
 class TestPrintablesIdGet200ResponseData(unittest.TestCase):
     """PrintablesIdGet200ResponseData unit test stubs"""

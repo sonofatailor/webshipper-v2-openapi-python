@@ -15,7 +15,7 @@
 import unittest
 import datetime
 
-from openapi_client.models.events_id_get200_response import EventsIdGet200Response
+from webshipperv2.models.events_id_get200_response import EventsIdGet200Response
 
 class TestEventsIdGet200Response(unittest.TestCase):
     """EventsIdGet200Response unit test stubs"""
@@ -36,23 +36,23 @@ class TestEventsIdGet200Response(unittest.TestCase):
         model = EventsIdGet200Response()
         if include_optional:
             return EventsIdGet200Response(
-                data = openapi_client.models._events__id__get_200_response_data._events__id__get_200_response_data(
+                data = webshipperv2.models._events__id__get_200_response_data._events__id__get_200_response_data(
                     id = 56, 
                     type = 'events', 
-                    attributes = openapi_client.models.events.events(
+                    attributes = webshipperv2.models.events.events(
                         title = '', 
                         details = '', 
                         icon = '', 
                         initiator = '', 
                         source = '', 
                         created_at = '', ), ),
-                relationships = openapi_client.models._events__id__get_200_response_relationships._events__id__get_200_response_relationships(
-                    model = openapi_client.models._events__id__get_200_response_relationships_model._events__id__get_200_response_relationships_model(
-                        data = openapi_client.models._events__id__get_200_response_relationships_model_data._events__id__get_200_response_relationships_model_data(
+                relationships = webshipperv2.models._events__id__get_200_response_relationships._events__id__get_200_response_relationships(
+                    model = webshipperv2.models._events__id__get_200_response_relationships_model._events__id__get_200_response_relationships_model(
+                        data = webshipperv2.models._events__id__get_200_response_relationships_model_data._events__id__get_200_response_relationships_model_data(
                             id = '', 
                             type = 'event_models', ), ), ),
                 included = [
-                    openapi_client.models._events__id__get_200_response_included_inner._events__id__get_200_response_included_inner(
+                    webshipperv2.models._events__id__get_200_response_included_inner._events__id__get_200_response_included_inner(
                         type = 'orders', 
                         id = 56, 
                         data = null, )

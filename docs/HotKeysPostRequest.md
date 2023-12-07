@@ -10,7 +10,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```python
-from openapi_client.models.hot_keys_post_request import HotKeysPostRequest
+from webshipperv2.models.hot_keys_post_request import HotKeysPostRequest
 
 # TODO update the JSON string below
 json = "{}"

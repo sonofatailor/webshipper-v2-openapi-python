@@ -15,7 +15,7 @@
 import unittest
 import datetime
 
-from openapi_client.models.favourite_pages_id_get200_response_relationships_hot_key_data import FavouritePagesIdGet200ResponseRelationshipsHotKeyData
+from webshipperv2.models.favourite_pages_id_get200_response_relationships_hot_key_data import FavouritePagesIdGet200ResponseRelationshipsHotKeyData
 
 class TestFavouritePagesIdGet200ResponseRelationshipsHotKeyData(unittest.TestCase):
     """FavouritePagesIdGet200ResponseRelationshipsHotKeyData unit test stubs"""

@@ -15,7 +15,7 @@
 import unittest
 import datetime
 
-from openapi_client.models.end_of_day_reports import EndOfDayReports
+from webshipperv2.models.end_of_day_reports import EndOfDayReports
 
 class TestEndOfDayReports(unittest.TestCase):
     """EndOfDayReports unit test stubs"""

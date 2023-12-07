@@ -15,7 +15,7 @@
 import unittest
 import datetime
 
-from openapi_client.models.attachments_post_request_data import AttachmentsPostRequestData
+from webshipperv2.models.attachments_post_request_data import AttachmentsPostRequestData
 
 class TestAttachmentsPostRequestData(unittest.TestCase):
     """AttachmentsPostRequestData unit test stubs"""
@@ -37,7 +37,7 @@ class TestAttachmentsPostRequestData(unittest.TestCase):
         if include_optional:
             return AttachmentsPostRequestData(
                 type = 'attachments',
-                attributes = openapi_client.models.attachments.attachments(
+                attributes = webshipperv2.models.attachments.attachments(
                     updated_at = '', 
                     created_at = '', )
             )

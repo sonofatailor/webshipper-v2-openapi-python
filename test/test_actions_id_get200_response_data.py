@@ -15,7 +15,7 @@
 import unittest
 import datetime
 
-from openapi_client.models.actions_id_get200_response_data import ActionsIdGet200ResponseData
+from webshipperv2.models.actions_id_get200_response_data import ActionsIdGet200ResponseData
 
 class TestActionsIdGet200ResponseData(unittest.TestCase):
     """ActionsIdGet200ResponseData unit test stubs"""
@@ -38,7 +38,7 @@ class TestActionsIdGet200ResponseData(unittest.TestCase):
             return ActionsIdGet200ResponseData(
                 id = 56,
                 type = 'actions',
-                attributes = openapi_client.models.actions.actions(
+                attributes = webshipperv2.models.actions.actions(
                     job_type = '', 
                     async = True, 
                     additional_attributes = [

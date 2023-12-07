@@ -15,7 +15,7 @@
 import unittest
 import datetime
 
-from openapi_client.models.printer_jobs_id_patch_request import PrinterJobsIdPatchRequest
+from webshipperv2.models.printer_jobs_id_patch_request import PrinterJobsIdPatchRequest
 
 class TestPrinterJobsIdPatchRequest(unittest.TestCase):
     """PrinterJobsIdPatchRequest unit test stubs"""
@@ -36,10 +36,10 @@ class TestPrinterJobsIdPatchRequest(unittest.TestCase):
         model = PrinterJobsIdPatchRequest()
         if include_optional:
             return PrinterJobsIdPatchRequest(
-                data = openapi_client.models._printer_jobs__id__get_200_response_data._printer_jobs__id__get_200_response_data(
+                data = webshipperv2.models._printer_jobs__id__get_200_response_data._printer_jobs__id__get_200_response_data(
                     id = 56, 
                     type = 'printer_jobs', 
-                    attributes = openapi_client.models.printer_jobs.printer_jobs(
+                    attributes = webshipperv2.models.printer_jobs.printer_jobs(
                         created_at = '', 
                         updated_at = '', 
                         completed = True, 
@@ -47,13 +47,13 @@ class TestPrinterJobsIdPatchRequest(unittest.TestCase):
                         base64 = '', 
                         try_count = 56, 
                         initiator = '', ), ),
-                relationships = openapi_client.models._printer_jobs__id__get_200_response_relationships._printer_jobs__id__get_200_response_relationships(
-                    printer_client = openapi_client.models._orders__id__get_200_response_relationships_printer_client._orders__id__get_200_response_relationships_printer_client(
-                        data = openapi_client.models._orders__id__get_200_response_relationships_printer_client_data._orders__id__get_200_response_relationships_printer_client_data(
+                relationships = webshipperv2.models._printer_jobs__id__get_200_response_relationships._printer_jobs__id__get_200_response_relationships(
+                    printer_client = webshipperv2.models._orders__id__get_200_response_relationships_printer_client._orders__id__get_200_response_relationships_printer_client(
+                        data = webshipperv2.models._orders__id__get_200_response_relationships_printer_client_data._orders__id__get_200_response_relationships_printer_client_data(
                             id = '', 
                             type = 'printer_clients', ), ), 
-                    printer = openapi_client.models._printer_clients__id__get_200_response_relationships_label_printer._printer_clients__id__get_200_response_relationships_label_printer(), 
-                    printable = openapi_client.models._printer_jobs__id__get_200_response_relationships_printable._printer_jobs__id__get_200_response_relationships_printable(), )
+                    printer = webshipperv2.models._printer_clients__id__get_200_response_relationships_label_printer._printer_clients__id__get_200_response_relationships_label_printer(), 
+                    printable = webshipperv2.models._printer_jobs__id__get_200_response_relationships_printable._printer_jobs__id__get_200_response_relationships_printable(), )
             )
         else:
             return PrinterJobsIdPatchRequest(

@@ -15,7 +15,7 @@
 import unittest
 import datetime
 
-from openapi_client.models.actions import Actions
+from webshipperv2.models.actions import Actions
 
 class TestActions(unittest.TestCase):
     """Actions unit test stubs"""

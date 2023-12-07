@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.api.error_type_api import ErrorTypeApi
+from webshipperv2.api.error_type_api import ErrorTypeApi
 
 
 class TestErrorTypeApi(unittest.TestCase):

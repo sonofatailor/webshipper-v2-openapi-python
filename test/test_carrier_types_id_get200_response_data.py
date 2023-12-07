@@ -15,7 +15,7 @@
 import unittest
 import datetime
 
-from openapi_client.models.carrier_types_id_get200_response_data import CarrierTypesIdGet200ResponseData
+from webshipperv2.models.carrier_types_id_get200_response_data import CarrierTypesIdGet200ResponseData
 
 class TestCarrierTypesIdGet200ResponseData(unittest.TestCase):
     """CarrierTypesIdGet200ResponseData unit test stubs"""
@@ -38,7 +38,7 @@ class TestCarrierTypesIdGet200ResponseData(unittest.TestCase):
             return CarrierTypesIdGet200ResponseData(
                 id = 56,
                 type = 'carrier_types',
-                attributes = openapi_client.models.carrier_types.carrier_types(
+                attributes = webshipperv2.models.carrier_types.carrier_types(
                     fulfillment_logo = '', 
                     list_logo = '', 
                     name = '', 

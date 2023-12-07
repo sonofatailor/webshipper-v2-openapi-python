@@ -15,7 +15,7 @@
 import unittest
 import datetime
 
-from openapi_client.models.csv_mappings_id_get200_response_data import CsvMappingsIdGet200ResponseData
+from webshipperv2.models.csv_mappings_id_get200_response_data import CsvMappingsIdGet200ResponseData
 
 class TestCsvMappingsIdGet200ResponseData(unittest.TestCase):
     """CsvMappingsIdGet200ResponseData unit test stubs"""
@@ -38,7 +38,7 @@ class TestCsvMappingsIdGet200ResponseData(unittest.TestCase):
             return CsvMappingsIdGet200ResponseData(
                 id = 56,
                 type = 'csv_mappings',
-                attributes = openapi_client.models.csv_mappings.csv_mappings(
+                attributes = webshipperv2.models.csv_mappings.csv_mappings(
                     separator = '', 
                     target_class = '', 
                     grouped_by = 56, 

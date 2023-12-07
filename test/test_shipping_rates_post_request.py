@@ -15,7 +15,7 @@
 import unittest
 import datetime
 
-from openapi_client.models.shipping_rates_post_request import ShippingRatesPostRequest
+from webshipperv2.models.shipping_rates_post_request import ShippingRatesPostRequest
 
 class TestShippingRatesPostRequest(unittest.TestCase):
     """ShippingRatesPostRequest unit test stubs"""
@@ -36,9 +36,9 @@ class TestShippingRatesPostRequest(unittest.TestCase):
         model = ShippingRatesPostRequest()
         if include_optional:
             return ShippingRatesPostRequest(
-                data = openapi_client.models._shipping_rates_post_request_data._shipping_rates_post_request_data(
+                data = webshipperv2.models._shipping_rates_post_request_data._shipping_rates_post_request_data(
                     type = 'shipping_rates', 
-                    attributes = openapi_client.models.shipping_rates.shipping_rates(
+                    attributes = webshipperv2.models.shipping_rates.shipping_rates(
                         carrier_id = 56, 
                         order_channel_id = 56, 
                         name = '', 
@@ -68,19 +68,19 @@ class TestShippingRatesPostRequest(unittest.TestCase):
                         ignore_rate_quote_validation = True, 
                         custom_message = '', 
                         regions = '', ), ),
-                relationships = openapi_client.models._shipping_rates__id__get_200_response_relationships._shipping_rates__id__get_200_response_relationships(
-                    carrier = openapi_client.models._barcode_ranges__id__get_200_response_relationships_carrier._barcode_ranges__id__get_200_response_relationships_carrier(
-                        data = openapi_client.models._barcode_ranges__id__get_200_response_relationships_carrier_data._barcode_ranges__id__get_200_response_relationships_carrier_data(
+                relationships = webshipperv2.models._shipping_rates__id__get_200_response_relationships._shipping_rates__id__get_200_response_relationships(
+                    carrier = webshipperv2.models._barcode_ranges__id__get_200_response_relationships_carrier._barcode_ranges__id__get_200_response_relationships_carrier(
+                        data = webshipperv2.models._barcode_ranges__id__get_200_response_relationships_carrier_data._barcode_ranges__id__get_200_response_relationships_carrier_data(
                             id = '', 
                             type = 'carriers', ), ), 
-                    order_channel = openapi_client.models._csv_mappings__id__get_200_response_relationships_order_channel._csv_mappings__id__get_200_response_relationships_order_channel(), 
-                    return_shipping_rate = openapi_client.models._orders__id__get_200_response_relationships_shipping_rate._orders__id__get_200_response_relationships_shipping_rate(), 
-                    sender_address = openapi_client.models._carriers__id__get_200_response_relationships_sender_address._carriers__id__get_200_response_relationships_sender_address(), 
-                    return_address = openapi_client.models._carriers__id__get_200_response_relationships_sender_address._carriers__id__get_200_response_relationships_sender_address(), 
-                    mail_template = openapi_client.models._return_portals__id__get_200_response_relationships_mail_template._return_portals__id__get_200_response_relationships_mail_template(), 
-                    return_mail_template = openapi_client.models._return_portals__id__get_200_response_relationships_mail_template._return_portals__id__get_200_response_relationships_mail_template(), 
-                    document_template = openapi_client.models._shipments__id__get_200_response_relationships_document_template._shipments__id__get_200_response_relationships_document_template(), 
-                    shadow_booking_shipping_rate = openapi_client.models._orders__id__get_200_response_relationships_shipping_rate._orders__id__get_200_response_relationships_shipping_rate(), )
+                    order_channel = webshipperv2.models._csv_mappings__id__get_200_response_relationships_order_channel._csv_mappings__id__get_200_response_relationships_order_channel(), 
+                    return_shipping_rate = webshipperv2.models._orders__id__get_200_response_relationships_shipping_rate._orders__id__get_200_response_relationships_shipping_rate(), 
+                    sender_address = webshipperv2.models._carriers__id__get_200_response_relationships_sender_address._carriers__id__get_200_response_relationships_sender_address(), 
+                    return_address = webshipperv2.models._carriers__id__get_200_response_relationships_sender_address._carriers__id__get_200_response_relationships_sender_address(), 
+                    mail_template = webshipperv2.models._return_portals__id__get_200_response_relationships_mail_template._return_portals__id__get_200_response_relationships_mail_template(), 
+                    return_mail_template = webshipperv2.models._return_portals__id__get_200_response_relationships_mail_template._return_portals__id__get_200_response_relationships_mail_template(), 
+                    document_template = webshipperv2.models._shipments__id__get_200_response_relationships_document_template._shipments__id__get_200_response_relationships_document_template(), 
+                    shadow_booking_shipping_rate = webshipperv2.models._orders__id__get_200_response_relationships_shipping_rate._orders__id__get_200_response_relationships_shipping_rate(), )
             )
         else:
             return ShippingRatesPostRequest(

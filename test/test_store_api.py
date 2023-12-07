@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.api.store_api import StoreApi
+from webshipperv2.api.store_api import StoreApi
 
 
 class TestStoreApi(unittest.TestCase):

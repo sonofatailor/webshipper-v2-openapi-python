@@ -15,7 +15,7 @@
 import unittest
 import datetime
 
-from openapi_client.models.bulk_import_orders_post_request_data import BulkImportOrdersPostRequestData
+from webshipperv2.models.bulk_import_orders_post_request_data import BulkImportOrdersPostRequestData
 
 class TestBulkImportOrdersPostRequestData(unittest.TestCase):
     """BulkImportOrdersPostRequestData unit test stubs"""
@@ -37,7 +37,7 @@ class TestBulkImportOrdersPostRequestData(unittest.TestCase):
         if include_optional:
             return BulkImportOrdersPostRequestData(
                 type = 'bulk_import_orders',
-                attributes = openapi_client.models.bulk_import_orders.bulk_import_orders(
+                attributes = webshipperv2.models.bulk_import_orders.bulk_import_orders(
                     ids = '', 
                     order_channel_id = '', 
                     async = '', 

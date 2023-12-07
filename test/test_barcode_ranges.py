@@ -15,7 +15,7 @@
 import unittest
 import datetime
 
-from openapi_client.models.barcode_ranges import BarcodeRanges
+from webshipperv2.models.barcode_ranges import BarcodeRanges
 
 class TestBarcodeRanges(unittest.TestCase):
     """BarcodeRanges unit test stubs"""

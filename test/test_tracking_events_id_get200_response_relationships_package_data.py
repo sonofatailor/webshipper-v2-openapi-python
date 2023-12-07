@@ -15,7 +15,7 @@
 import unittest
 import datetime
 
-from openapi_client.models.tracking_events_id_get200_response_relationships_package_data import TrackingEventsIdGet200ResponseRelationshipsPackageData
+from webshipperv2.models.tracking_events_id_get200_response_relationships_package_data import TrackingEventsIdGet200ResponseRelationshipsPackageData
 
 class TestTrackingEventsIdGet200ResponseRelationshipsPackageData(unittest.TestCase):
     """TrackingEventsIdGet200ResponseRelationshipsPackageData unit test stubs"""

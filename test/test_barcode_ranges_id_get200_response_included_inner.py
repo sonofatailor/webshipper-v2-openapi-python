@@ -15,7 +15,7 @@
 import unittest
 import datetime
 
-from openapi_client.models.barcode_ranges_id_get200_response_included_inner import BarcodeRangesIdGet200ResponseIncludedInner
+from webshipperv2.models.barcode_ranges_id_get200_response_included_inner import BarcodeRangesIdGet200ResponseIncludedInner
 
 class TestBarcodeRangesIdGet200ResponseIncludedInner(unittest.TestCase):
     """BarcodeRangesIdGet200ResponseIncludedInner unit test stubs"""

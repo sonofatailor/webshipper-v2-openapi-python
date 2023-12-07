@@ -15,7 +15,7 @@
 import unittest
 import datetime
 
-from openapi_client.models.shipping_rates_post_request_data import ShippingRatesPostRequestData
+from webshipperv2.models.shipping_rates_post_request_data import ShippingRatesPostRequestData
 
 class TestShippingRatesPostRequestData(unittest.TestCase):
     """ShippingRatesPostRequestData unit test stubs"""
@@ -37,7 +37,7 @@ class TestShippingRatesPostRequestData(unittest.TestCase):
         if include_optional:
             return ShippingRatesPostRequestData(
                 type = 'shipping_rates',
-                attributes = openapi_client.models.shipping_rates.shipping_rates(
+                attributes = webshipperv2.models.shipping_rates.shipping_rates(
                     carrier_id = 56, 
                     order_channel_id = 56, 
                     name = '', 

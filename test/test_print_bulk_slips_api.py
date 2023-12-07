@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.api.print_bulk_slips_api import PrintBulkSlipsApi
+from webshipperv2.api.print_bulk_slips_api import PrintBulkSlipsApi
 
 
 class TestPrintBulkSlipsApi(unittest.TestCase):

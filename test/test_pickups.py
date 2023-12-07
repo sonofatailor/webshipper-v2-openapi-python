@@ -15,7 +15,7 @@
 import unittest
 import datetime
 
-from openapi_client.models.pickups import Pickups
+from webshipperv2.models.pickups import Pickups
 
 class TestPickups(unittest.TestCase):
     """Pickups unit test stubs"""

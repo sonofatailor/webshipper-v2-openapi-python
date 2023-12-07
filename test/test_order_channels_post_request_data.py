@@ -15,7 +15,7 @@
 import unittest
 import datetime
 
-from openapi_client.models.order_channels_post_request_data import OrderChannelsPostRequestData
+from webshipperv2.models.order_channels_post_request_data import OrderChannelsPostRequestData
 
 class TestOrderChannelsPostRequestData(unittest.TestCase):
     """OrderChannelsPostRequestData unit test stubs"""
@@ -37,12 +37,12 @@ class TestOrderChannelsPostRequestData(unittest.TestCase):
         if include_optional:
             return OrderChannelsPostRequestData(
                 type = 'order_channels',
-                attributes = openapi_client.models.order_channels.order_channels(
+                attributes = webshipperv2.models.order_channels.order_channels(
                     channel_label = '', 
                     attrs = [
                         ''
                         ], 
-                    additional_parameters = openapi_client.models.additional_parameters.additional_parameters(), 
+                    additional_parameters = webshipperv2.models.additional_parameters.additional_parameters(), 
                     slip_print_mode = '', 
                     return_label_print_mode = '', 
                     shipping_label_print_mode = '', 

@@ -15,7 +15,7 @@
 import unittest
 import datetime
 
-from openapi_client.models.shipments_id_get200_response_relationships_document_template_data import ShipmentsIdGet200ResponseRelationshipsDocumentTemplateData
+from webshipperv2.models.shipments_id_get200_response_relationships_document_template_data import ShipmentsIdGet200ResponseRelationshipsDocumentTemplateData
 
 class TestShipmentsIdGet200ResponseRelationshipsDocumentTemplateData(unittest.TestCase):
     """ShipmentsIdGet200ResponseRelationshipsDocumentTemplateData unit test stubs"""

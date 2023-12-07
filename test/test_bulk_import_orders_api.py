@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.api.bulk_import_orders_api import BulkImportOrdersApi
+from webshipperv2.api.bulk_import_orders_api import BulkImportOrdersApi
 
 
 class TestBulkImportOrdersApi(unittest.TestCase):

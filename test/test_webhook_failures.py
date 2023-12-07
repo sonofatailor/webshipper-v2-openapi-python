@@ -15,7 +15,7 @@
 import unittest
 import datetime
 
-from openapi_client.models.webhook_failures import WebhookFailures
+from webshipperv2.models.webhook_failures import WebhookFailures
 
 class TestWebhookFailures(unittest.TestCase):
     """WebhookFailures unit test stubs"""

@@ -43,7 +43,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```python
-from openapi_client.models.carrier_accesses_id_get200_response_included_inner_data import CarrierAccessesIdGet200ResponseIncludedInnerData
+from webshipperv2.models.carrier_accesses_id_get200_response_included_inner_data import CarrierAccessesIdGet200ResponseIncludedInnerData
 
 # TODO update the JSON string below
 json = "{}"

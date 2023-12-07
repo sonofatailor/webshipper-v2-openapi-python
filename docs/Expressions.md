@@ -12,7 +12,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```python
-from openapi_client.models.expressions import Expressions
+from webshipperv2.models.expressions import Expressions
 
 # TODO update the JSON string below
 json = "{}"

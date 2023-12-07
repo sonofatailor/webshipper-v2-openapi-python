@@ -15,7 +15,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```python
-from openapi_client.models.packages import Packages
+from webshipperv2.models.packages import Packages
 
 # TODO update the JSON string below
 json = "{}"

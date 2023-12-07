@@ -14,7 +14,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```python
-from openapi_client.models.drop_point_locators import DropPointLocators
+from webshipperv2.models.drop_point_locators import DropPointLocators
 
 # TODO update the JSON string below
 json = "{}"

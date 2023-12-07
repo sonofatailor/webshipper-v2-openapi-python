@@ -15,7 +15,7 @@
 import unittest
 import datetime
 
-from openapi_client.models.regions_id_get200_response_data import RegionsIdGet200ResponseData
+from webshipperv2.models.regions_id_get200_response_data import RegionsIdGet200ResponseData
 
 class TestRegionsIdGet200ResponseData(unittest.TestCase):
     """RegionsIdGet200ResponseData unit test stubs"""
@@ -38,7 +38,7 @@ class TestRegionsIdGet200ResponseData(unittest.TestCase):
             return RegionsIdGet200ResponseData(
                 id = 56,
                 type = 'regions',
-                attributes = openapi_client.models.regions.regions(
+                attributes = webshipperv2.models.regions.regions(
                     name = '', 
                     expressions = '', 
                     created_at = '', 

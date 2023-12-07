@@ -15,7 +15,7 @@
 import unittest
 import datetime
 
-from openapi_client.models.additional_attributes_id_get200_response_relationships_order import AdditionalAttributesIdGet200ResponseRelationshipsOrder
+from webshipperv2.models.additional_attributes_id_get200_response_relationships_order import AdditionalAttributesIdGet200ResponseRelationshipsOrder
 
 class TestAdditionalAttributesIdGet200ResponseRelationshipsOrder(unittest.TestCase):
     """AdditionalAttributesIdGet200ResponseRelationshipsOrder unit test stubs"""
@@ -36,7 +36,7 @@ class TestAdditionalAttributesIdGet200ResponseRelationshipsOrder(unittest.TestCa
         model = AdditionalAttributesIdGet200ResponseRelationshipsOrder()
         if include_optional:
             return AdditionalAttributesIdGet200ResponseRelationshipsOrder(
-                data = openapi_client.models._additional_attributes__id__get_200_response_relationships_order_data._additional_attributes__id__get_200_response_relationships_order_data(
+                data = webshipperv2.models._additional_attributes__id__get_200_response_relationships_order_data._additional_attributes__id__get_200_response_relationships_order_data(
                     id = '', 
                     type = 'orders', )
             )

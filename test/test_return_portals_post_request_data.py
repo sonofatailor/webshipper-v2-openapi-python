@@ -15,7 +15,7 @@
 import unittest
 import datetime
 
-from openapi_client.models.return_portals_post_request_data import ReturnPortalsPostRequestData
+from webshipperv2.models.return_portals_post_request_data import ReturnPortalsPostRequestData
 
 class TestReturnPortalsPostRequestData(unittest.TestCase):
     """ReturnPortalsPostRequestData unit test stubs"""
@@ -37,7 +37,7 @@ class TestReturnPortalsPostRequestData(unittest.TestCase):
         if include_optional:
             return ReturnPortalsPostRequestData(
                 type = 'return_portals',
-                attributes = openapi_client.models.return_portals.return_portals(
+                attributes = webshipperv2.models.return_portals.return_portals(
                     name = '', 
                     custom_style = '', 
                     shipping_methods = '', 

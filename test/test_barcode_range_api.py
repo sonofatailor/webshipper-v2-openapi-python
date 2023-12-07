@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.api.barcode_range_api import BarcodeRangeApi
+from webshipperv2.api.barcode_range_api import BarcodeRangeApi
 
 
 class TestBarcodeRangeApi(unittest.TestCase):

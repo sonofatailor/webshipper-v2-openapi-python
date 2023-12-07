@@ -15,7 +15,7 @@
 import unittest
 import datetime
 
-from openapi_client.models.additional_attributes_get200_response import AdditionalAttributesGet200Response
+from webshipperv2.models.additional_attributes_get200_response import AdditionalAttributesGet200Response
 
 class TestAdditionalAttributesGet200Response(unittest.TestCase):
     """AdditionalAttributesGet200Response unit test stubs"""
@@ -37,8 +37,8 @@ class TestAdditionalAttributesGet200Response(unittest.TestCase):
         if include_optional:
             return AdditionalAttributesGet200Response(
                 data = [
-                    openapi_client.models._additional_attributes_get_200_response_data_inner._additional_attributes_get_200_response_data_inner(
-                        attributes = openapi_client.models.additional_attributes.additional_attributes(
+                    webshipperv2.models._additional_attributes_get_200_response_data_inner._additional_attributes_get_200_response_data_inner(
+                        attributes = webshipperv2.models.additional_attributes.additional_attributes(
                             name = '', 
                             attr_key = '', 
                             attr_value = '', 

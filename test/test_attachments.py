@@ -15,7 +15,7 @@
 import unittest
 import datetime
 
-from openapi_client.models.attachments import Attachments
+from webshipperv2.models.attachments import Attachments
 
 class TestAttachments(unittest.TestCase):
     """Attachments unit test stubs"""

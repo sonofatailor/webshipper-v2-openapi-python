@@ -15,7 +15,7 @@
 import unittest
 import datetime
 
-from openapi_client.models.drop_points import DropPoints
+from webshipperv2.models.drop_points import DropPoints
 
 class TestDropPoints(unittest.TestCase):
     """DropPoints unit test stubs"""

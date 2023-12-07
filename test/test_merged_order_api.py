@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.api.merged_order_api import MergedOrderApi
+from webshipperv2.api.merged_order_api import MergedOrderApi
 
 
 class TestMergedOrderApi(unittest.TestCase):

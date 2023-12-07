@@ -15,7 +15,7 @@
 import unittest
 import datetime
 
-from openapi_client.models.actions_id_get200_response_included_inner_data import ActionsIdGet200ResponseIncludedInnerData
+from webshipperv2.models.actions_id_get200_response_included_inner_data import ActionsIdGet200ResponseIncludedInnerData
 
 class TestActionsIdGet200ResponseIncludedInnerData(unittest.TestCase):
     """ActionsIdGet200ResponseIncludedInnerData unit test stubs"""
@@ -36,7 +36,7 @@ class TestActionsIdGet200ResponseIncludedInnerData(unittest.TestCase):
         model = ActionsIdGet200ResponseIncludedInnerData()
         if include_optional:
             return ActionsIdGet200ResponseIncludedInnerData(
-                trigger = openapi_client.models.trigger.trigger(),
+                trigger = webshipperv2.models.trigger.trigger(),
                 actions = [
                     ''
                     ],

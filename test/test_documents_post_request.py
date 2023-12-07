@@ -15,7 +15,7 @@
 import unittest
 import datetime
 
-from openapi_client.models.documents_post_request import DocumentsPostRequest
+from webshipperv2.models.documents_post_request import DocumentsPostRequest
 
 class TestDocumentsPostRequest(unittest.TestCase):
     """DocumentsPostRequest unit test stubs"""
@@ -36,9 +36,9 @@ class TestDocumentsPostRequest(unittest.TestCase):
         model = DocumentsPostRequest()
         if include_optional:
             return DocumentsPostRequest(
-                data = openapi_client.models._documents_post_request_data._documents_post_request_data(
+                data = webshipperv2.models._documents_post_request_data._documents_post_request_data(
                     type = 'documents', 
-                    attributes = openapi_client.models.documents.documents(
+                    attributes = webshipperv2.models.documents.documents(
                         shipment_id = 56, 
                         document_size = '', 
                         document_format = '', 
@@ -50,9 +50,9 @@ class TestDocumentsPostRequest(unittest.TestCase):
                         is_paperless = True, 
                         updated_at = '', 
                         created_at = '', ), ),
-                relationships = openapi_client.models._documents__id__get_200_response_relationships._documents__id__get_200_response_relationships(
-                    has_documents = openapi_client.models._attachments__id__get_200_response_relationships_has_documents._attachments__id__get_200_response_relationships_has_documents(
-                        data = openapi_client.models._attachments__id__get_200_response_relationships_has_documents_data._attachments__id__get_200_response_relationships_has_documents_data(
+                relationships = webshipperv2.models._documents__id__get_200_response_relationships._documents__id__get_200_response_relationships(
+                    has_documents = webshipperv2.models._attachments__id__get_200_response_relationships_has_documents._attachments__id__get_200_response_relationships_has_documents(
+                        data = webshipperv2.models._attachments__id__get_200_response_relationships_has_documents_data._attachments__id__get_200_response_relationships_has_documents_data(
                             id = '', 
                             type = 'has_documents', ), ), )
             )

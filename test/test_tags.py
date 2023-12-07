@@ -15,7 +15,7 @@
 import unittest
 import datetime
 
-from openapi_client.models.tags import Tags
+from webshipperv2.models.tags import Tags
 
 class TestTags(unittest.TestCase):
     """Tags unit test stubs"""

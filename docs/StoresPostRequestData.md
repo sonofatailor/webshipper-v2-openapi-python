@@ -10,7 +10,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```python
-from openapi_client.models.stores_post_request_data import StoresPostRequestData
+from webshipperv2.models.stores_post_request_data import StoresPostRequestData
 
 # TODO update the JSON string below
 json = "{}"

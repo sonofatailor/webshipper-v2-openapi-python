@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.api.pickup_api import PickupApi
+from webshipperv2.api.pickup_api import PickupApi
 
 
 class TestPickupApi(unittest.TestCase):

@@ -15,7 +15,7 @@
 import unittest
 import datetime
 
-from openapi_client.models.mail_templates_id_get200_response import MailTemplatesIdGet200Response
+from webshipperv2.models.mail_templates_id_get200_response import MailTemplatesIdGet200Response
 
 class TestMailTemplatesIdGet200Response(unittest.TestCase):
     """MailTemplatesIdGet200Response unit test stubs"""
@@ -36,10 +36,10 @@ class TestMailTemplatesIdGet200Response(unittest.TestCase):
         model = MailTemplatesIdGet200Response()
         if include_optional:
             return MailTemplatesIdGet200Response(
-                data = openapi_client.models._mail_templates__id__get_200_response_data._mail_templates__id__get_200_response_data(
+                data = webshipperv2.models._mail_templates__id__get_200_response_data._mail_templates__id__get_200_response_data(
                     id = 56, 
                     type = 'mail_templates', 
-                    attributes = openapi_client.models.mail_templates.mail_templates(
+                    attributes = webshipperv2.models.mail_templates.mail_templates(
                         name = '', 
                         default_locale = '', 
                         mail_locales = '', 
@@ -52,13 +52,13 @@ class TestMailTemplatesIdGet200Response(unittest.TestCase):
                         hook = '', 
                         whitelisted_languages = '', 
                         described = '', ), ),
-                relationships = openapi_client.models._mail_templates__id__get_200_response_relationships._mail_templates__id__get_200_response_relationships(
-                    brand = openapi_client.models._mail_templates__id__get_200_response_relationships_brand._mail_templates__id__get_200_response_relationships_brand(
-                        data = openapi_client.models._mail_templates__id__get_200_response_relationships_brand_data._mail_templates__id__get_200_response_relationships_brand_data(
+                relationships = webshipperv2.models._mail_templates__id__get_200_response_relationships._mail_templates__id__get_200_response_relationships(
+                    brand = webshipperv2.models._mail_templates__id__get_200_response_relationships_brand._mail_templates__id__get_200_response_relationships_brand(
+                        data = webshipperv2.models._mail_templates__id__get_200_response_relationships_brand_data._mail_templates__id__get_200_response_relationships_brand_data(
                             id = '', 
                             type = 'brands', ), ), ),
                 included = [
-                    openapi_client.models._mail_templates__id__get_200_response_included_inner._mail_templates__id__get_200_response_included_inner(
+                    webshipperv2.models._mail_templates__id__get_200_response_included_inner._mail_templates__id__get_200_response_included_inner(
                         type = 'orders', 
                         id = 56, 
                         data = null, )

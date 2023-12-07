@@ -15,7 +15,7 @@
 import unittest
 import datetime
 
-from openapi_client.models.additional_attributes_post_request_data import AdditionalAttributesPostRequestData
+from webshipperv2.models.additional_attributes_post_request_data import AdditionalAttributesPostRequestData
 
 class TestAdditionalAttributesPostRequestData(unittest.TestCase):
     """AdditionalAttributesPostRequestData unit test stubs"""
@@ -37,7 +37,7 @@ class TestAdditionalAttributesPostRequestData(unittest.TestCase):
         if include_optional:
             return AdditionalAttributesPostRequestData(
                 type = 'additional_attributes',
-                attributes = openapi_client.models.additional_attributes.additional_attributes(
+                attributes = webshipperv2.models.additional_attributes.additional_attributes(
                     name = '', 
                     attr_key = '', 
                     attr_value = '', 

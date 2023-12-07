@@ -11,7 +11,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```python
-from openapi_client.models.favourite_pages_id_get200_response_included_inner import FavouritePagesIdGet200ResponseIncludedInner
+from webshipperv2.models.favourite_pages_id_get200_response_included_inner import FavouritePagesIdGet200ResponseIncludedInner
 
 # TODO update the JSON string below
 json = "{}"

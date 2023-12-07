@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.api.printable_api import PrintableApi
+from webshipperv2.api.printable_api import PrintableApi
 
 
 class TestPrintableApi(unittest.TestCase):

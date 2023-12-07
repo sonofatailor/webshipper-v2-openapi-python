@@ -15,7 +15,7 @@
 import unittest
 import datetime
 
-from openapi_client.models.printer_clients_id_get200_response_relationships_label_printer_data import PrinterClientsIdGet200ResponseRelationshipsLabelPrinterData
+from webshipperv2.models.printer_clients_id_get200_response_relationships_label_printer_data import PrinterClientsIdGet200ResponseRelationshipsLabelPrinterData
 
 class TestPrinterClientsIdGet200ResponseRelationshipsLabelPrinterData(unittest.TestCase):
     """PrinterClientsIdGet200ResponseRelationshipsLabelPrinterData unit test stubs"""

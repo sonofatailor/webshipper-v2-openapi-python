@@ -15,7 +15,7 @@
 import unittest
 import datetime
 
-from openapi_client.models.csv_mappings_id_get200_response_relationships_order_channel_data import CsvMappingsIdGet200ResponseRelationshipsOrderChannelData
+from webshipperv2.models.csv_mappings_id_get200_response_relationships_order_channel_data import CsvMappingsIdGet200ResponseRelationshipsOrderChannelData
 
 class TestCsvMappingsIdGet200ResponseRelationshipsOrderChannelData(unittest.TestCase):
     """CsvMappingsIdGet200ResponseRelationshipsOrderChannelData unit test stubs"""

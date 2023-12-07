@@ -15,7 +15,7 @@
 import unittest
 import datetime
 
-from openapi_client.models.customs_lines_id_patch_request import CustomsLinesIdPatchRequest
+from webshipperv2.models.customs_lines_id_patch_request import CustomsLinesIdPatchRequest
 
 class TestCustomsLinesIdPatchRequest(unittest.TestCase):
     """CustomsLinesIdPatchRequest unit test stubs"""
@@ -36,10 +36,10 @@ class TestCustomsLinesIdPatchRequest(unittest.TestCase):
         model = CustomsLinesIdPatchRequest()
         if include_optional:
             return CustomsLinesIdPatchRequest(
-                data = openapi_client.models._customs_lines__id__get_200_response_data._customs_lines__id__get_200_response_data(
+                data = webshipperv2.models._customs_lines__id__get_200_response_data._customs_lines__id__get_200_response_data(
                     id = 56, 
                     type = 'customs_lines', 
-                    attributes = openapi_client.models.customs_lines.customs_lines(
+                    attributes = webshipperv2.models.customs_lines.customs_lines(
                         sku = '', 
                         description = '', 
                         quantity = 56, 
@@ -51,7 +51,7 @@ class TestCustomsLinesIdPatchRequest(unittest.TestCase):
                         weight = 1.337, 
                         weight_unit = 56, 
                         discount = 1.337, 
-                        dangerous_goods_details = openapi_client.models.dangerous_goods_details.dangerous_goods_details(), ), ),
+                        dangerous_goods_details = webshipperv2.models.dangerous_goods_details.dangerous_goods_details(), ), ),
                 relationships = None
             )
         else:

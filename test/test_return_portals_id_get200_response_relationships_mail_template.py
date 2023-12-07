@@ -15,7 +15,7 @@
 import unittest
 import datetime
 
-from openapi_client.models.return_portals_id_get200_response_relationships_mail_template import ReturnPortalsIdGet200ResponseRelationshipsMailTemplate
+from webshipperv2.models.return_portals_id_get200_response_relationships_mail_template import ReturnPortalsIdGet200ResponseRelationshipsMailTemplate
 
 class TestReturnPortalsIdGet200ResponseRelationshipsMailTemplate(unittest.TestCase):
     """ReturnPortalsIdGet200ResponseRelationshipsMailTemplate unit test stubs"""
@@ -36,7 +36,7 @@ class TestReturnPortalsIdGet200ResponseRelationshipsMailTemplate(unittest.TestCa
         model = ReturnPortalsIdGet200ResponseRelationshipsMailTemplate()
         if include_optional:
             return ReturnPortalsIdGet200ResponseRelationshipsMailTemplate(
-                data = openapi_client.models._return_portals__id__get_200_response_relationships_mail_template_data._return_portals__id__get_200_response_relationships_mail_template_data(
+                data = webshipperv2.models._return_portals__id__get_200_response_relationships_mail_template_data._return_portals__id__get_200_response_relationships_mail_template_data(
                     id = '', 
                     type = 'mail_templates', )
             )

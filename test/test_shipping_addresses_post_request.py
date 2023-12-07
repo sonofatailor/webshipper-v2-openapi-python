@@ -15,7 +15,7 @@
 import unittest
 import datetime
 
-from openapi_client.models.shipping_addresses_post_request import ShippingAddressesPostRequest
+from webshipperv2.models.shipping_addresses_post_request import ShippingAddressesPostRequest
 
 class TestShippingAddressesPostRequest(unittest.TestCase):
     """ShippingAddressesPostRequest unit test stubs"""
@@ -36,9 +36,9 @@ class TestShippingAddressesPostRequest(unittest.TestCase):
         model = ShippingAddressesPostRequest()
         if include_optional:
             return ShippingAddressesPostRequest(
-                data = openapi_client.models._shipping_addresses_post_request_data._shipping_addresses_post_request_data(
+                data = webshipperv2.models._shipping_addresses_post_request_data._shipping_addresses_post_request_data(
                     type = 'shipping_addresses', 
-                    attributes = openapi_client.models.shipping_addresses.shipping_addresses(
+                    attributes = webshipperv2.models.shipping_addresses.shipping_addresses(
                         att_contact = '', 
                         company_name = '', 
                         address_1 = '', 

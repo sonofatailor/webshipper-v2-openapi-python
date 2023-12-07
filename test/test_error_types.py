@@ -15,7 +15,7 @@
 import unittest
 import datetime
 
-from openapi_client.models.error_types import ErrorTypes
+from webshipperv2.models.error_types import ErrorTypes
 
 class TestErrorTypes(unittest.TestCase):
     """ErrorTypes unit test stubs"""

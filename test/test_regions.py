@@ -15,7 +15,7 @@
 import unittest
 import datetime
 
-from openapi_client.models.regions import Regions
+from webshipperv2.models.regions import Regions
 
 class TestRegions(unittest.TestCase):
     """Regions unit test stubs"""

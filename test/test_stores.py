@@ -15,7 +15,7 @@
 import unittest
 import datetime
 
-from openapi_client.models.stores import Stores
+from webshipperv2.models.stores import Stores
 
 class TestStores(unittest.TestCase):
     """Stores unit test stubs"""

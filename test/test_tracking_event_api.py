@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.api.tracking_event_api import TrackingEventApi
+from webshipperv2.api.tracking_event_api import TrackingEventApi
 
 
 class TestTrackingEventApi(unittest.TestCase):

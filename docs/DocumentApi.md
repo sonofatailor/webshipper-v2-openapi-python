@@ -1,4 +1,4 @@
-# openapi_client.DocumentApi
+# webshipperv2.DocumentApi
 
 All URIs are relative to *https://.api.webshipper.io/v2*
 
@@ -22,14 +22,14 @@ List all Documents
 ```python
 import time
 import os
-import openapi_client
-from openapi_client.models.documents_get200_response import DocumentsGet200Response
-from openapi_client.rest import ApiException
+import webshipperv2
+from webshipperv2.models.documents_get200_response import DocumentsGet200Response
+from webshipperv2.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to https://.api.webshipper.io/v2
 # See configuration.py for a list of all supported configuration parameters.
-configuration = openapi_client.Configuration(
+configuration = webshipperv2.Configuration(
     host = "https://.api.webshipper.io/v2"
 )
 
@@ -39,14 +39,14 @@ configuration = openapi_client.Configuration(
 # satisfies your auth use case.
 
 # Configure Bearer authorization: BearerAuth
-configuration = openapi_client.Configuration(
+configuration = webshipperv2.Configuration(
     access_token = os.environ["BEARER_TOKEN"]
 )
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient(configuration) as api_client:
+with webshipperv2.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.DocumentApi(api_client)
+    api_instance = webshipperv2.DocumentApi(api_client)
     filter_id = 'filter_id_example' # str | Filter by id (optional)
     filter_is_special = 'filter_is_special_example' # str | Filter by is_special (optional)
 
@@ -99,14 +99,14 @@ Delete a Document
 ```python
 import time
 import os
-import openapi_client
-from openapi_client.models.documents_id_get200_response import DocumentsIdGet200Response
-from openapi_client.rest import ApiException
+import webshipperv2
+from webshipperv2.models.documents_id_get200_response import DocumentsIdGet200Response
+from webshipperv2.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to https://.api.webshipper.io/v2
 # See configuration.py for a list of all supported configuration parameters.
-configuration = openapi_client.Configuration(
+configuration = webshipperv2.Configuration(
     host = "https://.api.webshipper.io/v2"
 )
 
@@ -116,14 +116,14 @@ configuration = openapi_client.Configuration(
 # satisfies your auth use case.
 
 # Configure Bearer authorization: BearerAuth
-configuration = openapi_client.Configuration(
+configuration = webshipperv2.Configuration(
     access_token = os.environ["BEARER_TOKEN"]
 )
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient(configuration) as api_client:
+with webshipperv2.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.DocumentApi(api_client)
+    api_instance = webshipperv2.DocumentApi(api_client)
     id = 56 # int | 
 
     try:
@@ -174,14 +174,14 @@ Show a single Document
 ```python
 import time
 import os
-import openapi_client
-from openapi_client.models.documents_id_get200_response import DocumentsIdGet200Response
-from openapi_client.rest import ApiException
+import webshipperv2
+from webshipperv2.models.documents_id_get200_response import DocumentsIdGet200Response
+from webshipperv2.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to https://.api.webshipper.io/v2
 # See configuration.py for a list of all supported configuration parameters.
-configuration = openapi_client.Configuration(
+configuration = webshipperv2.Configuration(
     host = "https://.api.webshipper.io/v2"
 )
 
@@ -191,14 +191,14 @@ configuration = openapi_client.Configuration(
 # satisfies your auth use case.
 
 # Configure Bearer authorization: BearerAuth
-configuration = openapi_client.Configuration(
+configuration = webshipperv2.Configuration(
     access_token = os.environ["BEARER_TOKEN"]
 )
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient(configuration) as api_client:
+with webshipperv2.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.DocumentApi(api_client)
+    api_instance = webshipperv2.DocumentApi(api_client)
     id = 56 # int | 
 
     try:
@@ -249,15 +249,15 @@ Update a Document
 ```python
 import time
 import os
-import openapi_client
-from openapi_client.models.documents_id_get200_response import DocumentsIdGet200Response
-from openapi_client.models.documents_id_patch_request import DocumentsIdPatchRequest
-from openapi_client.rest import ApiException
+import webshipperv2
+from webshipperv2.models.documents_id_get200_response import DocumentsIdGet200Response
+from webshipperv2.models.documents_id_patch_request import DocumentsIdPatchRequest
+from webshipperv2.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to https://.api.webshipper.io/v2
 # See configuration.py for a list of all supported configuration parameters.
-configuration = openapi_client.Configuration(
+configuration = webshipperv2.Configuration(
     host = "https://.api.webshipper.io/v2"
 )
 
@@ -267,16 +267,16 @@ configuration = openapi_client.Configuration(
 # satisfies your auth use case.
 
 # Configure Bearer authorization: BearerAuth
-configuration = openapi_client.Configuration(
+configuration = webshipperv2.Configuration(
     access_token = os.environ["BEARER_TOKEN"]
 )
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient(configuration) as api_client:
+with webshipperv2.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.DocumentApi(api_client)
+    api_instance = webshipperv2.DocumentApi(api_client)
     id = 56 # int | 
-    documents_id_patch_request = openapi_client.DocumentsIdPatchRequest() # DocumentsIdPatchRequest | 
+    documents_id_patch_request = webshipperv2.DocumentsIdPatchRequest() # DocumentsIdPatchRequest | 
 
     try:
         # Update a Document
@@ -327,15 +327,15 @@ Create a Document
 ```python
 import time
 import os
-import openapi_client
-from openapi_client.models.documents_id_get200_response import DocumentsIdGet200Response
-from openapi_client.models.documents_post_request import DocumentsPostRequest
-from openapi_client.rest import ApiException
+import webshipperv2
+from webshipperv2.models.documents_id_get200_response import DocumentsIdGet200Response
+from webshipperv2.models.documents_post_request import DocumentsPostRequest
+from webshipperv2.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to https://.api.webshipper.io/v2
 # See configuration.py for a list of all supported configuration parameters.
-configuration = openapi_client.Configuration(
+configuration = webshipperv2.Configuration(
     host = "https://.api.webshipper.io/v2"
 )
 
@@ -345,15 +345,15 @@ configuration = openapi_client.Configuration(
 # satisfies your auth use case.
 
 # Configure Bearer authorization: BearerAuth
-configuration = openapi_client.Configuration(
+configuration = webshipperv2.Configuration(
     access_token = os.environ["BEARER_TOKEN"]
 )
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient(configuration) as api_client:
+with webshipperv2.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.DocumentApi(api_client)
-    documents_post_request = openapi_client.DocumentsPostRequest() # DocumentsPostRequest | 
+    api_instance = webshipperv2.DocumentApi(api_client)
+    documents_post_request = webshipperv2.DocumentsPostRequest() # DocumentsPostRequest | 
 
     try:
         # Create a Document

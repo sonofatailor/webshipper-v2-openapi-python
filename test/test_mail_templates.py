@@ -15,7 +15,7 @@
 import unittest
 import datetime
 
-from openapi_client.models.mail_templates import MailTemplates
+from webshipperv2.models.mail_templates import MailTemplates
 
 class TestMailTemplates(unittest.TestCase):
     """MailTemplates unit test stubs"""

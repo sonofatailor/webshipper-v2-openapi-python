@@ -15,7 +15,7 @@
 import unittest
 import datetime
 
-from openapi_client.models.csv_uploads import CsvUploads
+from webshipperv2.models.csv_uploads import CsvUploads
 
 class TestCsvUploads(unittest.TestCase):
     """CsvUploads unit test stubs"""

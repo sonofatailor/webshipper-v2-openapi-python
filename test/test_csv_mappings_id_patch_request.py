@@ -15,7 +15,7 @@
 import unittest
 import datetime
 
-from openapi_client.models.csv_mappings_id_patch_request import CsvMappingsIdPatchRequest
+from webshipperv2.models.csv_mappings_id_patch_request import CsvMappingsIdPatchRequest
 
 class TestCsvMappingsIdPatchRequest(unittest.TestCase):
     """CsvMappingsIdPatchRequest unit test stubs"""
@@ -36,10 +36,10 @@ class TestCsvMappingsIdPatchRequest(unittest.TestCase):
         model = CsvMappingsIdPatchRequest()
         if include_optional:
             return CsvMappingsIdPatchRequest(
-                data = openapi_client.models._csv_mappings__id__get_200_response_data._csv_mappings__id__get_200_response_data(
+                data = webshipperv2.models._csv_mappings__id__get_200_response_data._csv_mappings__id__get_200_response_data(
                     id = 56, 
                     type = 'csv_mappings', 
-                    attributes = openapi_client.models.csv_mappings.csv_mappings(
+                    attributes = webshipperv2.models.csv_mappings.csv_mappings(
                         separator = '', 
                         target_class = '', 
                         grouped_by = 56, 
@@ -61,12 +61,12 @@ class TestCsvMappingsIdPatchRequest(unittest.TestCase):
                         concat_paths = True, 
                         split_large_records = True, 
                         export_file_extension = '', ), ),
-                relationships = openapi_client.models._csv_mappings__id__get_200_response_relationships._csv_mappings__id__get_200_response_relationships(
-                    carrier = openapi_client.models._barcode_ranges__id__get_200_response_relationships_carrier._barcode_ranges__id__get_200_response_relationships_carrier(
-                        data = openapi_client.models._barcode_ranges__id__get_200_response_relationships_carrier_data._barcode_ranges__id__get_200_response_relationships_carrier_data(
+                relationships = webshipperv2.models._csv_mappings__id__get_200_response_relationships._csv_mappings__id__get_200_response_relationships(
+                    carrier = webshipperv2.models._barcode_ranges__id__get_200_response_relationships_carrier._barcode_ranges__id__get_200_response_relationships_carrier(
+                        data = webshipperv2.models._barcode_ranges__id__get_200_response_relationships_carrier_data._barcode_ranges__id__get_200_response_relationships_carrier_data(
                             id = '', 
                             type = 'carriers', ), ), 
-                    order_channel = openapi_client.models._csv_mappings__id__get_200_response_relationships_order_channel._csv_mappings__id__get_200_response_relationships_order_channel(), )
+                    order_channel = webshipperv2.models._csv_mappings__id__get_200_response_relationships_order_channel._csv_mappings__id__get_200_response_relationships_order_channel(), )
             )
         else:
             return CsvMappingsIdPatchRequest(

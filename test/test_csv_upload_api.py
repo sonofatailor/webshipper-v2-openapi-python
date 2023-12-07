@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.api.csv_upload_api import CSVUploadApi
+from webshipperv2.api.csv_upload_api import CSVUploadApi
 
 
 class TestCSVUploadApi(unittest.TestCase):

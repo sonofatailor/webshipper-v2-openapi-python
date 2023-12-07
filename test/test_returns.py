@@ -15,7 +15,7 @@
 import unittest
 import datetime
 
-from openapi_client.models.returns import Returns
+from webshipperv2.models.returns import Returns
 
 class TestReturns(unittest.TestCase):
     """Returns unit test stubs"""

@@ -15,7 +15,7 @@
 import unittest
 import datetime
 
-from openapi_client.models.waybills_post_request import WaybillsPostRequest
+from webshipperv2.models.waybills_post_request import WaybillsPostRequest
 
 class TestWaybillsPostRequest(unittest.TestCase):
     """WaybillsPostRequest unit test stubs"""
@@ -36,9 +36,9 @@ class TestWaybillsPostRequest(unittest.TestCase):
         model = WaybillsPostRequest()
         if include_optional:
             return WaybillsPostRequest(
-                data = openapi_client.models._waybills_post_request_data._waybills_post_request_data(
+                data = webshipperv2.models._waybills_post_request_data._waybills_post_request_data(
                     type = 'waybills', 
-                    attributes = openapi_client.models.waybills.waybills(
+                    attributes = webshipperv2.models.waybills.waybills(
                         waybill_name = '', 
                         waybill_code = '', 
                         reference = '', 
@@ -51,15 +51,15 @@ class TestWaybillsPostRequest(unittest.TestCase):
                         created_at = '', 
                         updated_at = '', 
                         documents = '', ), ),
-                relationships = openapi_client.models._waybills__id__get_200_response_relationships._waybills__id__get_200_response_relationships(
-                    carrier = openapi_client.models._barcode_ranges__id__get_200_response_relationships_carrier._barcode_ranges__id__get_200_response_relationships_carrier(
-                        data = openapi_client.models._barcode_ranges__id__get_200_response_relationships_carrier_data._barcode_ranges__id__get_200_response_relationships_carrier_data(
+                relationships = webshipperv2.models._waybills__id__get_200_response_relationships._waybills__id__get_200_response_relationships(
+                    carrier = webshipperv2.models._barcode_ranges__id__get_200_response_relationships_carrier._barcode_ranges__id__get_200_response_relationships_carrier(
+                        data = webshipperv2.models._barcode_ranges__id__get_200_response_relationships_carrier_data._barcode_ranges__id__get_200_response_relationships_carrier_data(
                             id = '', 
                             type = 'carriers', ), ), 
-                    sold_to_address = openapi_client.models._carriers__id__get_200_response_relationships_sender_address._carriers__id__get_200_response_relationships_sender_address(), 
-                    sender_address = openapi_client.models._carriers__id__get_200_response_relationships_sender_address._carriers__id__get_200_response_relationships_sender_address(), 
-                    document_template = openapi_client.models._shipments__id__get_200_response_relationships_document_template._shipments__id__get_200_response_relationships_document_template(), 
-                    printer_client = openapi_client.models._orders__id__get_200_response_relationships_printer_client._orders__id__get_200_response_relationships_printer_client(), )
+                    sold_to_address = webshipperv2.models._carriers__id__get_200_response_relationships_sender_address._carriers__id__get_200_response_relationships_sender_address(), 
+                    sender_address = webshipperv2.models._carriers__id__get_200_response_relationships_sender_address._carriers__id__get_200_response_relationships_sender_address(), 
+                    document_template = webshipperv2.models._shipments__id__get_200_response_relationships_document_template._shipments__id__get_200_response_relationships_document_template(), 
+                    printer_client = webshipperv2.models._orders__id__get_200_response_relationships_printer_client._orders__id__get_200_response_relationships_printer_client(), )
             )
         else:
             return WaybillsPostRequest(

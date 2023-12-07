@@ -15,7 +15,7 @@
 import unittest
 import datetime
 
-from openapi_client.models.packages_get200_response import PackagesGet200Response
+from webshipperv2.models.packages_get200_response import PackagesGet200Response
 
 class TestPackagesGet200Response(unittest.TestCase):
     """PackagesGet200Response unit test stubs"""
@@ -37,8 +37,8 @@ class TestPackagesGet200Response(unittest.TestCase):
         if include_optional:
             return PackagesGet200Response(
                 data = [
-                    openapi_client.models._packages_get_200_response_data_inner._packages_get_200_response_data_inner(
-                        attributes = openapi_client.models.packages.packages(
+                    webshipperv2.models._packages_get_200_response_data_inner._packages_get_200_response_data_inner(
+                        attributes = webshipperv2.models.packages.packages(
                             weight = 1.337, 
                             weight_unit = 'g', 
                             dimensions = '', 

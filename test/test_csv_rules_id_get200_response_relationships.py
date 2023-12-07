@@ -15,7 +15,7 @@
 import unittest
 import datetime
 
-from openapi_client.models.csv_rules_id_get200_response_relationships import CsvRulesIdGet200ResponseRelationships
+from webshipperv2.models.csv_rules_id_get200_response_relationships import CsvRulesIdGet200ResponseRelationships
 
 class TestCsvRulesIdGet200ResponseRelationships(unittest.TestCase):
     """CsvRulesIdGet200ResponseRelationships unit test stubs"""
@@ -36,8 +36,8 @@ class TestCsvRulesIdGet200ResponseRelationships(unittest.TestCase):
         model = CsvRulesIdGet200ResponseRelationships()
         if include_optional:
             return CsvRulesIdGet200ResponseRelationships(
-                mapping = openapi_client.models._csv_rules__id__get_200_response_relationships_mapping._csv_rules__id__get_200_response_relationships_mapping(
-                    data = openapi_client.models._csv_rules__id__get_200_response_relationships_mapping_data._csv_rules__id__get_200_response_relationships_mapping_data(
+                mapping = webshipperv2.models._csv_rules__id__get_200_response_relationships_mapping._csv_rules__id__get_200_response_relationships_mapping(
+                    data = webshipperv2.models._csv_rules__id__get_200_response_relationships_mapping_data._csv_rules__id__get_200_response_relationships_mapping_data(
                         id = '', 
                         type = 'csv_mappings', ), )
             )

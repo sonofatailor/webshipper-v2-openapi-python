@@ -15,7 +15,7 @@
 import unittest
 import datetime
 
-from openapi_client.models.order_merges import OrderMerges
+from webshipperv2.models.order_merges import OrderMerges
 
 class TestOrderMerges(unittest.TestCase):
     """OrderMerges unit test stubs"""

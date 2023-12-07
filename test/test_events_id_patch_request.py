@@ -15,7 +15,7 @@
 import unittest
 import datetime
 
-from openapi_client.models.events_id_patch_request import EventsIdPatchRequest
+from webshipperv2.models.events_id_patch_request import EventsIdPatchRequest
 
 class TestEventsIdPatchRequest(unittest.TestCase):
     """EventsIdPatchRequest unit test stubs"""
@@ -36,19 +36,19 @@ class TestEventsIdPatchRequest(unittest.TestCase):
         model = EventsIdPatchRequest()
         if include_optional:
             return EventsIdPatchRequest(
-                data = openapi_client.models._events__id__get_200_response_data._events__id__get_200_response_data(
+                data = webshipperv2.models._events__id__get_200_response_data._events__id__get_200_response_data(
                     id = 56, 
                     type = 'events', 
-                    attributes = openapi_client.models.events.events(
+                    attributes = webshipperv2.models.events.events(
                         title = '', 
                         details = '', 
                         icon = '', 
                         initiator = '', 
                         source = '', 
                         created_at = '', ), ),
-                relationships = openapi_client.models._events__id__get_200_response_relationships._events__id__get_200_response_relationships(
-                    model = openapi_client.models._events__id__get_200_response_relationships_model._events__id__get_200_response_relationships_model(
-                        data = openapi_client.models._events__id__get_200_response_relationships_model_data._events__id__get_200_response_relationships_model_data(
+                relationships = webshipperv2.models._events__id__get_200_response_relationships._events__id__get_200_response_relationships(
+                    model = webshipperv2.models._events__id__get_200_response_relationships_model._events__id__get_200_response_relationships_model(
+                        data = webshipperv2.models._events__id__get_200_response_relationships_model_data._events__id__get_200_response_relationships_model_data(
                             id = '', 
                             type = 'event_models', ), ), )
             )

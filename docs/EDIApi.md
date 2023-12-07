@@ -1,4 +1,4 @@
-# openapi_client.EDIApi
+# webshipperv2.EDIApi
 
 All URIs are relative to *https://.api.webshipper.io/v2*
 
@@ -19,14 +19,14 @@ List all EDIs
 ```python
 import time
 import os
-import openapi_client
-from openapi_client.models.edis_get200_response import EdisGet200Response
-from openapi_client.rest import ApiException
+import webshipperv2
+from webshipperv2.models.edis_get200_response import EdisGet200Response
+from webshipperv2.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to https://.api.webshipper.io/v2
 # See configuration.py for a list of all supported configuration parameters.
-configuration = openapi_client.Configuration(
+configuration = webshipperv2.Configuration(
     host = "https://.api.webshipper.io/v2"
 )
 
@@ -36,14 +36,14 @@ configuration = openapi_client.Configuration(
 # satisfies your auth use case.
 
 # Configure Bearer authorization: BearerAuth
-configuration = openapi_client.Configuration(
+configuration = webshipperv2.Configuration(
     access_token = os.environ["BEARER_TOKEN"]
 )
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient(configuration) as api_client:
+with webshipperv2.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.EDIApi(api_client)
+    api_instance = webshipperv2.EDIApi(api_client)
     filter_id = 'filter_id_example' # str | Filter by id (optional)
     filter_shipment_id = 'filter_shipment_id_example' # str | Filter by shipment_id (optional)
     filter_waybill_id = 'filter_waybill_id_example' # str | Filter by waybill_id (optional)
@@ -98,14 +98,14 @@ Show a single EDI
 ```python
 import time
 import os
-import openapi_client
-from openapi_client.models.edis_id_get200_response import EdisIdGet200Response
-from openapi_client.rest import ApiException
+import webshipperv2
+from webshipperv2.models.edis_id_get200_response import EdisIdGet200Response
+from webshipperv2.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to https://.api.webshipper.io/v2
 # See configuration.py for a list of all supported configuration parameters.
-configuration = openapi_client.Configuration(
+configuration = webshipperv2.Configuration(
     host = "https://.api.webshipper.io/v2"
 )
 
@@ -115,14 +115,14 @@ configuration = openapi_client.Configuration(
 # satisfies your auth use case.
 
 # Configure Bearer authorization: BearerAuth
-configuration = openapi_client.Configuration(
+configuration = webshipperv2.Configuration(
     access_token = os.environ["BEARER_TOKEN"]
 )
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient(configuration) as api_client:
+with webshipperv2.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.EDIApi(api_client)
+    api_instance = webshipperv2.EDIApi(api_client)
     id = 56 # int | 
 
     try:

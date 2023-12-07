@@ -15,7 +15,7 @@
 import unittest
 import datetime
 
-from openapi_client.models.error_types_id_get200_response_data import ErrorTypesIdGet200ResponseData
+from webshipperv2.models.error_types_id_get200_response_data import ErrorTypesIdGet200ResponseData
 
 class TestErrorTypesIdGet200ResponseData(unittest.TestCase):
     """ErrorTypesIdGet200ResponseData unit test stubs"""
@@ -38,7 +38,7 @@ class TestErrorTypesIdGet200ResponseData(unittest.TestCase):
             return ErrorTypesIdGet200ResponseData(
                 id = 56,
                 type = 'error_types',
-                attributes = openapi_client.models.error_types.error_types(
+                attributes = webshipperv2.models.error_types.error_types(
                     translations = '', 
                     matcher = '', 
                     error_class = '', 

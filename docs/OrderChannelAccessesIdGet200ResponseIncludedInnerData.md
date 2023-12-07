@@ -45,7 +45,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```python
-from openapi_client.models.order_channel_accesses_id_get200_response_included_inner_data import OrderChannelAccessesIdGet200ResponseIncludedInnerData
+from webshipperv2.models.order_channel_accesses_id_get200_response_included_inner_data import OrderChannelAccessesIdGet200ResponseIncludedInnerData
 
 # TODO update the JSON string below
 json = "{}"

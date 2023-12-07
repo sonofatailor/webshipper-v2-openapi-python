@@ -17,7 +17,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```python
-from openapi_client.models.local_attrs import LocalAttrs
+from webshipperv2.models.local_attrs import LocalAttrs
 
 # TODO update the JSON string below
 json = "{}"

@@ -38,7 +38,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```python
-from openapi_client.models.orders import Orders
+from webshipperv2.models.orders import Orders
 
 # TODO update the JSON string below
 json = "{}"

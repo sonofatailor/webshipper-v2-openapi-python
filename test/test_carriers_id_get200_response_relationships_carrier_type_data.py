@@ -15,7 +15,7 @@
 import unittest
 import datetime
 
-from openapi_client.models.carriers_id_get200_response_relationships_carrier_type_data import CarriersIdGet200ResponseRelationshipsCarrierTypeData
+from webshipperv2.models.carriers_id_get200_response_relationships_carrier_type_data import CarriersIdGet200ResponseRelationshipsCarrierTypeData
 
 class TestCarriersIdGet200ResponseRelationshipsCarrierTypeData(unittest.TestCase):
     """CarriersIdGet200ResponseRelationshipsCarrierTypeData unit test stubs"""

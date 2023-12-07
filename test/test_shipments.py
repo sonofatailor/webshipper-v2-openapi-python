@@ -15,7 +15,7 @@
 import unittest
 import datetime
 
-from openapi_client.models.shipments import Shipments
+from webshipperv2.models.shipments import Shipments
 
 class TestShipments(unittest.TestCase):
     """Shipments unit test stubs"""
@@ -41,7 +41,7 @@ class TestShipments(unittest.TestCase):
                 service_code = '',
                 is_return = True,
                 packages = [
-                    openapi_client.models.packages.packages(
+                    webshipperv2.models.packages.packages(
                         weight = 1.337, 
                         weight_unit = 'g', 
                         dimensions = '', 
@@ -66,7 +66,7 @@ class TestShipments(unittest.TestCase):
                 included_documents = '',
                 drop_point = '',
                 tracking_links = [
-                    openapi_client.models.shipments_tracking_links_inner.shipments_tracking_links_inner(
+                    webshipperv2.models.shipments_tracking_links_inner.shipments_tracking_links_inner(
                         url = '', 
                         number = '', 
                         latest_transit_event = '', 

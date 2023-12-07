@@ -15,7 +15,7 @@
 import unittest
 import datetime
 
-from openapi_client.models.tracking_events_id_get200_response_relationships_package import TrackingEventsIdGet200ResponseRelationshipsPackage
+from webshipperv2.models.tracking_events_id_get200_response_relationships_package import TrackingEventsIdGet200ResponseRelationshipsPackage
 
 class TestTrackingEventsIdGet200ResponseRelationshipsPackage(unittest.TestCase):
     """TrackingEventsIdGet200ResponseRelationshipsPackage unit test stubs"""
@@ -36,7 +36,7 @@ class TestTrackingEventsIdGet200ResponseRelationshipsPackage(unittest.TestCase):
         model = TrackingEventsIdGet200ResponseRelationshipsPackage()
         if include_optional:
             return TrackingEventsIdGet200ResponseRelationshipsPackage(
-                data = openapi_client.models._tracking_events__id__get_200_response_relationships_package_data._tracking_events__id__get_200_response_relationships_package_data(
+                data = webshipperv2.models._tracking_events__id__get_200_response_relationships_package_data._tracking_events__id__get_200_response_relationships_package_data(
                     id = '', 
                     type = 'packages', )
             )

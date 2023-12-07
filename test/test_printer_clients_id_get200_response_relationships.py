@@ -15,7 +15,7 @@
 import unittest
 import datetime
 
-from openapi_client.models.printer_clients_id_get200_response_relationships import PrinterClientsIdGet200ResponseRelationships
+from webshipperv2.models.printer_clients_id_get200_response_relationships import PrinterClientsIdGet200ResponseRelationships
 
 class TestPrinterClientsIdGet200ResponseRelationships(unittest.TestCase):
     """PrinterClientsIdGet200ResponseRelationships unit test stubs"""
@@ -36,20 +36,20 @@ class TestPrinterClientsIdGet200ResponseRelationships(unittest.TestCase):
         model = PrinterClientsIdGet200ResponseRelationships()
         if include_optional:
             return PrinterClientsIdGet200ResponseRelationships(
-                label_printer = openapi_client.models._printer_clients__id__get_200_response_relationships_label_printer._printer_clients__id__get_200_response_relationships_label_printer(
-                    data = openapi_client.models._printer_clients__id__get_200_response_relationships_label_printer_data._printer_clients__id__get_200_response_relationships_label_printer_data(
+                label_printer = webshipperv2.models._printer_clients__id__get_200_response_relationships_label_printer._printer_clients__id__get_200_response_relationships_label_printer(
+                    data = webshipperv2.models._printer_clients__id__get_200_response_relationships_label_printer_data._printer_clients__id__get_200_response_relationships_label_printer_data(
                         id = '', 
                         type = 'printers', ), ),
-                zpl_printer = openapi_client.models._printer_clients__id__get_200_response_relationships_label_printer._printer_clients__id__get_200_response_relationships_label_printer(
-                    data = openapi_client.models._printer_clients__id__get_200_response_relationships_label_printer_data._printer_clients__id__get_200_response_relationships_label_printer_data(
+                zpl_printer = webshipperv2.models._printer_clients__id__get_200_response_relationships_label_printer._printer_clients__id__get_200_response_relationships_label_printer(
+                    data = webshipperv2.models._printer_clients__id__get_200_response_relationships_label_printer_data._printer_clients__id__get_200_response_relationships_label_printer_data(
                         id = '', 
                         type = 'printers', ), ),
-                document_printer = openapi_client.models._printer_clients__id__get_200_response_relationships_label_printer._printer_clients__id__get_200_response_relationships_label_printer(
-                    data = openapi_client.models._printer_clients__id__get_200_response_relationships_label_printer_data._printer_clients__id__get_200_response_relationships_label_printer_data(
+                document_printer = webshipperv2.models._printer_clients__id__get_200_response_relationships_label_printer._printer_clients__id__get_200_response_relationships_label_printer(
+                    data = webshipperv2.models._printer_clients__id__get_200_response_relationships_label_printer_data._printer_clients__id__get_200_response_relationships_label_printer_data(
                         id = '', 
                         type = 'printers', ), ),
-                location = openapi_client.models._carriers__id__get_200_response_relationships_sender_address._carriers__id__get_200_response_relationships_sender_address(
-                    data = openapi_client.models._carriers__id__get_200_response_relationships_sender_address_data._carriers__id__get_200_response_relationships_sender_address_data(
+                location = webshipperv2.models._carriers__id__get_200_response_relationships_sender_address._carriers__id__get_200_response_relationships_sender_address(
+                    data = webshipperv2.models._carriers__id__get_200_response_relationships_sender_address_data._carriers__id__get_200_response_relationships_sender_address_data(
                         id = '', 
                         type = 'shipping_addresses', ), )
             )

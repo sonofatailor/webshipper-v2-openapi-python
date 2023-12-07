@@ -15,7 +15,7 @@
 import unittest
 import datetime
 
-from openapi_client.models.return_shipping_methods_id_patch_request import ReturnShippingMethodsIdPatchRequest
+from webshipperv2.models.return_shipping_methods_id_patch_request import ReturnShippingMethodsIdPatchRequest
 
 class TestReturnShippingMethodsIdPatchRequest(unittest.TestCase):
     """ReturnShippingMethodsIdPatchRequest unit test stubs"""
@@ -36,17 +36,17 @@ class TestReturnShippingMethodsIdPatchRequest(unittest.TestCase):
         model = ReturnShippingMethodsIdPatchRequest()
         if include_optional:
             return ReturnShippingMethodsIdPatchRequest(
-                data = openapi_client.models._return_shipping_methods__id__get_200_response_data._return_shipping_methods__id__get_200_response_data(
+                data = webshipperv2.models._return_shipping_methods__id__get_200_response_data._return_shipping_methods__id__get_200_response_data(
                     id = 56, 
                     type = 'return_shipping_methods', 
-                    attributes = openapi_client.models.return_shipping_methods.return_shipping_methods(
+                    attributes = webshipperv2.models.return_shipping_methods.return_shipping_methods(
                         name = '', ), ),
-                relationships = openapi_client.models._return_shipping_methods__id__get_200_response_relationships._return_shipping_methods__id__get_200_response_relationships(
-                    portal = openapi_client.models._return_refund_methods__id__get_200_response_relationships_portal._return_refund_methods__id__get_200_response_relationships_portal(
-                        data = openapi_client.models._return_refund_methods__id__get_200_response_relationships_portal_data._return_refund_methods__id__get_200_response_relationships_portal_data(
+                relationships = webshipperv2.models._return_shipping_methods__id__get_200_response_relationships._return_shipping_methods__id__get_200_response_relationships(
+                    portal = webshipperv2.models._return_refund_methods__id__get_200_response_relationships_portal._return_refund_methods__id__get_200_response_relationships_portal(
+                        data = webshipperv2.models._return_refund_methods__id__get_200_response_relationships_portal_data._return_refund_methods__id__get_200_response_relationships_portal_data(
                             id = '', 
                             type = 'return_portals', ), ), 
-                    shipping_rate = openapi_client.models._orders__id__get_200_response_relationships_shipping_rate._orders__id__get_200_response_relationships_shipping_rate(), )
+                    shipping_rate = webshipperv2.models._orders__id__get_200_response_relationships_shipping_rate._orders__id__get_200_response_relationships_shipping_rate(), )
             )
         else:
             return ReturnShippingMethodsIdPatchRequest(

@@ -15,7 +15,7 @@
 import unittest
 import datetime
 
-from openapi_client.models.csv_rules_id_get200_response_included_inner import CsvRulesIdGet200ResponseIncludedInner
+from webshipperv2.models.csv_rules_id_get200_response_included_inner import CsvRulesIdGet200ResponseIncludedInner
 
 class TestCsvRulesIdGet200ResponseIncludedInner(unittest.TestCase):
     """CsvRulesIdGet200ResponseIncludedInner unit test stubs"""

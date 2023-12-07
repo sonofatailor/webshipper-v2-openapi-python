@@ -15,7 +15,7 @@
 import unittest
 import datetime
 
-from openapi_client.models.local_attr_enums_id_get200_response_relationships import LocalAttrEnumsIdGet200ResponseRelationships
+from webshipperv2.models.local_attr_enums_id_get200_response_relationships import LocalAttrEnumsIdGet200ResponseRelationships
 
 class TestLocalAttrEnumsIdGet200ResponseRelationships(unittest.TestCase):
     """LocalAttrEnumsIdGet200ResponseRelationships unit test stubs"""
@@ -36,8 +36,8 @@ class TestLocalAttrEnumsIdGet200ResponseRelationships(unittest.TestCase):
         model = LocalAttrEnumsIdGet200ResponseRelationships()
         if include_optional:
             return LocalAttrEnumsIdGet200ResponseRelationships(
-                local_attr = openapi_client.models._local_attr_enums__id__get_200_response_relationships_local_attr._local_attr_enums__id__get_200_response_relationships_local_attr(
-                    data = openapi_client.models._local_attr_enums__id__get_200_response_relationships_local_attr_data._local_attr_enums__id__get_200_response_relationships_local_attr_data(
+                local_attr = webshipperv2.models._local_attr_enums__id__get_200_response_relationships_local_attr._local_attr_enums__id__get_200_response_relationships_local_attr(
+                    data = webshipperv2.models._local_attr_enums__id__get_200_response_relationships_local_attr_data._local_attr_enums__id__get_200_response_relationships_local_attr_data(
                         id = '', 
                         type = 'local_attrs', ), )
             )

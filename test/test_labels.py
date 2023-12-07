@@ -15,7 +15,7 @@
 import unittest
 import datetime
 
-from openapi_client.models.labels import Labels
+from webshipperv2.models.labels import Labels
 
 class TestLabels(unittest.TestCase):
     """Labels unit test stubs"""

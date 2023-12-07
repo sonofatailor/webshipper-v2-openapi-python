@@ -15,7 +15,7 @@
 import unittest
 import datetime
 
-from openapi_client.models.additional_attributes_id_get200_response_relationships import AdditionalAttributesIdGet200ResponseRelationships
+from webshipperv2.models.additional_attributes_id_get200_response_relationships import AdditionalAttributesIdGet200ResponseRelationships
 
 class TestAdditionalAttributesIdGet200ResponseRelationships(unittest.TestCase):
     """AdditionalAttributesIdGet200ResponseRelationships unit test stubs"""
@@ -36,12 +36,12 @@ class TestAdditionalAttributesIdGet200ResponseRelationships(unittest.TestCase):
         model = AdditionalAttributesIdGet200ResponseRelationships()
         if include_optional:
             return AdditionalAttributesIdGet200ResponseRelationships(
-                order = openapi_client.models._additional_attributes__id__get_200_response_relationships_order._additional_attributes__id__get_200_response_relationships_order(
-                    data = openapi_client.models._additional_attributes__id__get_200_response_relationships_order_data._additional_attributes__id__get_200_response_relationships_order_data(
+                order = webshipperv2.models._additional_attributes__id__get_200_response_relationships_order._additional_attributes__id__get_200_response_relationships_order(
+                    data = webshipperv2.models._additional_attributes__id__get_200_response_relationships_order_data._additional_attributes__id__get_200_response_relationships_order_data(
                         id = '', 
                         type = 'orders', ), ),
-                order_line = openapi_client.models._additional_attributes__id__get_200_response_relationships_order_line._additional_attributes__id__get_200_response_relationships_order_line(
-                    data = openapi_client.models._additional_attributes__id__get_200_response_relationships_order_line_data._additional_attributes__id__get_200_response_relationships_order_line_data(
+                order_line = webshipperv2.models._additional_attributes__id__get_200_response_relationships_order_line._additional_attributes__id__get_200_response_relationships_order_line(
+                    data = webshipperv2.models._additional_attributes__id__get_200_response_relationships_order_line_data._additional_attributes__id__get_200_response_relationships_order_line_data(
                         id = '', 
                         type = 'order_lines', ), )
             )

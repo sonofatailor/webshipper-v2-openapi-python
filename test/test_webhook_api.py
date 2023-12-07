@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.api.webhook_api import WebhookApi
+from webshipperv2.api.webhook_api import WebhookApi
 
 
 class TestWebhookApi(unittest.TestCase):

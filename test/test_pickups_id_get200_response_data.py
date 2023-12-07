@@ -15,7 +15,7 @@
 import unittest
 import datetime
 
-from openapi_client.models.pickups_id_get200_response_data import PickupsIdGet200ResponseData
+from webshipperv2.models.pickups_id_get200_response_data import PickupsIdGet200ResponseData
 
 class TestPickupsIdGet200ResponseData(unittest.TestCase):
     """PickupsIdGet200ResponseData unit test stubs"""
@@ -38,7 +38,7 @@ class TestPickupsIdGet200ResponseData(unittest.TestCase):
             return PickupsIdGet200ResponseData(
                 id = 56,
                 type = 'pickups',
-                attributes = openapi_client.models.pickups.pickups(
+                attributes = webshipperv2.models.pickups.pickups(
                     pickup_instruction = '', 
                     pickup_location_close_time = '', 
                     pickup_time = '', 

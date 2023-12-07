@@ -10,7 +10,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```python
-from openapi_client.models.drop_point_locators_post_request import DropPointLocatorsPostRequest
+from webshipperv2.models.drop_point_locators_post_request import DropPointLocatorsPostRequest
 
 # TODO update the JSON string below
 json = "{}"

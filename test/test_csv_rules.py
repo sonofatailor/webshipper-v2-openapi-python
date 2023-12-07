@@ -15,7 +15,7 @@
 import unittest
 import datetime
 
-from openapi_client.models.csv_rules import CsvRules
+from webshipperv2.models.csv_rules import CsvRules
 
 class TestCsvRules(unittest.TestCase):
     """CsvRules unit test stubs"""

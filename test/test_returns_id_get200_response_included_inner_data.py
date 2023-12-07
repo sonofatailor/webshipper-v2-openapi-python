@@ -15,7 +15,7 @@
 import unittest
 import datetime
 
-from openapi_client.models.returns_id_get200_response_included_inner_data import ReturnsIdGet200ResponseIncludedInnerData
+from webshipperv2.models.returns_id_get200_response_included_inner_data import ReturnsIdGet200ResponseIncludedInnerData
 
 class TestReturnsIdGet200ResponseIncludedInnerData(unittest.TestCase):
     """ReturnsIdGet200ResponseIncludedInnerData unit test stubs"""
@@ -41,9 +41,9 @@ class TestReturnsIdGet200ResponseIncludedInnerData(unittest.TestCase):
                 ext_ref = '',
                 visible_ref = '',
                 drop_point = '',
-                original_shipping = openapi_client.models.original_shipping.original_shipping(),
+                original_shipping = webshipperv2.models.original_shipping.original_shipping(),
                 order_lines = [
-                    openapi_client.models.order_lines.order_lines(
+                    webshipperv2.models.order_lines.order_lines(
                         sku = '', 
                         description = '', 
                         quantity = 56, 
@@ -64,12 +64,12 @@ class TestReturnsIdGet200ResponseIncludedInnerData(unittest.TestCase):
                         created_at = '', 
                         updated_at = '', 
                         is_virtual = True, 
-                        dangerous_goods_details = openapi_client.models.dangerous_goods_details.dangerous_goods_details(), )
+                        dangerous_goods_details = webshipperv2.models.dangerous_goods_details.dangerous_goods_details(), )
                     ],
-                delivery_address = openapi_client.models.delivery_address.delivery_address(),
-                sender_address = openapi_client.models.sender_address.sender_address(),
-                billing_address = openapi_client.models.billing_address.billing_address(),
-                sold_from_address = openapi_client.models.shipping_addresses.shipping_addresses(
+                delivery_address = webshipperv2.models.delivery_address.delivery_address(),
+                sender_address = webshipperv2.models.sender_address.sender_address(),
+                billing_address = webshipperv2.models.billing_address.billing_address(),
+                sold_from_address = webshipperv2.models.shipping_addresses.shipping_addresses(
                     att_contact = '', 
                     company_name = '', 
                     address_1 = '', 
@@ -94,7 +94,7 @@ class TestReturnsIdGet200ResponseIncludedInnerData(unittest.TestCase):
                 currency = '',
                 internal_comment = '',
                 external_comment = '',
-                error_message = openapi_client.models.error_message.error_message(),
+                error_message = webshipperv2.models.error_message.error_message(),
                 slip = '',
                 var_base64 = '',
                 updated_at = '',
@@ -133,7 +133,7 @@ class TestReturnsIdGet200ResponseIncludedInnerData(unittest.TestCase):
                 service_code = '',
                 is_return = True,
                 packages = [
-                    openapi_client.models.packages.packages(
+                    webshipperv2.models.packages.packages(
                         weight = 1.337, 
                         weight_unit = 'g', 
                         dimensions = '', 
@@ -142,8 +142,8 @@ class TestReturnsIdGet200ResponseIncludedInnerData(unittest.TestCase):
                         colli_type = '', 
                         predefined_barcode = '', )
                     ],
-                pickup_address = openapi_client.models.pickup_address.pickup_address(),
-                return_address = openapi_client.models.return_address.return_address(),
+                pickup_address = webshipperv2.models.pickup_address.pickup_address(),
+                return_address = webshipperv2.models.return_address.return_address(),
                 service_attributes = [
                     ''
                     ],
@@ -154,7 +154,7 @@ class TestReturnsIdGet200ResponseIncludedInnerData(unittest.TestCase):
                 email_notification = '',
                 included_documents = '',
                 tracking_links = [
-                    openapi_client.models.shipments_tracking_links_inner.shipments_tracking_links_inner(
+                    webshipperv2.models.shipments_tracking_links_inner.shipments_tracking_links_inner(
                         url = '', 
                         number = '', 
                         latest_transit_event = '', 

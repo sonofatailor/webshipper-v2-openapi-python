@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.api.automation_api import AutomationApi
+from webshipperv2.api.automation_api import AutomationApi
 
 
 class TestAutomationApi(unittest.TestCase):

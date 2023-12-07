@@ -15,7 +15,7 @@
 import unittest
 import datetime
 
-from openapi_client.models.carrier_accesses_post_request_data import CarrierAccessesPostRequestData
+from webshipperv2.models.carrier_accesses_post_request_data import CarrierAccessesPostRequestData
 
 class TestCarrierAccessesPostRequestData(unittest.TestCase):
     """CarrierAccessesPostRequestData unit test stubs"""
@@ -37,7 +37,7 @@ class TestCarrierAccessesPostRequestData(unittest.TestCase):
         if include_optional:
             return CarrierAccessesPostRequestData(
                 type = 'carrier_accesses',
-                attributes = openapi_client.models.carrier_accesses.carrier_accesses(
+                attributes = webshipperv2.models.carrier_accesses.carrier_accesses(
                     created_at = '', 
                     updated_at = '', )
             )

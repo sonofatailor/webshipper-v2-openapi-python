@@ -15,7 +15,7 @@
 import unittest
 import datetime
 
-from openapi_client.models.waybills_id_get200_response_included_inner import WaybillsIdGet200ResponseIncludedInner
+from webshipperv2.models.waybills_id_get200_response_included_inner import WaybillsIdGet200ResponseIncludedInner
 
 class TestWaybillsIdGet200ResponseIncludedInner(unittest.TestCase):
     """WaybillsIdGet200ResponseIncludedInner unit test stubs"""

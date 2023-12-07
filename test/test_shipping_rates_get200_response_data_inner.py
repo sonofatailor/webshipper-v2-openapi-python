@@ -15,7 +15,7 @@
 import unittest
 import datetime
 
-from openapi_client.models.shipping_rates_get200_response_data_inner import ShippingRatesGet200ResponseDataInner
+from webshipperv2.models.shipping_rates_get200_response_data_inner import ShippingRatesGet200ResponseDataInner
 
 class TestShippingRatesGet200ResponseDataInner(unittest.TestCase):
     """ShippingRatesGet200ResponseDataInner unit test stubs"""
@@ -36,7 +36,7 @@ class TestShippingRatesGet200ResponseDataInner(unittest.TestCase):
         model = ShippingRatesGet200ResponseDataInner()
         if include_optional:
             return ShippingRatesGet200ResponseDataInner(
-                attributes = openapi_client.models.shipping_rates.shipping_rates(
+                attributes = webshipperv2.models.shipping_rates.shipping_rates(
                     carrier_id = 56, 
                     order_channel_id = 56, 
                     name = '', 

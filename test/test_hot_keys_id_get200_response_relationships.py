@@ -15,7 +15,7 @@
 import unittest
 import datetime
 
-from openapi_client.models.hot_keys_id_get200_response_relationships import HotKeysIdGet200ResponseRelationships
+from webshipperv2.models.hot_keys_id_get200_response_relationships import HotKeysIdGet200ResponseRelationships
 
 class TestHotKeysIdGet200ResponseRelationships(unittest.TestCase):
     """HotKeysIdGet200ResponseRelationships unit test stubs"""
@@ -36,12 +36,12 @@ class TestHotKeysIdGet200ResponseRelationships(unittest.TestCase):
         model = HotKeysIdGet200ResponseRelationships()
         if include_optional:
             return HotKeysIdGet200ResponseRelationships(
-                favourite_page = openapi_client.models._hot_keys__id__get_200_response_relationships_favourite_page._hot_keys__id__get_200_response_relationships_favourite_page(
-                    data = openapi_client.models._hot_keys__id__get_200_response_relationships_favourite_page_data._hot_keys__id__get_200_response_relationships_favourite_page_data(
+                favourite_page = webshipperv2.models._hot_keys__id__get_200_response_relationships_favourite_page._hot_keys__id__get_200_response_relationships_favourite_page(
+                    data = webshipperv2.models._hot_keys__id__get_200_response_relationships_favourite_page_data._hot_keys__id__get_200_response_relationships_favourite_page_data(
                         id = '', 
                         type = 'favourite_pages', ), ),
-                user = openapi_client.models._carrier_accesses__id__get_200_response_relationships_user._carrier_accesses__id__get_200_response_relationships_user(
-                    data = openapi_client.models._carrier_accesses__id__get_200_response_relationships_user_data._carrier_accesses__id__get_200_response_relationships_user_data(
+                user = webshipperv2.models._carrier_accesses__id__get_200_response_relationships_user._carrier_accesses__id__get_200_response_relationships_user(
+                    data = webshipperv2.models._carrier_accesses__id__get_200_response_relationships_user_data._carrier_accesses__id__get_200_response_relationships_user_data(
                         id = '', 
                         type = 'users', ), )
             )

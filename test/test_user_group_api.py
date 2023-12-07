@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.api.user_group_api import UserGroupApi
+from webshipperv2.api.user_group_api import UserGroupApi
 
 
 class TestUserGroupApi(unittest.TestCase):

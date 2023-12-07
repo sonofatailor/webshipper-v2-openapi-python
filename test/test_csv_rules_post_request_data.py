@@ -15,7 +15,7 @@
 import unittest
 import datetime
 
-from openapi_client.models.csv_rules_post_request_data import CsvRulesPostRequestData
+from webshipperv2.models.csv_rules_post_request_data import CsvRulesPostRequestData
 
 class TestCsvRulesPostRequestData(unittest.TestCase):
     """CsvRulesPostRequestData unit test stubs"""
@@ -37,11 +37,11 @@ class TestCsvRulesPostRequestData(unittest.TestCase):
         if include_optional:
             return CsvRulesPostRequestData(
                 type = 'csv_rules',
-                attributes = openapi_client.models.csv_rules.csv_rules(
+                attributes = webshipperv2.models.csv_rules.csv_rules(
                     target_path = '', 
                     source_index = 56, 
                     default_value = '', 
-                    input_conversions = openapi_client.models.input_conversions.input_conversions(), )
+                    input_conversions = webshipperv2.models.input_conversions.input_conversions(), )
             )
         else:
             return CsvRulesPostRequestData(

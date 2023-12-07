@@ -15,7 +15,7 @@
 import unittest
 import datetime
 
-from openapi_client.models.shipments_id_get200_response_relationships_pickup import ShipmentsIdGet200ResponseRelationshipsPickup
+from webshipperv2.models.shipments_id_get200_response_relationships_pickup import ShipmentsIdGet200ResponseRelationshipsPickup
 
 class TestShipmentsIdGet200ResponseRelationshipsPickup(unittest.TestCase):
     """ShipmentsIdGet200ResponseRelationshipsPickup unit test stubs"""
@@ -36,7 +36,7 @@ class TestShipmentsIdGet200ResponseRelationshipsPickup(unittest.TestCase):
         model = ShipmentsIdGet200ResponseRelationshipsPickup()
         if include_optional:
             return ShipmentsIdGet200ResponseRelationshipsPickup(
-                data = openapi_client.models._shipments__id__get_200_response_relationships_pickup_data._shipments__id__get_200_response_relationships_pickup_data(
+                data = webshipperv2.models._shipments__id__get_200_response_relationships_pickup_data._shipments__id__get_200_response_relationships_pickup_data(
                     id = '', 
                     type = 'pickups', )
             )

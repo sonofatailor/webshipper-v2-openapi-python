@@ -15,7 +15,7 @@
 import unittest
 import datetime
 
-from openapi_client.models.regions_post_request import RegionsPostRequest
+from webshipperv2.models.regions_post_request import RegionsPostRequest
 
 class TestRegionsPostRequest(unittest.TestCase):
     """RegionsPostRequest unit test stubs"""
@@ -36,17 +36,17 @@ class TestRegionsPostRequest(unittest.TestCase):
         model = RegionsPostRequest()
         if include_optional:
             return RegionsPostRequest(
-                data = openapi_client.models._regions_post_request_data._regions_post_request_data(
+                data = webshipperv2.models._regions_post_request_data._regions_post_request_data(
                     type = 'regions', 
-                    attributes = openapi_client.models.regions.regions(
+                    attributes = webshipperv2.models.regions.regions(
                         name = '', 
                         expressions = '', 
                         created_at = '', 
                         updated_at = '', 
                         countries = '', ), ),
-                relationships = openapi_client.models._regions__id__get_200_response_relationships._regions__id__get_200_response_relationships(
-                    shipping_rate = openapi_client.models._orders__id__get_200_response_relationships_shipping_rate._orders__id__get_200_response_relationships_shipping_rate(
-                        data = openapi_client.models._orders__id__get_200_response_relationships_shipping_rate_data._orders__id__get_200_response_relationships_shipping_rate_data(
+                relationships = webshipperv2.models._regions__id__get_200_response_relationships._regions__id__get_200_response_relationships(
+                    shipping_rate = webshipperv2.models._orders__id__get_200_response_relationships_shipping_rate._orders__id__get_200_response_relationships_shipping_rate(
+                        data = webshipperv2.models._orders__id__get_200_response_relationships_shipping_rate_data._orders__id__get_200_response_relationships_shipping_rate_data(
                             id = '', 
                             type = 'shipping_rates', ), ), )
             )

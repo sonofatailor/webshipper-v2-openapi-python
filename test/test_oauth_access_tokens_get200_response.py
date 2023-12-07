@@ -15,7 +15,7 @@
 import unittest
 import datetime
 
-from openapi_client.models.oauth_access_tokens_get200_response import OauthAccessTokensGet200Response
+from webshipperv2.models.oauth_access_tokens_get200_response import OauthAccessTokensGet200Response
 
 class TestOauthAccessTokensGet200Response(unittest.TestCase):
     """OauthAccessTokensGet200Response unit test stubs"""
@@ -37,8 +37,8 @@ class TestOauthAccessTokensGet200Response(unittest.TestCase):
         if include_optional:
             return OauthAccessTokensGet200Response(
                 data = [
-                    openapi_client.models._oauth_access_tokens_get_200_response_data_inner._oauth_access_tokens_get_200_response_data_inner(
-                        attributes = openapi_client.models.oauth_access_tokens.oauth_access_tokens(
+                    webshipperv2.models._oauth_access_tokens_get_200_response_data_inner._oauth_access_tokens_get_200_response_data_inner(
+                        attributes = webshipperv2.models.oauth_access_tokens.oauth_access_tokens(
                             scopes = '', 
                             created_at = '', 
                             resource_owner_id = 56, 

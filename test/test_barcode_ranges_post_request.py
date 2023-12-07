@@ -15,7 +15,7 @@
 import unittest
 import datetime
 
-from openapi_client.models.barcode_ranges_post_request import BarcodeRangesPostRequest
+from webshipperv2.models.barcode_ranges_post_request import BarcodeRangesPostRequest
 
 class TestBarcodeRangesPostRequest(unittest.TestCase):
     """BarcodeRangesPostRequest unit test stubs"""
@@ -36,18 +36,18 @@ class TestBarcodeRangesPostRequest(unittest.TestCase):
         model = BarcodeRangesPostRequest()
         if include_optional:
             return BarcodeRangesPostRequest(
-                data = openapi_client.models._barcode_ranges_post_request_data._barcode_ranges_post_request_data(
+                data = webshipperv2.models._barcode_ranges_post_request_data._barcode_ranges_post_request_data(
                     type = 'barcode_ranges', 
-                    attributes = openapi_client.models.barcode_ranges.barcode_ranges(
+                    attributes = webshipperv2.models.barcode_ranges.barcode_ranges(
                         barcode_type = '', 
                         serial_from = 56, 
                         serial_to = 56, 
                         current_serial = 56, 
                         usage_status = 56, 
                         replaces_id = '', ), ),
-                relationships = openapi_client.models._barcode_ranges__id__get_200_response_relationships._barcode_ranges__id__get_200_response_relationships(
-                    carrier = openapi_client.models._barcode_ranges__id__get_200_response_relationships_carrier._barcode_ranges__id__get_200_response_relationships_carrier(
-                        data = openapi_client.models._barcode_ranges__id__get_200_response_relationships_carrier_data._barcode_ranges__id__get_200_response_relationships_carrier_data(
+                relationships = webshipperv2.models._barcode_ranges__id__get_200_response_relationships._barcode_ranges__id__get_200_response_relationships(
+                    carrier = webshipperv2.models._barcode_ranges__id__get_200_response_relationships_carrier._barcode_ranges__id__get_200_response_relationships_carrier(
+                        data = webshipperv2.models._barcode_ranges__id__get_200_response_relationships_carrier_data._barcode_ranges__id__get_200_response_relationships_carrier_data(
                             id = '', 
                             type = 'carriers', ), ), )
             )

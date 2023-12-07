@@ -1,4 +1,4 @@
-# openapi_client.OrderApi
+# webshipperv2.OrderApi
 
 All URIs are relative to *https://.api.webshipper.io/v2*
 
@@ -22,14 +22,14 @@ List all Orders
 ```python
 import time
 import os
-import openapi_client
-from openapi_client.models.orders_get200_response import OrdersGet200Response
-from openapi_client.rest import ApiException
+import webshipperv2
+from webshipperv2.models.orders_get200_response import OrdersGet200Response
+from webshipperv2.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to https://.api.webshipper.io/v2
 # See configuration.py for a list of all supported configuration parameters.
-configuration = openapi_client.Configuration(
+configuration = webshipperv2.Configuration(
     host = "https://.api.webshipper.io/v2"
 )
 
@@ -39,14 +39,14 @@ configuration = openapi_client.Configuration(
 # satisfies your auth use case.
 
 # Configure Bearer authorization: BearerAuth
-configuration = openapi_client.Configuration(
+configuration = webshipperv2.Configuration(
     access_token = os.environ["BEARER_TOKEN"]
 )
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient(configuration) as api_client:
+with webshipperv2.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.OrderApi(api_client)
+    api_instance = webshipperv2.OrderApi(api_client)
     filter_id = 'filter_id_example' # str | Filter by id (optional)
     filter_ext_ref = 'filter_ext_ref_example' # str | Filter by ext_ref (optional)
     filter_sorting_id = 'filter_sorting_id_example' # str | Filter by sorting_id (optional)
@@ -143,14 +143,14 @@ Delete a Order
 ```python
 import time
 import os
-import openapi_client
-from openapi_client.models.orders_id_get200_response import OrdersIdGet200Response
-from openapi_client.rest import ApiException
+import webshipperv2
+from webshipperv2.models.orders_id_get200_response import OrdersIdGet200Response
+from webshipperv2.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to https://.api.webshipper.io/v2
 # See configuration.py for a list of all supported configuration parameters.
-configuration = openapi_client.Configuration(
+configuration = webshipperv2.Configuration(
     host = "https://.api.webshipper.io/v2"
 )
 
@@ -160,14 +160,14 @@ configuration = openapi_client.Configuration(
 # satisfies your auth use case.
 
 # Configure Bearer authorization: BearerAuth
-configuration = openapi_client.Configuration(
+configuration = webshipperv2.Configuration(
     access_token = os.environ["BEARER_TOKEN"]
 )
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient(configuration) as api_client:
+with webshipperv2.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.OrderApi(api_client)
+    api_instance = webshipperv2.OrderApi(api_client)
     id = 56 # int | 
 
     try:
@@ -218,14 +218,14 @@ Show a single Order
 ```python
 import time
 import os
-import openapi_client
-from openapi_client.models.orders_id_get200_response import OrdersIdGet200Response
-from openapi_client.rest import ApiException
+import webshipperv2
+from webshipperv2.models.orders_id_get200_response import OrdersIdGet200Response
+from webshipperv2.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to https://.api.webshipper.io/v2
 # See configuration.py for a list of all supported configuration parameters.
-configuration = openapi_client.Configuration(
+configuration = webshipperv2.Configuration(
     host = "https://.api.webshipper.io/v2"
 )
 
@@ -235,14 +235,14 @@ configuration = openapi_client.Configuration(
 # satisfies your auth use case.
 
 # Configure Bearer authorization: BearerAuth
-configuration = openapi_client.Configuration(
+configuration = webshipperv2.Configuration(
     access_token = os.environ["BEARER_TOKEN"]
 )
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient(configuration) as api_client:
+with webshipperv2.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.OrderApi(api_client)
+    api_instance = webshipperv2.OrderApi(api_client)
     id = 56 # int | 
 
     try:
@@ -293,15 +293,15 @@ Update a Order
 ```python
 import time
 import os
-import openapi_client
-from openapi_client.models.orders_id_get200_response import OrdersIdGet200Response
-from openapi_client.models.orders_id_patch_request import OrdersIdPatchRequest
-from openapi_client.rest import ApiException
+import webshipperv2
+from webshipperv2.models.orders_id_get200_response import OrdersIdGet200Response
+from webshipperv2.models.orders_id_patch_request import OrdersIdPatchRequest
+from webshipperv2.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to https://.api.webshipper.io/v2
 # See configuration.py for a list of all supported configuration parameters.
-configuration = openapi_client.Configuration(
+configuration = webshipperv2.Configuration(
     host = "https://.api.webshipper.io/v2"
 )
 
@@ -311,16 +311,16 @@ configuration = openapi_client.Configuration(
 # satisfies your auth use case.
 
 # Configure Bearer authorization: BearerAuth
-configuration = openapi_client.Configuration(
+configuration = webshipperv2.Configuration(
     access_token = os.environ["BEARER_TOKEN"]
 )
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient(configuration) as api_client:
+with webshipperv2.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.OrderApi(api_client)
+    api_instance = webshipperv2.OrderApi(api_client)
     id = 56 # int | 
-    orders_id_patch_request = openapi_client.OrdersIdPatchRequest() # OrdersIdPatchRequest | 
+    orders_id_patch_request = webshipperv2.OrdersIdPatchRequest() # OrdersIdPatchRequest | 
 
     try:
         # Update a Order
@@ -371,15 +371,15 @@ Create a Order
 ```python
 import time
 import os
-import openapi_client
-from openapi_client.models.orders_id_get200_response import OrdersIdGet200Response
-from openapi_client.models.orders_post_request import OrdersPostRequest
-from openapi_client.rest import ApiException
+import webshipperv2
+from webshipperv2.models.orders_id_get200_response import OrdersIdGet200Response
+from webshipperv2.models.orders_post_request import OrdersPostRequest
+from webshipperv2.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to https://.api.webshipper.io/v2
 # See configuration.py for a list of all supported configuration parameters.
-configuration = openapi_client.Configuration(
+configuration = webshipperv2.Configuration(
     host = "https://.api.webshipper.io/v2"
 )
 
@@ -389,14 +389,14 @@ configuration = openapi_client.Configuration(
 # satisfies your auth use case.
 
 # Configure Bearer authorization: BearerAuth
-configuration = openapi_client.Configuration(
+configuration = webshipperv2.Configuration(
     access_token = os.environ["BEARER_TOKEN"]
 )
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient(configuration) as api_client:
+with webshipperv2.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.OrderApi(api_client)
+    api_instance = webshipperv2.OrderApi(api_client)
     orders_post_request = {"data":{"type":"orders","attributes":{"drop_point":{"drop_point_id":12,"address_1":"Street 123","zip":"8600","city":"Silkeborg","country_code":"DK","carrier_code":"DUMMY"},"delivery_address":{"address_1":"Lyngbygade 8","zip":"8600","city":"Silkeborg","country_code":"DK"},"sender_address":{"address_1":"Example street 2","zip":"7400","city":"Herning","country_code":"DK"},"order_lines":[{"sku":"ZB420","description":"Zebra GK420d label printer","quantity":1,"location":"LOC 3563-67","tarif_number":"844332","country_of_origin":"DK","unit_price":24.0,"vat_percent":25.0,"order_id":12,"ext_ref":"342342","weight":500.0,"weight_unit":"g","discount_value":0.0,"discount_type":"fixed","discounted_unit_price":24.0}]},"relationships":{"order_channel":{"data":{"id":9,"type":"order_channels"}},"shipping_rate":{"data":{"id":6,"type":"shipping_rates"}}}}} # OrdersPostRequest | 
 
     try:

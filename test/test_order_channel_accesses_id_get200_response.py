@@ -15,7 +15,7 @@
 import unittest
 import datetime
 
-from openapi_client.models.order_channel_accesses_id_get200_response import OrderChannelAccessesIdGet200Response
+from webshipperv2.models.order_channel_accesses_id_get200_response import OrderChannelAccessesIdGet200Response
 
 class TestOrderChannelAccessesIdGet200Response(unittest.TestCase):
     """OrderChannelAccessesIdGet200Response unit test stubs"""
@@ -36,20 +36,20 @@ class TestOrderChannelAccessesIdGet200Response(unittest.TestCase):
         model = OrderChannelAccessesIdGet200Response()
         if include_optional:
             return OrderChannelAccessesIdGet200Response(
-                data = openapi_client.models._order_channel_accesses__id__get_200_response_data._order_channel_accesses__id__get_200_response_data(
+                data = webshipperv2.models._order_channel_accesses__id__get_200_response_data._order_channel_accesses__id__get_200_response_data(
                     id = 56, 
                     type = 'order_channel_accesses', 
-                    attributes = openapi_client.models.order_channel_accesses.order_channel_accesses(
+                    attributes = webshipperv2.models.order_channel_accesses.order_channel_accesses(
                         created_at = '', 
                         updated_at = '', ), ),
-                relationships = openapi_client.models._order_channel_accesses__id__get_200_response_relationships._order_channel_accesses__id__get_200_response_relationships(
-                    order_channel = openapi_client.models._csv_mappings__id__get_200_response_relationships_order_channel._csv_mappings__id__get_200_response_relationships_order_channel(
-                        data = openapi_client.models._csv_mappings__id__get_200_response_relationships_order_channel_data._csv_mappings__id__get_200_response_relationships_order_channel_data(
+                relationships = webshipperv2.models._order_channel_accesses__id__get_200_response_relationships._order_channel_accesses__id__get_200_response_relationships(
+                    order_channel = webshipperv2.models._csv_mappings__id__get_200_response_relationships_order_channel._csv_mappings__id__get_200_response_relationships_order_channel(
+                        data = webshipperv2.models._csv_mappings__id__get_200_response_relationships_order_channel_data._csv_mappings__id__get_200_response_relationships_order_channel_data(
                             id = '', 
                             type = 'order_channels', ), ), 
-                    user = openapi_client.models._carrier_accesses__id__get_200_response_relationships_user._carrier_accesses__id__get_200_response_relationships_user(), ),
+                    user = webshipperv2.models._carrier_accesses__id__get_200_response_relationships_user._carrier_accesses__id__get_200_response_relationships_user(), ),
                 included = [
-                    openapi_client.models._order_channel_accesses__id__get_200_response_included_inner._order_channel_accesses__id__get_200_response_included_inner(
+                    webshipperv2.models._order_channel_accesses__id__get_200_response_included_inner._order_channel_accesses__id__get_200_response_included_inner(
                         type = 'orders', 
                         id = 56, 
                         data = null, )

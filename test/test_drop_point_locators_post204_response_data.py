@@ -15,7 +15,7 @@
 import unittest
 import datetime
 
-from openapi_client.models.drop_point_locators_post204_response_data import DropPointLocatorsPost204ResponseData
+from webshipperv2.models.drop_point_locators_post204_response_data import DropPointLocatorsPost204ResponseData
 
 class TestDropPointLocatorsPost204ResponseData(unittest.TestCase):
     """DropPointLocatorsPost204ResponseData unit test stubs"""
@@ -38,14 +38,14 @@ class TestDropPointLocatorsPost204ResponseData(unittest.TestCase):
             return DropPointLocatorsPost204ResponseData(
                 id = 56,
                 type = 'drop_point_locators',
-                attributes = openapi_client.models.drop_point_locators.drop_point_locators(
+                attributes = webshipperv2.models.drop_point_locators.drop_point_locators(
                     carrier_id = 56, 
                     service_code = '', 
                     shipping_rate_id = '', 
                     drop_point_id = '', 
                     delivery_address = '', 
                     drop_points = [
-                        openapi_client.models.drop_points.drop_points(
+                        webshipperv2.models.drop_points.drop_points(
                             drop_point_id = '', 
                             name = '', 
                             address_1 = '', 

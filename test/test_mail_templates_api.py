@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.api.mail_templates_api import MailTemplatesApi
+from webshipperv2.api.mail_templates_api import MailTemplatesApi
 
 
 class TestMailTemplatesApi(unittest.TestCase):

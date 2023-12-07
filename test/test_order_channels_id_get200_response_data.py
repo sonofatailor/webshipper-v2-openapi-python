@@ -15,7 +15,7 @@
 import unittest
 import datetime
 
-from openapi_client.models.order_channels_id_get200_response_data import OrderChannelsIdGet200ResponseData
+from webshipperv2.models.order_channels_id_get200_response_data import OrderChannelsIdGet200ResponseData
 
 class TestOrderChannelsIdGet200ResponseData(unittest.TestCase):
     """OrderChannelsIdGet200ResponseData unit test stubs"""
@@ -38,12 +38,12 @@ class TestOrderChannelsIdGet200ResponseData(unittest.TestCase):
             return OrderChannelsIdGet200ResponseData(
                 id = 56,
                 type = 'order_channels',
-                attributes = openapi_client.models.order_channels.order_channels(
+                attributes = webshipperv2.models.order_channels.order_channels(
                     channel_label = '', 
                     attrs = [
                         ''
                         ], 
-                    additional_parameters = openapi_client.models.additional_parameters.additional_parameters(), 
+                    additional_parameters = webshipperv2.models.additional_parameters.additional_parameters(), 
                     slip_print_mode = '', 
                     return_label_print_mode = '', 
                     shipping_label_print_mode = '', 

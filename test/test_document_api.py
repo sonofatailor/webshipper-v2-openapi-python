@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.api.document_api import DocumentApi
+from webshipperv2.api.document_api import DocumentApi
 
 
 class TestDocumentApi(unittest.TestCase):

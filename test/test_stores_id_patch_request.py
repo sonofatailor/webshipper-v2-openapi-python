@@ -15,7 +15,7 @@
 import unittest
 import datetime
 
-from openapi_client.models.stores_id_patch_request import StoresIdPatchRequest
+from webshipperv2.models.stores_id_patch_request import StoresIdPatchRequest
 
 class TestStoresIdPatchRequest(unittest.TestCase):
     """StoresIdPatchRequest unit test stubs"""
@@ -36,10 +36,10 @@ class TestStoresIdPatchRequest(unittest.TestCase):
         model = StoresIdPatchRequest()
         if include_optional:
             return StoresIdPatchRequest(
-                data = openapi_client.models._stores__id__get_200_response_data._stores__id__get_200_response_data(
+                data = webshipperv2.models._stores__id__get_200_response_data._stores__id__get_200_response_data(
                     id = 56, 
                     type = 'stores', 
-                    attributes = openapi_client.models.stores.stores(
+                    attributes = webshipperv2.models.stores.stores(
                         name = '', 
                         address_1 = '', 
                         address_2 = '', 
@@ -48,12 +48,12 @@ class TestStoresIdPatchRequest(unittest.TestCase):
                         country_code = '', 
                         longitude = '', 
                         latitude = '', ), ),
-                relationships = openapi_client.models._stores__id__get_200_response_relationships._stores__id__get_200_response_relationships(
-                    sender_address = openapi_client.models._carriers__id__get_200_response_relationships_sender_address._carriers__id__get_200_response_relationships_sender_address(
-                        data = openapi_client.models._carriers__id__get_200_response_relationships_sender_address_data._carriers__id__get_200_response_relationships_sender_address_data(
+                relationships = webshipperv2.models._stores__id__get_200_response_relationships._stores__id__get_200_response_relationships(
+                    sender_address = webshipperv2.models._carriers__id__get_200_response_relationships_sender_address._carriers__id__get_200_response_relationships_sender_address(
+                        data = webshipperv2.models._carriers__id__get_200_response_relationships_sender_address_data._carriers__id__get_200_response_relationships_sender_address_data(
                             id = '', 
                             type = 'shipping_addresses', ), ), 
-                    return_address = openapi_client.models._carriers__id__get_200_response_relationships_sender_address._carriers__id__get_200_response_relationships_sender_address(), 
+                    return_address = webshipperv2.models._carriers__id__get_200_response_relationships_sender_address._carriers__id__get_200_response_relationships_sender_address(), 
                     pickup_address = , 
                     sold_from_address = , )
             )

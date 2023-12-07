@@ -15,7 +15,7 @@
 import unittest
 import datetime
 
-from openapi_client.models.shipping_mappings import ShippingMappings
+from webshipperv2.models.shipping_mappings import ShippingMappings
 
 class TestShippingMappings(unittest.TestCase):
     """ShippingMappings unit test stubs"""

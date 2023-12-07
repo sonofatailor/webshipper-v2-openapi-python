@@ -15,7 +15,7 @@
 import unittest
 import datetime
 
-from openapi_client.models.user_groups import UserGroups
+from webshipperv2.models.user_groups import UserGroups
 
 class TestUserGroups(unittest.TestCase):
     """UserGroups unit test stubs"""

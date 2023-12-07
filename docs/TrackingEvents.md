@@ -20,7 +20,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```python
-from openapi_client.models.tracking_events import TrackingEvents
+from webshipperv2.models.tracking_events import TrackingEvents
 
 # TODO update the JSON string below
 json = "{}"

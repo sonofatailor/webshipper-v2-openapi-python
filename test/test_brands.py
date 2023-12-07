@@ -15,7 +15,7 @@
 import unittest
 import datetime
 
-from openapi_client.models.brands import Brands
+from webshipperv2.models.brands import Brands
 
 class TestBrands(unittest.TestCase):
     """Brands unit test stubs"""

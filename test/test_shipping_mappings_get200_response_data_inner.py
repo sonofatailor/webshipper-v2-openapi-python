@@ -15,7 +15,7 @@
 import unittest
 import datetime
 
-from openapi_client.models.shipping_mappings_get200_response_data_inner import ShippingMappingsGet200ResponseDataInner
+from webshipperv2.models.shipping_mappings_get200_response_data_inner import ShippingMappingsGet200ResponseDataInner
 
 class TestShippingMappingsGet200ResponseDataInner(unittest.TestCase):
     """ShippingMappingsGet200ResponseDataInner unit test stubs"""
@@ -36,7 +36,7 @@ class TestShippingMappingsGet200ResponseDataInner(unittest.TestCase):
         model = ShippingMappingsGet200ResponseDataInner()
         if include_optional:
             return ShippingMappingsGet200ResponseDataInner(
-                attributes = openapi_client.models.shipping_mappings.shipping_mappings(
+                attributes = webshipperv2.models.shipping_mappings.shipping_mappings(
                     shipping_code = '', 
                     shipping_name = '', 
                     shipping_rate_id = 56, 

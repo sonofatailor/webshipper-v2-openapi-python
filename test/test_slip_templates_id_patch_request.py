@@ -15,7 +15,7 @@
 import unittest
 import datetime
 
-from openapi_client.models.slip_templates_id_patch_request import SlipTemplatesIdPatchRequest
+from webshipperv2.models.slip_templates_id_patch_request import SlipTemplatesIdPatchRequest
 
 class TestSlipTemplatesIdPatchRequest(unittest.TestCase):
     """SlipTemplatesIdPatchRequest unit test stubs"""
@@ -36,10 +36,10 @@ class TestSlipTemplatesIdPatchRequest(unittest.TestCase):
         model = SlipTemplatesIdPatchRequest()
         if include_optional:
             return SlipTemplatesIdPatchRequest(
-                data = openapi_client.models._slip_templates__id__get_200_response_data._slip_templates__id__get_200_response_data(
+                data = webshipperv2.models._slip_templates__id__get_200_response_data._slip_templates__id__get_200_response_data(
                     id = 56, 
                     type = 'slip_templates', 
-                    attributes = openapi_client.models.slip_templates.slip_templates(
+                    attributes = webshipperv2.models.slip_templates.slip_templates(
                         name = '', 
                         slip_size = 56, 
                         additional_content = '', 

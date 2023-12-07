@@ -15,7 +15,7 @@
 import unittest
 import datetime
 
-from openapi_client.models.expressions_post_request_data import ExpressionsPostRequestData
+from webshipperv2.models.expressions_post_request_data import ExpressionsPostRequestData
 
 class TestExpressionsPostRequestData(unittest.TestCase):
     """ExpressionsPostRequestData unit test stubs"""
@@ -37,7 +37,7 @@ class TestExpressionsPostRequestData(unittest.TestCase):
         if include_optional:
             return ExpressionsPostRequestData(
                 type = 'expressions',
-                attributes = openapi_client.models.expressions.expressions(
+                attributes = webshipperv2.models.expressions.expressions(
                     expression = '', 
                     vat_percent = 1.337, 
                     currency = '', 

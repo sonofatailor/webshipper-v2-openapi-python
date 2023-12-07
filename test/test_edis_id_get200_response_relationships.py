@@ -15,7 +15,7 @@
 import unittest
 import datetime
 
-from openapi_client.models.edis_id_get200_response_relationships import EdisIdGet200ResponseRelationships
+from webshipperv2.models.edis_id_get200_response_relationships import EdisIdGet200ResponseRelationships
 
 class TestEdisIdGet200ResponseRelationships(unittest.TestCase):
     """EdisIdGet200ResponseRelationships unit test stubs"""
@@ -36,8 +36,8 @@ class TestEdisIdGet200ResponseRelationships(unittest.TestCase):
         model = EdisIdGet200ResponseRelationships()
         if include_optional:
             return EdisIdGet200ResponseRelationships(
-                shipment = openapi_client.models._edis__id__get_200_response_relationships_shipment._edis__id__get_200_response_relationships_shipment(
-                    data = openapi_client.models._edis__id__get_200_response_relationships_shipment_data._edis__id__get_200_response_relationships_shipment_data(
+                shipment = webshipperv2.models._edis__id__get_200_response_relationships_shipment._edis__id__get_200_response_relationships_shipment(
+                    data = webshipperv2.models._edis__id__get_200_response_relationships_shipment_data._edis__id__get_200_response_relationships_shipment_data(
                         id = '', 
                         type = 'shipments', ), )
             )

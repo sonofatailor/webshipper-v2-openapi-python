@@ -10,7 +10,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```python
-from openapi_client.models.local_attr_enums import LocalAttrEnums
+from webshipperv2.models.local_attr_enums import LocalAttrEnums
 
 # TODO update the JSON string below
 json = "{}"

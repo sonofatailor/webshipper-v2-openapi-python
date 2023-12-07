@@ -10,7 +10,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```python
-from openapi_client.models.webhook_failures_id_patch_request import WebhookFailuresIdPatchRequest
+from webshipperv2.models.webhook_failures_id_patch_request import WebhookFailuresIdPatchRequest
 
 # TODO update the JSON string below
 json = "{}"

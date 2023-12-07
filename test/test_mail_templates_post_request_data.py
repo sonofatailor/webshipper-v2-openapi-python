@@ -15,7 +15,7 @@
 import unittest
 import datetime
 
-from openapi_client.models.mail_templates_post_request_data import MailTemplatesPostRequestData
+from webshipperv2.models.mail_templates_post_request_data import MailTemplatesPostRequestData
 
 class TestMailTemplatesPostRequestData(unittest.TestCase):
     """MailTemplatesPostRequestData unit test stubs"""
@@ -37,7 +37,7 @@ class TestMailTemplatesPostRequestData(unittest.TestCase):
         if include_optional:
             return MailTemplatesPostRequestData(
                 type = 'mail_templates',
-                attributes = openapi_client.models.mail_templates.mail_templates(
+                attributes = webshipperv2.models.mail_templates.mail_templates(
                     name = '', 
                     default_locale = '', 
                     mail_locales = '', 

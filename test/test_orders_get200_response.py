@@ -15,7 +15,7 @@
 import unittest
 import datetime
 
-from openapi_client.models.orders_get200_response import OrdersGet200Response
+from webshipperv2.models.orders_get200_response import OrdersGet200Response
 
 class TestOrdersGet200Response(unittest.TestCase):
     """OrdersGet200Response unit test stubs"""
@@ -37,13 +37,13 @@ class TestOrdersGet200Response(unittest.TestCase):
         if include_optional:
             return OrdersGet200Response(
                 data = [
-                    openapi_client.models._orders_get_200_response_data_inner._orders_get_200_response_data_inner(
-                        attributes = openapi_client.models.orders.orders(
+                    webshipperv2.models._orders_get_200_response_data_inner._orders_get_200_response_data_inner(
+                        attributes = webshipperv2.models.orders.orders(
                             order_channel_id = 56, 
                             status = '', 
                             ext_ref = '', 
                             visible_ref = '', 
-                            drop_point = openapi_client.models.drop_points.drop_points(
+                            drop_point = webshipperv2.models.drop_points.drop_points(
                                 drop_point_id = '', 
                                 name = '', 
                                 address_1 = '', 
@@ -60,9 +60,9 @@ class TestOrdersGet200Response(unittest.TestCase):
                                 created_at = '', 
                                 updated_at = '', 
                                 opening_hours = '', ), 
-                            original_shipping = openapi_client.models.original_shipping.original_shipping(), 
+                            original_shipping = webshipperv2.models.original_shipping.original_shipping(), 
                             order_lines = [
-                                openapi_client.models.order_lines.order_lines(
+                                webshipperv2.models.order_lines.order_lines(
                                     sku = '', 
                                     description = '', 
                                     quantity = 56, 
@@ -83,9 +83,9 @@ class TestOrdersGet200Response(unittest.TestCase):
                                     created_at = '', 
                                     updated_at = '', 
                                     is_virtual = True, 
-                                    dangerous_goods_details = openapi_client.models.dangerous_goods_details.dangerous_goods_details(), )
+                                    dangerous_goods_details = webshipperv2.models.dangerous_goods_details.dangerous_goods_details(), )
                                 ], 
-                            delivery_address = openapi_client.models.shipping_addresses.shipping_addresses(
+                            delivery_address = webshipperv2.models.shipping_addresses.shipping_addresses(
                                 att_contact = '', 
                                 company_name = '', 
                                 address_1 = '', 
@@ -107,7 +107,7 @@ class TestOrdersGet200Response(unittest.TestCase):
                                 duns = '', 
                                 personal_customs_no = '', 
                                 company_customs_numbers = '', ), 
-                            sender_address = openapi_client.models.shipping_addresses.shipping_addresses(
+                            sender_address = webshipperv2.models.shipping_addresses.shipping_addresses(
                                 att_contact = '', 
                                 company_name = '', 
                                 address_1 = '', 
@@ -134,7 +134,7 @@ class TestOrdersGet200Response(unittest.TestCase):
                             currency = '', 
                             internal_comment = '', 
                             external_comment = '', 
-                            error_message = openapi_client.models.error_message.error_message(), 
+                            error_message = webshipperv2.models.error_message.error_message(), 
                             slip = '', 
                             base64 = '', 
                             updated_at = '', 

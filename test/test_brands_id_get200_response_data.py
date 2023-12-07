@@ -15,7 +15,7 @@
 import unittest
 import datetime
 
-from openapi_client.models.brands_id_get200_response_data import BrandsIdGet200ResponseData
+from webshipperv2.models.brands_id_get200_response_data import BrandsIdGet200ResponseData
 
 class TestBrandsIdGet200ResponseData(unittest.TestCase):
     """BrandsIdGet200ResponseData unit test stubs"""
@@ -38,7 +38,7 @@ class TestBrandsIdGet200ResponseData(unittest.TestCase):
             return BrandsIdGet200ResponseData(
                 id = 56,
                 type = 'brands',
-                attributes = openapi_client.models.brands.brands(
+                attributes = webshipperv2.models.brands.brands(
                     documents = '', )
             )
         else:

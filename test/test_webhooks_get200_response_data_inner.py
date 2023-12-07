@@ -15,7 +15,7 @@
 import unittest
 import datetime
 
-from openapi_client.models.webhooks_get200_response_data_inner import WebhooksGet200ResponseDataInner
+from webshipperv2.models.webhooks_get200_response_data_inner import WebhooksGet200ResponseDataInner
 
 class TestWebhooksGet200ResponseDataInner(unittest.TestCase):
     """WebhooksGet200ResponseDataInner unit test stubs"""
@@ -36,7 +36,7 @@ class TestWebhooksGet200ResponseDataInner(unittest.TestCase):
         model = WebhooksGet200ResponseDataInner()
         if include_optional:
             return WebhooksGet200ResponseDataInner(
-                attributes = openapi_client.models.webhooks.webhooks(
+                attributes = webshipperv2.models.webhooks.webhooks(
                     url = '', 
                     topic = '', 
                     enabled = True, 

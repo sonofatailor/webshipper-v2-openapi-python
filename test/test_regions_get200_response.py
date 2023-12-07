@@ -15,7 +15,7 @@
 import unittest
 import datetime
 
-from openapi_client.models.regions_get200_response import RegionsGet200Response
+from webshipperv2.models.regions_get200_response import RegionsGet200Response
 
 class TestRegionsGet200Response(unittest.TestCase):
     """RegionsGet200Response unit test stubs"""
@@ -37,8 +37,8 @@ class TestRegionsGet200Response(unittest.TestCase):
         if include_optional:
             return RegionsGet200Response(
                 data = [
-                    openapi_client.models._regions_get_200_response_data_inner._regions_get_200_response_data_inner(
-                        attributes = openapi_client.models.regions.regions(
+                    webshipperv2.models._regions_get_200_response_data_inner._regions_get_200_response_data_inner(
+                        attributes = webshipperv2.models.regions.regions(
                             name = '', 
                             expressions = '', 
                             created_at = '', 

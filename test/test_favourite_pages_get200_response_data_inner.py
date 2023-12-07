@@ -15,7 +15,7 @@
 import unittest
 import datetime
 
-from openapi_client.models.favourite_pages_get200_response_data_inner import FavouritePagesGet200ResponseDataInner
+from webshipperv2.models.favourite_pages_get200_response_data_inner import FavouritePagesGet200ResponseDataInner
 
 class TestFavouritePagesGet200ResponseDataInner(unittest.TestCase):
     """FavouritePagesGet200ResponseDataInner unit test stubs"""
@@ -36,7 +36,7 @@ class TestFavouritePagesGet200ResponseDataInner(unittest.TestCase):
         model = FavouritePagesGet200ResponseDataInner()
         if include_optional:
             return FavouritePagesGet200ResponseDataInner(
-                attributes = openapi_client.models.favourite_pages.favourite_pages(
+                attributes = webshipperv2.models.favourite_pages.favourite_pages(
                     path = '', 
                     name = '', 
                     user_id = 56, )

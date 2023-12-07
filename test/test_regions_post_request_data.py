@@ -15,7 +15,7 @@
 import unittest
 import datetime
 
-from openapi_client.models.regions_post_request_data import RegionsPostRequestData
+from webshipperv2.models.regions_post_request_data import RegionsPostRequestData
 
 class TestRegionsPostRequestData(unittest.TestCase):
     """RegionsPostRequestData unit test stubs"""
@@ -37,7 +37,7 @@ class TestRegionsPostRequestData(unittest.TestCase):
         if include_optional:
             return RegionsPostRequestData(
                 type = 'regions',
-                attributes = openapi_client.models.regions.regions(
+                attributes = webshipperv2.models.regions.regions(
                     name = '', 
                     expressions = '', 
                     created_at = '', 

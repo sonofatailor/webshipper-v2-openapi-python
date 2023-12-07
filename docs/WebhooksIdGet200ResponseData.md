@@ -11,7 +11,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```python
-from openapi_client.models.webhooks_id_get200_response_data import WebhooksIdGet200ResponseData
+from webshipperv2.models.webhooks_id_get200_response_data import WebhooksIdGet200ResponseData
 
 # TODO update the JSON string below
 json = "{}"

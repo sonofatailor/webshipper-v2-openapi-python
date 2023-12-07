@@ -15,7 +15,7 @@
 import unittest
 import datetime
 
-from openapi_client.models.printables_id_get200_response import PrintablesIdGet200Response
+from webshipperv2.models.printables_id_get200_response import PrintablesIdGet200Response
 
 class TestPrintablesIdGet200Response(unittest.TestCase):
     """PrintablesIdGet200Response unit test stubs"""
@@ -36,13 +36,13 @@ class TestPrintablesIdGet200Response(unittest.TestCase):
         model = PrintablesIdGet200Response()
         if include_optional:
             return PrintablesIdGet200Response(
-                data = openapi_client.models._printables__id__get_200_response_data._printables__id__get_200_response_data(
+                data = webshipperv2.models._printables__id__get_200_response_data._printables__id__get_200_response_data(
                     id = 56, 
                     type = 'printables', 
-                    attributes = openapi_client.models.attributes.attributes(), ),
+                    attributes = webshipperv2.models.attributes.attributes(), ),
                 relationships = None,
                 included = [
-                    openapi_client.models._brands__id__get_200_response_included_inner._brands__id__get_200_response_included_inner(
+                    webshipperv2.models._brands__id__get_200_response_included_inner._brands__id__get_200_response_included_inner(
                         type = 'orders', 
                         id = 56, 
                         data = null, )

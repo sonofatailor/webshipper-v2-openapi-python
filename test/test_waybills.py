@@ -15,7 +15,7 @@
 import unittest
 import datetime
 
-from openapi_client.models.waybills import Waybills
+from webshipperv2.models.waybills import Waybills
 
 class TestWaybills(unittest.TestCase):
     """Waybills unit test stubs"""

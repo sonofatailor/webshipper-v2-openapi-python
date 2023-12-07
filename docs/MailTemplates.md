@@ -20,7 +20,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```python
-from openapi_client.models.mail_templates import MailTemplates
+from webshipperv2.models.mail_templates import MailTemplates
 
 # TODO update the JSON string below
 json = "{}"

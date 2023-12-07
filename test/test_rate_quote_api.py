@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.api.rate_quote_api import RateQuoteApi
+from webshipperv2.api.rate_quote_api import RateQuoteApi
 
 
 class TestRateQuoteApi(unittest.TestCase):

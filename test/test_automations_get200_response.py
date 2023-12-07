@@ -15,7 +15,7 @@
 import unittest
 import datetime
 
-from openapi_client.models.automations_get200_response import AutomationsGet200Response
+from webshipperv2.models.automations_get200_response import AutomationsGet200Response
 
 class TestAutomationsGet200Response(unittest.TestCase):
     """AutomationsGet200Response unit test stubs"""
@@ -37,9 +37,9 @@ class TestAutomationsGet200Response(unittest.TestCase):
         if include_optional:
             return AutomationsGet200Response(
                 data = [
-                    openapi_client.models._automations_get_200_response_data_inner._automations_get_200_response_data_inner(
-                        attributes = openapi_client.models.automations.automations(
-                            trigger = openapi_client.models.trigger.trigger(), 
+                    webshipperv2.models._automations_get_200_response_data_inner._automations_get_200_response_data_inner(
+                        attributes = webshipperv2.models.automations.automations(
+                            trigger = webshipperv2.models.trigger.trigger(), 
                             actions = [
                                 ''
                                 ], 

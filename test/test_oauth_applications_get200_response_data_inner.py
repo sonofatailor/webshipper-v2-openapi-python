@@ -15,7 +15,7 @@
 import unittest
 import datetime
 
-from openapi_client.models.oauth_applications_get200_response_data_inner import OauthApplicationsGet200ResponseDataInner
+from webshipperv2.models.oauth_applications_get200_response_data_inner import OauthApplicationsGet200ResponseDataInner
 
 class TestOauthApplicationsGet200ResponseDataInner(unittest.TestCase):
     """OauthApplicationsGet200ResponseDataInner unit test stubs"""
@@ -36,7 +36,7 @@ class TestOauthApplicationsGet200ResponseDataInner(unittest.TestCase):
         model = OauthApplicationsGet200ResponseDataInner()
         if include_optional:
             return OauthApplicationsGet200ResponseDataInner(
-                attributes = openapi_client.models.oauth_applications.oauth_applications(
+                attributes = webshipperv2.models.oauth_applications.oauth_applications(
                     name = '', 
                     uid = '', 
                     scopes = '', 

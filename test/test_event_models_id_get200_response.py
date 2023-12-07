@@ -15,7 +15,7 @@
 import unittest
 import datetime
 
-from openapi_client.models.event_models_id_get200_response import EventModelsIdGet200Response
+from webshipperv2.models.event_models_id_get200_response import EventModelsIdGet200Response
 
 class TestEventModelsIdGet200Response(unittest.TestCase):
     """EventModelsIdGet200Response unit test stubs"""
@@ -36,13 +36,13 @@ class TestEventModelsIdGet200Response(unittest.TestCase):
         model = EventModelsIdGet200Response()
         if include_optional:
             return EventModelsIdGet200Response(
-                data = openapi_client.models._event_models__id__get_200_response_data._event_models__id__get_200_response_data(
+                data = webshipperv2.models._event_models__id__get_200_response_data._event_models__id__get_200_response_data(
                     id = 56, 
                     type = 'event_models', 
-                    attributes = openapi_client.models.attributes.attributes(), ),
+                    attributes = webshipperv2.models.attributes.attributes(), ),
                 relationships = None,
                 included = [
-                    openapi_client.models._brands__id__get_200_response_included_inner._brands__id__get_200_response_included_inner(
+                    webshipperv2.models._brands__id__get_200_response_included_inner._brands__id__get_200_response_included_inner(
                         type = 'orders', 
                         id = 56, 
                         data = null, )

@@ -15,7 +15,7 @@
 import unittest
 import datetime
 
-from openapi_client.models.packages_post_request import PackagesPostRequest
+from webshipperv2.models.packages_post_request import PackagesPostRequest
 
 class TestPackagesPostRequest(unittest.TestCase):
     """PackagesPostRequest unit test stubs"""
@@ -36,9 +36,9 @@ class TestPackagesPostRequest(unittest.TestCase):
         model = PackagesPostRequest()
         if include_optional:
             return PackagesPostRequest(
-                data = openapi_client.models._packages_post_request_data._packages_post_request_data(
+                data = webshipperv2.models._packages_post_request_data._packages_post_request_data(
                     type = 'packages', 
-                    attributes = openapi_client.models.packages.packages(
+                    attributes = webshipperv2.models.packages.packages(
                         weight = 1.337, 
                         weight_unit = 'g', 
                         dimensions = '', 
@@ -46,9 +46,9 @@ class TestPackagesPostRequest(unittest.TestCase):
                         add_ons = '', 
                         colli_type = '', 
                         predefined_barcode = '', ), ),
-                relationships = openapi_client.models._edis__id__get_200_response_relationships._edis__id__get_200_response_relationships(
-                    shipment = openapi_client.models._edis__id__get_200_response_relationships_shipment._edis__id__get_200_response_relationships_shipment(
-                        data = openapi_client.models._edis__id__get_200_response_relationships_shipment_data._edis__id__get_200_response_relationships_shipment_data(
+                relationships = webshipperv2.models._edis__id__get_200_response_relationships._edis__id__get_200_response_relationships(
+                    shipment = webshipperv2.models._edis__id__get_200_response_relationships_shipment._edis__id__get_200_response_relationships_shipment(
+                        data = webshipperv2.models._edis__id__get_200_response_relationships_shipment_data._edis__id__get_200_response_relationships_shipment_data(
                             id = '', 
                             type = 'shipments', ), ), )
             )

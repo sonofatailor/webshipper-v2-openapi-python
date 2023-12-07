@@ -15,7 +15,7 @@
 import unittest
 import datetime
 
-from openapi_client.models.shipping_rates_id_get200_response_included_inner import ShippingRatesIdGet200ResponseIncludedInner
+from webshipperv2.models.shipping_rates_id_get200_response_included_inner import ShippingRatesIdGet200ResponseIncludedInner
 
 class TestShippingRatesIdGet200ResponseIncludedInner(unittest.TestCase):
     """ShippingRatesIdGet200ResponseIncludedInner unit test stubs"""

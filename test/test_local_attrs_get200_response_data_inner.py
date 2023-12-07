@@ -15,7 +15,7 @@
 import unittest
 import datetime
 
-from openapi_client.models.local_attrs_get200_response_data_inner import LocalAttrsGet200ResponseDataInner
+from webshipperv2.models.local_attrs_get200_response_data_inner import LocalAttrsGet200ResponseDataInner
 
 class TestLocalAttrsGet200ResponseDataInner(unittest.TestCase):
     """LocalAttrsGet200ResponseDataInner unit test stubs"""
@@ -36,7 +36,7 @@ class TestLocalAttrsGet200ResponseDataInner(unittest.TestCase):
         model = LocalAttrsGet200ResponseDataInner()
         if include_optional:
             return LocalAttrsGet200ResponseDataInner(
-                attributes = openapi_client.models.local_attrs.local_attrs(
+                attributes = webshipperv2.models.local_attrs.local_attrs(
                     attr_name = '', 
                     attr_key = '', 
                     attr_type = '', 

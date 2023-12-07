@@ -15,7 +15,7 @@
 import unittest
 import datetime
 
-from openapi_client.models.return_portals import ReturnPortals
+from webshipperv2.models.return_portals import ReturnPortals
 
 class TestReturnPortals(unittest.TestCase):
     """ReturnPortals unit test stubs"""

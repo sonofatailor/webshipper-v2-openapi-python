@@ -15,7 +15,7 @@
 import unittest
 import datetime
 
-from openapi_client.models.bulk_import_orders import BulkImportOrders
+from webshipperv2.models.bulk_import_orders import BulkImportOrders
 
 class TestBulkImportOrders(unittest.TestCase):
     """BulkImportOrders unit test stubs"""

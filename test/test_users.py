@@ -15,7 +15,7 @@
 import unittest
 import datetime
 
-from openapi_client.models.users import Users
+from webshipperv2.models.users import Users
 
 class TestUsers(unittest.TestCase):
     """Users unit test stubs"""

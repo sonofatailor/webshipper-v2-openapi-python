@@ -35,7 +35,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```python
-from openapi_client.models.carrier_types import CarrierTypes
+from webshipperv2.models.carrier_types import CarrierTypes
 
 # TODO update the JSON string below
 json = "{}"

@@ -15,7 +15,7 @@
 import unittest
 import datetime
 
-from openapi_client.models.additional_attributes_id_get200_response import AdditionalAttributesIdGet200Response
+from webshipperv2.models.additional_attributes_id_get200_response import AdditionalAttributesIdGet200Response
 
 class TestAdditionalAttributesIdGet200Response(unittest.TestCase):
     """AdditionalAttributesIdGet200Response unit test stubs"""
@@ -36,23 +36,23 @@ class TestAdditionalAttributesIdGet200Response(unittest.TestCase):
         model = AdditionalAttributesIdGet200Response()
         if include_optional:
             return AdditionalAttributesIdGet200Response(
-                data = openapi_client.models._additional_attributes__id__get_200_response_data._additional_attributes__id__get_200_response_data(
+                data = webshipperv2.models._additional_attributes__id__get_200_response_data._additional_attributes__id__get_200_response_data(
                     id = 56, 
                     type = 'additional_attributes', 
-                    attributes = openapi_client.models.additional_attributes.additional_attributes(
+                    attributes = webshipperv2.models.additional_attributes.additional_attributes(
                         name = '', 
                         attr_key = '', 
                         attr_value = '', 
                         updated_at = '', 
                         created_at = '', ), ),
-                relationships = openapi_client.models._additional_attributes__id__get_200_response_relationships._additional_attributes__id__get_200_response_relationships(
-                    order = openapi_client.models._additional_attributes__id__get_200_response_relationships_order._additional_attributes__id__get_200_response_relationships_order(
-                        data = openapi_client.models._additional_attributes__id__get_200_response_relationships_order_data._additional_attributes__id__get_200_response_relationships_order_data(
+                relationships = webshipperv2.models._additional_attributes__id__get_200_response_relationships._additional_attributes__id__get_200_response_relationships(
+                    order = webshipperv2.models._additional_attributes__id__get_200_response_relationships_order._additional_attributes__id__get_200_response_relationships_order(
+                        data = webshipperv2.models._additional_attributes__id__get_200_response_relationships_order_data._additional_attributes__id__get_200_response_relationships_order_data(
                             id = '', 
                             type = 'orders', ), ), 
-                    order_line = openapi_client.models._additional_attributes__id__get_200_response_relationships_order_line._additional_attributes__id__get_200_response_relationships_order_line(), ),
+                    order_line = webshipperv2.models._additional_attributes__id__get_200_response_relationships_order_line._additional_attributes__id__get_200_response_relationships_order_line(), ),
                 included = [
-                    openapi_client.models._additional_attributes__id__get_200_response_included_inner._additional_attributes__id__get_200_response_included_inner(
+                    webshipperv2.models._additional_attributes__id__get_200_response_included_inner._additional_attributes__id__get_200_response_included_inner(
                         type = 'orders', 
                         id = 56, 
                         data = null, )

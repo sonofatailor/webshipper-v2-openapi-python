@@ -15,7 +15,7 @@
 import unittest
 import datetime
 
-from openapi_client.models.shipments_tracking_links_inner import ShipmentsTrackingLinksInner
+from webshipperv2.models.shipments_tracking_links_inner import ShipmentsTrackingLinksInner
 
 class TestShipmentsTrackingLinksInner(unittest.TestCase):
     """ShipmentsTrackingLinksInner unit test stubs"""

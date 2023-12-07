@@ -15,7 +15,7 @@
 import unittest
 import datetime
 
-from openapi_client.models.returns_post_request_data import ReturnsPostRequestData
+from webshipperv2.models.returns_post_request_data import ReturnsPostRequestData
 
 class TestReturnsPostRequestData(unittest.TestCase):
     """ReturnsPostRequestData unit test stubs"""
@@ -37,7 +37,7 @@ class TestReturnsPostRequestData(unittest.TestCase):
         if include_optional:
             return ReturnsPostRequestData(
                 type = 'returns',
-                attributes = openapi_client.models.returns.returns(
+                attributes = webshipperv2.models.returns.returns(
                     status = '', 
                     error_message = '', 
                     return_lines = [

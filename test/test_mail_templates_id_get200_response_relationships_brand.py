@@ -15,7 +15,7 @@
 import unittest
 import datetime
 
-from openapi_client.models.mail_templates_id_get200_response_relationships_brand import MailTemplatesIdGet200ResponseRelationshipsBrand
+from webshipperv2.models.mail_templates_id_get200_response_relationships_brand import MailTemplatesIdGet200ResponseRelationshipsBrand
 
 class TestMailTemplatesIdGet200ResponseRelationshipsBrand(unittest.TestCase):
     """MailTemplatesIdGet200ResponseRelationshipsBrand unit test stubs"""
@@ -36,7 +36,7 @@ class TestMailTemplatesIdGet200ResponseRelationshipsBrand(unittest.TestCase):
         model = MailTemplatesIdGet200ResponseRelationshipsBrand()
         if include_optional:
             return MailTemplatesIdGet200ResponseRelationshipsBrand(
-                data = openapi_client.models._mail_templates__id__get_200_response_relationships_brand_data._mail_templates__id__get_200_response_relationships_brand_data(
+                data = webshipperv2.models._mail_templates__id__get_200_response_relationships_brand_data._mail_templates__id__get_200_response_relationships_brand_data(
                     id = '', 
                     type = 'brands', )
             )

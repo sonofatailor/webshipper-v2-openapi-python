@@ -15,7 +15,7 @@
 import unittest
 import datetime
 
-from openapi_client.models.shipping_rates import ShippingRates
+from webshipperv2.models.shipping_rates import ShippingRates
 
 class TestShippingRates(unittest.TestCase):
     """ShippingRates unit test stubs"""

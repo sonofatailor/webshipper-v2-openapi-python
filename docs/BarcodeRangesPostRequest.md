@@ -10,7 +10,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```python
-from openapi_client.models.barcode_ranges_post_request import BarcodeRangesPostRequest
+from webshipperv2.models.barcode_ranges_post_request import BarcodeRangesPostRequest
 
 # TODO update the JSON string below
 json = "{}"

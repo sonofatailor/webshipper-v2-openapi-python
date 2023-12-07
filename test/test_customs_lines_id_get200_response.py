@@ -15,7 +15,7 @@
 import unittest
 import datetime
 
-from openapi_client.models.customs_lines_id_get200_response import CustomsLinesIdGet200Response
+from webshipperv2.models.customs_lines_id_get200_response import CustomsLinesIdGet200Response
 
 class TestCustomsLinesIdGet200Response(unittest.TestCase):
     """CustomsLinesIdGet200Response unit test stubs"""
@@ -36,10 +36,10 @@ class TestCustomsLinesIdGet200Response(unittest.TestCase):
         model = CustomsLinesIdGet200Response()
         if include_optional:
             return CustomsLinesIdGet200Response(
-                data = openapi_client.models._customs_lines__id__get_200_response_data._customs_lines__id__get_200_response_data(
+                data = webshipperv2.models._customs_lines__id__get_200_response_data._customs_lines__id__get_200_response_data(
                     id = 56, 
                     type = 'customs_lines', 
-                    attributes = openapi_client.models.customs_lines.customs_lines(
+                    attributes = webshipperv2.models.customs_lines.customs_lines(
                         sku = '', 
                         description = '', 
                         quantity = 56, 
@@ -51,10 +51,10 @@ class TestCustomsLinesIdGet200Response(unittest.TestCase):
                         weight = 1.337, 
                         weight_unit = 56, 
                         discount = 1.337, 
-                        dangerous_goods_details = openapi_client.models.dangerous_goods_details.dangerous_goods_details(), ), ),
+                        dangerous_goods_details = webshipperv2.models.dangerous_goods_details.dangerous_goods_details(), ), ),
                 relationships = None,
                 included = [
-                    openapi_client.models._brands__id__get_200_response_included_inner._brands__id__get_200_response_included_inner(
+                    webshipperv2.models._brands__id__get_200_response_included_inner._brands__id__get_200_response_included_inner(
                         type = 'orders', 
                         id = 56, 
                         data = null, )

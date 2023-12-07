@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.api.shipping_rate_expression_api import ShippingRateExpressionApi
+from webshipperv2.api.shipping_rate_expression_api import ShippingRateExpressionApi
 
 
 class TestShippingRateExpressionApi(unittest.TestCase):

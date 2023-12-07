@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.api.webhook_failure_api import WebhookFailureApi
+from webshipperv2.api.webhook_failure_api import WebhookFailureApi
 
 
 class TestWebhookFailureApi(unittest.TestCase):

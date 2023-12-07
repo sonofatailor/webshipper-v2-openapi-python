@@ -15,7 +15,7 @@
 import unittest
 import datetime
 
-from openapi_client.models.users_id_get200_response_relationships_user_group import UsersIdGet200ResponseRelationshipsUserGroup
+from webshipperv2.models.users_id_get200_response_relationships_user_group import UsersIdGet200ResponseRelationshipsUserGroup
 
 class TestUsersIdGet200ResponseRelationshipsUserGroup(unittest.TestCase):
     """UsersIdGet200ResponseRelationshipsUserGroup unit test stubs"""
@@ -36,7 +36,7 @@ class TestUsersIdGet200ResponseRelationshipsUserGroup(unittest.TestCase):
         model = UsersIdGet200ResponseRelationshipsUserGroup()
         if include_optional:
             return UsersIdGet200ResponseRelationshipsUserGroup(
-                data = openapi_client.models._users__id__get_200_response_relationships_user_group_data._users__id__get_200_response_relationships_user_group_data(
+                data = webshipperv2.models._users__id__get_200_response_relationships_user_group_data._users__id__get_200_response_relationships_user_group_data(
                     id = '', 
                     type = 'user_groups', )
             )

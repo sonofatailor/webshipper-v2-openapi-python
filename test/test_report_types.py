@@ -15,7 +15,7 @@
 import unittest
 import datetime
 
-from openapi_client.models.report_types import ReportTypes
+from webshipperv2.models.report_types import ReportTypes
 
 class TestReportTypes(unittest.TestCase):
     """ReportTypes unit test stubs"""

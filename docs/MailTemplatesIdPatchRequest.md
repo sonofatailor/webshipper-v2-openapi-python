@@ -10,7 +10,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```python
-from openapi_client.models.mail_templates_id_patch_request import MailTemplatesIdPatchRequest
+from webshipperv2.models.mail_templates_id_patch_request import MailTemplatesIdPatchRequest
 
 # TODO update the JSON string below
 json = "{}"

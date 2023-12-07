@@ -15,7 +15,7 @@
 import unittest
 import datetime
 
-from openapi_client.models.automations_dry_runs_id_patch_request import AutomationsDryRunsIdPatchRequest
+from webshipperv2.models.automations_dry_runs_id_patch_request import AutomationsDryRunsIdPatchRequest
 
 class TestAutomationsDryRunsIdPatchRequest(unittest.TestCase):
     """AutomationsDryRunsIdPatchRequest unit test stubs"""
@@ -36,10 +36,10 @@ class TestAutomationsDryRunsIdPatchRequest(unittest.TestCase):
         model = AutomationsDryRunsIdPatchRequest()
         if include_optional:
             return AutomationsDryRunsIdPatchRequest(
-                data = openapi_client.models._automations_dry_runs__id__get_200_response_data._automations_dry_runs__id__get_200_response_data(
+                data = webshipperv2.models._automations_dry_runs__id__get_200_response_data._automations_dry_runs__id__get_200_response_data(
                     id = 56, 
                     type = 'automations_dry_runs', 
-                    attributes = openapi_client.models.automations_dry_runs.automations_dry_runs(
+                    attributes = webshipperv2.models.automations_dry_runs.automations_dry_runs(
                         dry_run = '', 
                         automation = '', 
                         shipment_id = '', 

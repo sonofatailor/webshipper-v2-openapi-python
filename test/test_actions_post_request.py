@@ -15,7 +15,7 @@
 import unittest
 import datetime
 
-from openapi_client.models.actions_post_request import ActionsPostRequest
+from webshipperv2.models.actions_post_request import ActionsPostRequest
 
 class TestActionsPostRequest(unittest.TestCase):
     """ActionsPostRequest unit test stubs"""
@@ -36,18 +36,18 @@ class TestActionsPostRequest(unittest.TestCase):
         model = ActionsPostRequest()
         if include_optional:
             return ActionsPostRequest(
-                data = openapi_client.models._actions_post_request_data._actions_post_request_data(
+                data = webshipperv2.models._actions_post_request_data._actions_post_request_data(
                     type = 'actions', 
-                    attributes = openapi_client.models.actions.actions(
+                    attributes = webshipperv2.models.actions.actions(
                         job_type = '', 
                         async = True, 
                         additional_attributes = [
                             ''
                             ], 
                         priority = 56, ), ),
-                relationships = openapi_client.models._actions__id__get_200_response_relationships._actions__id__get_200_response_relationships(
-                    automation = openapi_client.models._actions__id__get_200_response_relationships_automation._actions__id__get_200_response_relationships_automation(
-                        data = openapi_client.models._actions__id__get_200_response_relationships_automation_data._actions__id__get_200_response_relationships_automation_data(
+                relationships = webshipperv2.models._actions__id__get_200_response_relationships._actions__id__get_200_response_relationships(
+                    automation = webshipperv2.models._actions__id__get_200_response_relationships_automation._actions__id__get_200_response_relationships_automation(
+                        data = webshipperv2.models._actions__id__get_200_response_relationships_automation_data._actions__id__get_200_response_relationships_automation_data(
                             id = '', 
                             type = 'automations', ), ), )
             )

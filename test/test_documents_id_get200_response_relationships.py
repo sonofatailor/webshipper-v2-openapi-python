@@ -15,7 +15,7 @@
 import unittest
 import datetime
 
-from openapi_client.models.documents_id_get200_response_relationships import DocumentsIdGet200ResponseRelationships
+from webshipperv2.models.documents_id_get200_response_relationships import DocumentsIdGet200ResponseRelationships
 
 class TestDocumentsIdGet200ResponseRelationships(unittest.TestCase):
     """DocumentsIdGet200ResponseRelationships unit test stubs"""
@@ -36,8 +36,8 @@ class TestDocumentsIdGet200ResponseRelationships(unittest.TestCase):
         model = DocumentsIdGet200ResponseRelationships()
         if include_optional:
             return DocumentsIdGet200ResponseRelationships(
-                has_documents = openapi_client.models._attachments__id__get_200_response_relationships_has_documents._attachments__id__get_200_response_relationships_has_documents(
-                    data = openapi_client.models._attachments__id__get_200_response_relationships_has_documents_data._attachments__id__get_200_response_relationships_has_documents_data(
+                has_documents = webshipperv2.models._attachments__id__get_200_response_relationships_has_documents._attachments__id__get_200_response_relationships_has_documents(
+                    data = webshipperv2.models._attachments__id__get_200_response_relationships_has_documents_data._attachments__id__get_200_response_relationships_has_documents_data(
                         id = '', 
                         type = 'has_documents', ), )
             )

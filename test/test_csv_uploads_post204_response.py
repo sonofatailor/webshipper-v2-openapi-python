@@ -15,7 +15,7 @@
 import unittest
 import datetime
 
-from openapi_client.models.csv_uploads_post204_response import CsvUploadsPost204Response
+from webshipperv2.models.csv_uploads_post204_response import CsvUploadsPost204Response
 
 class TestCsvUploadsPost204Response(unittest.TestCase):
     """CsvUploadsPost204Response unit test stubs"""
@@ -36,10 +36,10 @@ class TestCsvUploadsPost204Response(unittest.TestCase):
         model = CsvUploadsPost204Response()
         if include_optional:
             return CsvUploadsPost204Response(
-                data = openapi_client.models._csv_uploads_post_204_response_data._csv_uploads_post_204_response_data(
+                data = webshipperv2.models._csv_uploads_post_204_response_data._csv_uploads_post_204_response_data(
                     id = 56, 
                     type = 'csv_uploads', 
-                    attributes = openapi_client.models.csv_uploads.csv_uploads(
+                    attributes = webshipperv2.models.csv_uploads.csv_uploads(
                         imported = [
                             ''
                             ], 
@@ -51,13 +51,13 @@ class TestCsvUploadsPost204Response(unittest.TestCase):
                         async = True, 
                         make_exportable = True, 
                         created_at = '', ), ),
-                relationships = openapi_client.models._csv_rules__id__get_200_response_relationships._csv_rules__id__get_200_response_relationships(
-                    mapping = openapi_client.models._csv_rules__id__get_200_response_relationships_mapping._csv_rules__id__get_200_response_relationships_mapping(
-                        data = openapi_client.models._csv_rules__id__get_200_response_relationships_mapping_data._csv_rules__id__get_200_response_relationships_mapping_data(
+                relationships = webshipperv2.models._csv_rules__id__get_200_response_relationships._csv_rules__id__get_200_response_relationships(
+                    mapping = webshipperv2.models._csv_rules__id__get_200_response_relationships_mapping._csv_rules__id__get_200_response_relationships_mapping(
+                        data = webshipperv2.models._csv_rules__id__get_200_response_relationships_mapping_data._csv_rules__id__get_200_response_relationships_mapping_data(
                             id = '', 
                             type = 'csv_mappings', ), ), ),
                 included = [
-                    openapi_client.models._csv_rules__id__get_200_response_included_inner._csv_rules__id__get_200_response_included_inner(
+                    webshipperv2.models._csv_rules__id__get_200_response_included_inner._csv_rules__id__get_200_response_included_inner(
                         type = 'orders', 
                         id = 56, 
                         data = null, )

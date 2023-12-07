@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.api.shipping_region_api import ShippingRegionApi
+from webshipperv2.api.shipping_region_api import ShippingRegionApi
 
 
 class TestShippingRegionApi(unittest.TestCase):

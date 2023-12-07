@@ -15,7 +15,7 @@
 import unittest
 import datetime
 
-from openapi_client.models.tracking_events_id_get200_response_included_inner import TrackingEventsIdGet200ResponseIncludedInner
+from webshipperv2.models.tracking_events_id_get200_response_included_inner import TrackingEventsIdGet200ResponseIncludedInner
 
 class TestTrackingEventsIdGet200ResponseIncludedInner(unittest.TestCase):
     """TrackingEventsIdGet200ResponseIncludedInner unit test stubs"""

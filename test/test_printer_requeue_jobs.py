@@ -15,7 +15,7 @@
 import unittest
 import datetime
 
-from openapi_client.models.printer_requeue_jobs import PrinterRequeueJobs
+from webshipperv2.models.printer_requeue_jobs import PrinterRequeueJobs
 
 class TestPrinterRequeueJobs(unittest.TestCase):
     """PrinterRequeueJobs unit test stubs"""

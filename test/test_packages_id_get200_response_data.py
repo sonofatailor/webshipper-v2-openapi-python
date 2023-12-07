@@ -15,7 +15,7 @@
 import unittest
 import datetime
 
-from openapi_client.models.packages_id_get200_response_data import PackagesIdGet200ResponseData
+from webshipperv2.models.packages_id_get200_response_data import PackagesIdGet200ResponseData
 
 class TestPackagesIdGet200ResponseData(unittest.TestCase):
     """PackagesIdGet200ResponseData unit test stubs"""
@@ -38,7 +38,7 @@ class TestPackagesIdGet200ResponseData(unittest.TestCase):
             return PackagesIdGet200ResponseData(
                 id = 56,
                 type = 'packages',
-                attributes = openapi_client.models.packages.packages(
+                attributes = webshipperv2.models.packages.packages(
                     weight = 1.337, 
                     weight_unit = 'g', 
                     dimensions = '', 

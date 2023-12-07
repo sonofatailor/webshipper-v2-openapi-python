@@ -15,7 +15,7 @@
 import unittest
 import datetime
 
-from openapi_client.models.expressions_id_get200_response import ExpressionsIdGet200Response
+from webshipperv2.models.expressions_id_get200_response import ExpressionsIdGet200Response
 
 class TestExpressionsIdGet200Response(unittest.TestCase):
     """ExpressionsIdGet200Response unit test stubs"""
@@ -36,17 +36,17 @@ class TestExpressionsIdGet200Response(unittest.TestCase):
         model = ExpressionsIdGet200Response()
         if include_optional:
             return ExpressionsIdGet200Response(
-                data = openapi_client.models._expressions__id__get_200_response_data._expressions__id__get_200_response_data(
+                data = webshipperv2.models._expressions__id__get_200_response_data._expressions__id__get_200_response_data(
                     id = 56, 
                     type = 'expressions', 
-                    attributes = openapi_client.models.expressions.expressions(
+                    attributes = webshipperv2.models.expressions.expressions(
                         expression = '', 
                         vat_percent = 1.337, 
                         currency = '', 
                         price = 1.337, ), ),
                 relationships = None,
                 included = [
-                    openapi_client.models._brands__id__get_200_response_included_inner._brands__id__get_200_response_included_inner(
+                    webshipperv2.models._brands__id__get_200_response_included_inner._brands__id__get_200_response_included_inner(
                         type = 'orders', 
                         id = 56, 
                         data = null, )

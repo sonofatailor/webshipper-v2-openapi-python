@@ -15,7 +15,7 @@
 import unittest
 import datetime
 
-from openapi_client.models.favourite_pages_id_get200_response_data import FavouritePagesIdGet200ResponseData
+from webshipperv2.models.favourite_pages_id_get200_response_data import FavouritePagesIdGet200ResponseData
 
 class TestFavouritePagesIdGet200ResponseData(unittest.TestCase):
     """FavouritePagesIdGet200ResponseData unit test stubs"""
@@ -38,7 +38,7 @@ class TestFavouritePagesIdGet200ResponseData(unittest.TestCase):
             return FavouritePagesIdGet200ResponseData(
                 id = 56,
                 type = 'favourite_pages',
-                attributes = openapi_client.models.favourite_pages.favourite_pages(
+                attributes = webshipperv2.models.favourite_pages.favourite_pages(
                     path = '', 
                     name = '', 
                     user_id = 56, )

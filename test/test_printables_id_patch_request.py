@@ -15,7 +15,7 @@
 import unittest
 import datetime
 
-from openapi_client.models.printables_id_patch_request import PrintablesIdPatchRequest
+from webshipperv2.models.printables_id_patch_request import PrintablesIdPatchRequest
 
 class TestPrintablesIdPatchRequest(unittest.TestCase):
     """PrintablesIdPatchRequest unit test stubs"""
@@ -36,10 +36,10 @@ class TestPrintablesIdPatchRequest(unittest.TestCase):
         model = PrintablesIdPatchRequest()
         if include_optional:
             return PrintablesIdPatchRequest(
-                data = openapi_client.models._printables__id__get_200_response_data._printables__id__get_200_response_data(
+                data = webshipperv2.models._printables__id__get_200_response_data._printables__id__get_200_response_data(
                     id = 56, 
                     type = 'printables', 
-                    attributes = openapi_client.models.attributes.attributes(), ),
+                    attributes = webshipperv2.models.attributes.attributes(), ),
                 relationships = None
             )
         else:

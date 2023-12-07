@@ -15,7 +15,7 @@
 import unittest
 import datetime
 
-from openapi_client.models.oauth_access_tokens_id_get200_response_relationships import OauthAccessTokensIdGet200ResponseRelationships
+from webshipperv2.models.oauth_access_tokens_id_get200_response_relationships import OauthAccessTokensIdGet200ResponseRelationships
 
 class TestOauthAccessTokensIdGet200ResponseRelationships(unittest.TestCase):
     """OauthAccessTokensIdGet200ResponseRelationships unit test stubs"""
@@ -36,8 +36,8 @@ class TestOauthAccessTokensIdGet200ResponseRelationships(unittest.TestCase):
         model = OauthAccessTokensIdGet200ResponseRelationships()
         if include_optional:
             return OauthAccessTokensIdGet200ResponseRelationships(
-                application = openapi_client.models._oauth_access_tokens__id__get_200_response_relationships_application._oauth_access_tokens__id__get_200_response_relationships_application(
-                    data = openapi_client.models._oauth_access_tokens__id__get_200_response_relationships_application_data._oauth_access_tokens__id__get_200_response_relationships_application_data(
+                application = webshipperv2.models._oauth_access_tokens__id__get_200_response_relationships_application._oauth_access_tokens__id__get_200_response_relationships_application(
+                    data = webshipperv2.models._oauth_access_tokens__id__get_200_response_relationships_application_data._oauth_access_tokens__id__get_200_response_relationships_application_data(
                         id = '', 
                         type = 'oauth_applications', ), )
             )

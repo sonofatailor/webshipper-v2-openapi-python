@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.api.o_auth_access_token_api import OAuthAccessTokenApi
+from webshipperv2.api.o_auth_access_token_api import OAuthAccessTokenApi
 
 
 class TestOAuthAccessTokenApi(unittest.TestCase):

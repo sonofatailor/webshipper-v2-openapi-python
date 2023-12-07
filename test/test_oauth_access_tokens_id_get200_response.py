@@ -15,7 +15,7 @@
 import unittest
 import datetime
 
-from openapi_client.models.oauth_access_tokens_id_get200_response import OauthAccessTokensIdGet200Response
+from webshipperv2.models.oauth_access_tokens_id_get200_response import OauthAccessTokensIdGet200Response
 
 class TestOauthAccessTokensIdGet200Response(unittest.TestCase):
     """OauthAccessTokensIdGet200Response unit test stubs"""
@@ -36,10 +36,10 @@ class TestOauthAccessTokensIdGet200Response(unittest.TestCase):
         model = OauthAccessTokensIdGet200Response()
         if include_optional:
             return OauthAccessTokensIdGet200Response(
-                data = openapi_client.models._oauth_access_tokens__id__get_200_response_data._oauth_access_tokens__id__get_200_response_data(
+                data = webshipperv2.models._oauth_access_tokens__id__get_200_response_data._oauth_access_tokens__id__get_200_response_data(
                     id = 56, 
                     type = 'oauth_access_tokens', 
-                    attributes = openapi_client.models.oauth_access_tokens.oauth_access_tokens(
+                    attributes = webshipperv2.models.oauth_access_tokens.oauth_access_tokens(
                         scopes = '', 
                         created_at = '', 
                         resource_owner_id = 56, 
@@ -50,13 +50,13 @@ class TestOauthAccessTokensIdGet200Response(unittest.TestCase):
                         resource_owner = '', 
                         application_id = 56, 
                         application = '', ), ),
-                relationships = openapi_client.models._oauth_access_tokens__id__get_200_response_relationships._oauth_access_tokens__id__get_200_response_relationships(
-                    application = openapi_client.models._oauth_access_tokens__id__get_200_response_relationships_application._oauth_access_tokens__id__get_200_response_relationships_application(
-                        data = openapi_client.models._oauth_access_tokens__id__get_200_response_relationships_application_data._oauth_access_tokens__id__get_200_response_relationships_application_data(
+                relationships = webshipperv2.models._oauth_access_tokens__id__get_200_response_relationships._oauth_access_tokens__id__get_200_response_relationships(
+                    application = webshipperv2.models._oauth_access_tokens__id__get_200_response_relationships_application._oauth_access_tokens__id__get_200_response_relationships_application(
+                        data = webshipperv2.models._oauth_access_tokens__id__get_200_response_relationships_application_data._oauth_access_tokens__id__get_200_response_relationships_application_data(
                             id = '', 
                             type = 'oauth_applications', ), ), ),
                 included = [
-                    openapi_client.models._oauth_access_tokens__id__get_200_response_included_inner._oauth_access_tokens__id__get_200_response_included_inner(
+                    webshipperv2.models._oauth_access_tokens__id__get_200_response_included_inner._oauth_access_tokens__id__get_200_response_included_inner(
                         type = 'orders', 
                         id = 56, 
                         data = null, )

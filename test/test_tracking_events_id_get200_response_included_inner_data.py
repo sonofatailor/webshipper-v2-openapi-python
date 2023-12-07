@@ -15,7 +15,7 @@
 import unittest
 import datetime
 
-from openapi_client.models.tracking_events_id_get200_response_included_inner_data import TrackingEventsIdGet200ResponseIncludedInnerData
+from webshipperv2.models.tracking_events_id_get200_response_included_inner_data import TrackingEventsIdGet200ResponseIncludedInnerData
 
 class TestTrackingEventsIdGet200ResponseIncludedInnerData(unittest.TestCase):
     """TrackingEventsIdGet200ResponseIncludedInnerData unit test stubs"""
@@ -52,7 +52,7 @@ class TestTrackingEventsIdGet200ResponseIncludedInnerData(unittest.TestCase):
                 service_code = '',
                 is_return = True,
                 packages = [
-                    openapi_client.models.packages.packages(
+                    webshipperv2.models.packages.packages(
                         weight = 1.337, 
                         weight_unit = 'g', 
                         dimensions = '', 
@@ -61,17 +61,17 @@ class TestTrackingEventsIdGet200ResponseIncludedInnerData(unittest.TestCase):
                         colli_type = '', 
                         predefined_barcode = '', )
                     ],
-                delivery_address = openapi_client.models.delivery_address.delivery_address(),
-                sender_address = openapi_client.models.sender_address.sender_address(),
-                billing_address = openapi_client.models.billing_address.billing_address(),
-                pickup_address = openapi_client.models.pickup_address.pickup_address(),
-                return_address = openapi_client.models.return_address.return_address(),
+                delivery_address = webshipperv2.models.delivery_address.delivery_address(),
+                sender_address = webshipperv2.models.sender_address.sender_address(),
+                billing_address = webshipperv2.models.billing_address.billing_address(),
+                pickup_address = webshipperv2.models.pickup_address.pickup_address(),
+                return_address = webshipperv2.models.return_address.return_address(),
                 sms_notification = '',
                 email_notification = '',
                 included_documents = '',
                 drop_point = '',
                 tracking_links = [
-                    openapi_client.models.shipments_tracking_links_inner.shipments_tracking_links_inner(
+                    webshipperv2.models.shipments_tracking_links_inner.shipments_tracking_links_inner(
                         url = '', 
                         number = '', 
                         latest_transit_event = '', 

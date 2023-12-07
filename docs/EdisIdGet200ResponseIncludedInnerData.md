@@ -52,7 +52,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```python
-from openapi_client.models.edis_id_get200_response_included_inner_data import EdisIdGet200ResponseIncludedInnerData
+from webshipperv2.models.edis_id_get200_response_included_inner_data import EdisIdGet200ResponseIncludedInnerData
 
 # TODO update the JSON string below
 json = "{}"

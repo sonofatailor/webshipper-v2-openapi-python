@@ -15,7 +15,7 @@
 import unittest
 import datetime
 
-from openapi_client.models.service_quotes_post_request import ServiceQuotesPostRequest
+from webshipperv2.models.service_quotes_post_request import ServiceQuotesPostRequest
 
 class TestServiceQuotesPostRequest(unittest.TestCase):
     """ServiceQuotesPostRequest unit test stubs"""
@@ -36,9 +36,9 @@ class TestServiceQuotesPostRequest(unittest.TestCase):
         model = ServiceQuotesPostRequest()
         if include_optional:
             return ServiceQuotesPostRequest(
-                data = openapi_client.models._service_quotes_post_request_data._service_quotes_post_request_data(
+                data = webshipperv2.models._service_quotes_post_request_data._service_quotes_post_request_data(
                     type = 'service_quotes', 
-                    attributes = openapi_client.models.service_quotes.service_quotes(
+                    attributes = webshipperv2.models.service_quotes.service_quotes(
                         success = True, 
                         carrier_id = 56, 
                         service_code = '', 
@@ -47,8 +47,8 @@ class TestServiceQuotesPostRequest(unittest.TestCase):
                         packages = [
                             ''
                             ], 
-                        delivery_address = openapi_client.models.delivery_address.delivery_address(), 
-                        sender_address = openapi_client.models.sender_address.sender_address(), 
+                        delivery_address = webshipperv2.models.delivery_address.delivery_address(), 
+                        sender_address = webshipperv2.models.sender_address.sender_address(), 
                         services = [
                             ''
                             ], 

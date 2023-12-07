@@ -15,7 +15,7 @@
 import unittest
 import datetime
 
-from openapi_client.models.attachments_id_get200_response_included_inner import AttachmentsIdGet200ResponseIncludedInner
+from webshipperv2.models.attachments_id_get200_response_included_inner import AttachmentsIdGet200ResponseIncludedInner
 
 class TestAttachmentsIdGet200ResponseIncludedInner(unittest.TestCase):
     """AttachmentsIdGet200ResponseIncludedInner unit test stubs"""

@@ -15,7 +15,7 @@
 import unittest
 import datetime
 
-from openapi_client.models.mail_templates_id_patch_request import MailTemplatesIdPatchRequest
+from webshipperv2.models.mail_templates_id_patch_request import MailTemplatesIdPatchRequest
 
 class TestMailTemplatesIdPatchRequest(unittest.TestCase):
     """MailTemplatesIdPatchRequest unit test stubs"""
@@ -36,10 +36,10 @@ class TestMailTemplatesIdPatchRequest(unittest.TestCase):
         model = MailTemplatesIdPatchRequest()
         if include_optional:
             return MailTemplatesIdPatchRequest(
-                data = openapi_client.models._mail_templates__id__get_200_response_data._mail_templates__id__get_200_response_data(
+                data = webshipperv2.models._mail_templates__id__get_200_response_data._mail_templates__id__get_200_response_data(
                     id = 56, 
                     type = 'mail_templates', 
-                    attributes = openapi_client.models.mail_templates.mail_templates(
+                    attributes = webshipperv2.models.mail_templates.mail_templates(
                         name = '', 
                         default_locale = '', 
                         mail_locales = '', 
@@ -52,9 +52,9 @@ class TestMailTemplatesIdPatchRequest(unittest.TestCase):
                         hook = '', 
                         whitelisted_languages = '', 
                         described = '', ), ),
-                relationships = openapi_client.models._mail_templates__id__get_200_response_relationships._mail_templates__id__get_200_response_relationships(
-                    brand = openapi_client.models._mail_templates__id__get_200_response_relationships_brand._mail_templates__id__get_200_response_relationships_brand(
-                        data = openapi_client.models._mail_templates__id__get_200_response_relationships_brand_data._mail_templates__id__get_200_response_relationships_brand_data(
+                relationships = webshipperv2.models._mail_templates__id__get_200_response_relationships._mail_templates__id__get_200_response_relationships(
+                    brand = webshipperv2.models._mail_templates__id__get_200_response_relationships_brand._mail_templates__id__get_200_response_relationships_brand(
+                        data = webshipperv2.models._mail_templates__id__get_200_response_relationships_brand_data._mail_templates__id__get_200_response_relationships_brand_data(
                             id = '', 
                             type = 'brands', ), ), )
             )

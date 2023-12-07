@@ -15,7 +15,7 @@
 import unittest
 import datetime
 
-from openapi_client.models.webhooks_id_get200_response_data import WebhooksIdGet200ResponseData
+from webshipperv2.models.webhooks_id_get200_response_data import WebhooksIdGet200ResponseData
 
 class TestWebhooksIdGet200ResponseData(unittest.TestCase):
     """WebhooksIdGet200ResponseData unit test stubs"""
@@ -38,7 +38,7 @@ class TestWebhooksIdGet200ResponseData(unittest.TestCase):
             return WebhooksIdGet200ResponseData(
                 id = 56,
                 type = 'webhooks',
-                attributes = openapi_client.models.webhooks.webhooks(
+                attributes = webshipperv2.models.webhooks.webhooks(
                     url = '', 
                     topic = '', 
                     enabled = True, 

@@ -1,4 +1,4 @@
-# openapi_client.ShippingRegionApi
+# webshipperv2.ShippingRegionApi
 
 All URIs are relative to *https://.api.webshipper.io/v2*
 
@@ -22,14 +22,14 @@ List all Shipping Regions
 ```python
 import time
 import os
-import openapi_client
-from openapi_client.models.regions_get200_response import RegionsGet200Response
-from openapi_client.rest import ApiException
+import webshipperv2
+from webshipperv2.models.regions_get200_response import RegionsGet200Response
+from webshipperv2.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to https://.api.webshipper.io/v2
 # See configuration.py for a list of all supported configuration parameters.
-configuration = openapi_client.Configuration(
+configuration = webshipperv2.Configuration(
     host = "https://.api.webshipper.io/v2"
 )
 
@@ -39,14 +39,14 @@ configuration = openapi_client.Configuration(
 # satisfies your auth use case.
 
 # Configure Bearer authorization: BearerAuth
-configuration = openapi_client.Configuration(
+configuration = webshipperv2.Configuration(
     access_token = os.environ["BEARER_TOKEN"]
 )
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient(configuration) as api_client:
+with webshipperv2.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.ShippingRegionApi(api_client)
+    api_instance = webshipperv2.ShippingRegionApi(api_client)
     filter_id = 'filter_id_example' # str | Filter by id (optional)
 
     try:
@@ -97,14 +97,14 @@ Delete a Shipping Region
 ```python
 import time
 import os
-import openapi_client
-from openapi_client.models.regions_id_get200_response import RegionsIdGet200Response
-from openapi_client.rest import ApiException
+import webshipperv2
+from webshipperv2.models.regions_id_get200_response import RegionsIdGet200Response
+from webshipperv2.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to https://.api.webshipper.io/v2
 # See configuration.py for a list of all supported configuration parameters.
-configuration = openapi_client.Configuration(
+configuration = webshipperv2.Configuration(
     host = "https://.api.webshipper.io/v2"
 )
 
@@ -114,14 +114,14 @@ configuration = openapi_client.Configuration(
 # satisfies your auth use case.
 
 # Configure Bearer authorization: BearerAuth
-configuration = openapi_client.Configuration(
+configuration = webshipperv2.Configuration(
     access_token = os.environ["BEARER_TOKEN"]
 )
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient(configuration) as api_client:
+with webshipperv2.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.ShippingRegionApi(api_client)
+    api_instance = webshipperv2.ShippingRegionApi(api_client)
     id = 56 # int | 
 
     try:
@@ -172,14 +172,14 @@ Show a single Shipping Region
 ```python
 import time
 import os
-import openapi_client
-from openapi_client.models.regions_id_get200_response import RegionsIdGet200Response
-from openapi_client.rest import ApiException
+import webshipperv2
+from webshipperv2.models.regions_id_get200_response import RegionsIdGet200Response
+from webshipperv2.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to https://.api.webshipper.io/v2
 # See configuration.py for a list of all supported configuration parameters.
-configuration = openapi_client.Configuration(
+configuration = webshipperv2.Configuration(
     host = "https://.api.webshipper.io/v2"
 )
 
@@ -189,14 +189,14 @@ configuration = openapi_client.Configuration(
 # satisfies your auth use case.
 
 # Configure Bearer authorization: BearerAuth
-configuration = openapi_client.Configuration(
+configuration = webshipperv2.Configuration(
     access_token = os.environ["BEARER_TOKEN"]
 )
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient(configuration) as api_client:
+with webshipperv2.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.ShippingRegionApi(api_client)
+    api_instance = webshipperv2.ShippingRegionApi(api_client)
     id = 56 # int | 
 
     try:
@@ -247,15 +247,15 @@ Update a Shipping Region
 ```python
 import time
 import os
-import openapi_client
-from openapi_client.models.regions_id_get200_response import RegionsIdGet200Response
-from openapi_client.models.regions_id_patch_request import RegionsIdPatchRequest
-from openapi_client.rest import ApiException
+import webshipperv2
+from webshipperv2.models.regions_id_get200_response import RegionsIdGet200Response
+from webshipperv2.models.regions_id_patch_request import RegionsIdPatchRequest
+from webshipperv2.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to https://.api.webshipper.io/v2
 # See configuration.py for a list of all supported configuration parameters.
-configuration = openapi_client.Configuration(
+configuration = webshipperv2.Configuration(
     host = "https://.api.webshipper.io/v2"
 )
 
@@ -265,16 +265,16 @@ configuration = openapi_client.Configuration(
 # satisfies your auth use case.
 
 # Configure Bearer authorization: BearerAuth
-configuration = openapi_client.Configuration(
+configuration = webshipperv2.Configuration(
     access_token = os.environ["BEARER_TOKEN"]
 )
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient(configuration) as api_client:
+with webshipperv2.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.ShippingRegionApi(api_client)
+    api_instance = webshipperv2.ShippingRegionApi(api_client)
     id = 56 # int | 
-    regions_id_patch_request = openapi_client.RegionsIdPatchRequest() # RegionsIdPatchRequest | 
+    regions_id_patch_request = webshipperv2.RegionsIdPatchRequest() # RegionsIdPatchRequest | 
 
     try:
         # Update a Shipping Region
@@ -325,15 +325,15 @@ Create a Shipping Region
 ```python
 import time
 import os
-import openapi_client
-from openapi_client.models.regions_id_get200_response import RegionsIdGet200Response
-from openapi_client.models.regions_post_request import RegionsPostRequest
-from openapi_client.rest import ApiException
+import webshipperv2
+from webshipperv2.models.regions_id_get200_response import RegionsIdGet200Response
+from webshipperv2.models.regions_post_request import RegionsPostRequest
+from webshipperv2.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to https://.api.webshipper.io/v2
 # See configuration.py for a list of all supported configuration parameters.
-configuration = openapi_client.Configuration(
+configuration = webshipperv2.Configuration(
     host = "https://.api.webshipper.io/v2"
 )
 
@@ -343,15 +343,15 @@ configuration = openapi_client.Configuration(
 # satisfies your auth use case.
 
 # Configure Bearer authorization: BearerAuth
-configuration = openapi_client.Configuration(
+configuration = webshipperv2.Configuration(
     access_token = os.environ["BEARER_TOKEN"]
 )
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient(configuration) as api_client:
+with webshipperv2.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.ShippingRegionApi(api_client)
-    regions_post_request = openapi_client.RegionsPostRequest() # RegionsPostRequest | 
+    api_instance = webshipperv2.ShippingRegionApi(api_client)
+    regions_post_request = webshipperv2.RegionsPostRequest() # RegionsPostRequest | 
 
     try:
         # Create a Shipping Region

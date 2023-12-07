@@ -15,7 +15,7 @@
 import unittest
 import datetime
 
-from openapi_client.models.csv_rules_id_patch_request import CsvRulesIdPatchRequest
+from webshipperv2.models.csv_rules_id_patch_request import CsvRulesIdPatchRequest
 
 class TestCsvRulesIdPatchRequest(unittest.TestCase):
     """CsvRulesIdPatchRequest unit test stubs"""
@@ -36,17 +36,17 @@ class TestCsvRulesIdPatchRequest(unittest.TestCase):
         model = CsvRulesIdPatchRequest()
         if include_optional:
             return CsvRulesIdPatchRequest(
-                data = openapi_client.models._csv_rules__id__get_200_response_data._csv_rules__id__get_200_response_data(
+                data = webshipperv2.models._csv_rules__id__get_200_response_data._csv_rules__id__get_200_response_data(
                     id = 56, 
                     type = 'csv_rules', 
-                    attributes = openapi_client.models.csv_rules.csv_rules(
+                    attributes = webshipperv2.models.csv_rules.csv_rules(
                         target_path = '', 
                         source_index = 56, 
                         default_value = '', 
-                        input_conversions = openapi_client.models.input_conversions.input_conversions(), ), ),
-                relationships = openapi_client.models._csv_rules__id__get_200_response_relationships._csv_rules__id__get_200_response_relationships(
-                    mapping = openapi_client.models._csv_rules__id__get_200_response_relationships_mapping._csv_rules__id__get_200_response_relationships_mapping(
-                        data = openapi_client.models._csv_rules__id__get_200_response_relationships_mapping_data._csv_rules__id__get_200_response_relationships_mapping_data(
+                        input_conversions = webshipperv2.models.input_conversions.input_conversions(), ), ),
+                relationships = webshipperv2.models._csv_rules__id__get_200_response_relationships._csv_rules__id__get_200_response_relationships(
+                    mapping = webshipperv2.models._csv_rules__id__get_200_response_relationships_mapping._csv_rules__id__get_200_response_relationships_mapping(
+                        data = webshipperv2.models._csv_rules__id__get_200_response_relationships_mapping_data._csv_rules__id__get_200_response_relationships_mapping_data(
                             id = '', 
                             type = 'csv_mappings', ), ), )
             )

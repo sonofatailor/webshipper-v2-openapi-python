@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.api.order_channel_api import OrderChannelApi
+from webshipperv2.api.order_channel_api import OrderChannelApi
 
 
 class TestOrderChannelApi(unittest.TestCase):

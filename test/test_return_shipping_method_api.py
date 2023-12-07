@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.api.return_shipping_method_api import ReturnShippingMethodApi
+from webshipperv2.api.return_shipping_method_api import ReturnShippingMethodApi
 
 
 class TestReturnShippingMethodApi(unittest.TestCase):

@@ -15,7 +15,7 @@
 import unittest
 import datetime
 
-from openapi_client.models.service_quotes import ServiceQuotes
+from webshipperv2.models.service_quotes import ServiceQuotes
 
 class TestServiceQuotes(unittest.TestCase):
     """ServiceQuotes unit test stubs"""

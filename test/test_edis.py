@@ -15,7 +15,7 @@
 import unittest
 import datetime
 
-from openapi_client.models.edis import Edis
+from webshipperv2.models.edis import Edis
 
 class TestEdis(unittest.TestCase):
     """Edis unit test stubs"""

@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.api.favourite_page_api import FavouritePageApi
+from webshipperv2.api.favourite_page_api import FavouritePageApi
 
 
 class TestFavouritePageApi(unittest.TestCase):

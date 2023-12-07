@@ -1,4 +1,4 @@
-# openapi_client.ShippingAddressApi
+# webshipperv2.ShippingAddressApi
 
 All URIs are relative to *https://.api.webshipper.io/v2*
 
@@ -22,14 +22,14 @@ List all Shipping Addresss
 ```python
 import time
 import os
-import openapi_client
-from openapi_client.models.shipping_addresses_get200_response import ShippingAddressesGet200Response
-from openapi_client.rest import ApiException
+import webshipperv2
+from webshipperv2.models.shipping_addresses_get200_response import ShippingAddressesGet200Response
+from webshipperv2.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to https://.api.webshipper.io/v2
 # See configuration.py for a list of all supported configuration parameters.
-configuration = openapi_client.Configuration(
+configuration = webshipperv2.Configuration(
     host = "https://.api.webshipper.io/v2"
 )
 
@@ -39,14 +39,14 @@ configuration = openapi_client.Configuration(
 # satisfies your auth use case.
 
 # Configure Bearer authorization: BearerAuth
-configuration = openapi_client.Configuration(
+configuration = webshipperv2.Configuration(
     access_token = os.environ["BEARER_TOKEN"]
 )
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient(configuration) as api_client:
+with webshipperv2.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.ShippingAddressApi(api_client)
+    api_instance = webshipperv2.ShippingAddressApi(api_client)
     filter_id = 'filter_id_example' # str | Filter by id (optional)
     filter_att_contact = 'filter_att_contact_example' # str | Filter by att_contact (optional)
     filter_company_name = 'filter_company_name_example' # str | Filter by company_name (optional)
@@ -115,14 +115,14 @@ Delete a Shipping Address
 ```python
 import time
 import os
-import openapi_client
-from openapi_client.models.shipping_addresses_id_get200_response import ShippingAddressesIdGet200Response
-from openapi_client.rest import ApiException
+import webshipperv2
+from webshipperv2.models.shipping_addresses_id_get200_response import ShippingAddressesIdGet200Response
+from webshipperv2.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to https://.api.webshipper.io/v2
 # See configuration.py for a list of all supported configuration parameters.
-configuration = openapi_client.Configuration(
+configuration = webshipperv2.Configuration(
     host = "https://.api.webshipper.io/v2"
 )
 
@@ -132,14 +132,14 @@ configuration = openapi_client.Configuration(
 # satisfies your auth use case.
 
 # Configure Bearer authorization: BearerAuth
-configuration = openapi_client.Configuration(
+configuration = webshipperv2.Configuration(
     access_token = os.environ["BEARER_TOKEN"]
 )
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient(configuration) as api_client:
+with webshipperv2.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.ShippingAddressApi(api_client)
+    api_instance = webshipperv2.ShippingAddressApi(api_client)
     id = 56 # int | 
 
     try:
@@ -190,14 +190,14 @@ Show a single Shipping Address
 ```python
 import time
 import os
-import openapi_client
-from openapi_client.models.shipping_addresses_id_get200_response import ShippingAddressesIdGet200Response
-from openapi_client.rest import ApiException
+import webshipperv2
+from webshipperv2.models.shipping_addresses_id_get200_response import ShippingAddressesIdGet200Response
+from webshipperv2.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to https://.api.webshipper.io/v2
 # See configuration.py for a list of all supported configuration parameters.
-configuration = openapi_client.Configuration(
+configuration = webshipperv2.Configuration(
     host = "https://.api.webshipper.io/v2"
 )
 
@@ -207,14 +207,14 @@ configuration = openapi_client.Configuration(
 # satisfies your auth use case.
 
 # Configure Bearer authorization: BearerAuth
-configuration = openapi_client.Configuration(
+configuration = webshipperv2.Configuration(
     access_token = os.environ["BEARER_TOKEN"]
 )
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient(configuration) as api_client:
+with webshipperv2.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.ShippingAddressApi(api_client)
+    api_instance = webshipperv2.ShippingAddressApi(api_client)
     id = 56 # int | 
 
     try:
@@ -265,15 +265,15 @@ Update a Shipping Address
 ```python
 import time
 import os
-import openapi_client
-from openapi_client.models.shipping_addresses_id_get200_response import ShippingAddressesIdGet200Response
-from openapi_client.models.shipping_addresses_id_patch_request import ShippingAddressesIdPatchRequest
-from openapi_client.rest import ApiException
+import webshipperv2
+from webshipperv2.models.shipping_addresses_id_get200_response import ShippingAddressesIdGet200Response
+from webshipperv2.models.shipping_addresses_id_patch_request import ShippingAddressesIdPatchRequest
+from webshipperv2.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to https://.api.webshipper.io/v2
 # See configuration.py for a list of all supported configuration parameters.
-configuration = openapi_client.Configuration(
+configuration = webshipperv2.Configuration(
     host = "https://.api.webshipper.io/v2"
 )
 
@@ -283,16 +283,16 @@ configuration = openapi_client.Configuration(
 # satisfies your auth use case.
 
 # Configure Bearer authorization: BearerAuth
-configuration = openapi_client.Configuration(
+configuration = webshipperv2.Configuration(
     access_token = os.environ["BEARER_TOKEN"]
 )
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient(configuration) as api_client:
+with webshipperv2.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.ShippingAddressApi(api_client)
+    api_instance = webshipperv2.ShippingAddressApi(api_client)
     id = 56 # int | 
-    shipping_addresses_id_patch_request = openapi_client.ShippingAddressesIdPatchRequest() # ShippingAddressesIdPatchRequest | 
+    shipping_addresses_id_patch_request = webshipperv2.ShippingAddressesIdPatchRequest() # ShippingAddressesIdPatchRequest | 
 
     try:
         # Update a Shipping Address
@@ -343,15 +343,15 @@ Create a Shipping Address
 ```python
 import time
 import os
-import openapi_client
-from openapi_client.models.shipping_addresses_id_get200_response import ShippingAddressesIdGet200Response
-from openapi_client.models.shipping_addresses_post_request import ShippingAddressesPostRequest
-from openapi_client.rest import ApiException
+import webshipperv2
+from webshipperv2.models.shipping_addresses_id_get200_response import ShippingAddressesIdGet200Response
+from webshipperv2.models.shipping_addresses_post_request import ShippingAddressesPostRequest
+from webshipperv2.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to https://.api.webshipper.io/v2
 # See configuration.py for a list of all supported configuration parameters.
-configuration = openapi_client.Configuration(
+configuration = webshipperv2.Configuration(
     host = "https://.api.webshipper.io/v2"
 )
 
@@ -361,15 +361,15 @@ configuration = openapi_client.Configuration(
 # satisfies your auth use case.
 
 # Configure Bearer authorization: BearerAuth
-configuration = openapi_client.Configuration(
+configuration = webshipperv2.Configuration(
     access_token = os.environ["BEARER_TOKEN"]
 )
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient(configuration) as api_client:
+with webshipperv2.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.ShippingAddressApi(api_client)
-    shipping_addresses_post_request = openapi_client.ShippingAddressesPostRequest() # ShippingAddressesPostRequest | 
+    api_instance = webshipperv2.ShippingAddressApi(api_client)
+    shipping_addresses_post_request = webshipperv2.ShippingAddressesPostRequest() # ShippingAddressesPostRequest | 
 
     try:
         # Create a Shipping Address

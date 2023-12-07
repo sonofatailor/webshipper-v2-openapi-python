@@ -15,7 +15,7 @@
 import unittest
 import datetime
 
-from openapi_client.models.carrier_types import CarrierTypes
+from webshipperv2.models.carrier_types import CarrierTypes
 
 class TestCarrierTypes(unittest.TestCase):
     """CarrierTypes unit test stubs"""

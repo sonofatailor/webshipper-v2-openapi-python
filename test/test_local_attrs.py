@@ -15,7 +15,7 @@
 import unittest
 import datetime
 
-from openapi_client.models.local_attrs import LocalAttrs
+from webshipperv2.models.local_attrs import LocalAttrs
 
 class TestLocalAttrs(unittest.TestCase):
     """LocalAttrs unit test stubs"""

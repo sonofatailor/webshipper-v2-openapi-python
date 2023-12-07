@@ -14,7 +14,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```python
-from openapi_client.models.oauth_access_tokens_id_get200_response_included_inner_data import OauthAccessTokensIdGet200ResponseIncludedInnerData
+from webshipperv2.models.oauth_access_tokens_id_get200_response_included_inner_data import OauthAccessTokensIdGet200ResponseIncludedInnerData
 
 # TODO update the JSON string below
 json = "{}"

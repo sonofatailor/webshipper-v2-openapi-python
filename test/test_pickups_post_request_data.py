@@ -15,7 +15,7 @@
 import unittest
 import datetime
 
-from openapi_client.models.pickups_post_request_data import PickupsPostRequestData
+from webshipperv2.models.pickups_post_request_data import PickupsPostRequestData
 
 class TestPickupsPostRequestData(unittest.TestCase):
     """PickupsPostRequestData unit test stubs"""
@@ -37,7 +37,7 @@ class TestPickupsPostRequestData(unittest.TestCase):
         if include_optional:
             return PickupsPostRequestData(
                 type = 'pickups',
-                attributes = openapi_client.models.pickups.pickups(
+                attributes = webshipperv2.models.pickups.pickups(
                     pickup_instruction = '', 
                     pickup_location_close_time = '', 
                     pickup_time = '', 

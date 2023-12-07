@@ -15,7 +15,7 @@
 import unittest
 import datetime
 
-from openapi_client.models.events import Events
+from webshipperv2.models.events import Events
 
 class TestEvents(unittest.TestCase):
     """Events unit test stubs"""

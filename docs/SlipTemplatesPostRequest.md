@@ -10,7 +10,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```python
-from openapi_client.models.slip_templates_post_request import SlipTemplatesPostRequest
+from webshipperv2.models.slip_templates_post_request import SlipTemplatesPostRequest
 
 # TODO update the JSON string below
 json = "{}"

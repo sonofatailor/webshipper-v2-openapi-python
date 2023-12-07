@@ -15,7 +15,7 @@
 import unittest
 import datetime
 
-from openapi_client.models.reports_id_get200_response_relationships import ReportsIdGet200ResponseRelationships
+from webshipperv2.models.reports_id_get200_response_relationships import ReportsIdGet200ResponseRelationships
 
 class TestReportsIdGet200ResponseRelationships(unittest.TestCase):
     """ReportsIdGet200ResponseRelationships unit test stubs"""
@@ -36,12 +36,12 @@ class TestReportsIdGet200ResponseRelationships(unittest.TestCase):
         model = ReportsIdGet200ResponseRelationships()
         if include_optional:
             return ReportsIdGet200ResponseRelationships(
-                report_type = openapi_client.models._reports__id__get_200_response_relationships_report_type._reports__id__get_200_response_relationships_report_type(
-                    data = openapi_client.models._reports__id__get_200_response_relationships_report_type_data._reports__id__get_200_response_relationships_report_type_data(
+                report_type = webshipperv2.models._reports__id__get_200_response_relationships_report_type._reports__id__get_200_response_relationships_report_type(
+                    data = webshipperv2.models._reports__id__get_200_response_relationships_report_type_data._reports__id__get_200_response_relationships_report_type_data(
                         id = '', 
                         type = 'report_types', ), ),
-                carrier = openapi_client.models._barcode_ranges__id__get_200_response_relationships_carrier._barcode_ranges__id__get_200_response_relationships_carrier(
-                    data = openapi_client.models._barcode_ranges__id__get_200_response_relationships_carrier_data._barcode_ranges__id__get_200_response_relationships_carrier_data(
+                carrier = webshipperv2.models._barcode_ranges__id__get_200_response_relationships_carrier._barcode_ranges__id__get_200_response_relationships_carrier(
+                    data = webshipperv2.models._barcode_ranges__id__get_200_response_relationships_carrier_data._barcode_ranges__id__get_200_response_relationships_carrier_data(
                         id = '', 
                         type = 'carriers', ), )
             )

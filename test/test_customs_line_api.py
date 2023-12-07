@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.api.customs_line_api import CustomsLineApi
+from webshipperv2.api.customs_line_api import CustomsLineApi
 
 
 class TestCustomsLineApi(unittest.TestCase):

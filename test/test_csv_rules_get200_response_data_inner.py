@@ -15,7 +15,7 @@
 import unittest
 import datetime
 
-from openapi_client.models.csv_rules_get200_response_data_inner import CsvRulesGet200ResponseDataInner
+from webshipperv2.models.csv_rules_get200_response_data_inner import CsvRulesGet200ResponseDataInner
 
 class TestCsvRulesGet200ResponseDataInner(unittest.TestCase):
     """CsvRulesGet200ResponseDataInner unit test stubs"""
@@ -36,11 +36,11 @@ class TestCsvRulesGet200ResponseDataInner(unittest.TestCase):
         model = CsvRulesGet200ResponseDataInner()
         if include_optional:
             return CsvRulesGet200ResponseDataInner(
-                attributes = openapi_client.models.csv_rules.csv_rules(
+                attributes = webshipperv2.models.csv_rules.csv_rules(
                     target_path = '', 
                     source_index = 56, 
                     default_value = '', 
-                    input_conversions = openapi_client.models.input_conversions.input_conversions(), )
+                    input_conversions = webshipperv2.models.input_conversions.input_conversions(), )
             )
         else:
             return CsvRulesGet200ResponseDataInner(

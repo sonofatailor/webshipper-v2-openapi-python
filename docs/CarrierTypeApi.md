@@ -1,4 +1,4 @@
-# openapi_client.CarrierTypeApi
+# webshipperv2.CarrierTypeApi
 
 All URIs are relative to *https://.api.webshipper.io/v2*
 
@@ -19,14 +19,14 @@ List all Carrier Types
 ```python
 import time
 import os
-import openapi_client
-from openapi_client.models.carrier_types_get200_response import CarrierTypesGet200Response
-from openapi_client.rest import ApiException
+import webshipperv2
+from webshipperv2.models.carrier_types_get200_response import CarrierTypesGet200Response
+from webshipperv2.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to https://.api.webshipper.io/v2
 # See configuration.py for a list of all supported configuration parameters.
-configuration = openapi_client.Configuration(
+configuration = webshipperv2.Configuration(
     host = "https://.api.webshipper.io/v2"
 )
 
@@ -36,14 +36,14 @@ configuration = openapi_client.Configuration(
 # satisfies your auth use case.
 
 # Configure Bearer authorization: BearerAuth
-configuration = openapi_client.Configuration(
+configuration = webshipperv2.Configuration(
     access_token = os.environ["BEARER_TOKEN"]
 )
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient(configuration) as api_client:
+with webshipperv2.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.CarrierTypeApi(api_client)
+    api_instance = webshipperv2.CarrierTypeApi(api_client)
     filter_id = 'filter_id_example' # str | Filter by id (optional)
     filter_carrier_code = 'filter_carrier_code_example' # str | Filter by carrier_code (optional)
     filter_carrier_group_id = 'filter_carrier_group_id_example' # str | Filter by carrier_group_id (optional)
@@ -98,14 +98,14 @@ Show a single Carrier Type
 ```python
 import time
 import os
-import openapi_client
-from openapi_client.models.carrier_types_id_get200_response import CarrierTypesIdGet200Response
-from openapi_client.rest import ApiException
+import webshipperv2
+from webshipperv2.models.carrier_types_id_get200_response import CarrierTypesIdGet200Response
+from webshipperv2.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to https://.api.webshipper.io/v2
 # See configuration.py for a list of all supported configuration parameters.
-configuration = openapi_client.Configuration(
+configuration = webshipperv2.Configuration(
     host = "https://.api.webshipper.io/v2"
 )
 
@@ -115,14 +115,14 @@ configuration = openapi_client.Configuration(
 # satisfies your auth use case.
 
 # Configure Bearer authorization: BearerAuth
-configuration = openapi_client.Configuration(
+configuration = webshipperv2.Configuration(
     access_token = os.environ["BEARER_TOKEN"]
 )
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient(configuration) as api_client:
+with webshipperv2.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.CarrierTypeApi(api_client)
+    api_instance = webshipperv2.CarrierTypeApi(api_client)
     id = 56 # int | 
 
     try:

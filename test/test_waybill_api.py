@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.api.waybill_api import WaybillApi
+from webshipperv2.api.waybill_api import WaybillApi
 
 
 class TestWaybillApi(unittest.TestCase):

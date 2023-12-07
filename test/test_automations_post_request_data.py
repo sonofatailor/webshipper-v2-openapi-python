@@ -15,7 +15,7 @@
 import unittest
 import datetime
 
-from openapi_client.models.automations_post_request_data import AutomationsPostRequestData
+from webshipperv2.models.automations_post_request_data import AutomationsPostRequestData
 
 class TestAutomationsPostRequestData(unittest.TestCase):
     """AutomationsPostRequestData unit test stubs"""
@@ -37,8 +37,8 @@ class TestAutomationsPostRequestData(unittest.TestCase):
         if include_optional:
             return AutomationsPostRequestData(
                 type = 'automations',
-                attributes = openapi_client.models.automations.automations(
-                    trigger = openapi_client.models.trigger.trigger(), 
+                attributes = webshipperv2.models.automations.automations(
+                    trigger = webshipperv2.models.trigger.trigger(), 
                     actions = [
                         ''
                         ], 

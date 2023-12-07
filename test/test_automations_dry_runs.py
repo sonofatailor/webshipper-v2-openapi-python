@@ -15,7 +15,7 @@
 import unittest
 import datetime
 
-from openapi_client.models.automations_dry_runs import AutomationsDryRuns
+from webshipperv2.models.automations_dry_runs import AutomationsDryRuns
 
 class TestAutomationsDryRuns(unittest.TestCase):
     """AutomationsDryRuns unit test stubs"""

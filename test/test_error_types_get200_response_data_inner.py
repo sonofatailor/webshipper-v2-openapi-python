@@ -15,7 +15,7 @@
 import unittest
 import datetime
 
-from openapi_client.models.error_types_get200_response_data_inner import ErrorTypesGet200ResponseDataInner
+from webshipperv2.models.error_types_get200_response_data_inner import ErrorTypesGet200ResponseDataInner
 
 class TestErrorTypesGet200ResponseDataInner(unittest.TestCase):
     """ErrorTypesGet200ResponseDataInner unit test stubs"""
@@ -36,7 +36,7 @@ class TestErrorTypesGet200ResponseDataInner(unittest.TestCase):
         model = ErrorTypesGet200ResponseDataInner()
         if include_optional:
             return ErrorTypesGet200ResponseDataInner(
-                attributes = openapi_client.models.error_types.error_types(
+                attributes = webshipperv2.models.error_types.error_types(
                     translations = '', 
                     matcher = '', 
                     error_class = '', 

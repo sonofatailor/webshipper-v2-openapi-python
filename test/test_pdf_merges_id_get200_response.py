@@ -15,7 +15,7 @@
 import unittest
 import datetime
 
-from openapi_client.models.pdf_merges_id_get200_response import PdfMergesIdGet200Response
+from webshipperv2.models.pdf_merges_id_get200_response import PdfMergesIdGet200Response
 
 class TestPdfMergesIdGet200Response(unittest.TestCase):
     """PdfMergesIdGet200Response unit test stubs"""
@@ -36,10 +36,10 @@ class TestPdfMergesIdGet200Response(unittest.TestCase):
         model = PdfMergesIdGet200Response()
         if include_optional:
             return PdfMergesIdGet200Response(
-                data = openapi_client.models._pdf_merges__id__get_200_response_data._pdf_merges__id__get_200_response_data(
+                data = webshipperv2.models._pdf_merges__id__get_200_response_data._pdf_merges__id__get_200_response_data(
                     id = 56, 
                     type = 'pdf_merges', 
-                    attributes = openapi_client.models.pdf_merges.pdf_merges(
+                    attributes = webshipperv2.models.pdf_merges.pdf_merges(
                         include_labels = True, 
                         include_docs = True, 
                         include_slips = True, 
@@ -54,7 +54,7 @@ class TestPdfMergesIdGet200Response(unittest.TestCase):
                         failed = True, ), ),
                 relationships = None,
                 included = [
-                    openapi_client.models._brands__id__get_200_response_included_inner._brands__id__get_200_response_included_inner(
+                    webshipperv2.models._brands__id__get_200_response_included_inner._brands__id__get_200_response_included_inner(
                         type = 'orders', 
                         id = 56, 
                         data = null, )

@@ -15,7 +15,7 @@
 import unittest
 import datetime
 
-from openapi_client.models.regions_id_patch_request import RegionsIdPatchRequest
+from webshipperv2.models.regions_id_patch_request import RegionsIdPatchRequest
 
 class TestRegionsIdPatchRequest(unittest.TestCase):
     """RegionsIdPatchRequest unit test stubs"""
@@ -36,18 +36,18 @@ class TestRegionsIdPatchRequest(unittest.TestCase):
         model = RegionsIdPatchRequest()
         if include_optional:
             return RegionsIdPatchRequest(
-                data = openapi_client.models._regions__id__get_200_response_data._regions__id__get_200_response_data(
+                data = webshipperv2.models._regions__id__get_200_response_data._regions__id__get_200_response_data(
                     id = 56, 
                     type = 'regions', 
-                    attributes = openapi_client.models.regions.regions(
+                    attributes = webshipperv2.models.regions.regions(
                         name = '', 
                         expressions = '', 
                         created_at = '', 
                         updated_at = '', 
                         countries = '', ), ),
-                relationships = openapi_client.models._regions__id__get_200_response_relationships._regions__id__get_200_response_relationships(
-                    shipping_rate = openapi_client.models._orders__id__get_200_response_relationships_shipping_rate._orders__id__get_200_response_relationships_shipping_rate(
-                        data = openapi_client.models._orders__id__get_200_response_relationships_shipping_rate_data._orders__id__get_200_response_relationships_shipping_rate_data(
+                relationships = webshipperv2.models._regions__id__get_200_response_relationships._regions__id__get_200_response_relationships(
+                    shipping_rate = webshipperv2.models._orders__id__get_200_response_relationships_shipping_rate._orders__id__get_200_response_relationships_shipping_rate(
+                        data = webshipperv2.models._orders__id__get_200_response_relationships_shipping_rate_data._orders__id__get_200_response_relationships_shipping_rate_data(
                             id = '', 
                             type = 'shipping_rates', ), ), )
             )
