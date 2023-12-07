@@ -1,0 +1,29 @@
+# AutomationsIdGet200ResponseRelationshipsActivityTypeData
+
+
+## Properties
+Name | Type | Description | Notes
+------------ | ------------- | ------------- | -------------
+**id** | **str** |  | [optional] 
+**type** | **str** |  | [optional] 
+
+## Example
+
+```python
+from openapi_client.models.automations_id_get200_response_relationships_activity_type_data import AutomationsIdGet200ResponseRelationshipsActivityTypeData
+
+# TODO update the JSON string below
+json = "{}"
+# create an instance of AutomationsIdGet200ResponseRelationshipsActivityTypeData from a JSON string
+automations_id_get200_response_relationships_activity_type_data_instance = AutomationsIdGet200ResponseRelationshipsActivityTypeData.from_json(json)
+# print the JSON string representation of the object
+print AutomationsIdGet200ResponseRelationshipsActivityTypeData.to_json()
+
+# convert the object into a dict
+automations_id_get200_response_relationships_activity_type_data_dict = automations_id_get200_response_relationships_activity_type_data_instance.to_dict()
+# create an instance of AutomationsIdGet200ResponseRelationshipsActivityTypeData from a dict
+automations_id_get200_response_relationships_activity_type_data_form_dict = automations_id_get200_response_relationships_activity_type_data.from_dict(automations_id_get200_response_relationships_activity_type_data_dict)
+```
+[[Back to Model list]](../README.md#documentation-for-models) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to README]](../README.md)
+
+
