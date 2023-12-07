@@ -18,7 +18,7 @@ import re  # noqa: F401
 import json
 
 
-from typing import Any, ClassVar, Dict, List, Optional
+from typing import Any, ClassVar, Dict, List, Optional, Union
 from pydantic import BaseModel, StrictInt, StrictStr
 from pydantic import Field
 from webshipperv2.models.drop_points import DropPoints
@@ -35,7 +35,7 @@ class DropPointLocators(BaseModel):
     service_code: Optional[StrictStr] = Field(default=None, description="Service code for the service that you want to quote. <strong>This is only mandatory if no shipping_rate_id is given.</strong>")
     shipping_rate_id: Optional[StrictStr] = Field(default=None, description="ID of the shipping rate that you want to quote. <strong>This is only mandatory if no carrier_id is given.</strong>.")
     drop_point_id: Optional[StrictStr] = None
-    delivery_address: Optional[StrictStr] = Field(default=None, description="Flattened shipping address object. <code>zip</code> and <code>country_code</code>  are required and <code>address_1</code> is optional.")
+    delivery_address: Optional[Union[str, Any]] = Field(default=None, description="Delivery address for the quote. Flattened resource of 'Shipping Address'")
     drop_points: Optional[List[DropPoints]] = Field(default=None, description="Array of drop points near delivery_address. This will be populated in the response.")
     __properties: ClassVar[List[str]] = ["carrier_id", "service_code", "shipping_rate_id", "drop_point_id", "delivery_address", "drop_points"]
 

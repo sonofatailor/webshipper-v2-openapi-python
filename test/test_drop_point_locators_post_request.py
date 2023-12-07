@@ -43,7 +43,7 @@ class TestDropPointLocatorsPostRequest(unittest.TestCase):
                         service_code = '', 
                         shipping_rate_id = '', 
                         drop_point_id = '', 
-                        delivery_address = '', 
+                        delivery_address = webshipperv2.models.delivery_address.delivery_address(), 
                         drop_points = [
                             webshipperv2.models.drop_points.drop_points(
                                 drop_point_id = '', 
